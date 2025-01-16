@@ -26,8 +26,8 @@ def setup_logger():
     console_handler.setFormatter(console_formatter)
     app_logger.addHandler(console_handler)
 
-    # 我新增一些代码
-    print("Hello world")
+    test = "Hello World"
+    print(test)
 
     return app_logger
 
