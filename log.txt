@@ -18,3 +18,26 @@
 2025-01-16 14:39:36,935 - pcr_auto - INFO - 找到图标，坐标：(535, 215)
 2025-01-16 14:39:38,735 - pcr_auto - INFO - 游戏启动成功
 2025-01-16 14:39:44,008 - pcr_auto - ERROR - 程序异常: File not exist: static/xlc.png
+2025-01-16 14:41:30,036 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:41:30,512 - pcr_auto - INFO - 设备连接成功: <airtest.core.android.android.Android object at 0x11c58de50>
+2025-01-16 14:41:30,513 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 devices
+2025-01-16 14:41:30,544 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 shell dumpsys window | grep "mFocusedApp"
+2025-01-16 14:41:30,633 - pcr_auto - INFO - 游戏已在运行中
+2025-01-16 14:41:33,724 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:40,541 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:47,509 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:51,070 - pcr_auto - INFO - 找到训练场图标，坐标：(624, 100)
+2025-01-16 14:41:55,459 - pcr_auto - INFO - 进入训练场成功
+2025-01-16 14:41:56,467 - pcr_auto - INFO - 找到图标，坐标：(1199, 495)
+2025-01-16 14:43:05,111 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:43:05,506 - pcr_auto - INFO - 设备连接成功: <airtest.core.android.android.Android object at 0x111a41e50>
+2025-01-16 14:43:05,507 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 devices
+2025-01-16 14:43:05,566 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 shell dumpsys window | grep "mFocusedApp"
+2025-01-16 14:43:05,670 - pcr_auto - INFO - 游戏已在运行中
+2025-01-16 14:43:11,617 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:43:16,556 - pcr_auto - INFO - 找到训练场图标，坐标：(204, 448)
+2025-01-16 14:43:20,964 - pcr_auto - INFO - 进入训练场成功
+2025-01-16 14:43:22,161 - pcr_auto - INFO - 找到图标，坐标：(1228, 441)
+2025-01-16 16:16:44,989 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 16:16:50,379 - pcr_auto - ERROR - 连接失败: 'device not ready'
+2025-01-16 16:16:50,379 - pcr_auto - ERROR - 连接模拟器失败，请检查模拟器是否正常运行

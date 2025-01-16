@@ -38,10 +38,10 @@ def main():
                 return
 
         # 进入训练场
-        training.enter_training_area()
+        # training.enter_training_area()
 
         # 进入boss战
-        training.click_icon(SWIPE_ICON1)
+        # training.click_icon(SWIPE_ICON1)
 
     except Exception as e:
         logger.error(f"程序异常: {str(e)}")
