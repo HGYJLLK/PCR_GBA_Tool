@@ -21,10 +21,10 @@ def setup_logger():
     # app_logger.addHandler(file_handler)
 
     # 控制台处理器 - 输出到控制台
-   
 
-    # 我新增一些代码
-    print("Hello world")
+
+    test = "test"
+    print(test)
 
     return app_logger
 
