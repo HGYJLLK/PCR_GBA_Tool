@@ -29,8 +29,6 @@ def setup_logger():
 
     test = "Hello World"
 
-
-
     print(test)
 
     return app_logger
