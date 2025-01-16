@@ -22,8 +22,15 @@ def setup_logger():
 
     # 控制台处理器 - 输出到控制台
 
+    console_handler = logging.StreamHandler()
+    console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(console_formatter)
+    app_logger.addHandler(console_handler)
 
-    test = "test"
+    test = "Hello World"
+
+
+
     print(test)
 
     return app_logger
