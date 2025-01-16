@@ -164,7 +164,7 @@ graph TB
 - python 3.8+
 - adb 工具
 
-## 项目搭建（仅提供Windows环境）
+## 项目搭建
 
 - 打开mumu多开器，运行一个模拟器
 - 查看运行中的模拟器的adb端口号，如16384
@@ -176,10 +176,12 @@ adb devices # 查看连接情况
 ```
 
 - 打开main.py文件，修改你的端口号以及adb路径
+- 根据你的操作系统，修改ADB路径
 
 ```python
-ADB_PATH = "D:/浏览器/platform-tools_r31.0.2-windows/platform-tools/adb.exe"
-device_uuid = "127.0.0.1:16384"
+WINDOWS_ADB_PATH = "D:/浏览器/platform-tools_r31.0.2-windows/platform-tools/adb.exe"
+MAC_ADB_PATH = "D:/浏览器/platform-tools_r31.0.2-windows/platform-tools/adb.exe"
+device_uuid = "/opt/homebrew/bin/adb"
 ```
 
 - 运行项目
