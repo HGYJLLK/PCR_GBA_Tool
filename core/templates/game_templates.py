@@ -1,0 +1,41 @@
+"""游戏模板管理"""
+from airtest.core.api import Template
+from pathlib import Path
+
+
+class GameTemplates:
+    """游戏模板管理类"""
+
+    def __init__(self):
+        # 设置基础图片路径
+        self.button_path = Path("static/images/button")
+
+    @property
+    def app_icon(self):
+        """游戏图标"""
+        return Template(str(self.button_path / "游戏图标.png"))
+
+    @property
+    def training_icon(self):
+        """训练场图标"""
+        return Template(str(self.button_path / "大家的训练场.png"))
+
+    @property
+    def adventure_icon(self):
+        """冒险图标"""
+        return Template(str(self.button_path / "冒险.png"))
+
+    @property
+    def main_menu_icon(self):
+        """主菜单图标"""
+        return Template(str(self.button_path / "主菜单.png"))
+
+    @property
+    def swipe_long(self):
+        """长蓝条"""
+        return Template(str(self.button_path / "长蓝条.png"))
+
+    @property
+    def swipe_short(self):
+        """短蓝条"""
+        return Template(str(self.button_path / "短蓝条.png"))
