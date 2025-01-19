@@ -1,6 +1,5 @@
-# core/game/__init__.py
-"""游戏操作模块"""
-from .base import GameBase
+"""游戏相关功能模块"""
 from .training import TrainingOperation
+from .base import GameBase
 
-__all__ = ['GameBase', 'TrainingOperation']
+__all__ = ['TrainingOperation', 'GameBase']

@@ -1,8 +1,7 @@
-# main.py
 """主程序入口"""
 from core.device import DeviceManager
 from core.game.training import TrainingOperation
-from templates import APP_ICON, SWIPE_ICON1
+from core.templates import GameTemplates  # 新增：导入模板管理类
 from utils.logger import logger
 import time
 
@@ -22,7 +21,8 @@ def main():
             logger.error("ADB连接失败，请检查模拟器是否正常运行")
             return
 
-        # 初始化游戏操作
+        # 初始化模板和游戏操作
+        templates = GameTemplates()  # 新增：初始化模板
         training = TrainingOperation()
 
         # 检查游戏运行状态并启动
@@ -30,7 +30,7 @@ def main():
             logger.info("游戏已在运行中")
         else:
             logger.info("游戏未运行，准备启动")
-            if training.click_icon(icon=APP_ICON):
+            if training.click_icon(icon=templates.app_icon):  # 修改：使用模板实例
                 logger.info("游戏启动成功")
                 time.sleep(5)
             else:
@@ -38,10 +38,7 @@ def main():
                 return
 
         # 进入训练场
-        # training.enter_training_area()
-
-        # 进入boss战
-        # training.click_icon(SWIPE_ICON1)
+        training.enter_training_area()
 
     except Exception as e:
         logger.error(f"程序异常: {str(e)}")
