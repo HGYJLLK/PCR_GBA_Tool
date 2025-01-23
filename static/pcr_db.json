@@ -8,7 +8,7 @@
       "东山",
       "日和"
     ],
-    "image_path": "image\\日和莉_1星.png"
+    "image_path": "images\\avatar\\日和莉_1星.png"
   },
   "1001_3": {
     "id": "1001_3",
@@ -19,7 +19,7 @@
       "东山",
       "日和"
     ],
-    "image_path": "image\\日和莉_3星.png"
+    "image_path": "images\\avatar\\日和莉_3星.png"
   },
   "1001_6": {
     "id": "1001_6",
@@ -30,7 +30,7 @@
       "东山",
       "日和"
     ],
-    "image_path": "image\\日和莉_6星.png"
+    "image_path": "images\\avatar\\日和莉_6星.png"
   },
   "1002_1": {
     "id": "1002_1",
@@ -43,7 +43,7 @@
       "普田",
       "U1"
     ],
-    "image_path": "image\\优衣_1星.png"
+    "image_path": "images\\avatar\\优衣_1星.png"
   },
   "1002_3": {
     "id": "1002_3",
@@ -56,7 +56,7 @@
       "普田",
       "U1"
     ],
-    "image_path": "image\\优衣_3星.png"
+    "image_path": "images\\avatar\\优衣_3星.png"
   },
   "1002_6": {
     "id": "1002_6",
@@ -69,7 +69,7 @@
       "普田",
       "U1"
     ],
-    "image_path": "image\\优衣_6星.png"
+    "image_path": "images\\avatar\\优衣_6星.png"
   },
   "1003_1": {
     "id": "1003_1",
@@ -80,7 +80,7 @@
       "剑",
       "醋王"
     ],
-    "image_path": "image\\怜_1星.png"
+    "image_path": "images\\avatar\\怜_1星.png"
   },
   "1003_3": {
     "id": "1003_3",
@@ -91,7 +91,7 @@
       "剑",
       "醋王"
     ],
-    "image_path": "image\\怜_3星.png"
+    "image_path": "images\\avatar\\怜_3星.png"
   },
   "1003_6": {
     "id": "1003_6",
@@ -102,7 +102,7 @@
       "剑",
       "醋王"
     ],
-    "image_path": "image\\怜_6星.png"
+    "image_path": "images\\avatar\\怜_6星.png"
   },
   "1004_1": {
     "id": "1004_1",
@@ -114,7 +114,7 @@
       "熊孩子",
       "禊"
     ],
-    "image_path": "image\\未奏希_1星.png"
+    "image_path": "images\\avatar\\未奏希_1星.png"
   },
   "1004_3": {
     "id": "1004_3",
@@ -126,7 +126,7 @@
       "熊孩子",
       "禊"
     ],
-    "image_path": "image\\未奏希_3星.png"
+    "image_path": "images\\avatar\\未奏希_3星.png"
   },
   "1004_6": {
     "id": "1004_6",
@@ -138,7 +138,7 @@
       "熊孩子",
       "禊"
     ],
-    "image_path": "image\\未奏希_6星.png"
+    "image_path": "images\\avatar\\未奏希_6星.png"
   },
   "1005_1": {
     "id": "1005_1",
@@ -150,7 +150,7 @@
       "跳刀虎",
       "马自立"
     ],
-    "image_path": "image\\茉莉_1星.png"
+    "image_path": "images\\avatar\\茉莉_1星.png"
   },
   "1005_3": {
     "id": "1005_3",
@@ -162,7 +162,7 @@
       "跳刀虎",
       "马自立"
     ],
-    "image_path": "image\\茉莉_3星.png"
+    "image_path": "images\\avatar\\茉莉_3星.png"
   },
   "1005_6": {
     "id": "1005_6",
@@ -174,7 +174,7 @@
       "跳刀虎",
       "马自立"
     ],
-    "image_path": "image\\茉莉_6星.png"
+    "image_path": "images\\avatar\\茉莉_6星.png"
   },
   "1006_1": {
     "id": "1006_1",
@@ -185,7 +185,7 @@
       "阿卡丽",
       "车王"
     ],
-    "image_path": "image\\茜里_1星.png"
+    "image_path": "images\\avatar\\茜里_1星.png"
   },
   "1006_3": {
     "id": "1006_3",
@@ -196,7 +196,7 @@
       "阿卡丽",
       "车王"
     ],
-    "image_path": "image\\茜里_3星.png"
+    "image_path": "images\\avatar\\茜里_3星.png"
   },
   "1006_6": {
     "id": "1006_6",
@@ -207,7 +207,7 @@
       "阿卡丽",
       "车王"
     ],
-    "image_path": "image\\茜里_6星.png"
+    "image_path": "images\\avatar\\茜里_6星.png"
   },
   "1007_1": {
     "id": "1007_1",
@@ -217,7 +217,7 @@
       "布丁",
       "幽灵"
     ],
-    "image_path": "image\\宫子_1星.png"
+    "image_path": "images\\avatar\\宫子_1星.png"
   },
   "1007_3": {
     "id": "1007_3",
@@ -227,7 +227,7 @@
       "布丁",
       "幽灵"
     ],
-    "image_path": "image\\宫子_3星.png"
+    "image_path": "images\\avatar\\宫子_3星.png"
   },
   "1007_6": {
     "id": "1007_6",
@@ -237,7 +237,7 @@
       "布丁",
       "幽灵"
     ],
-    "image_path": "image\\宫子_6星.png"
+    "image_path": "images\\avatar\\宫子_6星.png"
   },
   "1008_1": {
     "id": "1008_1",
@@ -250,7 +250,7 @@
       "镜法",
       "伪娘"
     ],
-    "image_path": "image\\雪_1星.png"
+    "image_path": "images\\avatar\\雪_1星.png"
   },
   "1008_3": {
     "id": "1008_3",
@@ -263,7 +263,7 @@
       "镜法",
       "伪娘"
     ],
-    "image_path": "image\\雪_3星.png"
+    "image_path": "images\\avatar\\雪_3星.png"
   },
   "1008_6": {
     "id": "1008_6",
@@ -276,7 +276,7 @@
       "镜法",
       "伪娘"
     ],
-    "image_path": "image\\雪_6星.png"
+    "image_path": "images\\avatar\\雪_6星.png"
   },
   "1009_1": {
     "id": "1009_1",
@@ -286,7 +286,7 @@
       "中二",
       "煤气罐"
     ],
-    "image_path": "image\\杏奈_1星.png"
+    "image_path": "images\\avatar\\杏奈_1星.png"
   },
   "1009_3": {
     "id": "1009_3",
@@ -296,7 +296,7 @@
       "中二",
       "煤气罐"
     ],
-    "image_path": "image\\杏奈_3星.png"
+    "image_path": "images\\avatar\\杏奈_3星.png"
   },
   "1009_6": {
     "id": "1009_6",
@@ -306,7 +306,7 @@
       "中二",
       "煤气罐"
     ],
-    "image_path": "image\\杏奈_6星.png"
+    "image_path": "images\\avatar\\杏奈_6星.png"
   },
   "1010_1": {
     "id": "1010_1",
@@ -319,7 +319,7 @@
       "咕噜灵波",
       "真布"
     ],
-    "image_path": "image\\真步_1星.png"
+    "image_path": "images\\avatar\\真步_1星.png"
   },
   "1010_3": {
     "id": "1010_3",
@@ -332,7 +332,7 @@
       "咕噜灵波",
       "真布"
     ],
-    "image_path": "image\\真步_3星.png"
+    "image_path": "images\\avatar\\真步_3星.png"
   },
   "1010_6": {
     "id": "1010_6",
@@ -345,7 +345,7 @@
       "咕噜灵波",
       "真布"
     ],
-    "image_path": "image\\真步_6星.png"
+    "image_path": "images\\avatar\\真步_6星.png"
   },
   "1011_1": {
     "id": "1011_1",
@@ -354,7 +354,7 @@
     "nicknames": [
       "妹弓"
     ],
-    "image_path": "image\\璃乃_1星.png"
+    "image_path": "images\\avatar\\璃乃_1星.png"
   },
   "1011_3": {
     "id": "1011_3",
@@ -363,7 +363,7 @@
     "nicknames": [
       "妹弓"
     ],
-    "image_path": "image\\璃乃_3星.png"
+    "image_path": "images\\avatar\\璃乃_3星.png"
   },
   "1011_6": {
     "id": "1011_6",
@@ -372,7 +372,7 @@
     "nicknames": [
       "妹弓"
     ],
-    "image_path": "image\\璃乃_6星.png"
+    "image_path": "images\\avatar\\璃乃_6星.png"
   },
   "1012_1": {
     "id": "1012_1",
@@ -384,7 +384,7 @@
       "睡法",
       "派大星"
     ],
-    "image_path": "image\\初音_1星.png"
+    "image_path": "images\\avatar\\初音_1星.png"
   },
   "1012_3": {
     "id": "1012_3",
@@ -396,7 +396,7 @@
       "睡法",
       "派大星"
     ],
-    "image_path": "image\\初音_3星.png"
+    "image_path": "images\\avatar\\初音_3星.png"
   },
   "1012_6": {
     "id": "1012_6",
@@ -408,7 +408,7 @@
       "睡法",
       "派大星"
     ],
-    "image_path": "image\\初音_6星.png"
+    "image_path": "images\\avatar\\初音_6星.png"
   },
   "1013_1": {
     "id": "1013_1",
@@ -422,7 +422,7 @@
       "77香",
       "被夺走名字的女人"
     ],
-    "image_path": "image\\七七香_1星.png"
+    "image_path": "images\\avatar\\七七香_1星.png"
   },
   "1013_3": {
     "id": "1013_3",
@@ -436,7 +436,7 @@
       "77香",
       "被夺走名字的女人"
     ],
-    "image_path": "image\\七七香_3星.png"
+    "image_path": "images\\avatar\\七七香_3星.png"
   },
   "1013_6": {
     "id": "1013_6",
@@ -450,7 +450,7 @@
       "77香",
       "被夺走名字的女人"
     ],
-    "image_path": "image\\七七香_6星.png"
+    "image_path": "images\\avatar\\七七香_6星.png"
   },
   "1014_1": {
     "id": "1014_1",
@@ -462,7 +462,7 @@
       "驴妹",
       "霞"
     ],
-    "image_path": "image\\香澄_1星.png"
+    "image_path": "images\\avatar\\香澄_1星.png"
   },
   "1014_3": {
     "id": "1014_3",
@@ -474,7 +474,7 @@
       "驴妹",
       "霞"
     ],
-    "image_path": "image\\香澄_3星.png"
+    "image_path": "images\\avatar\\香澄_3星.png"
   },
   "1014_6": {
     "id": "1014_6",
@@ -486,7 +486,7 @@
       "驴妹",
       "霞"
     ],
-    "image_path": "image\\香澄_6星.png"
+    "image_path": "images\\avatar\\香澄_6星.png"
   },
   "1015_1": {
     "id": "1015_1",
@@ -496,7 +496,7 @@
       "圣母",
       "绿帽"
     ],
-    "image_path": "image\\美里_1星.png"
+    "image_path": "images\\avatar\\美里_1星.png"
   },
   "1015_3": {
     "id": "1015_3",
@@ -506,7 +506,7 @@
       "圣母",
       "绿帽"
     ],
-    "image_path": "image\\美里_3星.png"
+    "image_path": "images\\avatar\\美里_3星.png"
   },
   "1015_6": {
     "id": "1015_6",
@@ -516,7 +516,7 @@
       "圣母",
       "绿帽"
     ],
-    "image_path": "image\\美里_6星.png"
+    "image_path": "images\\avatar\\美里_6星.png"
   },
   "1016_1": {
     "id": "1016_1",
@@ -527,7 +527,7 @@
       "政委",
       "辣妹弓"
     ],
-    "image_path": "image\\铃奈_1星.png"
+    "image_path": "images\\avatar\\铃奈_1星.png"
   },
   "1016_3": {
     "id": "1016_3",
@@ -538,7 +538,7 @@
       "政委",
       "辣妹弓"
     ],
-    "image_path": "image\\铃奈_3星.png"
+    "image_path": "images\\avatar\\铃奈_3星.png"
   },
   "1016_6": {
     "id": "1016_6",
@@ -549,7 +549,7 @@
       "政委",
       "辣妹弓"
     ],
-    "image_path": "image\\铃奈_6星.png"
+    "image_path": "images\\avatar\\铃奈_6星.png"
   },
   "1017_1": {
     "id": "1017_1",
@@ -562,7 +562,7 @@
       "琉球犬",
       "一拳超人"
     ],
-    "image_path": "image\\香织_1星.png"
+    "image_path": "images\\avatar\\香织_1星.png"
   },
   "1017_3": {
     "id": "1017_3",
@@ -575,7 +575,7 @@
       "琉球犬",
       "一拳超人"
     ],
-    "image_path": "image\\香织_3星.png"
+    "image_path": "images\\avatar\\香织_3星.png"
   },
   "1017_6": {
     "id": "1017_6",
@@ -588,7 +588,7 @@
       "琉球犬",
       "一拳超人"
     ],
-    "image_path": "image\\香织_6星.png"
+    "image_path": "images\\avatar\\香织_6星.png"
   },
   "1018_1": {
     "id": "1018_1",
@@ -600,7 +600,7 @@
       "依绪",
       "IO"
     ],
-    "image_path": "image\\伊绪_1星.png"
+    "image_path": "images\\avatar\\伊绪_1星.png"
   },
   "1018_3": {
     "id": "1018_3",
@@ -612,7 +612,7 @@
       "依绪",
       "IO"
     ],
-    "image_path": "image\\伊绪_3星.png"
+    "image_path": "images\\avatar\\伊绪_3星.png"
   },
   "1018_6": {
     "id": "1018_6",
@@ -624,7 +624,7 @@
       "依绪",
       "IO"
     ],
-    "image_path": "image\\伊绪_6星.png"
+    "image_path": "images\\avatar\\伊绪_6星.png"
   },
   "1020_1": {
     "id": "1020_1",
@@ -637,7 +637,7 @@
       "兔兔",
       "天兔霸断剑"
     ],
-    "image_path": "image\\美美_1星.png"
+    "image_path": "images\\avatar\\美美_1星.png"
   },
   "1020_3": {
     "id": "1020_3",
@@ -650,7 +650,7 @@
       "兔兔",
       "天兔霸断剑"
     ],
-    "image_path": "image\\美美_3星.png"
+    "image_path": "images\\avatar\\美美_3星.png"
   },
   "1020_6": {
     "id": "1020_6",
@@ -663,7 +663,7 @@
       "兔兔",
       "天兔霸断剑"
     ],
-    "image_path": "image\\美美_6星.png"
+    "image_path": "images\\avatar\\美美_6星.png"
   },
   "1021_1": {
     "id": "1021_1",
@@ -672,7 +672,7 @@
     "nicknames": [
       "铃铛"
     ],
-    "image_path": "image\\胡桃_1星.png"
+    "image_path": "images\\avatar\\胡桃_1星.png"
   },
   "1021_3": {
     "id": "1021_3",
@@ -681,7 +681,7 @@
     "nicknames": [
       "铃铛"
     ],
-    "image_path": "image\\胡桃_3星.png"
+    "image_path": "images\\avatar\\胡桃_3星.png"
   },
   "1021_6": {
     "id": "1021_6",
@@ -690,7 +690,7 @@
     "nicknames": [
       "铃铛"
     ],
-    "image_path": "image\\胡桃_6星.png"
+    "image_path": "images\\avatar\\胡桃_6星.png"
   },
   "1022_1": {
     "id": "1022_1",
@@ -703,7 +703,7 @@
       "由里",
       "伊里"
     ],
-    "image_path": "image\\依里_1星.png"
+    "image_path": "images\\avatar\\依里_1星.png"
   },
   "1022_3": {
     "id": "1022_3",
@@ -716,7 +716,7 @@
       "由里",
       "伊里"
     ],
-    "image_path": "image\\依里_3星.png"
+    "image_path": "images\\avatar\\依里_3星.png"
   },
   "1022_6": {
     "id": "1022_6",
@@ -729,7 +729,7 @@
       "由里",
       "伊里"
     ],
-    "image_path": "image\\依里_6星.png"
+    "image_path": "images\\avatar\\依里_6星.png"
   },
   "1023_1": {
     "id": "1023_1",
@@ -739,7 +739,7 @@
       "熊锤",
       "可爱多"
     ],
-    "image_path": "image\\绫音_1星.png"
+    "image_path": "images\\avatar\\绫音_1星.png"
   },
   "1023_3": {
     "id": "1023_3",
@@ -749,7 +749,7 @@
       "熊锤",
       "可爱多"
     ],
-    "image_path": "image\\绫音_3星.png"
+    "image_path": "images\\avatar\\绫音_3星.png"
   },
   "1023_6": {
     "id": "1023_6",
@@ -759,7 +759,7 @@
       "熊锤",
       "可爱多"
     ],
-    "image_path": "image\\绫音_6星.png"
+    "image_path": "images\\avatar\\绫音_6星.png"
   },
   "1025_1": {
     "id": "1025_1",
@@ -772,7 +772,7 @@
       "悠木碧",
       "妹抖"
     ],
-    "image_path": "image\\铃莓_1星.png"
+    "image_path": "images\\avatar\\铃莓_1星.png"
   },
   "1025_3": {
     "id": "1025_3",
@@ -785,7 +785,7 @@
       "悠木碧",
       "妹抖"
     ],
-    "image_path": "image\\铃莓_3星.png"
+    "image_path": "images\\avatar\\铃莓_3星.png"
   },
   "1025_6": {
     "id": "1025_6",
@@ -798,7 +798,7 @@
       "悠木碧",
       "妹抖"
     ],
-    "image_path": "image\\铃莓_6星.png"
+    "image_path": "images\\avatar\\铃莓_6星.png"
   },
   "1026_1": {
     "id": "1026_1",
@@ -807,7 +807,7 @@
     "nicknames": [
       "松鼠"
     ],
-    "image_path": "image\\铃_1星.png"
+    "image_path": "images\\avatar\\铃_1星.png"
   },
   "1026_3": {
     "id": "1026_3",
@@ -816,7 +816,7 @@
     "nicknames": [
       "松鼠"
     ],
-    "image_path": "image\\铃_3星.png"
+    "image_path": "images\\avatar\\铃_3星.png"
   },
   "1026_6": {
     "id": "1026_6",
@@ -825,7 +825,7 @@
     "nicknames": [
       "松鼠"
     ],
-    "image_path": "image\\铃_6星.png"
+    "image_path": "images\\avatar\\铃_6星.png"
   },
   "1027_1": {
     "id": "1027_1",
@@ -835,7 +835,7 @@
       "病娇",
       "破坏者"
     ],
-    "image_path": "image\\惠理子_1星.png"
+    "image_path": "images\\avatar\\惠理子_1星.png"
   },
   "1027_3": {
     "id": "1027_3",
@@ -845,7 +845,7 @@
       "病娇",
       "破坏者"
     ],
-    "image_path": "image\\惠理子_3星.png"
+    "image_path": "images\\avatar\\惠理子_3星.png"
   },
   "1027_6": {
     "id": "1027_6",
@@ -855,7 +855,7 @@
       "病娇",
       "破坏者"
     ],
-    "image_path": "image\\惠理子_6星.png"
+    "image_path": "images\\avatar\\惠理子_6星.png"
   },
   "1028_1": {
     "id": "1028_1",
@@ -866,7 +866,7 @@
       "大小姐",
       "普电"
     ],
-    "image_path": "image\\咲恋_1星.png"
+    "image_path": "images\\avatar\\咲恋_1星.png"
   },
   "1028_3": {
     "id": "1028_3",
@@ -877,7 +877,7 @@
       "大小姐",
       "普电"
     ],
-    "image_path": "image\\咲恋_3星.png"
+    "image_path": "images\\avatar\\咲恋_3星.png"
   },
   "1028_6": {
     "id": "1028_6",
@@ -888,7 +888,7 @@
       "大小姐",
       "普电"
     ],
-    "image_path": "image\\咲恋_6星.png"
+    "image_path": "images\\avatar\\咲恋_6星.png"
   },
   "1029_1": {
     "id": "1029_1",
@@ -898,7 +898,7 @@
       "偶像",
       "小望"
     ],
-    "image_path": "image\\望_1星.png"
+    "image_path": "images\\avatar\\望_1星.png"
   },
   "1029_3": {
     "id": "1029_3",
@@ -908,7 +908,7 @@
       "偶像",
       "小望"
     ],
-    "image_path": "image\\望_3星.png"
+    "image_path": "images\\avatar\\望_3星.png"
   },
   "1029_6": {
     "id": "1029_6",
@@ -918,7 +918,7 @@
       "偶像",
       "小望"
     ],
-    "image_path": "image\\望_6星.png"
+    "image_path": "images\\avatar\\望_6星.png"
   },
   "1030_1": {
     "id": "1030_1",
@@ -929,7 +929,7 @@
       "外国人",
       "妮诺"
     ],
-    "image_path": "image\\妮侬_1星.png"
+    "image_path": "images\\avatar\\妮侬_1星.png"
   },
   "1030_3": {
     "id": "1030_3",
@@ -940,7 +940,7 @@
       "外国人",
       "妮诺"
     ],
-    "image_path": "image\\妮侬_3星.png"
+    "image_path": "images\\avatar\\妮侬_3星.png"
   },
   "1030_6": {
     "id": "1030_6",
@@ -951,7 +951,7 @@
       "外国人",
       "妮诺"
     ],
-    "image_path": "image\\妮侬_6星.png"
+    "image_path": "images\\avatar\\妮侬_6星.png"
   },
   "1031_1": {
     "id": "1031_1",
@@ -960,7 +960,7 @@
     "nicknames": [
       "鬼父"
     ],
-    "image_path": "image\\忍_1星.png"
+    "image_path": "images\\avatar\\忍_1星.png"
   },
   "1031_3": {
     "id": "1031_3",
@@ -969,7 +969,7 @@
     "nicknames": [
       "鬼父"
     ],
-    "image_path": "image\\忍_3星.png"
+    "image_path": "images\\avatar\\忍_3星.png"
   },
   "1031_6": {
     "id": "1031_6",
@@ -978,7 +978,7 @@
     "nicknames": [
       "鬼父"
     ],
-    "image_path": "image\\忍_6星.png"
+    "image_path": "images\\avatar\\忍_6星.png"
   },
   "1032_1": {
     "id": "1032_1",
@@ -987,7 +987,7 @@
     "nicknames": [
       "哈哈剑"
     ],
-    "image_path": "image\\秋乃_1星.png"
+    "image_path": "images\\avatar\\秋乃_1星.png"
   },
   "1032_3": {
     "id": "1032_3",
@@ -996,7 +996,7 @@
     "nicknames": [
       "哈哈剑"
     ],
-    "image_path": "image\\秋乃_3星.png"
+    "image_path": "images\\avatar\\秋乃_3星.png"
   },
   "1032_6": {
     "id": "1032_6",
@@ -1005,7 +1005,7 @@
     "nicknames": [
       "哈哈剑"
     ],
-    "image_path": "image\\秋乃_6星.png"
+    "image_path": "images\\avatar\\秋乃_6星.png"
   },
   "1033_1": {
     "id": "1033_1",
@@ -1014,7 +1014,7 @@
     "nicknames": [
       "奶牛"
     ],
-    "image_path": "image\\真阳_1星.png"
+    "image_path": "images\\avatar\\真阳_1星.png"
   },
   "1033_3": {
     "id": "1033_3",
@@ -1023,7 +1023,7 @@
     "nicknames": [
       "奶牛"
     ],
-    "image_path": "image\\真阳_3星.png"
+    "image_path": "images\\avatar\\真阳_3星.png"
   },
   "1033_6": {
     "id": "1033_6",
@@ -1032,7 +1032,7 @@
     "nicknames": [
       "奶牛"
     ],
-    "image_path": "image\\真阳_6星.png"
+    "image_path": "images\\avatar\\真阳_6星.png"
   },
   "1034_1": {
     "id": "1034_1",
@@ -1045,7 +1045,7 @@
       "圣骑",
       "优花梨"
     ],
-    "image_path": "image\\由加莉_1星.png"
+    "image_path": "images\\avatar\\由加莉_1星.png"
   },
   "1034_3": {
     "id": "1034_3",
@@ -1058,7 +1058,7 @@
       "圣骑",
       "优花梨"
     ],
-    "image_path": "image\\由加莉_3星.png"
+    "image_path": "images\\avatar\\由加莉_3星.png"
   },
   "1034_6": {
     "id": "1034_6",
@@ -1071,7 +1071,7 @@
       "圣骑",
       "优花梨"
     ],
-    "image_path": "image\\由加莉_6星.png"
+    "image_path": "images\\avatar\\由加莉_6星.png"
   },
   "1036_1": {
     "id": "1036_1",
@@ -1082,7 +1082,7 @@
       "小仓唯",
       "八岁喷水萝莉"
     ],
-    "image_path": "image\\镜华_1星.png"
+    "image_path": "images\\avatar\\镜华_1星.png"
   },
   "1036_3": {
     "id": "1036_3",
@@ -1093,7 +1093,7 @@
       "小仓唯",
       "八岁喷水萝莉"
     ],
-    "image_path": "image\\镜华_3星.png"
+    "image_path": "images\\avatar\\镜华_3星.png"
   },
   "1036_6": {
     "id": "1036_6",
@@ -1104,7 +1104,7 @@
       "小仓唯",
       "八岁喷水萝莉"
     ],
-    "image_path": "image\\镜华_6星.png"
+    "image_path": "images\\avatar\\镜华_6星.png"
   },
   "1037_1": {
     "id": "1037_1",
@@ -1116,7 +1116,7 @@
       "脱毛",
       "智爷"
     ],
-    "image_path": "image\\智_1星.png"
+    "image_path": "images\\avatar\\智_1星.png"
   },
   "1037_3": {
     "id": "1037_3",
@@ -1128,7 +1128,7 @@
       "脱毛",
       "智爷"
     ],
-    "image_path": "image\\智_3星.png"
+    "image_path": "images\\avatar\\智_3星.png"
   },
   "1037_6": {
     "id": "1037_6",
@@ -1140,7 +1140,7 @@
       "脱毛",
       "智爷"
     ],
-    "image_path": "image\\智_6星.png"
+    "image_path": "images\\avatar\\智_6星.png"
   },
   "1038_1": {
     "id": "1038_1",
@@ -1151,7 +1151,7 @@
       "白虎弓",
       "栞栞"
     ],
-    "image_path": "image\\栞_1星.png"
+    "image_path": "images\\avatar\\栞_1星.png"
   },
   "1038_3": {
     "id": "1038_3",
@@ -1162,7 +1162,7 @@
       "白虎弓",
       "栞栞"
     ],
-    "image_path": "image\\栞_3星.png"
+    "image_path": "images\\avatar\\栞_3星.png"
   },
   "1038_6": {
     "id": "1038_6",
@@ -1173,7 +1173,7 @@
       "白虎弓",
       "栞栞"
     ],
-    "image_path": "image\\栞_6星.png"
+    "image_path": "images\\avatar\\栞_6星.png"
   },
   "1040_1": {
     "id": "1040_1",
@@ -1185,7 +1185,7 @@
       "毒弓",
       "绿帽弓"
     ],
-    "image_path": "image\\碧_1星.png"
+    "image_path": "images\\avatar\\碧_1星.png"
   },
   "1040_3": {
     "id": "1040_3",
@@ -1197,7 +1197,7 @@
       "毒弓",
       "绿帽弓"
     ],
-    "image_path": "image\\碧_3星.png"
+    "image_path": "images\\avatar\\碧_3星.png"
   },
   "1040_6": {
     "id": "1040_6",
@@ -1209,7 +1209,7 @@
       "毒弓",
       "绿帽弓"
     ],
-    "image_path": "image\\碧_6星.png"
+    "image_path": "images\\avatar\\碧_6星.png"
   },
   "1042_1": {
     "id": "1042_1",
@@ -1221,7 +1221,7 @@
       "精灵奶",
       "7卡"
     ],
-    "image_path": "image\\千歌_1星.png"
+    "image_path": "images\\avatar\\千歌_1星.png"
   },
   "1042_3": {
     "id": "1042_3",
@@ -1233,7 +1233,7 @@
       "精灵奶",
       "7卡"
     ],
-    "image_path": "image\\千歌_3星.png"
+    "image_path": "images\\avatar\\千歌_3星.png"
   },
   "1042_6": {
     "id": "1042_6",
@@ -1245,7 +1245,7 @@
       "精灵奶",
       "7卡"
     ],
-    "image_path": "image\\千歌_6星.png"
+    "image_path": "images\\avatar\\千歌_6星.png"
   },
   "1043_1": {
     "id": "1043_1",
@@ -1257,7 +1257,7 @@
       "狼妹",
       "月月"
     ],
-    "image_path": "image\\真琴_1星.png"
+    "image_path": "images\\avatar\\真琴_1星.png"
   },
   "1043_3": {
     "id": "1043_3",
@@ -1269,7 +1269,7 @@
       "狼妹",
       "月月"
     ],
-    "image_path": "image\\真琴_3星.png"
+    "image_path": "images\\avatar\\真琴_3星.png"
   },
   "1043_6": {
     "id": "1043_6",
@@ -1281,7 +1281,7 @@
       "狼妹",
       "月月"
     ],
-    "image_path": "image\\真琴_6星.png"
+    "image_path": "images\\avatar\\真琴_6星.png"
   },
   "1044_1": {
     "id": "1044_1",
@@ -1294,7 +1294,7 @@
       "吸血鬼",
       "辣个女人"
     ],
-    "image_path": "image\\伊莉亚_1星.png"
+    "image_path": "images\\avatar\\伊莉亚_1星.png"
   },
   "1044_3": {
     "id": "1044_3",
@@ -1307,7 +1307,7 @@
       "吸血鬼",
       "辣个女人"
     ],
-    "image_path": "image\\伊莉亚_3星.png"
+    "image_path": "images\\avatar\\伊莉亚_3星.png"
   },
   "1044_6": {
     "id": "1044_6",
@@ -1320,7 +1320,7 @@
       "吸血鬼",
       "辣个女人"
     ],
-    "image_path": "image\\伊莉亚_6星.png"
+    "image_path": "images\\avatar\\伊莉亚_6星.png"
   },
   "1045_1": {
     "id": "1045_1",
@@ -1329,7 +1329,7 @@
     "nicknames": [
       "抖M"
     ],
-    "image_path": "image\\空花_1星.png"
+    "image_path": "images\\avatar\\空花_1星.png"
   },
   "1045_3": {
     "id": "1045_3",
@@ -1338,7 +1338,7 @@
     "nicknames": [
       "抖M"
     ],
-    "image_path": "image\\空花_3星.png"
+    "image_path": "images\\avatar\\空花_3星.png"
   },
   "1045_6": {
     "id": "1045_6",
@@ -1347,7 +1347,7 @@
     "nicknames": [
       "抖M"
     ],
-    "image_path": "image\\空花_6星.png"
+    "image_path": "images\\avatar\\空花_6星.png"
   },
   "1046_1": {
     "id": "1046_1",
@@ -1359,7 +1359,7 @@
       "猫刺",
       "猫贼"
     ],
-    "image_path": "image\\珠希_1星.png"
+    "image_path": "images\\avatar\\珠希_1星.png"
   },
   "1046_3": {
     "id": "1046_3",
@@ -1371,7 +1371,7 @@
       "猫刺",
       "猫贼"
     ],
-    "image_path": "image\\珠希_3星.png"
+    "image_path": "images\\avatar\\珠希_3星.png"
   },
   "1046_6": {
     "id": "1046_6",
@@ -1383,7 +1383,7 @@
       "猫刺",
       "猫贼"
     ],
-    "image_path": "image\\珠希_6星.png"
+    "image_path": "images\\avatar\\珠希_6星.png"
   },
   "1047_1": {
     "id": "1047_1",
@@ -1393,7 +1393,7 @@
       "黑骑",
       "saber"
     ],
-    "image_path": "image\\纯_1星.png"
+    "image_path": "images\\avatar\\纯_1星.png"
   },
   "1047_3": {
     "id": "1047_3",
@@ -1403,7 +1403,7 @@
       "黑骑",
       "saber"
     ],
-    "image_path": "image\\纯_3星.png"
+    "image_path": "images\\avatar\\纯_3星.png"
   },
   "1047_6": {
     "id": "1047_6",
@@ -1413,7 +1413,7 @@
       "黑骑",
       "saber"
     ],
-    "image_path": "image\\纯_6星.png"
+    "image_path": "images\\avatar\\纯_6星.png"
   },
   "1048_1": {
     "id": "1048_1",
@@ -1424,7 +1424,7 @@
       "赵子龙",
       "喜欢怜的人都很有品味.jpg"
     ],
-    "image_path": "image\\美冬_1星.png"
+    "image_path": "images\\avatar\\美冬_1星.png"
   },
   "1048_3": {
     "id": "1048_3",
@@ -1435,7 +1435,7 @@
       "赵子龙",
       "喜欢怜的人都很有品味.jpg"
     ],
-    "image_path": "image\\美冬_3星.png"
+    "image_path": "images\\avatar\\美冬_3星.png"
   },
   "1048_6": {
     "id": "1048_6",
@@ -1446,7 +1446,7 @@
       "赵子龙",
       "喜欢怜的人都很有品味.jpg"
     ],
-    "image_path": "image\\美冬_6星.png"
+    "image_path": "images\\avatar\\美冬_6星.png"
   },
   "1049_1": {
     "id": "1049_1",
@@ -1456,7 +1456,7 @@
       "姐姐",
       "真·病娇"
     ],
-    "image_path": "image\\静流_1星.png"
+    "image_path": "images\\avatar\\静流_1星.png"
   },
   "1049_3": {
     "id": "1049_3",
@@ -1466,7 +1466,7 @@
       "姐姐",
       "真·病娇"
     ],
-    "image_path": "image\\静流_3星.png"
+    "image_path": "images\\avatar\\静流_3星.png"
   },
   "1049_6": {
     "id": "1049_6",
@@ -1476,7 +1476,7 @@
       "姐姐",
       "真·病娇"
     ],
-    "image_path": "image\\静流_6星.png"
+    "image_path": "images\\avatar\\静流_6星.png"
   },
   "1050_1": {
     "id": "1050_1",
@@ -1487,7 +1487,7 @@
       "眼球法",
       "淑女"
     ],
-    "image_path": "image\\美咲_1星.png"
+    "image_path": "images\\avatar\\美咲_1星.png"
   },
   "1050_3": {
     "id": "1050_3",
@@ -1498,7 +1498,7 @@
       "眼球法",
       "淑女"
     ],
-    "image_path": "image\\美咲_3星.png"
+    "image_path": "images\\avatar\\美咲_3星.png"
   },
   "1050_6": {
     "id": "1050_6",
@@ -1509,7 +1509,7 @@
       "眼球法",
       "淑女"
     ],
-    "image_path": "image\\美咲_6星.png"
+    "image_path": "images\\avatar\\美咲_6星.png"
   },
   "1051_1": {
     "id": "1051_1",
@@ -1520,7 +1520,7 @@
       "抖S",
       "只眼恶魔"
     ],
-    "image_path": "image\\深月_1星.png"
+    "image_path": "images\\avatar\\深月_1星.png"
   },
   "1051_3": {
     "id": "1051_3",
@@ -1531,7 +1531,7 @@
       "抖S",
       "只眼恶魔"
     ],
-    "image_path": "image\\深月_3星.png"
+    "image_path": "images\\avatar\\深月_3星.png"
   },
   "1051_6": {
     "id": "1051_6",
@@ -1542,7 +1542,7 @@
       "抖S",
       "只眼恶魔"
     ],
-    "image_path": "image\\深月_6星.png"
+    "image_path": "images\\avatar\\深月_6星.png"
   },
   "1052_1": {
     "id": "1052_1",
@@ -1553,7 +1553,7 @@
       "草泥马",
       "羊"
     ],
-    "image_path": "image\\莉玛_1星.png"
+    "image_path": "images\\avatar\\莉玛_1星.png"
   },
   "1052_3": {
     "id": "1052_3",
@@ -1564,7 +1564,7 @@
       "草泥马",
       "羊"
     ],
-    "image_path": "image\\莉玛_3星.png"
+    "image_path": "images\\avatar\\莉玛_3星.png"
   },
   "1052_6": {
     "id": "1052_6",
@@ -1575,7 +1575,7 @@
       "草泥马",
       "羊"
     ],
-    "image_path": "image\\莉玛_6星.png"
+    "image_path": "images\\avatar\\莉玛_6星.png"
   },
   "1053_1": {
     "id": "1053_1",
@@ -1585,7 +1585,7 @@
       "毛二力",
       "莫尼卡"
     ],
-    "image_path": "image\\莫妮卡_1星.png"
+    "image_path": "images\\avatar\\莫妮卡_1星.png"
   },
   "1053_3": {
     "id": "1053_3",
@@ -1595,7 +1595,7 @@
       "毛二力",
       "莫尼卡"
     ],
-    "image_path": "image\\莫妮卡_3星.png"
+    "image_path": "images\\avatar\\莫妮卡_3星.png"
   },
   "1053_6": {
     "id": "1053_6",
@@ -1605,7 +1605,7 @@
       "毛二力",
       "莫尼卡"
     ],
-    "image_path": "image\\莫妮卡_6星.png"
+    "image_path": "images\\avatar\\莫妮卡_6星.png"
   },
   "1054_1": {
     "id": "1054_1",
@@ -1614,7 +1614,7 @@
     "nicknames": [
       "裁缝"
     ],
-    "image_path": "image\\纺希_1星.png"
+    "image_path": "images\\avatar\\纺希_1星.png"
   },
   "1054_3": {
     "id": "1054_3",
@@ -1623,7 +1623,7 @@
     "nicknames": [
       "裁缝"
     ],
-    "image_path": "image\\纺希_3星.png"
+    "image_path": "images\\avatar\\纺希_3星.png"
   },
   "1054_6": {
     "id": "1054_6",
@@ -1632,7 +1632,7 @@
     "nicknames": [
       "裁缝"
     ],
-    "image_path": "image\\纺希_6星.png"
+    "image_path": "images\\avatar\\纺希_6星.png"
   },
   "1055_1": {
     "id": "1055_1",
@@ -1644,7 +1644,7 @@
       "步美",
       "女路人"
     ],
-    "image_path": "image\\步美_1星.png"
+    "image_path": "images\\avatar\\步美_1星.png"
   },
   "1055_3": {
     "id": "1055_3",
@@ -1656,7 +1656,7 @@
       "步美",
       "女路人"
     ],
-    "image_path": "image\\步美_3星.png"
+    "image_path": "images\\avatar\\步美_3星.png"
   },
   "1055_6": {
     "id": "1055_6",
@@ -1668,7 +1668,7 @@
       "步美",
       "女路人"
     ],
-    "image_path": "image\\步美_6星.png"
+    "image_path": "images\\avatar\\步美_6星.png"
   },
   "1056_1": {
     "id": "1056_1",
@@ -1679,7 +1679,7 @@
       "大姐头",
       "儿力"
     ],
-    "image_path": "image\\流夏_1星.png"
+    "image_path": "images\\avatar\\流夏_1星.png"
   },
   "1056_3": {
     "id": "1056_3",
@@ -1690,7 +1690,7 @@
       "大姐头",
       "儿力"
     ],
-    "image_path": "image\\流夏_3星.png"
+    "image_path": "images\\avatar\\流夏_3星.png"
   },
   "1057_1": {
     "id": "1057_1",
@@ -1703,7 +1703,7 @@
       "吉塔",
       "骑空士"
     ],
-    "image_path": "image\\姬塔_1星.png"
+    "image_path": "images\\avatar\\姬塔_1星.png"
   },
   "1057_3": {
     "id": "1057_3",
@@ -1716,7 +1716,7 @@
       "吉塔",
       "骑空士"
     ],
-    "image_path": "image\\姬塔_3星.png"
+    "image_path": "images\\avatar\\姬塔_3星.png"
   },
   "1057_6": {
     "id": "1057_6",
@@ -1729,7 +1729,7 @@
       "吉塔",
       "骑空士"
     ],
-    "image_path": "image\\姬塔_6星.png"
+    "image_path": "images\\avatar\\姬塔_6星.png"
   },
   "1058_1": {
     "id": "1058_1",
@@ -1742,7 +1742,7 @@
       "佩可",
       "贪吃佩可"
     ],
-    "image_path": "image\\佩可莉姆_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆_1星.png"
   },
   "1058_3": {
     "id": "1058_3",
@@ -1755,7 +1755,7 @@
       "佩可",
       "贪吃佩可"
     ],
-    "image_path": "image\\佩可莉姆_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆_3星.png"
   },
   "1058_6": {
     "id": "1058_6",
@@ -1768,7 +1768,7 @@
       "佩可",
       "贪吃佩可"
     ],
-    "image_path": "image\\佩可莉姆_6星.png"
+    "image_path": "images\\avatar\\佩可莉姆_6星.png"
   },
   "1059_1": {
     "id": "1059_1",
@@ -1781,7 +1781,7 @@
       "普白",
       "可可罗"
     ],
-    "image_path": "image\\可可萝_1星.png"
+    "image_path": "images\\avatar\\可可萝_1星.png"
   },
   "1059_3": {
     "id": "1059_3",
@@ -1794,7 +1794,7 @@
       "普白",
       "可可罗"
     ],
-    "image_path": "image\\可可萝_3星.png"
+    "image_path": "images\\avatar\\可可萝_3星.png"
   },
   "1059_6": {
     "id": "1059_6",
@@ -1807,7 +1807,7 @@
       "普白",
       "可可罗"
     ],
-    "image_path": "image\\可可萝_6星.png"
+    "image_path": "images\\avatar\\可可萝_6星.png"
   },
   "1060_1": {
     "id": "1060_1",
@@ -1821,7 +1821,7 @@
       "接头霸王",
       "猫猫头"
     ],
-    "image_path": "image\\凯露_1星.png"
+    "image_path": "images\\avatar\\凯露_1星.png"
   },
   "1060_3": {
     "id": "1060_3",
@@ -1835,7 +1835,7 @@
       "接头霸王",
       "猫猫头"
     ],
-    "image_path": "image\\凯露_3星.png"
+    "image_path": "images\\avatar\\凯露_3星.png"
   },
   "1060_6": {
     "id": "1060_6",
@@ -1849,7 +1849,7 @@
       "接头霸王",
       "猫猫头"
     ],
-    "image_path": "image\\凯露_6星.png"
+    "image_path": "images\\avatar\\凯露_6星.png"
   },
   "1061_1": {
     "id": "1061_1",
@@ -1860,7 +1860,7 @@
       "夏娜",
       "无意义"
     ],
-    "image_path": "image\\矛依未_1星.png"
+    "image_path": "images\\avatar\\矛依未_1星.png"
   },
   "1061_3": {
     "id": "1061_3",
@@ -1871,7 +1871,7 @@
       "夏娜",
       "无意义"
     ],
-    "image_path": "image\\矛依未_3星.png"
+    "image_path": "images\\avatar\\矛依未_3星.png"
   },
   "1061_6": {
     "id": "1061_6",
@@ -1882,7 +1882,7 @@
       "夏娜",
       "无意义"
     ],
-    "image_path": "image\\矛依未_6星.png"
+    "image_path": "images\\avatar\\矛依未_6星.png"
   },
   "1063_1": {
     "id": "1063_1",
@@ -1894,7 +1894,7 @@
       "亚莉莎",
       "亚里沙"
     ],
-    "image_path": "image\\亚里莎_1星.png"
+    "image_path": "images\\avatar\\亚里莎_1星.png"
   },
   "1063_3": {
     "id": "1063_3",
@@ -1906,7 +1906,7 @@
       "亚莉莎",
       "亚里沙"
     ],
-    "image_path": "image\\亚里莎_3星.png"
+    "image_path": "images\\avatar\\亚里莎_3星.png"
   },
   "1063_6": {
     "id": "1063_6",
@@ -1918,7 +1918,7 @@
       "亚莉莎",
       "亚里沙"
     ],
-    "image_path": "image\\亚里莎_6星.png"
+    "image_path": "images\\avatar\\亚里莎_6星.png"
   },
   "1064_1": {
     "id": "1064_1",
@@ -1930,7 +1930,7 @@
       "盐汽水",
       "冰龙"
     ],
-    "image_path": "image\\雪菲_1星.png"
+    "image_path": "images\\avatar\\雪菲_1星.png"
   },
   "1064_3": {
     "id": "1064_3",
@@ -1942,7 +1942,7 @@
       "盐汽水",
       "冰龙"
     ],
-    "image_path": "image\\雪菲_3星.png"
+    "image_path": "images\\avatar\\雪菲_3星.png"
   },
   "1064_6": {
     "id": "1064_6",
@@ -1954,7 +1954,7 @@
       "盐汽水",
       "冰龙"
     ],
-    "image_path": "image\\雪菲_6星.png"
+    "image_path": "images\\avatar\\雪菲_6星.png"
   },
   "1065_1": {
     "id": "1065_1",
@@ -1964,7 +1964,7 @@
       "龙拳",
       "接龙笨蛋"
     ],
-    "image_path": "image\\嘉夜_1星.png"
+    "image_path": "images\\avatar\\嘉夜_1星.png"
   },
   "1065_3": {
     "id": "1065_3",
@@ -1974,7 +1974,7 @@
       "龙拳",
       "接龙笨蛋"
     ],
-    "image_path": "image\\嘉夜_3星.png"
+    "image_path": "images\\avatar\\嘉夜_3星.png"
   },
   "1065_6": {
     "id": "1065_6",
@@ -1984,7 +1984,7 @@
       "龙拳",
       "接龙笨蛋"
     ],
-    "image_path": "image\\嘉夜_6星.png"
+    "image_path": "images\\avatar\\嘉夜_6星.png"
   },
   "1066_1": {
     "id": "1066_1",
@@ -1995,7 +1995,7 @@
       "梨老八",
       "祈"
     ],
-    "image_path": "image\\祈梨_1星.png"
+    "image_path": "images\\avatar\\祈梨_1星.png"
   },
   "1066_3": {
     "id": "1066_3",
@@ -2006,7 +2006,7 @@
       "梨老八",
       "祈"
     ],
-    "image_path": "image\\祈梨_3星.png"
+    "image_path": "images\\avatar\\祈梨_3星.png"
   },
   "1066_6": {
     "id": "1066_6",
@@ -2017,7 +2017,7 @@
       "梨老八",
       "祈"
     ],
-    "image_path": "image\\祈梨_6星.png"
+    "image_path": "images\\avatar\\祈梨_6星.png"
   },
   "1067_1": {
     "id": "1067_1",
@@ -2029,7 +2029,7 @@
       "龙王",
       "大仓唯"
     ],
-    "image_path": "image\\帆稀_1星.png"
+    "image_path": "images\\avatar\\帆稀_1星.png"
   },
   "1067_3": {
     "id": "1067_3",
@@ -2041,7 +2041,7 @@
       "龙王",
       "大仓唯"
     ],
-    "image_path": "image\\帆稀_3星.png"
+    "image_path": "images\\avatar\\帆稀_3星.png"
   },
   "1068_1": {
     "id": "1068_1",
@@ -2056,7 +2056,7 @@
       "晶爹",
       "日日日"
     ],
-    "image_path": "image\\菈比莉斯塔_1星.png"
+    "image_path": "images\\avatar\\菈比莉斯塔_1星.png"
   },
   "1068_3": {
     "id": "1068_3",
@@ -2071,7 +2071,7 @@
       "晶爹",
       "日日日"
     ],
-    "image_path": "image\\菈比莉斯塔_3星.png"
+    "image_path": "images\\avatar\\菈比莉斯塔_3星.png"
   },
   "1069_1": {
     "id": "1069_1",
@@ -2082,7 +2082,7 @@
       "八筒",
       "男公主"
     ],
-    "image_path": "image\\霸瞳皇帝_1星.png"
+    "image_path": "images\\avatar\\霸瞳皇帝_1星.png"
   },
   "1069_3": {
     "id": "1069_3",
@@ -2093,7 +2093,7 @@
       "八筒",
       "男公主"
     ],
-    "image_path": "image\\霸瞳皇帝_3星.png"
+    "image_path": "images\\avatar\\霸瞳皇帝_3星.png"
   },
   "1070_1": {
     "id": "1070_1",
@@ -2107,7 +2107,7 @@
       "变貌大妃",
       "萝莉老太婆"
     ],
-    "image_path": "image\\似似花_1星.png"
+    "image_path": "images\\avatar\\似似花_1星.png"
   },
   "1070_3": {
     "id": "1070_3",
@@ -2121,7 +2121,7 @@
       "变貌大妃",
       "萝莉老太婆"
     ],
-    "image_path": "image\\似似花_3星.png"
+    "image_path": "images\\avatar\\似似花_3星.png"
   },
   "1071_1": {
     "id": "1071_1",
@@ -2141,7 +2141,7 @@
       "偷税怪",
       "母猩猩"
     ],
-    "image_path": "image\\克莉丝提娜_1星.png"
+    "image_path": "images\\avatar\\克莉丝提娜_1星.png"
   },
   "1071_3": {
     "id": "1071_3",
@@ -2161,7 +2161,7 @@
       "偷税怪",
       "母猩猩"
     ],
-    "image_path": "image\\克莉丝提娜_3星.png"
+    "image_path": "images\\avatar\\克莉丝提娜_3星.png"
   },
   "1071_6": {
     "id": "1071_6",
@@ -2181,7 +2181,7 @@
       "偷税怪",
       "母猩猩"
     ],
-    "image_path": "image\\克莉丝提娜_6星.png"
+    "image_path": "images\\avatar\\克莉丝提娜_6星.png"
   },
   "1075_1": {
     "id": "1075_1",
@@ -2193,7 +2193,7 @@
       "泼妇",
       "夏日佩可莉姆"
     ],
-    "image_path": "image\\佩可莉姆 夏日_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆 夏日_1星.png"
   },
   "1075_3": {
     "id": "1075_3",
@@ -2205,7 +2205,7 @@
       "泼妇",
       "夏日佩可莉姆"
     ],
-    "image_path": "image\\佩可莉姆 夏日_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆 夏日_3星.png"
   },
   "1075_6": {
     "id": "1075_6",
@@ -2217,7 +2217,7 @@
       "泼妇",
       "夏日佩可莉姆"
     ],
-    "image_path": "image\\佩可莉姆 夏日_6星.png"
+    "image_path": "images\\avatar\\佩可莉姆 夏日_6星.png"
   },
   "1076_1": {
     "id": "1076_1",
@@ -2228,7 +2228,7 @@
       "水白",
       "夏日可可萝"
     ],
-    "image_path": "image\\可可萝 夏日_1星.png"
+    "image_path": "images\\avatar\\可可萝 夏日_1星.png"
   },
   "1076_3": {
     "id": "1076_3",
@@ -2239,7 +2239,7 @@
       "水白",
       "夏日可可萝"
     ],
-    "image_path": "image\\可可萝 夏日_3星.png"
+    "image_path": "images\\avatar\\可可萝 夏日_3星.png"
   },
   "1076_6": {
     "id": "1076_6",
@@ -2250,7 +2250,7 @@
       "水白",
       "夏日可可萝"
     ],
-    "image_path": "image\\可可萝 夏日_6星.png"
+    "image_path": "images\\avatar\\可可萝 夏日_6星.png"
   },
   "1077_1": {
     "id": "1077_1",
@@ -2261,7 +2261,7 @@
       "夏日铃莓",
       "水妹抖"
     ],
-    "image_path": "image\\铃莓 夏日_1星.png"
+    "image_path": "images\\avatar\\铃莓 夏日_1星.png"
   },
   "1077_3": {
     "id": "1077_3",
@@ -2272,7 +2272,7 @@
       "夏日铃莓",
       "水妹抖"
     ],
-    "image_path": "image\\铃莓 夏日_3星.png"
+    "image_path": "images\\avatar\\铃莓 夏日_3星.png"
   },
   "1078_1": {
     "id": "1078_1",
@@ -2285,7 +2285,7 @@
       "夏日凯露",
       "溴鼬"
     ],
-    "image_path": "image\\凯露 夏日_1星.png"
+    "image_path": "images\\avatar\\凯露 夏日_1星.png"
   },
   "1078_3": {
     "id": "1078_3",
@@ -2298,7 +2298,7 @@
       "夏日凯露",
       "溴鼬"
     ],
-    "image_path": "image\\凯露 夏日_3星.png"
+    "image_path": "images\\avatar\\凯露 夏日_3星.png"
   },
   "1078_6": {
     "id": "1078_6",
@@ -2311,7 +2311,7 @@
       "夏日凯露",
       "溴鼬"
     ],
-    "image_path": "image\\凯露 夏日_6星.png"
+    "image_path": "images\\avatar\\凯露 夏日_6星.png"
   },
   "1079_1": {
     "id": "1079_1",
@@ -2322,7 +2322,7 @@
       "水猫",
       "夏日珠希"
     ],
-    "image_path": "image\\珠希 夏日_1星.png"
+    "image_path": "images\\avatar\\珠希 夏日_1星.png"
   },
   "1079_3": {
     "id": "1079_3",
@@ -2333,7 +2333,7 @@
       "水猫",
       "夏日珠希"
     ],
-    "image_path": "image\\珠希 夏日_3星.png"
+    "image_path": "images\\avatar\\珠希 夏日_3星.png"
   },
   "1080_1": {
     "id": "1080_1",
@@ -2344,7 +2344,7 @@
       "水美冬",
       "夏日美冬"
     ],
-    "image_path": "image\\美冬 夏日_1星.png"
+    "image_path": "images\\avatar\\美冬 夏日_1星.png"
   },
   "1080_3": {
     "id": "1080_3",
@@ -2355,7 +2355,7 @@
       "水美冬",
       "夏日美冬"
     ],
-    "image_path": "image\\美冬 夏日_3星.png"
+    "image_path": "images\\avatar\\美冬 夏日_3星.png"
   },
   "1081_1": {
     "id": "1081_1",
@@ -2367,7 +2367,7 @@
       "鬼忍",
       "万圣节忍"
     ],
-    "image_path": "image\\忍 万圣_1星.png"
+    "image_path": "images\\avatar\\忍 万圣_1星.png"
   },
   "1081_3": {
     "id": "1081_3",
@@ -2379,7 +2379,7 @@
       "鬼忍",
       "万圣节忍"
     ],
-    "image_path": "image\\忍 万圣_3星.png"
+    "image_path": "images\\avatar\\忍 万圣_3星.png"
   },
   "1082_1": {
     "id": "1082_1",
@@ -2391,7 +2391,7 @@
       "狼丁",
       "万圣宫子"
     ],
-    "image_path": "image\\宫子 万圣_1星.png"
+    "image_path": "images\\avatar\\宫子 万圣_1星.png"
   },
   "1082_3": {
     "id": "1082_3",
@@ -2403,7 +2403,7 @@
       "狼丁",
       "万圣宫子"
     ],
-    "image_path": "image\\宫子 万圣_3星.png"
+    "image_path": "images\\avatar\\宫子 万圣_3星.png"
   },
   "1083_1": {
     "id": "1083_1",
@@ -2415,7 +2415,7 @@
       "万圣大眼",
       "万圣节美咲"
     ],
-    "image_path": "image\\美咲 万圣_1星.png"
+    "image_path": "images\\avatar\\美咲 万圣_1星.png"
   },
   "1083_3": {
     "id": "1083_3",
@@ -2427,7 +2427,7 @@
       "万圣大眼",
       "万圣节美咲"
     ],
-    "image_path": "image\\美咲 万圣_3星.png"
+    "image_path": "images\\avatar\\美咲 万圣_3星.png"
   },
   "1084_1": {
     "id": "1084_1",
@@ -2439,7 +2439,7 @@
       "圣歌",
       "圣诞节千歌"
     ],
-    "image_path": "image\\千歌 圣诞_1星.png"
+    "image_path": "images\\avatar\\千歌 圣诞_1星.png"
   },
   "1084_3": {
     "id": "1084_3",
@@ -2451,7 +2451,7 @@
       "圣歌",
       "圣诞节千歌"
     ],
-    "image_path": "image\\千歌 圣诞_3星.png"
+    "image_path": "images\\avatar\\千歌 圣诞_3星.png"
   },
   "1085_1": {
     "id": "1085_1",
@@ -2463,7 +2463,7 @@
       "圣诞铃铛",
       "圣诞节胡桃"
     ],
-    "image_path": "image\\胡桃 圣诞_1星.png"
+    "image_path": "images\\avatar\\胡桃 圣诞_1星.png"
   },
   "1085_3": {
     "id": "1085_3",
@@ -2475,7 +2475,7 @@
       "圣诞铃铛",
       "圣诞节胡桃"
     ],
-    "image_path": "image\\胡桃 圣诞_3星.png"
+    "image_path": "images\\avatar\\胡桃 圣诞_3星.png"
   },
   "1086_1": {
     "id": "1086_1",
@@ -2486,7 +2486,7 @@
       "圣诞熊锤",
       "圣诞节绫音"
     ],
-    "image_path": "image\\绫音 圣诞_1星.png"
+    "image_path": "images\\avatar\\绫音 圣诞_1星.png"
   },
   "1086_3": {
     "id": "1086_3",
@@ -2497,7 +2497,7 @@
       "圣诞熊锤",
       "圣诞节绫音"
     ],
-    "image_path": "image\\绫音 圣诞_3星.png"
+    "image_path": "images\\avatar\\绫音 圣诞_3星.png"
   },
   "1087_1": {
     "id": "1087_1",
@@ -2508,7 +2508,7 @@
       "新年猫拳",
       "新年日和"
     ],
-    "image_path": "image\\日和莉 新年_1星.png"
+    "image_path": "images\\avatar\\日和莉 新年_1星.png"
   },
   "1087_3": {
     "id": "1087_3",
@@ -2519,7 +2519,7 @@
       "新年猫拳",
       "新年日和"
     ],
-    "image_path": "image\\日和莉 新年_3星.png"
+    "image_path": "images\\avatar\\日和莉 新年_3星.png"
   },
   "1088_1": {
     "id": "1088_1",
@@ -2532,7 +2532,7 @@
       "新年优衣",
       "新衣"
     ],
-    "image_path": "image\\优衣 新年_1星.png"
+    "image_path": "images\\avatar\\优衣 新年_1星.png"
   },
   "1088_3": {
     "id": "1088_3",
@@ -2545,7 +2545,7 @@
       "新年优衣",
       "新衣"
     ],
-    "image_path": "image\\优衣 新年_3星.png"
+    "image_path": "images\\avatar\\优衣 新年_3星.png"
   },
   "1089_1": {
     "id": "1089_1",
@@ -2559,7 +2559,7 @@
       "新春怜",
       "新年怜"
     ],
-    "image_path": "image\\怜 新年_1星.png"
+    "image_path": "images\\avatar\\怜 新年_1星.png"
   },
   "1089_3": {
     "id": "1089_3",
@@ -2573,7 +2573,7 @@
       "新春怜",
       "新年怜"
     ],
-    "image_path": "image\\怜 新年_3星.png"
+    "image_path": "images\\avatar\\怜 新年_3星.png"
   },
   "1090_1": {
     "id": "1090_1",
@@ -2587,7 +2587,7 @@
       "情人病",
       "青椒"
     ],
-    "image_path": "image\\惠理子 情人_1星.png"
+    "image_path": "images\\avatar\\惠理子 情人_1星.png"
   },
   "1090_3": {
     "id": "1090_3",
@@ -2601,7 +2601,7 @@
       "情人病",
       "青椒"
     ],
-    "image_path": "image\\惠理子 情人_3星.png"
+    "image_path": "images\\avatar\\惠理子 情人_3星.png"
   },
   "1091_1": {
     "id": "1091_1",
@@ -2614,7 +2614,7 @@
       "恋姐",
       "情人姐"
     ],
-    "image_path": "image\\静流 情人_1星.png"
+    "image_path": "images\\avatar\\静流 情人_1星.png"
   },
   "1091_3": {
     "id": "1091_3",
@@ -2627,7 +2627,7 @@
       "恋姐",
       "情人姐"
     ],
-    "image_path": "image\\静流 情人_3星.png"
+    "image_path": "images\\avatar\\静流 情人_3星.png"
   },
   "1092_1": {
     "id": "1092_1",
@@ -2637,7 +2637,7 @@
       "55kg",
       "古蕾雅厨"
     ],
-    "image_path": "image\\安_1星.png"
+    "image_path": "images\\avatar\\安_1星.png"
   },
   "1092_3": {
     "id": "1092_3",
@@ -2647,7 +2647,7 @@
       "55kg",
       "古蕾雅厨"
     ],
-    "image_path": "image\\安_3星.png"
+    "image_path": "images\\avatar\\安_3星.png"
   },
   "1093_1": {
     "id": "1093_1",
@@ -2656,7 +2656,7 @@
     "nicknames": [
       "眼球怪"
     ],
-    "image_path": "image\\露_1星.png"
+    "image_path": "images\\avatar\\露_1星.png"
   },
   "1093_3": {
     "id": "1093_3",
@@ -2665,7 +2665,7 @@
     "nicknames": [
       "眼球怪"
     ],
-    "image_path": "image\\露_3星.png"
+    "image_path": "images\\avatar\\露_3星.png"
   },
   "1094_1": {
     "id": "1094_1",
@@ -2674,7 +2674,7 @@
     "nicknames": [
       "龙姬"
     ],
-    "image_path": "image\\古蕾雅_1星.png"
+    "image_path": "images\\avatar\\古蕾雅_1星.png"
   },
   "1094_3": {
     "id": "1094_3",
@@ -2683,7 +2683,7 @@
     "nicknames": [
       "龙姬"
     ],
-    "image_path": "image\\古蕾雅_3星.png"
+    "image_path": "images\\avatar\\古蕾雅_3星.png"
   },
   "1095_1": {
     "id": "1095_1",
@@ -2696,7 +2696,7 @@
       "江户抖M",
       "花M"
     ],
-    "image_path": "image\\空花 大江户_1星.png"
+    "image_path": "images\\avatar\\空花 大江户_1星.png"
   },
   "1095_3": {
     "id": "1095_3",
@@ -2709,7 +2709,7 @@
       "江户抖M",
       "花M"
     ],
-    "image_path": "image\\空花 大江户_3星.png"
+    "image_path": "images\\avatar\\空花 大江户_3星.png"
   },
   "1096_1": {
     "id": "1096_1",
@@ -2720,7 +2720,7 @@
       "江户扇子",
       "大江户妮诺"
     ],
-    "image_path": "image\\妮侬 大江户_1星.png"
+    "image_path": "images\\avatar\\妮侬 大江户_1星.png"
   },
   "1096_3": {
     "id": "1096_3",
@@ -2731,35 +2731,35 @@
       "江户扇子",
       "大江户妮诺"
     ],
-    "image_path": "image\\妮侬 大江户_3星.png"
+    "image_path": "images\\avatar\\妮侬 大江户_3星.png"
   },
   "1097_1": {
     "id": "1097_1",
     "name": "雷姆",
     "stars": 1,
     "nicknames": [],
-    "image_path": "image\\雷姆_1星.png"
+    "image_path": "images\\avatar\\雷姆_1星.png"
   },
   "1097_3": {
     "id": "1097_3",
     "name": "雷姆",
     "stars": 3,
     "nicknames": [],
-    "image_path": "image\\雷姆_3星.png"
+    "image_path": "images\\avatar\\雷姆_3星.png"
   },
   "1098_1": {
     "id": "1098_1",
     "name": "拉姆",
     "stars": 1,
     "nicknames": [],
-    "image_path": "image\\拉姆_1星.png"
+    "image_path": "images\\avatar\\拉姆_1星.png"
   },
   "1098_3": {
     "id": "1098_3",
     "name": "拉姆",
     "stars": 3,
     "nicknames": [],
-    "image_path": "image\\拉姆_3星.png"
+    "image_path": "images\\avatar\\拉姆_3星.png"
   },
   "1099_1": {
     "id": "1099_1",
@@ -2769,7 +2769,7 @@
       "EMT",
       "爱蜜莉雅"
     ],
-    "image_path": "image\\爱蜜莉雅_1星.png"
+    "image_path": "images\\avatar\\爱蜜莉雅_1星.png"
   },
   "1099_3": {
     "id": "1099_3",
@@ -2779,7 +2779,7 @@
       "EMT",
       "爱蜜莉雅"
     ],
-    "image_path": "image\\爱蜜莉雅_3星.png"
+    "image_path": "images\\avatar\\爱蜜莉雅_3星.png"
   },
   "1100_1": {
     "id": "1100_1",
@@ -2793,7 +2793,7 @@
       "瀑",
       "夏日铃奈"
     ],
-    "image_path": "image\\铃奈 夏日_1星.png"
+    "image_path": "images\\avatar\\铃奈 夏日_1星.png"
   },
   "1100_3": {
     "id": "1100_3",
@@ -2807,7 +2807,7 @@
       "瀑",
       "夏日铃奈"
     ],
-    "image_path": "image\\铃奈 夏日_3星.png"
+    "image_path": "images\\avatar\\铃奈 夏日_3星.png"
   },
   "1101_1": {
     "id": "1101_1",
@@ -2821,7 +2821,7 @@
       "水IO",
       "夏日伊绪"
     ],
-    "image_path": "image\\伊绪 夏日_1星.png"
+    "image_path": "images\\avatar\\伊绪 夏日_1星.png"
   },
   "1101_3": {
     "id": "1101_3",
@@ -2835,7 +2835,7 @@
       "水IO",
       "夏日伊绪"
     ],
-    "image_path": "image\\伊绪 夏日_3星.png"
+    "image_path": "images\\avatar\\伊绪 夏日_3星.png"
   },
   "1103_1": {
     "id": "1103_1",
@@ -2849,7 +2849,7 @@
       "泳装咲恋",
       "夏日咲恋"
     ],
-    "image_path": "image\\咲恋 夏日_1星.png"
+    "image_path": "images\\avatar\\咲恋 夏日_1星.png"
   },
   "1103_3": {
     "id": "1103_3",
@@ -2863,7 +2863,7 @@
       "泳装咲恋",
       "夏日咲恋"
     ],
-    "image_path": "image\\咲恋 夏日_3星.png"
+    "image_path": "images\\avatar\\咲恋 夏日_3星.png"
   },
   "1104_1": {
     "id": "1104_1",
@@ -2875,7 +2875,7 @@
       "夏日真琴",
       "水月"
     ],
-    "image_path": "image\\真琴 夏日_1星.png"
+    "image_path": "images\\avatar\\真琴 夏日_1星.png"
   },
   "1104_3": {
     "id": "1104_3",
@@ -2887,7 +2887,7 @@
       "夏日真琴",
       "水月"
     ],
-    "image_path": "image\\真琴 夏日_3星.png"
+    "image_path": "images\\avatar\\真琴 夏日_3星.png"
   },
   "1105_1": {
     "id": "1105_1",
@@ -2897,7 +2897,7 @@
       "水狗",
       "夏日香织"
     ],
-    "image_path": "image\\香织 夏日_1星.png"
+    "image_path": "images\\avatar\\香织 夏日_1星.png"
   },
   "1105_3": {
     "id": "1105_3",
@@ -2907,7 +2907,7 @@
       "水狗",
       "夏日香织"
     ],
-    "image_path": "image\\香织 夏日_3星.png"
+    "image_path": "images\\avatar\\香织 夏日_3星.png"
   },
   "1106_1": {
     "id": "1106_1",
@@ -2920,7 +2920,7 @@
       "水狐狸",
       "烟花神"
     ],
-    "image_path": "image\\真步 夏日_1星.png"
+    "image_path": "images\\avatar\\真步 夏日_1星.png"
   },
   "1106_3": {
     "id": "1106_3",
@@ -2933,7 +2933,7 @@
       "水狐狸",
       "烟花神"
     ],
-    "image_path": "image\\真步 夏日_3星.png"
+    "image_path": "images\\avatar\\真步 夏日_3星.png"
   },
   "1107_1": {
     "id": "1107_1",
@@ -2943,7 +2943,7 @@
       "生菜",
       "插碧"
     ],
-    "image_path": "image\\碧 插班生_1星.png"
+    "image_path": "images\\avatar\\碧 插班生_1星.png"
   },
   "1107_3": {
     "id": "1107_3",
@@ -2953,7 +2953,7 @@
       "生菜",
       "插碧"
     ],
-    "image_path": "image\\碧 插班生_3星.png"
+    "image_path": "images\\avatar\\碧 插班生_3星.png"
   },
   "1108_1": {
     "id": "1108_1",
@@ -2965,7 +2965,7 @@
       "黑江",
       "小克爹"
     ],
-    "image_path": "image\\克罗依_1星.png"
+    "image_path": "images\\avatar\\克罗依_1星.png"
   },
   "1108_3": {
     "id": "1108_3",
@@ -2977,7 +2977,7 @@
       "黑江",
       "小克爹"
     ],
-    "image_path": "image\\克罗依_3星.png"
+    "image_path": "images\\avatar\\克罗依_3星.png"
   },
   "1109_1": {
     "id": "1109_1",
@@ -2990,7 +2990,7 @@
       "琪爱儿",
       "慈乐之音尊尊武士"
     ],
-    "image_path": "image\\千爱瑠_1星.png"
+    "image_path": "images\\avatar\\千爱瑠_1星.png"
   },
   "1109_3": {
     "id": "1109_3",
@@ -3003,7 +3003,7 @@
       "琪爱儿",
       "慈乐之音尊尊武士"
     ],
-    "image_path": "image\\千爱瑠_3星.png"
+    "image_path": "images\\avatar\\千爱瑠_3星.png"
   },
   "1110_1": {
     "id": "1110_1",
@@ -3018,7 +3018,7 @@
       "先辈",
       "咖啡人"
     ],
-    "image_path": "image\\优妮_1星.png"
+    "image_path": "images\\avatar\\优妮_1星.png"
   },
   "1110_3": {
     "id": "1110_3",
@@ -3033,7 +3033,7 @@
       "先辈",
       "咖啡人"
     ],
-    "image_path": "image\\优妮_3星.png"
+    "image_path": "images\\avatar\\优妮_3星.png"
   },
   "1111_1": {
     "id": "1111_1",
@@ -3047,7 +3047,7 @@
       "猫仓",
       "万圣节镜华"
     ],
-    "image_path": "image\\镜华 万圣_1星.png"
+    "image_path": "images\\avatar\\镜华 万圣_1星.png"
   },
   "1111_3": {
     "id": "1111_3",
@@ -3061,7 +3061,7 @@
       "猫仓",
       "万圣节镜华"
     ],
-    "image_path": "image\\镜华 万圣_3星.png"
+    "image_path": "images\\avatar\\镜华 万圣_3星.png"
   },
   "1112_1": {
     "id": "1112_1",
@@ -3075,7 +3075,7 @@
       "圣弹人",
       "圣蛋人"
     ],
-    "image_path": "image\\未奏希 万圣_1星.png"
+    "image_path": "images\\avatar\\未奏希 万圣_1星.png"
   },
   "1112_3": {
     "id": "1112_3",
@@ -3089,7 +3089,7 @@
       "圣弹人",
       "圣蛋人"
     ],
-    "image_path": "image\\未奏希 万圣_3星.png"
+    "image_path": "images\\avatar\\未奏希 万圣_3星.png"
   },
   "1113_1": {
     "id": "1113_1",
@@ -3102,7 +3102,7 @@
       "万圣兔子",
       "万圣节美美"
     ],
-    "image_path": "image\\美美 万圣_1星.png"
+    "image_path": "images\\avatar\\美美 万圣_1星.png"
   },
   "1113_3": {
     "id": "1113_3",
@@ -3115,7 +3115,7 @@
       "万圣兔子",
       "万圣节美美"
     ],
-    "image_path": "image\\美美 万圣_3星.png"
+    "image_path": "images\\avatar\\美美 万圣_3星.png"
   },
   "1114_1": {
     "id": "1114_1",
@@ -3126,7 +3126,7 @@
       "春黑杀手",
       "杀戮天使"
     ],
-    "image_path": "image\\露娜_1星.png"
+    "image_path": "images\\avatar\\露娜_1星.png"
   },
   "1114_3": {
     "id": "1114_3",
@@ -3137,7 +3137,7 @@
       "春黑杀手",
       "杀戮天使"
     ],
-    "image_path": "image\\露娜_3星.png"
+    "image_path": "images\\avatar\\露娜_3星.png"
   },
   "1115_1": {
     "id": "1115_1",
@@ -3151,7 +3151,7 @@
       "蛋壳",
       "tp+3"
     ],
-    "image_path": "image\\克莉丝提娜 圣诞_1星.png"
+    "image_path": "images\\avatar\\克莉丝提娜 圣诞_1星.png"
   },
   "1115_3": {
     "id": "1115_3",
@@ -3165,7 +3165,7 @@
       "蛋壳",
       "tp+3"
     ],
-    "image_path": "image\\克莉丝提娜 圣诞_3星.png"
+    "image_path": "images\\avatar\\克莉丝提娜 圣诞_3星.png"
   },
   "1116_1": {
     "id": "1116_1",
@@ -3177,7 +3177,7 @@
       "圣诞望",
       "圣诞节望"
     ],
-    "image_path": "image\\望 圣诞_1星.png"
+    "image_path": "images\\avatar\\望 圣诞_1星.png"
   },
   "1116_3": {
     "id": "1116_3",
@@ -3189,7 +3189,7 @@
       "圣诞望",
       "圣诞节望"
     ],
-    "image_path": "image\\望 圣诞_3星.png"
+    "image_path": "images\\avatar\\望 圣诞_3星.png"
   },
   "1117_1": {
     "id": "1117_1",
@@ -3203,7 +3203,7 @@
       "圣诞yly",
       "伊利丹"
     ],
-    "image_path": "image\\伊莉亚 圣诞_1星.png"
+    "image_path": "images\\avatar\\伊莉亚 圣诞_1星.png"
   },
   "1117_3": {
     "id": "1117_3",
@@ -3217,7 +3217,7 @@
       "圣诞yly",
       "伊利丹"
     ],
-    "image_path": "image\\伊莉亚 圣诞_3星.png"
+    "image_path": "images\\avatar\\伊莉亚 圣诞_3星.png"
   },
   "1118_1": {
     "id": "1118_1",
@@ -3228,7 +3228,7 @@
       "新年佩可",
       "新年贪吃佩可"
     ],
-    "image_path": "image\\佩可莉姆 新年_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆 新年_1星.png"
   },
   "1118_3": {
     "id": "1118_3",
@@ -3239,7 +3239,7 @@
       "新年佩可",
       "新年贪吃佩可"
     ],
-    "image_path": "image\\佩可莉姆 新年_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆 新年_3星.png"
   },
   "1119_1": {
     "id": "1119_1",
@@ -3251,7 +3251,7 @@
       "新年可可萝",
       "新春可可萝"
     ],
-    "image_path": "image\\可可萝 新年_1星.png"
+    "image_path": "images\\avatar\\可可萝 新年_1星.png"
   },
   "1119_3": {
     "id": "1119_3",
@@ -3263,7 +3263,7 @@
       "新年可可萝",
       "新春可可萝"
     ],
-    "image_path": "image\\可可萝 新年_3星.png"
+    "image_path": "images\\avatar\\可可萝 新年_3星.png"
   },
   "1120_1": {
     "id": "1120_1",
@@ -3278,7 +3278,7 @@
       "春鼬",
       "新年凯留"
     ],
-    "image_path": "image\\凯露 新年_1星.png"
+    "image_path": "images\\avatar\\凯露 新年_1星.png"
   },
   "1120_3": {
     "id": "1120_3",
@@ -3293,7 +3293,7 @@
       "春鼬",
       "新年凯留"
     ],
-    "image_path": "image\\凯露 新年_3星.png"
+    "image_path": "images\\avatar\\凯露 新年_3星.png"
   },
   "1121_1": {
     "id": "1121_1",
@@ -3305,7 +3305,7 @@
       "新年铃莓",
       "春妹抖"
     ],
-    "image_path": "image\\铃莓 新年_1星.png"
+    "image_path": "images\\avatar\\铃莓 新年_1星.png"
   },
   "1121_3": {
     "id": "1121_3",
@@ -3317,7 +3317,7 @@
       "新年铃莓",
       "春妹抖"
     ],
-    "image_path": "image\\铃莓 新年_3星.png"
+    "image_path": "images\\avatar\\铃莓 新年_3星.png"
   },
   "1122_1": {
     "id": "1122_1",
@@ -3330,7 +3330,7 @@
       "法驴",
       "魔法少驴"
     ],
-    "image_path": "image\\香澄 魔法少女_1星.png"
+    "image_path": "images\\avatar\\香澄 魔法少女_1星.png"
   },
   "1122_3": {
     "id": "1122_3",
@@ -3343,7 +3343,7 @@
       "法驴",
       "魔法少驴"
     ],
-    "image_path": "image\\香澄 魔法少女_3星.png"
+    "image_path": "images\\avatar\\香澄 魔法少女_3星.png"
   },
   "1123_1": {
     "id": "1123_1",
@@ -3356,7 +3356,7 @@
       "法弓",
       "魔法少女栞"
     ],
-    "image_path": "image\\栞 魔法少女_1星.png"
+    "image_path": "images\\avatar\\栞 魔法少女_1星.png"
   },
   "1123_3": {
     "id": "1123_3",
@@ -3369,7 +3369,7 @@
       "法弓",
       "魔法少女栞"
     ],
-    "image_path": "image\\栞 魔法少女_3星.png"
+    "image_path": "images\\avatar\\栞 魔法少女_3星.png"
   },
   "1124_1": {
     "id": "1124_1",
@@ -3380,7 +3380,7 @@
       "卵用",
       "桥儿"
     ],
-    "image_path": "image\\卯月 偶像大师_1星.png"
+    "image_path": "images\\avatar\\卯月 偶像大师_1星.png"
   },
   "1124_3": {
     "id": "1124_3",
@@ -3391,7 +3391,7 @@
       "卵用",
       "桥儿"
     ],
-    "image_path": "image\\卯月 偶像大师_3星.png"
+    "image_path": "images\\avatar\\卯月 偶像大师_3星.png"
   },
   "1125_1": {
     "id": "1125_1",
@@ -3403,7 +3403,7 @@
       "涉谷凛",
       "西部凛"
     ],
-    "image_path": "image\\凛 偶像大师_1星.png"
+    "image_path": "images\\avatar\\凛 偶像大师_1星.png"
   },
   "1125_3": {
     "id": "1125_3",
@@ -3415,7 +3415,7 @@
       "涉谷凛",
       "西部凛"
     ],
-    "image_path": "image\\凛 偶像大师_3星.png"
+    "image_path": "images\\avatar\\凛 偶像大师_3星.png"
   },
   "1126_1": {
     "id": "1126_1",
@@ -3427,7 +3427,7 @@
       "本田未央",
       "mio"
     ],
-    "image_path": "image\\未央 偶像大师_1星.png"
+    "image_path": "images\\avatar\\未央 偶像大师_1星.png"
   },
   "1126_3": {
     "id": "1126_3",
@@ -3439,7 +3439,7 @@
       "本田未央",
       "mio"
     ],
-    "image_path": "image\\未央 偶像大师_3星.png"
+    "image_path": "images\\avatar\\未央 偶像大师_3星.png"
   },
   "1127_1": {
     "id": "1127_1",
@@ -3451,7 +3451,7 @@
       "钻头哥",
       "游侠松鼠"
     ],
-    "image_path": "image\\铃 游骑兵_1星.png"
+    "image_path": "images\\avatar\\铃 游骑兵_1星.png"
   },
   "1127_3": {
     "id": "1127_3",
@@ -3463,7 +3463,7 @@
       "钻头哥",
       "游侠松鼠"
     ],
-    "image_path": "image\\铃 游骑兵_3星.png"
+    "image_path": "images\\avatar\\铃 游骑兵_3星.png"
   },
   "1128_1": {
     "id": "1128_1",
@@ -3475,7 +3475,7 @@
       "游侠真阳",
       "斗牛"
     ],
-    "image_path": "image\\真阳 游骑兵_1星.png"
+    "image_path": "images\\avatar\\真阳 游骑兵_1星.png"
   },
   "1128_3": {
     "id": "1128_3",
@@ -3487,7 +3487,7 @@
       "游侠真阳",
       "斗牛"
     ],
-    "image_path": "image\\真阳 游骑兵_3星.png"
+    "image_path": "images\\avatar\\真阳 游骑兵_3星.png"
   },
   "1129_1": {
     "id": "1129_1",
@@ -3502,7 +3502,7 @@
       "爽妹",
       "仙境弓"
     ],
-    "image_path": "image\\璃乃 仙境_1星.png"
+    "image_path": "images\\avatar\\璃乃 仙境_1星.png"
   },
   "1129_3": {
     "id": "1129_3",
@@ -3517,7 +3517,7 @@
       "爽妹",
       "仙境弓"
     ],
-    "image_path": "image\\璃乃 仙境_3星.png"
+    "image_path": "images\\avatar\\璃乃 仙境_3星.png"
   },
   "1130_1": {
     "id": "1130_1",
@@ -3531,7 +3531,7 @@
       "dio",
       "兔路人"
     ],
-    "image_path": "image\\步美 仙境_1星.png"
+    "image_path": "images\\avatar\\步美 仙境_1星.png"
   },
   "1130_3": {
     "id": "1130_3",
@@ -3545,7 +3545,7 @@
       "dio",
       "兔路人"
     ],
-    "image_path": "image\\步美 仙境_3星.png"
+    "image_path": "images\\avatar\\步美 仙境_3星.png"
   },
   "1131_1": {
     "id": "1131_1",
@@ -3555,7 +3555,7 @@
       "水流夏",
       "水流"
     ],
-    "image_path": "image\\流夏 夏日_1星.png"
+    "image_path": "images\\avatar\\流夏 夏日_1星.png"
   },
   "1131_3": {
     "id": "1131_3",
@@ -3565,7 +3565,7 @@
       "水流夏",
       "水流"
     ],
-    "image_path": "image\\流夏 夏日_3星.png"
+    "image_path": "images\\avatar\\流夏 夏日_3星.png"
   },
   "1132_1": {
     "id": "1132_1",
@@ -3575,7 +3575,7 @@
       "水中二",
       "冲二"
     ],
-    "image_path": "image\\杏奈 夏日_1星.png"
+    "image_path": "images\\avatar\\杏奈 夏日_1星.png"
   },
   "1132_3": {
     "id": "1132_3",
@@ -3585,7 +3585,7 @@
       "水中二",
       "冲二"
     ],
-    "image_path": "image\\杏奈 夏日_3星.png"
+    "image_path": "images\\avatar\\杏奈 夏日_3星.png"
   },
   "1133_1": {
     "id": "1133_1",
@@ -3597,7 +3597,7 @@
       "水七",
       "水漆"
     ],
-    "image_path": "image\\七七香 夏日_1星.png"
+    "image_path": "images\\avatar\\七七香 夏日_1星.png"
   },
   "1133_3": {
     "id": "1133_3",
@@ -3609,7 +3609,7 @@
       "水七",
       "水漆"
     ],
-    "image_path": "image\\七七香 夏日_3星.png"
+    "image_path": "images\\avatar\\七七香 夏日_3星.png"
   },
   "1134_1": {
     "id": "1134_1",
@@ -3620,7 +3620,7 @@
       "海星",
       "水星法"
     ],
-    "image_path": "image\\初音 夏日_1星.png"
+    "image_path": "images\\avatar\\初音 夏日_1星.png"
   },
   "1134_3": {
     "id": "1134_3",
@@ -3631,7 +3631,7 @@
       "海星",
       "水星法"
     ],
-    "image_path": "image\\初音 夏日_3星.png"
+    "image_path": "images\\avatar\\初音 夏日_3星.png"
   },
   "1135_1": {
     "id": "1135_1",
@@ -3641,7 +3641,7 @@
       "水母",
       "水圣母"
     ],
-    "image_path": "image\\美里 夏日_1星.png"
+    "image_path": "images\\avatar\\美里 夏日_1星.png"
   },
   "1135_3": {
     "id": "1135_3",
@@ -3651,7 +3651,7 @@
       "水母",
       "水圣母"
     ],
-    "image_path": "image\\美里 夏日_3星.png"
+    "image_path": "images\\avatar\\美里 夏日_3星.png"
   },
   "1136_1": {
     "id": "1136_1",
@@ -3663,7 +3663,7 @@
       "水骑",
       "小次郎"
     ],
-    "image_path": "image\\纯 夏日_1星.png"
+    "image_path": "images\\avatar\\纯 夏日_1星.png"
   },
   "1136_3": {
     "id": "1136_3",
@@ -3675,7 +3675,7 @@
       "水骑",
       "小次郎"
     ],
-    "image_path": "image\\纯 夏日_3星.png"
+    "image_path": "images\\avatar\\纯 夏日_3星.png"
   },
   "1137_1": {
     "id": "1137_1",
@@ -3685,7 +3685,7 @@
       "天使妹法",
       "天妹"
     ],
-    "image_path": "image\\茜里 天使_1星.png"
+    "image_path": "images\\avatar\\茜里 天使_1星.png"
   },
   "1137_3": {
     "id": "1137_3",
@@ -3695,7 +3695,7 @@
       "天使妹法",
       "天妹"
     ],
-    "image_path": "image\\茜里 天使_3星.png"
+    "image_path": "images\\avatar\\茜里 天使_3星.png"
   },
   "1138_1": {
     "id": "1138_1",
@@ -3705,7 +3705,7 @@
       "天使姐法",
       "天姐"
     ],
-    "image_path": "image\\依里 天使_1星.png"
+    "image_path": "images\\avatar\\依里 天使_1星.png"
   },
   "1138_3": {
     "id": "1138_3",
@@ -3715,7 +3715,7 @@
       "天使姐法",
       "天姐"
     ],
-    "image_path": "image\\依里 天使_3星.png"
+    "image_path": "images\\avatar\\依里 天使_3星.png"
   },
   "1139_1": {
     "id": "1139_1",
@@ -3725,7 +3725,7 @@
       "鬼裁",
       "鬼才"
     ],
-    "image_path": "image\\纺希 万圣_1星.png"
+    "image_path": "images\\avatar\\纺希 万圣_1星.png"
   },
   "1139_3": {
     "id": "1139_3",
@@ -3735,7 +3735,7 @@
       "鬼裁",
       "鬼才"
     ],
-    "image_path": "image\\纺希 万圣_3星.png"
+    "image_path": "images\\avatar\\纺希 万圣_3星.png"
   },
   "1140_1": {
     "id": "1140_1",
@@ -3745,7 +3745,7 @@
       "鬼剑",
       "幽怜"
     ],
-    "image_path": "image\\怜 万圣_1星.png"
+    "image_path": "images\\avatar\\怜 万圣_1星.png"
   },
   "1140_3": {
     "id": "1140_3",
@@ -3755,7 +3755,7 @@
       "鬼剑",
       "幽怜"
     ],
-    "image_path": "image\\怜 万圣_3星.png"
+    "image_path": "images\\avatar\\怜 万圣_3星.png"
   },
   "1141_1": {
     "id": "1141_1",
@@ -3765,7 +3765,7 @@
       "瓜虎",
       "鬼老虎"
     ],
-    "image_path": "image\\茉莉 万圣_1星.png"
+    "image_path": "images\\avatar\\茉莉 万圣_1星.png"
   },
   "1141_3": {
     "id": "1141_3",
@@ -3775,7 +3775,7 @@
       "瓜虎",
       "鬼老虎"
     ],
-    "image_path": "image\\茉莉 万圣_3星.png"
+    "image_path": "images\\avatar\\茉莉 万圣_3星.png"
   },
   "1142_1": {
     "id": "1142_1",
@@ -3785,7 +3785,7 @@
       "魔二力",
       "魔妮卡"
     ],
-    "image_path": "image\\莫妮卡 魔法少女_1星.png"
+    "image_path": "images\\avatar\\莫妮卡 魔法少女_1星.png"
   },
   "1142_3": {
     "id": "1142_3",
@@ -3795,7 +3795,7 @@
       "魔二力",
       "魔妮卡"
     ],
-    "image_path": "image\\莫妮卡 魔法少女_3星.png"
+    "image_path": "images\\avatar\\莫妮卡 魔法少女_3星.png"
   },
   "1143_1": {
     "id": "1143_1",
@@ -3806,7 +3806,7 @@
       "琪露诺",
       "⑨智"
     ],
-    "image_path": "image\\智 魔法少女_1星.png"
+    "image_path": "images\\avatar\\智 魔法少女_1星.png"
   },
   "1143_3": {
     "id": "1143_3",
@@ -3817,7 +3817,7 @@
       "琪露诺",
       "⑨智"
     ],
-    "image_path": "image\\智 魔法少女_3星.png"
+    "image_path": "images\\avatar\\智 魔法少女_3星.png"
   },
   "1144_1": {
     "id": "1144_1",
@@ -3827,7 +3827,7 @@
       "圣哈",
       "火鸡"
     ],
-    "image_path": "image\\秋乃 圣诞_1星.png"
+    "image_path": "images\\avatar\\秋乃 圣诞_1星.png"
   },
   "1144_3": {
     "id": "1144_3",
@@ -3837,7 +3837,7 @@
       "圣哈",
       "火鸡"
     ],
-    "image_path": "image\\秋乃 圣诞_3星.png"
+    "image_path": "images\\avatar\\秋乃 圣诞_3星.png"
   },
   "1145_1": {
     "id": "1145_1",
@@ -3847,7 +3847,7 @@
       "圣电",
       "圣咲"
     ],
-    "image_path": "image\\咲恋 圣诞_1星.png"
+    "image_path": "images\\avatar\\咲恋 圣诞_1星.png"
   },
   "1145_3": {
     "id": "1145_3",
@@ -3857,7 +3857,7 @@
       "圣电",
       "圣咲"
     ],
-    "image_path": "image\\咲恋 圣诞_3星.png"
+    "image_path": "images\\avatar\\咲恋 圣诞_3星.png"
   },
   "1146_1": {
     "id": "1146_1",
@@ -3867,7 +3867,7 @@
       "蛋黄",
       "圣黄骑"
     ],
-    "image_path": "image\\由加莉 圣诞_1星.png"
+    "image_path": "images\\avatar\\由加莉 圣诞_1星.png"
   },
   "1146_3": {
     "id": "1146_3",
@@ -3877,7 +3877,7 @@
       "蛋黄",
       "圣黄骑"
     ],
-    "image_path": "image\\由加莉 圣诞_3星.png"
+    "image_path": "images\\avatar\\由加莉 圣诞_3星.png"
   },
   "1147_1": {
     "id": "1147_1",
@@ -3890,7 +3890,7 @@
       "春11",
       "512"
     ],
-    "image_path": "image\\矛依未 新年_1星.png"
+    "image_path": "images\\avatar\\矛依未 新年_1星.png"
   },
   "1147_3": {
     "id": "1147_3",
@@ -3903,7 +3903,7 @@
       "春11",
       "512"
     ],
-    "image_path": "image\\矛依未 新年_3星.png"
+    "image_path": "images\\avatar\\矛依未 新年_3星.png"
   },
   "1150_1": {
     "id": "1150_1",
@@ -3915,7 +3915,7 @@
       "新年似似花",
       "648"
     ],
-    "image_path": "image\\似似花 新年_1星.png"
+    "image_path": "images\\avatar\\似似花 新年_1星.png"
   },
   "1150_3": {
     "id": "1150_3",
@@ -3927,7 +3927,7 @@
       "新年似似花",
       "648"
     ],
-    "image_path": "image\\似似花 新年_3星.png"
+    "image_path": "images\\avatar\\似似花 新年_3星.png"
   },
   "1155_1": {
     "id": "1155_1",
@@ -3937,7 +3937,7 @@
       "礼妈",
       "仪妈"
     ],
-    "image_path": "image\\可可萝 礼服_1星.png"
+    "image_path": "images\\avatar\\可可萝 礼服_1星.png"
   },
   "1155_3": {
     "id": "1155_3",
@@ -3947,7 +3947,7 @@
       "礼妈",
       "仪妈"
     ],
-    "image_path": "image\\可可萝 礼服_3星.png"
+    "image_path": "images\\avatar\\可可萝 礼服_3星.png"
   },
   "1156_1": {
     "id": "1156_1",
@@ -3958,7 +3958,7 @@
       "礼衣",
       "礼衣礼"
     ],
-    "image_path": "image\\优衣 礼服_1星.png"
+    "image_path": "images\\avatar\\优衣 礼服_1星.png"
   },
   "1156_3": {
     "id": "1156_3",
@@ -3969,7 +3969,7 @@
       "礼衣",
       "礼衣礼"
     ],
-    "image_path": "image\\优衣 礼服_3星.png"
+    "image_path": "images\\avatar\\优衣 礼服_3星.png"
   },
   "1157_1": {
     "id": "1157_1",
@@ -3981,7 +3981,7 @@
       "沪",
       "冬泳怪驴"
     ],
-    "image_path": "image\\香澄 夏日_1星.png"
+    "image_path": "images\\avatar\\香澄 夏日_1星.png"
   },
   "1157_3": {
     "id": "1157_3",
@@ -3993,7 +3993,7 @@
       "沪",
       "冬泳怪驴"
     ],
-    "image_path": "image\\香澄 夏日_3星.png"
+    "image_path": "images\\avatar\\香澄 夏日_3星.png"
   },
   "1158_1": {
     "id": "1158_1",
@@ -4004,7 +4004,7 @@
       "灰羊",
       "人形羊驼"
     ],
-    "image_path": "image\\莉玛 灰姑娘_1星.png"
+    "image_path": "images\\avatar\\莉玛 灰姑娘_1星.png"
   },
   "1158_3": {
     "id": "1158_3",
@@ -4015,7 +4015,7 @@
       "灰羊",
       "人形羊驼"
     ],
-    "image_path": "image\\莉玛 灰姑娘_3星.png"
+    "image_path": "images\\avatar\\莉玛 灰姑娘_3星.png"
   },
   "1159_1": {
     "id": "1159_1",
@@ -4025,7 +4025,7 @@
       "灰狼",
       "灰太狼"
     ],
-    "image_path": "image\\真琴 灰姑娘_1星.png"
+    "image_path": "images\\avatar\\真琴 灰姑娘_1星.png"
   },
   "1159_3": {
     "id": "1159_3",
@@ -4035,7 +4035,7 @@
       "灰狼",
       "灰太狼"
     ],
-    "image_path": "image\\真琴 灰姑娘_3星.png"
+    "image_path": "images\\avatar\\真琴 灰姑娘_3星.png"
   },
   "1160_1": {
     "id": "1160_1",
@@ -4046,7 +4046,7 @@
       "茶狐",
       "灰狐"
     ],
-    "image_path": "image\\真步 灰姑娘_1星.png"
+    "image_path": "images\\avatar\\真步 灰姑娘_1星.png"
   },
   "1160_3": {
     "id": "1160_3",
@@ -4057,7 +4057,7 @@
       "茶狐",
       "灰狐"
     ],
-    "image_path": "image\\真步 灰姑娘_3星.png"
+    "image_path": "images\\avatar\\真步 灰姑娘_3星.png"
   },
   "1162_1": {
     "id": "1162_1",
@@ -4067,7 +4067,7 @@
       "圣华哥",
       "运动华"
     ],
-    "image_path": "image\\克罗依 圣学祭_1星.png"
+    "image_path": "images\\avatar\\克罗依 圣学祭_1星.png"
   },
   "1162_3": {
     "id": "1162_3",
@@ -4077,7 +4077,7 @@
       "圣华哥",
       "运动华"
     ],
-    "image_path": "image\\克罗依 圣学祭_3星.png"
+    "image_path": "images\\avatar\\克罗依 圣学祭_3星.png"
   },
   "1163_1": {
     "id": "1163_1",
@@ -4086,7 +4086,7 @@
     "nicknames": [
       "圣切噜"
     ],
-    "image_path": "image\\千爱瑠 圣学祭_1星.png"
+    "image_path": "images\\avatar\\千爱瑠 圣学祭_1星.png"
   },
   "1163_3": {
     "id": "1163_3",
@@ -4095,7 +4095,7 @@
     "nicknames": [
       "圣切噜"
     ],
-    "image_path": "image\\千爱瑠 圣学祭_3星.png"
+    "image_path": "images\\avatar\\千爱瑠 圣学祭_3星.png"
   },
   "1164_1": {
     "id": "1164_1",
@@ -4106,7 +4106,7 @@
       "圣uni",
       "圣优妮"
     ],
-    "image_path": "image\\优妮 圣学祭_1星.png"
+    "image_path": "images\\avatar\\优妮 圣学祭_1星.png"
   },
   "1164_3": {
     "id": "1164_3",
@@ -4117,7 +4117,7 @@
       "圣uni",
       "圣优妮"
     ],
-    "image_path": "image\\优妮 圣学祭_3星.png"
+    "image_path": "images\\avatar\\优妮 圣学祭_3星.png"
   },
   "1165_1": {
     "id": "1165_1",
@@ -4130,7 +4130,7 @@
       "时空龙锤",
       "时空龙"
     ],
-    "image_path": "image\\祈梨 时间旅行_1星.png"
+    "image_path": "images\\avatar\\祈梨 时间旅行_1星.png"
   },
   "1165_3": {
     "id": "1165_3",
@@ -4143,7 +4143,7 @@
       "时空龙锤",
       "时空龙"
     ],
-    "image_path": "image\\祈梨 时间旅行_3星.png"
+    "image_path": "images\\avatar\\祈梨 时间旅行_3星.png"
   },
   "1166_1": {
     "id": "1166_1",
@@ -4154,7 +4154,7 @@
       "水手龙拳",
       "水手龙"
     ],
-    "image_path": "image\\嘉夜 时间旅行_1星.png"
+    "image_path": "images\\avatar\\嘉夜 时间旅行_1星.png"
   },
   "1166_3": {
     "id": "1166_3",
@@ -4165,7 +4165,7 @@
       "水手龙拳",
       "水手龙"
     ],
-    "image_path": "image\\嘉夜 时间旅行_3星.png"
+    "image_path": "images\\avatar\\嘉夜 时间旅行_3星.png"
   },
   "1167_1": {
     "id": "1167_1",
@@ -4176,7 +4176,7 @@
       "贡菜",
       "韭菜"
     ],
-    "image_path": "image\\碧 工作服_1星.png"
+    "image_path": "images\\avatar\\碧 工作服_1星.png"
   },
   "1167_3": {
     "id": "1167_3",
@@ -4187,7 +4187,7 @@
       "贡菜",
       "韭菜"
     ],
-    "image_path": "image\\碧 工作服_3星.png"
+    "image_path": "images\\avatar\\碧 工作服_3星.png"
   },
   "1168_1": {
     "id": "1168_1",
@@ -4198,7 +4198,7 @@
       "工猫",
       "工猫剑"
     ],
-    "image_path": "image\\珠希 工作服_1星.png"
+    "image_path": "images\\avatar\\珠希 工作服_1星.png"
   },
   "1168_3": {
     "id": "1168_3",
@@ -4209,7 +4209,7 @@
       "工猫",
       "工猫剑"
     ],
-    "image_path": "image\\珠希 工作服_3星.png"
+    "image_path": "images\\avatar\\珠希 工作服_3星.png"
   },
   "1169_1": {
     "id": "1169_1",
@@ -4219,7 +4219,7 @@
       "电子龙",
       "工子龙"
     ],
-    "image_path": "image\\美冬 工作服_1星.png"
+    "image_path": "images\\avatar\\美冬 工作服_1星.png"
   },
   "1169_3": {
     "id": "1169_3",
@@ -4229,7 +4229,7 @@
       "电子龙",
       "工子龙"
     ],
-    "image_path": "image\\美冬 工作服_3星.png"
+    "image_path": "images\\avatar\\美冬 工作服_3星.png"
   },
   "1170_1": {
     "id": "1170_1",
@@ -4240,7 +4240,7 @@
       "水病娇",
       "水病"
     ],
-    "image_path": "image\\惠理子 夏日_1星.png"
+    "image_path": "images\\avatar\\惠理子 夏日_1星.png"
   },
   "1170_3": {
     "id": "1170_3",
@@ -4251,7 +4251,7 @@
       "水病娇",
       "水病"
     ],
-    "image_path": "image\\惠理子 夏日_3星.png"
+    "image_path": "images\\avatar\\惠理子 夏日_3星.png"
   },
   "1171_1": {
     "id": "1171_1",
@@ -4263,7 +4263,7 @@
       "水静流",
       "水静"
     ],
-    "image_path": "image\\静流 夏日_1星.png"
+    "image_path": "images\\avatar\\静流 夏日_1星.png"
   },
   "1171_3": {
     "id": "1171_3",
@@ -4275,7 +4275,7 @@
       "水静流",
       "水静"
     ],
-    "image_path": "image\\静流 夏日_3星.png"
+    "image_path": "images\\avatar\\静流 夏日_3星.png"
   },
   "1172_1": {
     "id": "1172_1",
@@ -4285,7 +4285,7 @@
       "水望",
       "汪汪"
     ],
-    "image_path": "image\\望 夏日_1星.png"
+    "image_path": "images\\avatar\\望 夏日_1星.png"
   },
   "1172_3": {
     "id": "1172_3",
@@ -4295,7 +4295,7 @@
       "水望",
       "汪汪"
     ],
-    "image_path": "image\\望 夏日_3星.png"
+    "image_path": "images\\avatar\\望 夏日_3星.png"
   },
   "1173_1": {
     "id": "1173_1",
@@ -4304,7 +4304,7 @@
     "nicknames": [
       "水千"
     ],
-    "image_path": "image\\千歌 夏日_1星.png"
+    "image_path": "images\\avatar\\千歌 夏日_1星.png"
   },
   "1173_3": {
     "id": "1173_3",
@@ -4313,7 +4313,7 @@
     "nicknames": [
       "水千"
     ],
-    "image_path": "image\\千歌 夏日_3星.png"
+    "image_path": "images\\avatar\\千歌 夏日_3星.png"
   },
   "1174_1": {
     "id": "1174_1",
@@ -4323,7 +4323,7 @@
       "水裁",
       "水彩"
     ],
-    "image_path": "image\\纺希 夏日_1星.png"
+    "image_path": "images\\avatar\\纺希 夏日_1星.png"
   },
   "1174_3": {
     "id": "1174_3",
@@ -4333,7 +4333,7 @@
       "水裁",
       "水彩"
     ],
-    "image_path": "image\\纺希 夏日_3星.png"
+    "image_path": "images\\avatar\\纺希 夏日_3星.png"
   },
   "1175_1": {
     "id": "1175_1",
@@ -4342,7 +4342,7 @@
     "nicknames": [
       "江月"
     ],
-    "image_path": "image\\深月 大江户_1星.png"
+    "image_path": "images\\avatar\\深月 大江户_1星.png"
   },
   "1175_3": {
     "id": "1175_3",
@@ -4351,7 +4351,7 @@
     "nicknames": [
       "江月"
     ],
-    "image_path": "image\\深月 大江户_3星.png"
+    "image_path": "images\\avatar\\深月 大江户_3星.png"
   },
   "1176_1": {
     "id": "1176_1",
@@ -4360,7 +4360,7 @@
     "nicknames": [
       "江雪"
     ],
-    "image_path": "image\\雪 大江户_1星.png"
+    "image_path": "images\\avatar\\雪 大江户_1星.png"
   },
   "1176_3": {
     "id": "1176_3",
@@ -4369,7 +4369,7 @@
     "nicknames": [
       "江雪"
     ],
-    "image_path": "image\\雪 大江户_3星.png"
+    "image_path": "images\\avatar\\雪 大江户_3星.png"
   },
   "1177_1": {
     "id": "1177_1",
@@ -4380,7 +4380,7 @@
       "尾刀狗",
       "剩狗"
     ],
-    "image_path": "image\\香织 万圣_1星.png"
+    "image_path": "images\\avatar\\香织 万圣_1星.png"
   },
   "1177_3": {
     "id": "1177_3",
@@ -4391,7 +4391,7 @@
       "尾刀狗",
       "剩狗"
     ],
-    "image_path": "image\\香织 万圣_3星.png"
+    "image_path": "images\\avatar\\香织 万圣_3星.png"
   },
   "1178_1": {
     "id": "1178_1",
@@ -4403,7 +4403,7 @@
       "狩猎扇",
       "笛侬"
     ],
-    "image_path": "image\\妮侬 万圣_1星.png"
+    "image_path": "images\\avatar\\妮侬 万圣_1星.png"
   },
   "1178_3": {
     "id": "1178_3",
@@ -4415,7 +4415,7 @@
       "狩猎扇",
       "笛侬"
     ],
-    "image_path": "image\\妮侬 万圣_3星.png"
+    "image_path": "images\\avatar\\妮侬 万圣_3星.png"
   },
   "1179_1": {
     "id": "1179_1",
@@ -4424,7 +4424,7 @@
     "nicknames": [
       "鬼爆"
     ],
-    "image_path": "image\\铃奈 万圣_1星.png"
+    "image_path": "images\\avatar\\铃奈 万圣_1星.png"
   },
   "1179_3": {
     "id": "1179_3",
@@ -4433,7 +4433,7 @@
     "nicknames": [
       "鬼爆"
     ],
-    "image_path": "image\\铃奈 万圣_3星.png"
+    "image_path": "images\\avatar\\铃奈 万圣_3星.png"
   },
   "1180_1": {
     "id": "1180_1",
@@ -4447,7 +4447,7 @@
       "信用卡",
       "奸商"
     ],
-    "image_path": "image\\克蕾琪塔_1星.png"
+    "image_path": "images\\avatar\\克蕾琪塔_1星.png"
   },
   "1180_3": {
     "id": "1180_3",
@@ -4461,7 +4461,7 @@
       "信用卡",
       "奸商"
     ],
-    "image_path": "image\\克蕾琪塔_3星.png"
+    "image_path": "images\\avatar\\克蕾琪塔_3星.png"
   },
   "1181_1": {
     "id": "1181_1",
@@ -4470,7 +4470,7 @@
     "nicknames": [
       "兰法妈妈"
     ],
-    "image_path": "image\\兰法_1星.png"
+    "image_path": "images\\avatar\\兰法_1星.png"
   },
   "1181_3": {
     "id": "1181_3",
@@ -4479,7 +4479,7 @@
     "nicknames": [
       "兰法妈妈"
     ],
-    "image_path": "image\\兰法_3星.png"
+    "image_path": "images\\avatar\\兰法_3星.png"
   },
   "1182_1": {
     "id": "1182_1",
@@ -4488,7 +4488,7 @@
     "nicknames": [
       "坏女人"
     ],
-    "image_path": "image\\美空_1星.png"
+    "image_path": "images\\avatar\\美空_1星.png"
   },
   "1182_3": {
     "id": "1182_3",
@@ -4497,7 +4497,7 @@
     "nicknames": [
       "坏女人"
     ],
-    "image_path": "image\\美空_3星.png"
+    "image_path": "images\\avatar\\美空_3星.png"
   },
   "1185_1": {
     "id": "1185_1",
@@ -4510,7 +4510,7 @@
       "臭眼镜",
       "可恶眼镜"
     ],
-    "image_path": "image\\花凛_1星.png"
+    "image_path": "images\\avatar\\花凛_1星.png"
   },
   "1185_3": {
     "id": "1185_3",
@@ -4523,7 +4523,7 @@
       "臭眼镜",
       "可恶眼镜"
     ],
-    "image_path": "image\\花凛_3星.png"
+    "image_path": "images\\avatar\\花凛_3星.png"
   },
   "1190_1": {
     "id": "1190_1",
@@ -4533,7 +4533,7 @@
       "黑老师",
       "黑魅魔"
     ],
-    "image_path": "image\\伊绪 黑暗_1星.png"
+    "image_path": "images\\avatar\\伊绪 黑暗_1星.png"
   },
   "1190_3": {
     "id": "1190_3",
@@ -4543,7 +4543,7 @@
       "黑老师",
       "黑魅魔"
     ],
-    "image_path": "image\\伊绪 黑暗_3星.png"
+    "image_path": "images\\avatar\\伊绪 黑暗_3星.png"
   },
   "1191_1": {
     "id": "1191_1",
@@ -4554,7 +4554,7 @@
       "黑空花",
       "黑M"
     ],
-    "image_path": "image\\空花 黑暗_1星.png"
+    "image_path": "images\\avatar\\空花 黑暗_1星.png"
   },
   "1191_3": {
     "id": "1191_3",
@@ -4565,7 +4565,7 @@
       "黑空花",
       "黑M"
     ],
-    "image_path": "image\\空花 黑暗_3星.png"
+    "image_path": "images\\avatar\\空花 黑暗_3星.png"
   },
   "1192_1": {
     "id": "1192_1",
@@ -4575,7 +4575,7 @@
       "圣牛",
       "圣诞奶牛"
     ],
-    "image_path": "image\\真阳 圣诞_1星.png"
+    "image_path": "images\\avatar\\真阳 圣诞_1星.png"
   },
   "1192_3": {
     "id": "1192_3",
@@ -4585,7 +4585,7 @@
       "圣牛",
       "圣诞奶牛"
     ],
-    "image_path": "image\\真阳 圣诞_3星.png"
+    "image_path": "images\\avatar\\真阳 圣诞_3星.png"
   },
   "1193_1": {
     "id": "1193_1",
@@ -4596,7 +4596,7 @@
       "圣妹弓",
       "诞弓"
     ],
-    "image_path": "image\\璃乃 圣诞_1星.png"
+    "image_path": "images\\avatar\\璃乃 圣诞_1星.png"
   },
   "1193_3": {
     "id": "1193_3",
@@ -4607,7 +4607,7 @@
       "圣妹弓",
       "诞弓"
     ],
-    "image_path": "image\\璃乃 圣诞_3星.png"
+    "image_path": "images\\avatar\\璃乃 圣诞_3星.png"
   },
   "1199_1": {
     "id": "1199_1",
@@ -4617,7 +4617,7 @@
       "但丁",
       "诞丁"
     ],
-    "image_path": "image\\宫子 圣诞_1星.png"
+    "image_path": "images\\avatar\\宫子 圣诞_1星.png"
   },
   "1199_3": {
     "id": "1199_3",
@@ -4627,7 +4627,7 @@
       "但丁",
       "诞丁"
     ],
-    "image_path": "image\\宫子 圣诞_3星.png"
+    "image_path": "images\\avatar\\宫子 圣诞_3星.png"
   },
   "1200_1": {
     "id": "1200_1",
@@ -4636,7 +4636,7 @@
     "nicknames": [
       "黑姐姐"
     ],
-    "image_path": "image\\静流 黑暗_1星.png"
+    "image_path": "images\\avatar\\静流 黑暗_1星.png"
   },
   "1200_3": {
     "id": "1200_3",
@@ -4645,7 +4645,7 @@
     "nicknames": [
       "黑姐姐"
     ],
-    "image_path": "image\\静流 黑暗_3星.png"
+    "image_path": "images\\avatar\\静流 黑暗_3星.png"
   },
   "1207_1": {
     "id": "1207_1",
@@ -4655,7 +4655,7 @@
       "春菲",
       "春龙"
     ],
-    "image_path": "image\\雪菲 新年_1星.png"
+    "image_path": "images\\avatar\\雪菲 新年_1星.png"
   },
   "1207_3": {
     "id": "1207_3",
@@ -4665,7 +4665,7 @@
       "春菲",
       "春龙"
     ],
-    "image_path": "image\\雪菲 新年_3星.png"
+    "image_path": "images\\avatar\\雪菲 新年_3星.png"
   },
   "1208_1": {
     "id": "1208_1",
@@ -4675,7 +4675,7 @@
       "春流夏",
       "春流"
     ],
-    "image_path": "image\\流夏 新年_1星.png"
+    "image_path": "images\\avatar\\流夏 新年_1星.png"
   },
   "1208_3": {
     "id": "1208_3",
@@ -4685,7 +4685,7 @@
       "春流夏",
       "春流"
     ],
-    "image_path": "image\\流夏 新年_3星.png"
+    "image_path": "images\\avatar\\流夏 新年_3星.png"
   },
   "1209_1": {
     "id": "1209_1",
@@ -4696,7 +4696,7 @@
       "春yly",
       "伊利旦"
     ],
-    "image_path": "image\\伊莉亚 新年_1星.png"
+    "image_path": "images\\avatar\\伊莉亚 新年_1星.png"
   },
   "1209_3": {
     "id": "1209_3",
@@ -4707,7 +4707,7 @@
       "春yly",
       "伊利旦"
     ],
-    "image_path": "image\\伊莉亚 新年_3星.png"
+    "image_path": "images\\avatar\\伊莉亚 新年_3星.png"
   },
   "1210_1": {
     "id": "1210_1",
@@ -4718,7 +4718,7 @@
       "超载吃货",
       "破败王"
     ],
-    "image_path": "image\\佩可莉姆 超负荷_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆 超负荷_1星.png"
   },
   "1210_3": {
     "id": "1210_3",
@@ -4729,7 +4729,7 @@
       "超载吃货",
       "破败王"
     ],
-    "image_path": "image\\佩可莉姆 超负荷_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆 超负荷_3星.png"
   },
   "1211_1": {
     "id": "1211_1",
@@ -4739,7 +4739,7 @@
       "超猫",
       "超威蓝猫"
     ],
-    "image_path": "image\\凯露 超负荷_1星.png"
+    "image_path": "images\\avatar\\凯露 超负荷_1星.png"
   },
   "1211_3": {
     "id": "1211_3",
@@ -4749,7 +4749,7 @@
       "超猫",
       "超威蓝猫"
     ],
-    "image_path": "image\\凯露 超负荷_3星.png"
+    "image_path": "images\\avatar\\凯露 超负荷_3星.png"
   },
   "1212_1": {
     "id": "1212_1",
@@ -4758,7 +4758,7 @@
     "nicknames": [
       "超晶"
     ],
-    "image_path": "image\\菈比莉斯塔 超负荷_1星.png"
+    "image_path": "images\\avatar\\菈比莉斯塔 超负荷_1星.png"
   },
   "1212_3": {
     "id": "1212_3",
@@ -4767,7 +4767,7 @@
     "nicknames": [
       "超晶"
     ],
-    "image_path": "image\\菈比莉斯塔 超负荷_3星.png"
+    "image_path": "images\\avatar\\菈比莉斯塔 超负荷_3星.png"
   },
   "1213_1": {
     "id": "1213_1",
@@ -4780,7 +4780,7 @@
       "舞台胡桃",
       "芜湖"
     ],
-    "image_path": "image\\胡桃 舞台_1星.png"
+    "image_path": "images\\avatar\\胡桃 舞台_1星.png"
   },
   "1213_3": {
     "id": "1213_3",
@@ -4793,7 +4793,7 @@
       "舞台胡桃",
       "芜湖"
     ],
-    "image_path": "image\\胡桃 舞台_3星.png"
+    "image_path": "images\\avatar\\胡桃 舞台_3星.png"
   },
   "1214_1": {
     "id": "1214_1",
@@ -4803,7 +4803,7 @@
       "车眼",
       "泥头车"
     ],
-    "image_path": "image\\美咲 舞台_1星.png"
+    "image_path": "images\\avatar\\美咲 舞台_1星.png"
   },
   "1214_3": {
     "id": "1214_3",
@@ -4813,7 +4813,7 @@
       "车眼",
       "泥头车"
     ],
-    "image_path": "image\\美咲 舞台_3星.png"
+    "image_path": "images\\avatar\\美咲 舞台_3星.png"
   },
   "1215_1": {
     "id": "1215_1",
@@ -4824,7 +4824,7 @@
       "资本家",
       "盗妹"
     ],
-    "image_path": "image\\步美 怪盗_1星.png"
+    "image_path": "images\\avatar\\步美 怪盗_1星.png"
   },
   "1215_3": {
     "id": "1215_3",
@@ -4835,7 +4835,7 @@
       "资本家",
       "盗妹"
     ],
-    "image_path": "image\\步美 怪盗_3星.png"
+    "image_path": "images\\avatar\\步美 怪盗_3星.png"
   },
   "1216_1": {
     "id": "1216_1",
@@ -4846,7 +4846,7 @@
       "盗老八",
       "贼老八"
     ],
-    "image_path": "image\\祈梨 怪盗_1星.png"
+    "image_path": "images\\avatar\\祈梨 怪盗_1星.png"
   },
   "1216_3": {
     "id": "1216_3",
@@ -4857,7 +4857,7 @@
       "盗老八",
       "贼老八"
     ],
-    "image_path": "image\\祈梨 怪盗_3星.png"
+    "image_path": "images\\avatar\\祈梨 怪盗_3星.png"
   },
   "1219_1": {
     "id": "1219_1",
@@ -4868,7 +4868,7 @@
       "船长中二",
       "海盗中二"
     ],
-    "image_path": "image\\杏奈 海盗_1星.png"
+    "image_path": "images\\avatar\\杏奈 海盗_1星.png"
   },
   "1219_3": {
     "id": "1219_3",
@@ -4879,7 +4879,7 @@
       "船长中二",
       "海盗中二"
     ],
-    "image_path": "image\\杏奈 海盗_3星.png"
+    "image_path": "images\\avatar\\杏奈 海盗_3星.png"
   },
   "1220_1": {
     "id": "1220_1",
@@ -4890,7 +4890,7 @@
       "水手忍",
       "海盗忍"
     ],
-    "image_path": "image\\忍 海盗_1星.png"
+    "image_path": "images\\avatar\\忍 海盗_1星.png"
   },
   "1220_3": {
     "id": "1220_3",
@@ -4901,7 +4901,7 @@
       "水手忍",
       "海盗忍"
     ],
-    "image_path": "image\\忍 海盗_3星.png"
+    "image_path": "images\\avatar\\忍 海盗_3星.png"
   },
   "1221_1": {
     "id": "1221_1",
@@ -4911,7 +4911,7 @@
       "野菜",
       "圣枪游侠"
     ],
-    "image_path": "image\\碧 露营_1星.png"
+    "image_path": "images\\avatar\\碧 露营_1星.png"
   },
   "1221_3": {
     "id": "1221_3",
@@ -4921,7 +4921,7 @@
       "野菜",
       "圣枪游侠"
     ],
-    "image_path": "image\\碧 露营_3星.png"
+    "image_path": "images\\avatar\\碧 露营_3星.png"
   },
   "1222_1": {
     "id": "1222_1",
@@ -4932,7 +4932,7 @@
       "野黄",
       "野鬼"
     ],
-    "image_path": "image\\由加莉 露营_1星.png"
+    "image_path": "images\\avatar\\由加莉 露营_1星.png"
   },
   "1222_3": {
     "id": "1222_3",
@@ -4943,7 +4943,7 @@
       "野黄",
       "野鬼"
     ],
-    "image_path": "image\\由加莉 露营_3星.png"
+    "image_path": "images\\avatar\\由加莉 露营_3星.png"
   },
   "1223_1": {
     "id": "1223_1",
@@ -4954,7 +4954,7 @@
       "8B",
       "813"
     ],
-    "image_path": "image\\斑比_1星.png"
+    "image_path": "images\\avatar\\斑比_1星.png"
   },
   "1223_3": {
     "id": "1223_3",
@@ -4965,7 +4965,7 @@
       "8B",
       "813"
     ],
-    "image_path": "image\\斑比_3星.png"
+    "image_path": "images\\avatar\\斑比_3星.png"
   },
   "1224_1": {
     "id": "1224_1",
@@ -4975,7 +4975,7 @@
       "水猫拳",
       "海猫"
     ],
-    "image_path": "image\\日和莉 夏日_1星.png"
+    "image_path": "images\\avatar\\日和莉 夏日_1星.png"
   },
   "1224_3": {
     "id": "1224_3",
@@ -4985,7 +4985,7 @@
       "水猫拳",
       "海猫"
     ],
-    "image_path": "image\\日和莉 夏日_3星.png"
+    "image_path": "images\\avatar\\日和莉 夏日_3星.png"
   },
   "1225_1": {
     "id": "1225_1",
@@ -4996,7 +4996,7 @@
       "水怜",
       "水帘洞"
     ],
-    "image_path": "image\\怜 夏日_1星.png"
+    "image_path": "images\\avatar\\怜 夏日_1星.png"
   },
   "1225_3": {
     "id": "1225_3",
@@ -5007,7 +5007,7 @@
       "水怜",
       "水帘洞"
     ],
-    "image_path": "image\\怜 夏日_3星.png"
+    "image_path": "images\\avatar\\怜 夏日_3星.png"
   },
   "1226_1": {
     "id": "1226_1",
@@ -5018,7 +5018,7 @@
       "泳衣",
       "水优衣"
     ],
-    "image_path": "image\\优衣 夏日_1星.png"
+    "image_path": "images\\avatar\\优衣 夏日_1星.png"
   },
   "1226_3": {
     "id": "1226_3",
@@ -5029,7 +5029,7 @@
       "泳衣",
       "水优衣"
     ],
-    "image_path": "image\\优衣 夏日_3星.png"
+    "image_path": "images\\avatar\\优衣 夏日_3星.png"
   },
   "1227_1": {
     "id": "1227_1",
@@ -5038,7 +5038,7 @@
     "nicknames": [
       "水炸"
     ],
-    "image_path": "image\\未奏希 夏日_1星.png"
+    "image_path": "images\\avatar\\未奏希 夏日_1星.png"
   },
   "1227_3": {
     "id": "1227_3",
@@ -5047,7 +5047,7 @@
     "nicknames": [
       "水炸"
     ],
-    "image_path": "image\\未奏希 夏日_3星.png"
+    "image_path": "images\\avatar\\未奏希 夏日_3星.png"
   },
   "1228_1": {
     "id": "1228_1",
@@ -5057,7 +5057,7 @@
       "水兔",
       "海兔"
     ],
-    "image_path": "image\\美美 夏日_1星.png"
+    "image_path": "images\\avatar\\美美 夏日_1星.png"
   },
   "1228_3": {
     "id": "1228_3",
@@ -5067,7 +5067,7 @@
       "水兔",
       "海兔"
     ],
-    "image_path": "image\\美美 夏日_3星.png"
+    "image_path": "images\\avatar\\美美 夏日_3星.png"
   },
   "1229_1": {
     "id": "1229_1",
@@ -5078,7 +5078,7 @@
       "小沧唯",
       "scw"
     ],
-    "image_path": "image\\镜华 夏日_1星.png"
+    "image_path": "images\\avatar\\镜华 夏日_1星.png"
   },
   "1229_3": {
     "id": "1229_3",
@@ -5089,7 +5089,7 @@
       "小沧唯",
       "scw"
     ],
-    "image_path": "image\\镜华 夏日_3星.png"
+    "image_path": "images\\avatar\\镜华 夏日_3星.png"
   },
   "1230_1": {
     "id": "1230_1",
@@ -5101,7 +5101,7 @@
       "dd头子",
       "究极可萝厨"
     ],
-    "image_path": "image\\爱梅斯_1星.png"
+    "image_path": "images\\avatar\\爱梅斯_1星.png"
   },
   "1230_3": {
     "id": "1230_3",
@@ -5113,7 +5113,7 @@
       "dd头子",
       "究极可萝厨"
     ],
-    "image_path": "image\\爱梅斯_3星.png"
+    "image_path": "images\\avatar\\爱梅斯_3星.png"
   },
   "1231_1": {
     "id": "1231_1",
@@ -5122,7 +5122,7 @@
     "nicknames": [
       "屁狐"
     ],
-    "image_path": "image\\真步 探索者_1星.png"
+    "image_path": "images\\avatar\\真步 探索者_1星.png"
   },
   "1231_3": {
     "id": "1231_3",
@@ -5131,7 +5131,7 @@
     "nicknames": [
       "屁狐"
     ],
-    "image_path": "image\\真步 探索者_3星.png"
+    "image_path": "images\\avatar\\真步 探索者_3星.png"
   },
   "1232_1": {
     "id": "1232_1",
@@ -5140,7 +5140,7 @@
     "nicknames": [
       "探锤"
     ],
-    "image_path": "image\\绫音 探索者_1星.png"
+    "image_path": "images\\avatar\\绫音 探索者_1星.png"
   },
   "1232_3": {
     "id": "1232_3",
@@ -5149,7 +5149,7 @@
     "nicknames": [
       "探锤"
     ],
-    "image_path": "image\\绫音 探索者_3星.png"
+    "image_path": "images\\avatar\\绫音 探索者_3星.png"
   },
   "1233_1": {
     "id": "1233_1",
@@ -5158,7 +5158,7 @@
     "nicknames": [
       "史莱姆娘"
     ],
-    "image_path": "image\\涅亚_1星.png"
+    "image_path": "images\\avatar\\涅亚_1星.png"
   },
   "1233_3": {
     "id": "1233_3",
@@ -5167,7 +5167,7 @@
     "nicknames": [
       "史莱姆娘"
     ],
-    "image_path": "image\\涅亚_3星.png"
+    "image_path": "images\\avatar\\涅亚_3星.png"
   },
   "1235_1": {
     "id": "1235_1",
@@ -5177,7 +5177,7 @@
       "僵尸",
       "宋江"
     ],
-    "image_path": "image\\铃 万圣_1星.png"
+    "image_path": "images\\avatar\\铃 万圣_1星.png"
   },
   "1235_3": {
     "id": "1235_3",
@@ -5187,7 +5187,7 @@
       "僵尸",
       "宋江"
     ],
-    "image_path": "image\\铃 万圣_3星.png"
+    "image_path": "images\\avatar\\铃 万圣_3星.png"
   },
   "1236_1": {
     "id": "1236_1",
@@ -5197,7 +5197,7 @@
       "万智",
       "警服智"
     ],
-    "image_path": "image\\智 万圣_1星.png"
+    "image_path": "images\\avatar\\智 万圣_1星.png"
   },
   "1236_3": {
     "id": "1236_3",
@@ -5207,7 +5207,7 @@
       "万智",
       "警服智"
     ],
-    "image_path": "image\\智 万圣_3星.png"
+    "image_path": "images\\avatar\\智 万圣_3星.png"
   },
   "1237_1": {
     "id": "1237_1",
@@ -5216,7 +5216,7 @@
     "nicknames": [
       "瓜七"
     ],
-    "image_path": "image\\七七香 万圣_1星.png"
+    "image_path": "images\\avatar\\七七香 万圣_1星.png"
   },
   "1237_3": {
     "id": "1237_3",
@@ -5225,7 +5225,7 @@
     "nicknames": [
       "瓜七"
     ],
-    "image_path": "image\\七七香 万圣_3星.png"
+    "image_path": "images\\avatar\\七七香 万圣_3星.png"
   },
   "1238_1": {
     "id": "1238_1",
@@ -5234,7 +5234,7 @@
     "nicknames": [
       "兔克"
     ],
-    "image_path": "image\\克莉丝提娜 狂野_1星.png"
+    "image_path": "images\\avatar\\克莉丝提娜 狂野_1星.png"
   },
   "1238_3": {
     "id": "1238_3",
@@ -5243,7 +5243,7 @@
     "nicknames": [
       "兔克"
     ],
-    "image_path": "image\\克莉丝提娜 狂野_3星.png"
+    "image_path": "images\\avatar\\克莉丝提娜 狂野_3星.png"
   },
   "1239_1": {
     "id": "1239_1",
@@ -5252,7 +5252,7 @@
     "nicknames": [
       "狂虎"
     ],
-    "image_path": "image\\茉莉 狂野_1星.png"
+    "image_path": "images\\avatar\\茉莉 狂野_1星.png"
   },
   "1239_3": {
     "id": "1239_3",
@@ -5261,7 +5261,7 @@
     "nicknames": [
       "狂虎"
     ],
-    "image_path": "image\\茉莉 狂野_3星.png"
+    "image_path": "images\\avatar\\茉莉 狂野_3星.png"
   },
   "1240_1": {
     "id": "1240_1",
@@ -5270,7 +5270,7 @@
     "nicknames": [
       "圣诞妹法"
     ],
-    "image_path": "image\\茜里 圣诞_1星.png"
+    "image_path": "images\\avatar\\茜里 圣诞_1星.png"
   },
   "1240_3": {
     "id": "1240_3",
@@ -5279,7 +5279,7 @@
     "nicknames": [
       "圣诞妹法"
     ],
-    "image_path": "image\\茜里 圣诞_3星.png"
+    "image_path": "images\\avatar\\茜里 圣诞_3星.png"
   },
   "1241_1": {
     "id": "1241_1",
@@ -5288,7 +5288,7 @@
     "nicknames": [
       "圣诞姐法"
     ],
-    "image_path": "image\\依里 圣诞_1星.png"
+    "image_path": "images\\avatar\\依里 圣诞_1星.png"
   },
   "1241_3": {
     "id": "1241_3",
@@ -5297,7 +5297,7 @@
     "nicknames": [
       "圣诞姐法"
     ],
-    "image_path": "image\\依里 圣诞_3星.png"
+    "image_path": "images\\avatar\\依里 圣诞_3星.png"
   },
   "1242_1": {
     "id": "1242_1",
@@ -5306,7 +5306,7 @@
     "nicknames": [
       "白骑"
     ],
-    "image_path": "image\\纯 圣诞_1星.png"
+    "image_path": "images\\avatar\\纯 圣诞_1星.png"
   },
   "1242_3": {
     "id": "1242_3",
@@ -5315,7 +5315,7 @@
     "nicknames": [
       "白骑"
     ],
-    "image_path": "image\\纯 圣诞_3星.png"
+    "image_path": "images\\avatar\\纯 圣诞_3星.png"
   },
   "1245_1": {
     "id": "1245_1",
@@ -5324,7 +5324,7 @@
     "nicknames": [
       "春龙母"
     ],
-    "image_path": "image\\帆稀 新年_1星.png"
+    "image_path": "images\\avatar\\帆稀 新年_1星.png"
   },
   "1245_3": {
     "id": "1245_3",
@@ -5333,7 +5333,7 @@
     "nicknames": [
       "春龙母"
     ],
-    "image_path": "image\\帆稀 新年_3星.png"
+    "image_path": "images\\avatar\\帆稀 新年_3星.png"
   },
   "1246_1": {
     "id": "1246_1",
@@ -5342,7 +5342,7 @@
     "nicknames": [
       "春圣母"
     ],
-    "image_path": "image\\美里 新年_1星.png"
+    "image_path": "images\\avatar\\美里 新年_1星.png"
   },
   "1246_3": {
     "id": "1246_3",
@@ -5351,7 +5351,7 @@
     "nicknames": [
       "春圣母"
     ],
-    "image_path": "image\\美里 新年_3星.png"
+    "image_path": "images\\avatar\\美里 新年_3星.png"
   },
   "1247_1": {
     "id": "1247_1",
@@ -5360,7 +5360,7 @@
     "nicknames": [
       "春月"
     ],
-    "image_path": "image\\深月 新年_1星.png"
+    "image_path": "images\\avatar\\深月 新年_1星.png"
   },
   "1247_3": {
     "id": "1247_3",
@@ -5369,7 +5369,7 @@
     "nicknames": [
       "春月"
     ],
-    "image_path": "image\\深月 新年_3星.png"
+    "image_path": "images\\avatar\\深月 新年_3星.png"
   },
   "1248_1": {
     "id": "1248_1",
@@ -5378,7 +5378,7 @@
     "nicknames": [
       "白望"
     ],
-    "image_path": "image\\望 解放者_1星.png"
+    "image_path": "images\\avatar\\望 解放者_1星.png"
   },
   "1248_3": {
     "id": "1248_3",
@@ -5387,7 +5387,7 @@
     "nicknames": [
       "白望"
     ],
-    "image_path": "image\\望 解放者_3星.png"
+    "image_path": "images\\avatar\\望 解放者_3星.png"
   },
   "1249_1": {
     "id": "1249_1",
@@ -5396,7 +5396,7 @@
     "nicknames": [
       "光龙"
     ],
-    "image_path": "image\\嘉夜 解放者_1星.png"
+    "image_path": "images\\avatar\\嘉夜 解放者_1星.png"
   },
   "1249_3": {
     "id": "1249_3",
@@ -5405,7 +5405,7 @@
     "nicknames": [
       "光龙"
     ],
-    "image_path": "image\\嘉夜 解放者_3星.png"
+    "image_path": "images\\avatar\\嘉夜 解放者_3星.png"
   },
   "1250_1": {
     "id": "1250_1",
@@ -5415,7 +5415,7 @@
       "513",
       "狗男女"
     ],
-    "image_path": "image\\矛依未 解放者_1星.png"
+    "image_path": "images\\avatar\\矛依未 解放者_1星.png"
   },
   "1250_3": {
     "id": "1250_3",
@@ -5425,7 +5425,7 @@
       "513",
       "狗男女"
     ],
-    "image_path": "image\\矛依未 解放者_3星.png"
+    "image_path": "images\\avatar\\矛依未 解放者_3星.png"
   },
   "1251_1": {
     "id": "1251_1",
@@ -5434,7 +5434,7 @@
     "nicknames": [
       "咖啡猫"
     ],
-    "image_path": "image\\珠希 咖啡厅_1星.png"
+    "image_path": "images\\avatar\\珠希 咖啡厅_1星.png"
   },
   "1251_3": {
     "id": "1251_3",
@@ -5443,7 +5443,7 @@
     "nicknames": [
       "咖啡猫"
     ],
-    "image_path": "image\\珠希 咖啡厅_3星.png"
+    "image_path": "images\\avatar\\珠希 咖啡厅_3星.png"
   },
   "1252_1": {
     "id": "1252_1",
@@ -5453,7 +5453,7 @@
       "猫二力",
       "莫妮咖"
     ],
-    "image_path": "image\\莫妮卡 咖啡厅_1星.png"
+    "image_path": "images\\avatar\\莫妮卡 咖啡厅_1星.png"
   },
   "1252_3": {
     "id": "1252_3",
@@ -5463,7 +5463,7 @@
       "猫二力",
       "莫妮咖"
     ],
-    "image_path": "image\\莫妮卡 咖啡厅_3星.png"
+    "image_path": "images\\avatar\\莫妮卡 咖啡厅_3星.png"
   },
   "1253_1": {
     "id": "1253_1",
@@ -5473,7 +5473,7 @@
       "狗妈",
       "野妈"
     ],
-    "image_path": "image\\可可萝 游骑兵_1星.png"
+    "image_path": "images\\avatar\\可可萝 游骑兵_1星.png"
   },
   "1253_3": {
     "id": "1253_3",
@@ -5483,7 +5483,7 @@
       "狗妈",
       "野妈"
     ],
-    "image_path": "image\\可可萝 游骑兵_3星.png"
+    "image_path": "images\\avatar\\可可萝 游骑兵_3星.png"
   },
   "1254_1": {
     "id": "1254_1",
@@ -5492,7 +5492,7 @@
     "nicknames": [
       "游侠栞"
     ],
-    "image_path": "image\\栞 游骑兵_1星.png"
+    "image_path": "images\\avatar\\栞 游骑兵_1星.png"
   },
   "1254_3": {
     "id": "1254_3",
@@ -5501,7 +5501,7 @@
     "nicknames": [
       "游侠栞"
     ],
-    "image_path": "image\\栞 游骑兵_3星.png"
+    "image_path": "images\\avatar\\栞 游骑兵_3星.png"
   },
   "1255_1": {
     "id": "1255_1",
@@ -5510,7 +5510,7 @@
     "nicknames": [
       "法姬"
     ],
-    "image_path": "image\\姬塔 术士_1星.png"
+    "image_path": "images\\avatar\\姬塔 术士_1星.png"
   },
   "1255_3": {
     "id": "1255_3",
@@ -5519,7 +5519,7 @@
     "nicknames": [
       "法姬"
     ],
-    "image_path": "image\\姬塔 术士_3星.png"
+    "image_path": "images\\avatar\\姬塔 术士_3星.png"
   },
   "1256_1": {
     "id": "1256_1",
@@ -5528,7 +5528,7 @@
     "nicknames": [
       "鼠鼠"
     ],
-    "image_path": "image\\碧卡拉_1星.png"
+    "image_path": "images\\avatar\\碧卡拉_1星.png"
   },
   "1256_3": {
     "id": "1256_3",
@@ -5537,7 +5537,7 @@
     "nicknames": [
       "鼠鼠"
     ],
-    "image_path": "image\\碧卡拉_3星.png"
+    "image_path": "images\\avatar\\碧卡拉_3星.png"
   },
   "1257_1": {
     "id": "1257_1",
@@ -5546,7 +5546,7 @@
     "nicknames": [
       "鬼凛"
     ],
-    "image_path": "image\\花凛 炼金术师_1星.png"
+    "image_path": "images\\avatar\\花凛 炼金术师_1星.png"
   },
   "1257_3": {
     "id": "1257_3",
@@ -5555,7 +5555,7 @@
     "nicknames": [
       "鬼凛"
     ],
-    "image_path": "image\\花凛 炼金术师_3星.png"
+    "image_path": "images\\avatar\\花凛 炼金术师_3星.png"
   },
   "1258_1": {
     "id": "1258_1",
@@ -5565,7 +5565,7 @@
       "镰刀妹",
       "兄长大人"
     ],
-    "image_path": "image\\莉莉 堕天使_1星.png"
+    "image_path": "images\\avatar\\莉莉 堕天使_1星.png"
   },
   "1258_3": {
     "id": "1258_3",
@@ -5575,7 +5575,7 @@
       "镰刀妹",
       "兄长大人"
     ],
-    "image_path": "image\\莉莉 堕天使_3星.png"
+    "image_path": "images\\avatar\\莉莉 堕天使_3星.png"
   },
   "1260_1": {
     "id": "1260_1",
@@ -5584,7 +5584,7 @@
     "nicknames": [
       "修女妹妹"
     ],
-    "image_path": "image\\可璃亚 堕天使_1星.png"
+    "image_path": "images\\avatar\\可璃亚 堕天使_1星.png"
   },
   "1260_3": {
     "id": "1260_3",
@@ -5593,7 +5593,7 @@
     "nicknames": [
       "修女妹妹"
     ],
-    "image_path": "image\\可璃亚 堕天使_3星.png"
+    "image_path": "images\\avatar\\可璃亚 堕天使_3星.png"
   },
   "1261_1": {
     "id": "1261_1",
@@ -5602,7 +5602,7 @@
     "nicknames": [
       "猪妹"
     ],
-    "image_path": "image\\普雷西娅 堕天使_1星.png"
+    "image_path": "images\\avatar\\普雷西娅 堕天使_1星.png"
   },
   "1261_3": {
     "id": "1261_3",
@@ -5611,7 +5611,7 @@
     "nicknames": [
       "猪妹"
     ],
-    "image_path": "image\\普雷西娅 堕天使_3星.png"
+    "image_path": "images\\avatar\\普雷西娅 堕天使_3星.png"
   },
   "1262_1": {
     "id": "1262_1",
@@ -5620,7 +5620,7 @@
     "nicknames": [
       "礼伊"
     ],
-    "image_path": "image\\伊莉亚 礼服_1星.png"
+    "image_path": "images\\avatar\\伊莉亚 礼服_1星.png"
   },
   "1262_3": {
     "id": "1262_3",
@@ -5629,7 +5629,7 @@
     "nicknames": [
       "礼伊"
     ],
-    "image_path": "image\\伊莉亚 礼服_3星.png"
+    "image_path": "images\\avatar\\伊莉亚 礼服_3星.png"
   },
   "1263_1": {
     "id": "1263_1",
@@ -5638,7 +5638,7 @@
     "nicknames": [
       "礼雪"
     ],
-    "image_path": "image\\雪 礼服_1星.png"
+    "image_path": "images\\avatar\\雪 礼服_1星.png"
   },
   "1263_3": {
     "id": "1263_3",
@@ -5647,7 +5647,7 @@
     "nicknames": [
       "礼雪"
     ],
-    "image_path": "image\\雪 礼服_3星.png"
+    "image_path": "images\\avatar\\雪 礼服_3星.png"
   },
   "1264_1": {
     "id": "1264_1",
@@ -5658,7 +5658,7 @@
       "喜多",
       "波旁"
     ],
-    "image_path": "image\\克萝茜_1星.png"
+    "image_path": "images\\avatar\\克萝茜_1星.png"
   },
   "1264_3": {
     "id": "1264_3",
@@ -5669,7 +5669,7 @@
       "喜多",
       "波旁"
     ],
-    "image_path": "image\\克萝茜_3星.png"
+    "image_path": "images\\avatar\\克萝茜_3星.png"
   },
   "1265_1": {
     "id": "1265_1",
@@ -5680,7 +5680,7 @@
       "大公主",
       "大雷"
     ],
-    "image_path": "image\\莱拉耶尔_1星.png"
+    "image_path": "images\\avatar\\莱拉耶尔_1星.png"
   },
   "1265_3": {
     "id": "1265_3",
@@ -5691,7 +5691,7 @@
       "大公主",
       "大雷"
     ],
-    "image_path": "image\\莱拉耶尔_3星.png"
+    "image_path": "images\\avatar\\莱拉耶尔_3星.png"
   },
   "1266_1": {
     "id": "1266_1",
@@ -5701,7 +5701,7 @@
       "水花",
       "水NNK"
     ],
-    "image_path": "image\\似似花 夏日_1星.png"
+    "image_path": "images\\avatar\\似似花 夏日_1星.png"
   },
   "1266_3": {
     "id": "1266_3",
@@ -5711,7 +5711,7 @@
       "水花",
       "水NNK"
     ],
-    "image_path": "image\\似似花 夏日_3星.png"
+    "image_path": "images\\avatar\\似似花 夏日_3星.png"
   },
   "1267_1": {
     "id": "1267_1",
@@ -5720,7 +5720,7 @@
     "nicknames": [
       "水哈"
     ],
-    "image_path": "image\\秋乃 夏日_1星.png"
+    "image_path": "images\\avatar\\秋乃 夏日_1星.png"
   },
   "1267_3": {
     "id": "1267_3",
@@ -5729,7 +5729,7 @@
     "nicknames": [
       "水哈"
     ],
-    "image_path": "image\\秋乃 夏日_3星.png"
+    "image_path": "images\\avatar\\秋乃 夏日_3星.png"
   },
   "1268_1": {
     "id": "1268_1",
@@ -5739,7 +5739,7 @@
       "水鬼",
       "水黄"
     ],
-    "image_path": "image\\由加莉 夏日_1星.png"
+    "image_path": "images\\avatar\\由加莉 夏日_1星.png"
   },
   "1268_3": {
     "id": "1268_3",
@@ -5749,7 +5749,7 @@
       "水鬼",
       "水黄"
     ],
-    "image_path": "image\\由加莉 夏日_3星.png"
+    "image_path": "images\\avatar\\由加莉 夏日_3星.png"
   },
   "1269_1": {
     "id": "1269_1",
@@ -5759,7 +5759,7 @@
       "㳕法",
       "水兰法"
     ],
-    "image_path": "image\\兰法 夏日_1星.png"
+    "image_path": "images\\avatar\\兰法 夏日_1星.png"
   },
   "1269_3": {
     "id": "1269_3",
@@ -5769,7 +5769,7 @@
       "㳕法",
       "水兰法"
     ],
-    "image_path": "image\\兰法 夏日_3星.png"
+    "image_path": "images\\avatar\\兰法 夏日_3星.png"
   },
   "1270_1": {
     "id": "1270_1",
@@ -5778,7 +5778,7 @@
     "nicknames": [
       "水m"
     ],
-    "image_path": "image\\空花 夏日_1星.png"
+    "image_path": "images\\avatar\\空花 夏日_1星.png"
   },
   "1270_3": {
     "id": "1270_3",
@@ -5787,7 +5787,7 @@
     "nicknames": [
       "水m"
     ],
-    "image_path": "image\\空花 夏日_3星.png"
+    "image_path": "images\\avatar\\空花 夏日_3星.png"
   },
   "1271_1": {
     "id": "1271_1",
@@ -5796,7 +5796,7 @@
     "nicknames": [
       "水忍"
     ],
-    "image_path": "image\\忍 夏日_1星.png"
+    "image_path": "images\\avatar\\忍 夏日_1星.png"
   },
   "1271_3": {
     "id": "1271_3",
@@ -5805,7 +5805,7 @@
     "nicknames": [
       "水忍"
     ],
-    "image_path": "image\\忍 夏日_3星.png"
+    "image_path": "images\\avatar\\忍 夏日_3星.png"
   },
   "1272_1": {
     "id": "1272_1",
@@ -5814,7 +5814,7 @@
     "nicknames": [
       "生黑"
     ],
-    "image_path": "image\\凯露 插班生_1星.png"
+    "image_path": "images\\avatar\\凯露 插班生_1星.png"
   },
   "1272_3": {
     "id": "1272_3",
@@ -5823,7 +5823,7 @@
     "nicknames": [
       "生黑"
     ],
-    "image_path": "image\\凯露 插班生_3星.png"
+    "image_path": "images\\avatar\\凯露 插班生_3星.png"
   },
   "1273_1": {
     "id": "1273_1",
@@ -5832,7 +5832,7 @@
     "nicknames": [
       "学爆"
     ],
-    "image_path": "image\\铃奈 插班生_1星.png"
+    "image_path": "images\\avatar\\铃奈 插班生_1星.png"
   },
   "1273_3": {
     "id": "1273_3",
@@ -5841,7 +5841,7 @@
     "nicknames": [
       "学爆"
     ],
-    "image_path": "image\\铃奈 插班生_3星.png"
+    "image_path": "images\\avatar\\铃奈 插班生_3星.png"
   },
   "1275_1": {
     "id": "1275_1",
@@ -5851,7 +5851,7 @@
       "沙电",
       "火电"
     ],
-    "image_path": "image\\咲恋 沙漠_1星.png"
+    "image_path": "images\\avatar\\咲恋 沙漠_1星.png"
   },
   "1275_3": {
     "id": "1275_3",
@@ -5861,7 +5861,7 @@
       "沙电",
       "火电"
     ],
-    "image_path": "image\\咲恋 沙漠_3星.png"
+    "image_path": "images\\avatar\\咲恋 沙漠_3星.png"
   },
   "1276_1": {
     "id": "1276_1",
@@ -5871,7 +5871,7 @@
       "沙夏",
       "亚索"
     ],
-    "image_path": "image\\流夏 沙漠_1星.png"
+    "image_path": "images\\avatar\\流夏 沙漠_1星.png"
   },
   "1276_3": {
     "id": "1276_3",
@@ -5881,7 +5881,7 @@
       "沙夏",
       "亚索"
     ],
-    "image_path": "image\\流夏 沙漠_3星.png"
+    "image_path": "images\\avatar\\流夏 沙漠_3星.png"
   },
   "1279_1": {
     "id": "1279_1",
@@ -5891,7 +5891,7 @@
       "圣吃",
       "诞吃"
     ],
-    "image_path": "image\\佩可莉姆 圣诞_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆 圣诞_1星.png"
   },
   "1279_3": {
     "id": "1279_3",
@@ -5901,7 +5901,7 @@
       "圣吃",
       "诞吃"
     ],
-    "image_path": "image\\佩可莉姆 圣诞_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆 圣诞_3星.png"
   },
   "1280_1": {
     "id": "1280_1",
@@ -5910,7 +5910,7 @@
     "nicknames": [
       "诞塔"
     ],
-    "image_path": "image\\克蕾琪塔 圣诞_1星.png"
+    "image_path": "images\\avatar\\克蕾琪塔 圣诞_1星.png"
   },
   "1280_3": {
     "id": "1280_3",
@@ -5919,7 +5919,7 @@
     "nicknames": [
       "诞塔"
     ],
-    "image_path": "image\\克蕾琪塔 圣诞_3星.png"
+    "image_path": "images\\avatar\\克蕾琪塔 圣诞_3星.png"
   },
   "1283_1": {
     "id": "1283_1",
@@ -5930,7 +5930,7 @@
       "绿龙",
       "龙小鬼"
     ],
-    "image_path": "image\\祈梨 新年_1星.png"
+    "image_path": "images\\avatar\\祈梨 新年_1星.png"
   },
   "1283_3": {
     "id": "1283_3",
@@ -5941,7 +5941,7 @@
       "绿龙",
       "龙小鬼"
     ],
-    "image_path": "image\\祈梨 新年_3星.png"
+    "image_path": "images\\avatar\\祈梨 新年_3星.png"
   },
   "1284_1": {
     "id": "1284_1",
@@ -5951,7 +5951,7 @@
       "春星",
       "新星"
     ],
-    "image_path": "image\\初音 新年_1星.png"
+    "image_path": "images\\avatar\\初音 新年_1星.png"
   },
   "1284_3": {
     "id": "1284_3",
@@ -5961,7 +5961,7 @@
       "春星",
       "新星"
     ],
-    "image_path": "image\\初音 新年_3星.png"
+    "image_path": "images\\avatar\\初音 新年_3星.png"
   },
   "1701_1": {
     "id": "1701_1",
@@ -5971,7 +5971,7 @@
       "毛大力",
       "一环"
     ],
-    "image_path": "image\\环奈_1星.png"
+    "image_path": "images\\avatar\\环奈_1星.png"
   },
   "1701_3": {
     "id": "1701_3",
@@ -5981,7 +5981,7 @@
       "毛大力",
       "一环"
     ],
-    "image_path": "image\\环奈_3星.png"
+    "image_path": "images\\avatar\\环奈_3星.png"
   },
   "1702_1": {
     "id": "1702_1",
@@ -5992,7 +5992,7 @@
       "春大力",
       "二环"
     ],
-    "image_path": "image\\环奈 振袖_1星.png"
+    "image_path": "images\\avatar\\环奈 振袖_1星.png"
   },
   "1702_3": {
     "id": "1702_3",
@@ -6003,7 +6003,7 @@
       "春大力",
       "二环"
     ],
-    "image_path": "image\\环奈 振袖_3星.png"
+    "image_path": "images\\avatar\\环奈 振袖_3星.png"
   },
   "1801_1": {
     "id": "1801_1",
@@ -6015,7 +6015,7 @@
       "火拳",
       "公猫"
     ],
-    "image_path": "image\\日和莉 公主_1星.png"
+    "image_path": "images\\avatar\\日和莉 公主_1星.png"
   },
   "1801_3": {
     "id": "1801_3",
@@ -6027,7 +6027,7 @@
       "火拳",
       "公猫"
     ],
-    "image_path": "image\\日和莉 公主_3星.png"
+    "image_path": "images\\avatar\\日和莉 公主_3星.png"
   },
   "1802_1": {
     "id": "1802_1",
@@ -6042,7 +6042,7 @@
       "高达优衣",
       "羽田"
     ],
-    "image_path": "image\\优衣 公主_1星.png"
+    "image_path": "images\\avatar\\优衣 公主_1星.png"
   },
   "1802_3": {
     "id": "1802_3",
@@ -6057,7 +6057,7 @@
       "高达优衣",
       "羽田"
     ],
-    "image_path": "image\\优衣 公主_3星.png"
+    "image_path": "images\\avatar\\优衣 公主_3星.png"
   },
   "1803_1": {
     "id": "1803_1",
@@ -6071,7 +6071,7 @@
       "斯大林格勒",
       "勒热夫"
     ],
-    "image_path": "image\\怜 公主_1星.png"
+    "image_path": "images\\avatar\\怜 公主_1星.png"
   },
   "1803_3": {
     "id": "1803_3",
@@ -6085,7 +6085,7 @@
       "斯大林格勒",
       "勒热夫"
     ],
-    "image_path": "image\\怜 公主_3星.png"
+    "image_path": "images\\avatar\\怜 公主_3星.png"
   },
   "1804_1": {
     "id": "1804_1",
@@ -6099,7 +6099,7 @@
       "公主吃货",
       "公吃"
     ],
-    "image_path": "image\\佩可莉姆 公主_1星.png"
+    "image_path": "images\\avatar\\佩可莉姆 公主_1星.png"
   },
   "1804_3": {
     "id": "1804_3",
@@ -6113,7 +6113,7 @@
       "公主吃货",
       "公吃"
     ],
-    "image_path": "image\\佩可莉姆 公主_3星.png"
+    "image_path": "images\\avatar\\佩可莉姆 公主_3星.png"
   },
   "1805_1": {
     "id": "1805_1",
@@ -6128,7 +6128,7 @@
       "飞妈",
       "公可"
     ],
-    "image_path": "image\\可可萝 公主_1星.png"
+    "image_path": "images\\avatar\\可可萝 公主_1星.png"
   },
   "1805_3": {
     "id": "1805_3",
@@ -6143,7 +6143,7 @@
       "飞妈",
       "公可"
     ],
-    "image_path": "image\\可可萝 公主_3星.png"
+    "image_path": "images\\avatar\\可可萝 公主_3星.png"
   },
   "1806_1": {
     "id": "1806_1",
@@ -6153,7 +6153,7 @@
       "白猫",
       "公黑"
     ],
-    "image_path": "image\\凯露 公主_1星.png"
+    "image_path": "images\\avatar\\凯露 公主_1星.png"
   },
   "1806_3": {
     "id": "1806_3",
@@ -6163,7 +6163,7 @@
       "白猫",
       "公黑"
     ],
-    "image_path": "image\\凯露 公主_3星.png"
+    "image_path": "images\\avatar\\凯露 公主_3星.png"
   },
   "1807_1": {
     "id": "1807_1",
@@ -6174,7 +6174,7 @@
       "初音小栞",
       "星弓"
     ],
-    "image_path": "image\\初音&栞_1星.png"
+    "image_path": "images\\avatar\\初音&栞_1星.png"
   },
   "1807_3": {
     "id": "1807_3",
@@ -6185,7 +6185,7 @@
       "初音小栞",
       "星弓"
     ],
-    "image_path": "image\\初音&栞_3星.png"
+    "image_path": "images\\avatar\\初音&栞_3星.png"
   },
   "1808_1": {
     "id": "1808_1",
@@ -6196,7 +6196,7 @@
       "小小甜心",
       "散装克"
     ],
-    "image_path": "image\\未奏希&美美&镜华_1星.png"
+    "image_path": "images\\avatar\\未奏希&美美&镜华_1星.png"
   },
   "1808_3": {
     "id": "1808_3",
@@ -6207,7 +6207,7 @@
       "小小甜心",
       "散装克"
     ],
-    "image_path": "image\\未奏希&美美&镜华_3星.png"
+    "image_path": "images\\avatar\\未奏希&美美&镜华_3星.png"
   },
   "1809_1": {
     "id": "1809_1",
@@ -6219,7 +6219,7 @@
       "哈哈电",
       "哈哈咲"
     ],
-    "image_path": "image\\秋乃&咲恋_1星.png"
+    "image_path": "images\\avatar\\秋乃&咲恋_1星.png"
   },
   "1809_3": {
     "id": "1809_3",
@@ -6231,7 +6231,7 @@
       "哈哈电",
       "哈哈咲"
     ],
-    "image_path": "image\\秋乃&咲恋_3星.png"
+    "image_path": "images\\avatar\\秋乃&咲恋_3星.png"
   },
   "1810_1": {
     "id": "1810_1",
@@ -6240,7 +6240,7 @@
     "nicknames": [
       "龙安"
     ],
-    "image_path": "image\\安&古蕾雅_1星.png"
+    "image_path": "images\\avatar\\安&古蕾雅_1星.png"
   },
   "1810_3": {
     "id": "1810_3",
@@ -6249,7 +6249,7 @@
     "nicknames": [
       "龙安"
     ],
-    "image_path": "image\\安&古蕾雅_3星.png"
+    "image_path": "images\\avatar\\安&古蕾雅_3星.png"
   },
   "1811_1": {
     "id": "1811_1",
@@ -6259,7 +6259,7 @@
       "姐妹",
       "姐妹弓"
     ],
-    "image_path": "image\\静流&璃乃_1星.png"
+    "image_path": "images\\avatar\\静流&璃乃_1星.png"
   },
   "1811_3": {
     "id": "1811_3",
@@ -6269,6 +6269,6 @@
       "姐妹",
       "姐妹弓"
     ],
-    "image_path": "image\\静流&璃乃_3星.png"
+    "image_path": "images\\avatar\\静流&璃乃_3星.png"
   }
 }

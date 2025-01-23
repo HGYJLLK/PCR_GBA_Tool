@@ -4,10 +4,12 @@ import time
 from utils.logger import logger
 from core.game.base import GameBase
 
+
 class GameTemplates:
     @property
     def training_icon(self):
         return Template(r"static/images/button/大家的训练场.png")
+
 
 class TrainingOperation(GameBase):
     def __init__(self):

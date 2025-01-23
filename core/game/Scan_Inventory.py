@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
-from utils.Avatar_Detector import AvatarDetector
+from utils.Avatar_Detector import CharacterGridDetector
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +21,7 @@ class ScanInventory:
 
         # 初始化角色检测器
         try:
-            self.detector = AvatarDetector(device)
+            self.detector = CharacterGridDetector(device)
         except Exception as e:
             logger.error(f"初始化角色检测器失败: {e}")
             raise

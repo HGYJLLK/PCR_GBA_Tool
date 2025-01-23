@@ -1,4 +1,3 @@
-"""游戏模板管理"""
 from airtest.core.api import Template
 from pathlib import Path
 
@@ -39,3 +38,23 @@ class GameTemplates:
     def swipe_short(self):
         """短蓝条"""
         return Template(str(self.button_path / "短蓝条.png"))
+
+    @property
+    def my_home_icon(self):
+        """我的主页图标"""
+        return Template(str(self.button_path / "我的主页.png"))
+
+    @property
+    def battle_arena_icon(self):
+        """战斗竞技场图标"""
+        return Template(str(self.button_path / "战斗竞技场.png"))
+
+    @property
+    def defense_setting_icon(self):
+        """防守设定图标"""
+        return Template(str(self.button_path / "防守设定.png"))
+
+    @property
+    def my_home_select_icon(self):
+        """我的主页选中图标"""
+        return Template(str(self.button_path / "我的主页_select.png"))
