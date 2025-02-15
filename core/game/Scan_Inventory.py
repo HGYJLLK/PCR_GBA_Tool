@@ -1,3 +1,4 @@
+'''角色识别器'''
 import time
 import logging
 import cv2

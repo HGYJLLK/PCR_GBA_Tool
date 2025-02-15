@@ -1,3 +1,4 @@
+'''竞技场相关功能'''
 import logging
 from pathlib import Path
 from airtest.core.api import Template, touch, exists

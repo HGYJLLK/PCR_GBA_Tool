@@ -27,10 +27,6 @@ def setup_logger():
     console_handler.setFormatter(console_formatter)
     app_logger.addHandler(console_handler)
 
-    test = "Hello World"
-
-    print(test)
-
     return app_logger
 
 
