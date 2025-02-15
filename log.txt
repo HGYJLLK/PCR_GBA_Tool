@@ -1,0 +1,43 @@
+2025-01-16 14:16:25,684 - pcr_auto - ERROR - 程序异常: 不支持的操作系统
+2025-01-16 14:16:55,360 - pcr_auto - ERROR - 程序异常: 不支持的操作系统
+2025-01-16 14:17:12,016 - pcr_auto - ERROR - 程序异常: 不支持的操作系统
+2025-01-16 14:19:45,550 - pcr_auto - ERROR - 程序异常: 'DeviceManager' object has no attribute 'connect_device'
+2025-01-16 14:22:53,731 - pcr_auto - ERROR - 程序异常: File not exist: static/xlc.png
+2025-01-16 14:31:13,637 - pcr_auto - ERROR - 连接失败: 'device not ready'
+2025-01-16 14:31:13,640 - pcr_auto - ERROR - 连接模拟器失败，请检查模拟器是否正常运行
+2025-01-16 14:34:11,863 - pcr_auto - ERROR - 连接失败: 'device not ready'
+2025-01-16 14:34:11,865 - pcr_auto - ERROR - 连接模拟器失败，请检查模拟器是否正常运行
+2025-01-16 14:35:41,036 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:35:46,488 - pcr_auto - ERROR - 连接失败: 'device not ready'
+2025-01-16 14:35:46,489 - pcr_auto - ERROR - 连接模拟器失败，请检查模拟器是否正常运行
+2025-01-16 14:39:34,192 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:39:34,652 - pcr_auto - INFO - 设备连接成功: <airtest.core.android.android.Android object at 0x1246fde50>
+2025-01-16 14:39:34,653 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 devices
+2025-01-16 14:39:34,688 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 shell dumpsys window | grep "mFocusedApp"
+2025-01-16 14:39:34,774 - pcr_auto - INFO - 游戏未运行，准备启动
+2025-01-16 14:39:36,935 - pcr_auto - INFO - 找到图标，坐标：(535, 215)
+2025-01-16 14:39:38,735 - pcr_auto - INFO - 游戏启动成功
+2025-01-16 14:39:44,008 - pcr_auto - ERROR - 程序异常: File not exist: static/xlc.png
+2025-01-16 14:41:30,036 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:41:30,512 - pcr_auto - INFO - 设备连接成功: <airtest.core.android.android.Android object at 0x11c58de50>
+2025-01-16 14:41:30,513 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 devices
+2025-01-16 14:41:30,544 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 shell dumpsys window | grep "mFocusedApp"
+2025-01-16 14:41:30,633 - pcr_auto - INFO - 游戏已在运行中
+2025-01-16 14:41:33,724 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:40,541 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:47,509 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:41:51,070 - pcr_auto - INFO - 找到训练场图标，坐标：(624, 100)
+2025-01-16 14:41:55,459 - pcr_auto - INFO - 进入训练场成功
+2025-01-16 14:41:56,467 - pcr_auto - INFO - 找到图标，坐标：(1199, 495)
+2025-01-16 14:43:05,111 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 14:43:05,506 - pcr_auto - INFO - 设备连接成功: <airtest.core.android.android.Android object at 0x111a41e50>
+2025-01-16 14:43:05,507 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 devices
+2025-01-16 14:43:05,566 - pcr_auto - INFO - 执行ADB命令: "/opt/homebrew/bin/adb" -s 127.0.0.1:5555 shell dumpsys window | grep "mFocusedApp"
+2025-01-16 14:43:05,670 - pcr_auto - INFO - 游戏已在运行中
+2025-01-16 14:43:11,617 - pcr_auto - INFO - 未找到训练场图标，点击固定位置
+2025-01-16 14:43:16,556 - pcr_auto - INFO - 找到训练场图标，坐标：(204, 448)
+2025-01-16 14:43:20,964 - pcr_auto - INFO - 进入训练场成功
+2025-01-16 14:43:22,161 - pcr_auto - INFO - 找到图标，坐标：(1228, 441)
+2025-01-16 16:16:44,989 - pcr_auto - INFO - 当前操作系统: Darwin
+2025-01-16 16:16:50,379 - pcr_auto - ERROR - 连接失败: 'device not ready'
+2025-01-16 16:16:50,379 - pcr_auto - ERROR - 连接模拟器失败，请检查模拟器是否正常运行
