@@ -25,61 +25,61 @@ def print_menu():
 
 def main():
     try:
-        # 环境检查
+        # 环境检查（未来对接前端系统初始化模块）
         env = Env()
         if not env.check_python_environment():
             return
         if not env.check_network():
             return
 
-        # # 连接模拟器
-        # device_manager = DeviceManager()
-        # if not device_manager.connect_device():
-        #     logger.error("连接模拟器失败，请检查模拟器是否正常运行")
-        #     return
+        # 连接模拟器
+        device_manager = DeviceManager()
+        if not device_manager.connect_device():
+            logger.error("连接模拟器失败，请检查模拟器是否正常运行")
+            return
 
-        # if not device_manager.check_connection():
-        #     logger.error("ADB连接失败，请检查模拟器是否正常运行")
-        #     return
+        if not device_manager.check_connection():
+            logger.error("ADB连接失败，请检查模拟器是否正常运行")
+            return
 
-        # templates = GameTemplates()
-        # training = TrainingOperation()  # 训练场操作
-        # goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
+        templates = GameTemplates() # 基础图标
+        training = TrainingOperation()  # 训练场操作
+        goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
 
-        # while True:
-        #     print_menu()
-        #     try:
-        #         choice = int(input())
-        #     except ValueError:
-        #         logger.error("输入无效，请输入数字")
-        #         continue
+        while True:
+            print_menu()
+            try:
+                choice = int(input())
+            except ValueError:
+                logger.error("输入无效，请输入数字")
+                continue
 
-        #     # 游戏基础操作
-        #     if choice == 0:
-        #         logger.info("程序退出")
-        #         break
-        #     elif choice == 2:
-        #         restart_game(device_manager, templates, training)
-        #         continue
+            # 游戏基础操作
+            if choice == 0:
+                logger.info("程序退出")
+                break
+            elif choice == 2:
+                restart_game(device_manager, templates, training)
+                continue
 
-        #     # 检查游戏运行状态
-        #     if not ensure_game_running(device_manager, templates, training):
-        #         continue
+            # 检查游戏运行状态
+            if not ensure_game_running(device_manager, templates, training):
+                continue
 
-        #     # 功能选择
-        #     if choice == 1:  # 训练场
-        #         if not training.enter_training_area():
-        #             logger.error("进入训练场失败，可能是未找到图标")
-        #     elif choice == 3:  # 竞技场
-        #         try:
-        #             goto_jjc.navigate()
-        #             logger.info("成功进入竞技场")
-        #         except Exception as e:
-        #             logger.error(f"进入竞技场失败: {str(e)}")
-        #     else:
-        #         logger.error("无效的选项，请重新输入")
+            # 功能选择
+            if choice == 1:  # 训练场
+                if not training.enter_training_area():
+                    logger.error("进入训练场失败，可能是未找到图标")
+            elif choice == 3:  # 竞技场
+                try:
+                    goto_jjc.navigate()
+                    logger.info("成功进入竞技场")
+                except Exception as e:
+                    logger.error(f"进入竞技场失败: {str(e)}")
+            else:
+                logger.error("无效的选项，请重新输入")
 
-        #     time.sleep(1)
+            time.sleep(1)
 
     except Exception as e:
         logger.error(f"程序异常: {str(e)}")
@@ -87,33 +87,33 @@ def main():
         logger.info("正在清理资源...")
 
 
-# def ensure_game_running(device_manager, templates, training):
-#     """检查并确保游戏运行"""
-#     if not device_manager.check_game_activity():
-#         logger.info("游戏未运行，准备启动")
-#         if training.click_icon(icon=templates.app_icon):
-#             logger.info("游戏启动成功")
-#             time.sleep(15)
-#             return True
-#         logger.error("游戏启动失败")
-#         return False
-#     return True
+def ensure_game_running(device_manager, templates, training):
+    """检查并确保游戏运行"""
+    if not device_manager.check_game_activity():
+        logger.info("游戏未运行，准备启动")
+        if training.click_icon(icon=templates.app_icon):
+            logger.info("游戏启动成功")
+            time.sleep(15)
+            return True
+        logger.error("游戏启动失败")
+        return False
+    return True
 
 
-# def restart_game(device_manager, templates, training):
-#     """重启游戏"""
-#     logger.info("准备重启游戏")
-#     try:
-#         device_manager.device.shell(f"am force-stop {GAME_PACKAGE}")
-#         logger.info("游戏已停止")
-#         time.sleep(5)
-#         if training.click_icon(icon=templates.app_icon):
-#             logger.info("游戏重启成功")
-#             time.sleep(15)
-#         else:
-#             logger.error("游戏启动失败")
-#     except Exception as e:
-#         logger.error(f"重启游戏失败: {str(e)}")
+def restart_game(device_manager, templates, training):
+    """重启游戏"""
+    logger.info("准备重启游戏")
+    try:
+        device_manager.device.shell(f"am force-stop {GAME_PACKAGE}")
+        logger.info("游戏已停止")
+        time.sleep(5)
+        if training.click_icon(icon=templates.app_icon):
+            logger.info("游戏重启成功")
+            time.sleep(15)
+        else:
+            logger.error("游戏启动失败")
+    except Exception as e:
+        logger.error(f"重启游戏失败: {str(e)}")
 
 
 if __name__ == "__main__":
