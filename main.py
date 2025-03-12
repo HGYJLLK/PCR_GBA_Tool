@@ -6,10 +6,11 @@ from core.game.training import TrainingOperation
 from core.templates import GameTemplates
 from utils.logger import logger
 from utils.environment_check import Env
+from utils.game import Game
 import time
 
-# 公主连结R国服包名
-GAME_PACKAGE = "com.bilibili.priconne"
+# # 公主连结R国服包名
+# GAME_PACKAGE = "com.bilibili.priconne"
 
 
 def print_menu():
@@ -18,6 +19,7 @@ def print_menu():
     print("2. 重启游戏")
     print("3. 进入竞技场")
     print("4. 进入竞技场防守设置")  # 新增选项
+    # print("5. 进入主界面")
     print("0. 退出程序")
     print("===========================================")
     print("请输入对应数字进行操作: ", end="")
@@ -42,9 +44,10 @@ def main():
             logger.error("ADB连接失败，请检查模拟器是否正常运行")
             return
 
-        templates = GameTemplates() # 基础图标
+        templates = GameTemplates()  # 基础图标
         training = TrainingOperation()  # 训练场操作
         goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
+        game = Game()  # 游戏操作
 
         while True:
             print_menu()
@@ -59,7 +62,7 @@ def main():
                 logger.info("程序退出")
                 break
             elif choice == 2:
-                restart_game(device_manager, templates, training)
+                game.restart_game(device_manager, templates)
                 continue
 
             # 检查游戏运行状态
@@ -100,20 +103,20 @@ def ensure_game_running(device_manager, templates, training):
     return True
 
 
-def restart_game(device_manager, templates, training):
-    """重启游戏"""
-    logger.info("准备重启游戏")
-    try:
-        device_manager.device.shell(f"am force-stop {GAME_PACKAGE}")
-        logger.info("游戏已停止")
-        time.sleep(5)
-        if training.click_icon(icon=templates.app_icon):
-            logger.info("游戏重启成功")
-            time.sleep(15)
-        else:
-            logger.error("游戏启动失败")
-    except Exception as e:
-        logger.error(f"重启游戏失败: {str(e)}")
+# def restart_game(device_manager, templates, training):
+#     """重启游戏"""
+#     logger.info("准备重启游戏")
+#     try:
+#         device_manager.device.shell(f"am force-stop {GAME_PACKAGE}")
+#         logger.info("游戏已停止")
+#         time.sleep(5)
+#         if training.click_icon(icon=templates.app_icon):
+#             logger.info("游戏重启成功")
+#             time.sleep(15)
+#         else:
+#             logger.error("游戏启动失败")
+#     except Exception as e:
+#         logger.error(f"重启游戏失败: {str(e)}")
 
 
 if __name__ == "__main__":

@@ -1,11 +1,13 @@
 """基础游戏操作"""
+
 from airtest.core.api import touch, exists, swipe
 import time
 from utils.logger import logger
 
+
 class GameBase:
     @staticmethod
-    def click_icon(icon, max_retries=3):
+    def click_icon(icon, max_retries=10):
         """点击图标"""
         retry_count = 0
         while retry_count < max_retries:
@@ -15,7 +17,7 @@ class GameBase:
                 touch(pos)
                 return True
             retry_count += 1
-            time.sleep(2)
+            time.sleep(0.5)
         logger.error("未能找到图标")
         return False
 
