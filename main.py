@@ -7,6 +7,7 @@ from core.templates import GameTemplates
 from utils.logger import logger
 from utils.environment_check import Env
 from utils.game import Game
+from utils.navigate import Nav
 import time
 
 # # 公主连结R国服包名
@@ -19,7 +20,7 @@ def print_menu():
     print("2. 重启游戏")
     print("3. 进入竞技场")
     print("4. 进入竞技场防守设置")  # 新增选项
-    # print("5. 进入主界面")
+    print("5. 进入主界面")
     print("0. 退出程序")
     print("===========================================")
     print("请输入对应数字进行操作: ", end="")
@@ -48,6 +49,11 @@ def main():
         training = TrainingOperation()  # 训练场操作
         goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
         game = Game()  # 游戏操作
+        nav = Nav()  # 导航操作
+
+        # while True:
+        #     game.click_pos((1270, 660))
+        #     time.sleep(1)
 
         while True:
             print_menu()
@@ -62,11 +68,11 @@ def main():
                 logger.info("程序退出")
                 break
             elif choice == 2:
-                game.restart_game(device_manager, templates)
+                game.restart_game(device_manager)
                 continue
 
-            # 检查游戏运行状态
-            if not ensure_game_running(device_manager, templates, training):
+            # 检查游戏运行状态，没有运行则跳过本次循环，重新输入
+            if not game.ensure_game_running(device_manager):
                 continue
 
             # 功能选择
@@ -79,6 +85,8 @@ def main():
                     logger.info("成功进入竞技场")
                 except Exception as e:
                     logger.error(f"进入竞技场失败: {str(e)}")
+            elif choice == 5:  # 主界面
+                nav.nav_to_main()
             else:
                 logger.error("无效的选项，请重新输入")
 
@@ -90,17 +98,17 @@ def main():
         logger.info("正在清理资源...")
 
 
-def ensure_game_running(device_manager, templates, training):
-    """检查并确保游戏运行"""
-    if not device_manager.check_game_activity():
-        logger.info("游戏未运行，准备启动")
-        if training.click_icon(icon=templates.app_icon):
-            logger.info("游戏启动成功")
-            time.sleep(15)
-            return True
-        logger.error("游戏启动失败")
-        return False
-    return True
+# def ensure_game_running(device_manager, templates, training):
+#     """检查并确保游戏运行"""
+#     if not device_manager.check_game_activity():
+#         logger.info("游戏未运行，准备启动")
+#         if training.click_icon(icon=templates.app_icon):
+#             logger.info("游戏启动成功")
+#             time.sleep(15)
+#             return True
+#         logger.error("游戏启动失败")
+#         return False
+#     return True
 
 
 # def restart_game(device_manager, templates, training):
