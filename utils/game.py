@@ -19,15 +19,20 @@ class Game:
             if self.click_icon(icon=self.templates.app_icon):
                 logger.info("游戏重启成功，等待启动界面")
                 time.sleep(15)
+                return True
             else:
                 logger.error("游戏启动失败")
+                return False
         except Exception as e:
             logger.error(f"重启游戏失败: {str(e)}")
+            return False
 
     def check_main(self):
         """检查主界面"""
         try:
-            if exists(self.templates.my_home_select_icon):
+            if exists(self.templates.my_home_select_icon) and not exists(
+                self.templates.close_icon
+            ):
                 return True
             else:
                 return False
@@ -37,14 +42,17 @@ class Game:
 
     def ensure_game_running(self, device_manager):
         """检查并确保游戏运行"""
-        if not device_manager.check_game_activity():
-            logger.info("游戏未启动")
-            self.restart_game(device_manager)
-            return True
-        logger.info("游戏已启动")
+        print(
+            "device_manager.check_game_activity()", device_manager.check_game_activity()
+        )
+        # if not device_manager.check_game_activity():
+        #     logger.info("游戏未启动")
+        #     self.restart_game(device_manager)
+        #     return True
+        # logger.info("游戏已启动")
         return True
 
-    def click_icon(self, icon, max_retries=10):
+    def click_icon(self, icon, max_retries=3):
         """点击图标"""
         retry_count = 0
         while retry_count < max_retries:
@@ -55,8 +63,8 @@ class Game:
                 return True
             logger.info(f"未找到图标")
             retry_count += 1
-            time.sleep(0.5)
-        logger.error("未能找到图标")
+            # time.sleep(0.5)
+        # logger.error("未能找到图标")
         return False
 
     @staticmethod

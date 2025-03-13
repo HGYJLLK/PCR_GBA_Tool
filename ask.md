@@ -46,7 +46,7 @@ class Game:
                 logger.error("游戏启动失败")
         except Exception as e:
             logger.error(f"重启游戏失败: {str(e)}")
-
+    
     def click_icon(self, icon, max_retries=10):
         """点击图标"""
         retry_count = 0
@@ -128,7 +128,7 @@ class Game:
                 logger.error("游戏启动失败")
         except Exception as e:
             logger.error(f"重启游戏失败: {str(e)}")
-
+    
     @staticmethod
     def click_icon(icon, max_retries=10):
         """点击图标"""
@@ -143,14 +143,14 @@ class Game:
             time.sleep(0.5)
         logger.error("未能找到图标")
         return False
-
+    
     @staticmethod
     def click_pos(pos):
         """点击坐标"""
         logger.info(f"点击坐标：{pos}")
         touch(pos)
         time.sleep(0.5)
-
+    
     @staticmethod
     def swipe_screen(start_pos, end_pos):
         """滑动屏幕"""
@@ -206,16 +206,16 @@ def main():
         if not device_manager.connect_device():
             logger.error("连接模拟器失败，请检查模拟器是否正常运行")
             return
-
+    
         if not device_manager.check_connection():
             logger.error("ADB连接失败，请检查模拟器是否正常运行")
             return
-
+    
         templates = GameTemplates()  # 基础图标
         training = TrainingOperation()  # 训练场操作
         goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
         game = Game()  # 游戏操作
-
+    
         while True:
             print_menu()
             try:
@@ -223,7 +223,7 @@ def main():
             except ValueError:
                 logger.error("输入无效，请输入数字")
                 continue
-
+    
             # 游戏基础操作
             if choice == 0:
                 logger.info("程序退出")
@@ -231,11 +231,11 @@ def main():
             elif choice == 2:
                 game.restart_game(device_manager)
                 continue
-
+    
             # 检查游戏运行状态
             if not game.ensure_game_running(device_manager):
                 continue
-
+    
             # 功能选择
             if choice == 1:  # 训练场
                 if not training.enter_training_area():
@@ -248,9 +248,9 @@ def main():
                     logger.error(f"进入竞技场失败: {str(e)}")
             else:
                 logger.error("无效的选项，请重新输入")
-
+    
             time.sleep(1)
-
+    
     except Exception as e:
         logger.error(f"程序异常: {str(e)}")
     finally:
@@ -270,3 +270,18 @@ def ensure_game_running(device_manager, templates, training):
     return True
 
 这段代码中，# 检查游戏运行状态             if not game.ensure_game_running(device_manager):                 continuez这一段代码是不是没有意义？
+
+
+
+---
+
+2025-03-12 23:13:15,337 - INFO - 未找到图标
+2025-03-12 23:13:23,172 - INFO - 未找到图标
+2025-03-12 23:13:30,997 - INFO - 未找到图标
+2025-03-12 23:13:30,997 - ERROR - 没有找到主菜单，重启游戏
+2025-03-12 23:13:30,998 - INFO - 准备重启游戏
+2025-03-12 23:13:30,999 - ERROR - 重启游戏失败: 'NoneType' object has no attribute 'shell'
+2025-03-12 23:13:34,972 - INFO - 点击坐标：(1270, 660)
+2025-03-12 23:13:43,534 - INFO - 点击坐标：(1270, 660)
+2025-03-12 23:13:44,185 - INFO - 正在清理资源...
+Traceback (most recent call last):

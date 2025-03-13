@@ -23,7 +23,7 @@ class Nav:
             logger.info("游戏已运行")
 
         attempts = 0
-        while attempts < 10:
+        while attempts < 3:
 
             # 检测是否在主界面
             if self.game.check_main():
@@ -31,16 +31,17 @@ class Nav:
                 return True
 
             # 点击主菜单
-            self.game.click_icon(self.templates.my_home_icon)
-            time.sleep(0.5)
+            self.game.click_icon(self.templates.my_home_icon, max_retries=1)
+            # time.sleep(0.5)
             attempts += 1
 
         # 没有找到主菜单，重启游戏
         logger.error("没有找到主菜单，重启游戏")
-        self.game.restart_game(self.device)
+        if not self.game.restart_game(self.device):
+            return False
 
         attempts = 0
-        while attempts < 10:
+        while attempts < 3:
             # 检测是否在主界面
             if self.game.check_main():
                 logger.info("成功进入主界面")

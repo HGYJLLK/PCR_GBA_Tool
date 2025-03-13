@@ -3,16 +3,18 @@
 from airtest.core.api import init_device
 from utils.adb import ADBTool
 from utils.logger import logger
-from setting import DEVICE_UUID, PACKAGE_NAME, GAME_ACTIVITY  # 使用正确的导入路径
+from utils.environment_check import Env
+from setting import DEVICE_UUID, PACKAGE_NAME, GAME_ACTIVITY
+
 
 class DeviceManager:
     def __init__(self):
         self.adb_tool = ADBTool()
         self.device = None
-        # 直接使用导入的变量
         self.device_uuid = DEVICE_UUID
         self.package_name = PACKAGE_NAME
         self.game_activity = GAME_ACTIVITY
+        self.env = Env()
 
     def connect_device(self):
         """连接模拟器"""
@@ -27,22 +29,30 @@ class DeviceManager:
     def check_connection(self):
         """检查ADB连接状态"""
         try:
-            result = self.adb_tool.run_command(f'-s {self.device_uuid} devices')
+            result = self.adb_tool.run_command(f"-s {self.device_uuid} devices")
             return self.device_uuid in result and "device" in result
         except:
             return False
 
     def check_game_activity(self):
         """检测游戏是否在运行"""
-        result = self.adb_tool.run_command(
-            f'-s {self.device_uuid} shell dumpsys window | grep "mFocusedApp"')
+        if self.env.check_sys() == "Darwin":
+            result = self.adb_tool.run_command(
+                f'-s {self.device_uuid} shell dumpsys window | grep "mFocusedApp"'
+            )
+        else:
+            result = self.adb_tool.run_command(
+                f'-s {self.device_uuid} shell dumpsys window | findstr "mFocusedApp"'
+            )
         return bool(result and self.game_activity in result)
 
     def close_game(self):
         """关闭游戏"""
         try:
             if self.check_game_activity():
-                self.adb_tool.run_command(f'-s {self.device_uuid} shell am force-stop {self.package_name}')
+                self.adb_tool.run_command(
+                    f"-s {self.device_uuid} shell am force-stop {self.package_name}"
+                )
                 logger.info("关闭游戏成功")
                 return True
             return True

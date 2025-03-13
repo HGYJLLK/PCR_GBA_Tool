@@ -5,6 +5,7 @@ from utils.logger import logger
 import sys
 import socket
 import subprocess
+import platform
 
 
 class Env:
@@ -53,6 +54,11 @@ class Env:
         # print(f"网络检测异常，请检查网络连接")
         logger.error(f"网络检测异常，请检查网络连接")
         return False
+
+    def check_sys(self):
+        current_os = platform.system()
+        logger.info(f"当前系统: {current_os}")
+        return current_os
 
 
 # if __name__ == "__main__":

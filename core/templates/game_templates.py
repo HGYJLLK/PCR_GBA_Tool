@@ -58,3 +58,8 @@ class GameTemplates:
     def my_home_select_icon(self):
         """我的主页选中图标"""
         return Template(str(self.button_path / "我的主页_select.png"))
+
+    @property
+    def close_icon(self):
+        """关闭图标"""
+        return Template(str(self.button_path / "关闭.png"))
