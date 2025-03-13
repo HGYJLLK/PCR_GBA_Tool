@@ -31,7 +31,9 @@ class ADBTool:
             full_command = f'"{self.adb_path}" {command}'
             logger.info(f"执行ADB命令: {full_command}")
 
+            # '|'用来连接多个命令
             if "|" in command:
+                # 多个命令需要使用Popen来执行复杂命令
                 process = subprocess.Popen(
                     full_command,
                     shell=True,
