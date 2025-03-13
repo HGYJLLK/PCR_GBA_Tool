@@ -30,6 +30,7 @@ class DeviceManager:
         """检查ADB连接状态"""
         try:
             result = self.adb_tool.run_command(f"-s {self.device_uuid} devices")
+            logger.info(f"ADB连接状态: {result}")
             return self.device_uuid in result and "device" in result
         except:
             return False

@@ -10,22 +10,22 @@ from core.templates import GameTemplates
 class Nav:
     def __init__(self):
         self.game = Game()
-        self.device = DeviceManager()
         self.templates = GameTemplates()
 
-    def nav_to_main(self):
+    def nav_to_main(self, device_manager):
         """进入游戏主界面"""
         logger.info("尝试进入游戏主界面")
 
         # 检测游戏是否已运行
         logger.info("检测游戏是否已运行")
-        if self.game.check_game_run_status(self.device):
+        if self.game.check_game_run_status(device_manager):
             logger.info("游戏已运行")
 
         attempts = 0
         while attempts < 3:
 
             # 检测是否在主界面
+            self.game.click_pos((1270, 660))
             if self.game.check_main():
                 logger.info("已在主界面")
                 return True
@@ -37,18 +37,17 @@ class Nav:
 
         # 没有找到主菜单，重启游戏
         logger.error("没有找到主菜单，重启游戏")
-        if not self.game.restart_game(self.device):
+        if not self.game.restart_game(device_manager):
             return False
 
         attempts = 0
-        while attempts < 3:
+        while attempts < 6:
+            self.game.click_pos((1270, 660))
+            time.sleep(2)
             # 检测是否在主界面
             if self.game.check_main():
                 logger.info("成功进入主界面")
                 return True
-
-            self.game.click_pos((1270, 660))
-            time.sleep(2)
             attempts += 1
 
         logger.error("进入主界面失败，请联系管理员")

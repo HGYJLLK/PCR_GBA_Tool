@@ -35,8 +35,14 @@ def main():
         if not env.check_network():
             return
 
-        # 连接模拟器
         device_manager = DeviceManager()
+        templates = GameTemplates()  # 基础图标
+        training = TrainingOperation()  # 训练场操作
+        goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
+        game = Game()  # 游戏操作
+        nav = Nav()  # 导航操作
+
+        # 连接模拟器
         if not device_manager.connect_device():
             logger.error("连接模拟器失败，请检查模拟器是否正常运行")
             return
@@ -44,16 +50,6 @@ def main():
         if not device_manager.check_connection():
             logger.error("ADB连接失败，请检查模拟器是否正常运行")
             return
-
-        templates = GameTemplates()  # 基础图标
-        training = TrainingOperation()  # 训练场操作
-        goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
-        game = Game()  # 游戏操作
-        nav = Nav()  # 导航操作
-
-        # while True:
-        #     game.click_pos((1270, 660))
-        #     time.sleep(1)
 
         while True:
             print_menu()
@@ -86,7 +82,7 @@ def main():
                 except Exception as e:
                     logger.error(f"进入竞技场失败: {str(e)}")
             elif choice == 5:  # 主界面
-                nav.nav_to_main()
+                nav.nav_to_main(device_manager)
             else:
                 logger.error("无效的选项，请重新输入")
 

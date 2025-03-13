@@ -2,11 +2,12 @@ from utils.logger import logger
 from core.templates import GameTemplates
 import time
 from airtest.core.api import touch, exists, swipe
+from setting import PACKAGE_NAME
 
 
 class Game:
     def __init__(self):
-        self.GAME_PACKAGE = "com.bilibili.priconne"
+        self.GAME_PACKAGE = PACKAGE_NAME
         self.templates = GameTemplates()  # 基础图标
 
     def restart_game(self, device_manager):
@@ -42,14 +43,11 @@ class Game:
 
     def ensure_game_running(self, device_manager):
         """检查并确保游戏运行"""
-        print(
-            "device_manager.check_game_activity()", device_manager.check_game_activity()
-        )
-        # if not device_manager.check_game_activity():
-        #     logger.info("游戏未启动")
-        #     self.restart_game(device_manager)
-        #     return True
-        # logger.info("游戏已启动")
+        if not device_manager.check_game_activity():
+            logger.info("游戏未启动")
+            self.restart_game(device_manager)
+            return True
+        logger.info("游戏已启动")
         return True
 
     def click_icon(self, icon, max_retries=3):
