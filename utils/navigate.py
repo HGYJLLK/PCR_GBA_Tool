@@ -12,13 +12,13 @@ class Nav:
         self.game = Game()
         self.templates = GameTemplates()
 
-    def nav_to_main(self, device_manager):
+    def nav_to_main(self, device_manager, sys):
         """进入游戏主界面"""
         logger.info("尝试进入游戏主界面")
 
         # 检测游戏是否已运行
         logger.info("检测游戏是否已运行")
-        if self.game.check_game_run_status(device_manager):
+        if self.game.check_game_run_status(device_manager, sys):
             logger.info("游戏已运行")
 
         attempts = 0

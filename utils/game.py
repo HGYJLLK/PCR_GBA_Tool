@@ -41,9 +41,9 @@ class Game:
             logger.error(f"检查主界面时出错: {str(e)}")
             return False
 
-    def ensure_game_running(self, device_manager):
+    def ensure_game_running(self, device_manager, sys):
         """检查并确保游戏运行"""
-        if not device_manager.check_game_activity():
+        if not device_manager.check_game_activity(sys):
             logger.info("游戏未启动")
             self.restart_game(device_manager)
             return True
@@ -66,9 +66,9 @@ class Game:
         return False
 
     @staticmethod
-    def check_game_run_status(device_manager):
+    def check_game_run_status(device_manager, sys):
         """检查游戏运行状态"""
-        if device_manager.check_game_activity():
+        if device_manager.check_game_activity(sys):
             return True
         return False
 

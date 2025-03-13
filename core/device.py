@@ -3,7 +3,7 @@
 from airtest.core.api import init_device
 from utils.adb import ADBTool
 from utils.logger import logger
-from utils.environment_check import Env
+# from utils.environment_check import Env
 from setting import DEVICE_UUID, PACKAGE_NAME, GAME_ACTIVITY
 
 
@@ -14,7 +14,7 @@ class DeviceManager:
         self.device_uuid = DEVICE_UUID
         self.package_name = PACKAGE_NAME
         self.game_activity = GAME_ACTIVITY
-        self.env = Env()
+        # self.env = Env()
 
     def connect_device(self):
         """连接模拟器"""
@@ -35,22 +35,23 @@ class DeviceManager:
         except:
             return False
 
-    def check_game_activity(self):
+    def check_game_activity(self, sys):
         """检测游戏是否在运行"""
-        if self.env.check_sys() == "Darwin":
+        if sys == "Darwin":
             result = self.adb_tool.run_command(
                 f'-s {self.device_uuid} shell dumpsys window | grep "mFocusedApp"'
             )
         else:
+            # Windows
             result = self.adb_tool.run_command(
                 f'-s {self.device_uuid} shell dumpsys window | findstr "mFocusedApp"'
             )
         return bool(result and self.game_activity in result)
 
-    def close_game(self):
+    def close_game(self, sys):
         """关闭游戏"""
         try:
-            if self.check_game_activity():
+            if self.check_game_activity(sys):
                 self.adb_tool.run_command(
                     f"-s {self.device_uuid} shell am force-stop {self.package_name}"
                 )

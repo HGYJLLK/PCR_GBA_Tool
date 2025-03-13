@@ -19,7 +19,7 @@ def print_menu():
     print("1. 进入训练场")
     print("2. 重启游戏")
     print("3. 进入竞技场")
-    print("4. 进入竞技场防守设置")  # 新增选项
+    print("4. 进入竞技场防守设置")
     print("5. 进入主界面")
     print("0. 退出程序")
     print("===========================================")
@@ -41,6 +41,9 @@ def main():
         goto_jjc = GoToJJCBox(device_manager.device)  # 竞技场操作
         game = Game()  # 游戏操作
         nav = Nav()  # 导航操作
+
+        # 获取系统信息
+        sys = nav.check_sys()
 
         # 连接模拟器
         if not device_manager.connect_device():
@@ -82,7 +85,7 @@ def main():
                 except Exception as e:
                     logger.error(f"进入竞技场失败: {str(e)}")
             elif choice == 5:  # 主界面
-                nav.nav_to_main(device_manager)
+                nav.nav_to_main(device_manager, sys)
             else:
                 logger.error("无效的选项，请重新输入")
 
