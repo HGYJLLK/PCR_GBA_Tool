@@ -31,8 +31,10 @@ class Game:
     def check_main(self):
         """检查主界面"""
         try:
-            if exists(self.templates.my_home_select_icon) and not exists(
-                self.templates.close_icon
+            if (
+                exists(self.templates.my_home_select_icon)
+                and not exists(self.templates.close_icon)
+                and not exists(self.templates.setup_main_menu_icon)
             ):
                 return True
             else:

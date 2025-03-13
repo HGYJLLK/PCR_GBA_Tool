@@ -28,13 +28,8 @@ def print_menu():
 
 def main():
     try:
-        # 环境检查（未来对接前端系统初始化模块）
-        env = Env()
-        if not env.check_python_environment():
-            return
-        if not env.check_network():
-            return
 
+        env = Env()
         device_manager = DeviceManager()
         templates = GameTemplates()  # 基础图标
         training = TrainingOperation()  # 训练场操作
@@ -43,7 +38,13 @@ def main():
         nav = Nav()  # 导航操作
 
         # 获取系统信息
-        sys = nav.check_sys()
+        sys = env.check_sys()
+
+        # 环境检查（未来对接前端系统初始化模块）
+        if not env.check_python_environment():
+            return
+        if not env.check_network():
+            return
 
         # 连接模拟器
         if not device_manager.connect_device():
@@ -71,7 +72,7 @@ def main():
                 continue
 
             # 检查游戏运行状态，没有运行则跳过本次循环，重新输入
-            if not game.ensure_game_running(device_manager):
+            if not game.ensure_game_running(device_manager, sys):
                 continue
 
             # 功能选择

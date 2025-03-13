@@ -63,3 +63,8 @@ class GameTemplates:
     def close_icon(self):
         """关闭图标"""
         return Template(str(self.button_path / "关闭.png"))
+
+    @property
+    def setup_main_menu_icon(self):
+        """启动主菜单图标"""
+        return Template(str(self.button_path / "启动主菜单.png"))

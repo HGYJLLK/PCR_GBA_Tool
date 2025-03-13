@@ -22,7 +22,7 @@ class Nav:
             logger.info("游戏已运行")
 
         attempts = 0
-        while attempts < 3:
+        while attempts < 6:
 
             # 检测是否在主界面
             self.game.click_pos((1270, 660))
@@ -32,7 +32,6 @@ class Nav:
 
             # 点击主菜单
             self.game.click_icon(self.templates.my_home_icon, max_retries=1)
-            # time.sleep(0.5)
             attempts += 1
 
         # 没有找到主菜单，重启游戏
