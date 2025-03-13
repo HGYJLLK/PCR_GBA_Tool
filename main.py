@@ -77,7 +77,7 @@ def main():
 
             # 功能选择
             if choice == 1:  # 训练场
-                if not training.enter_training_area():
+                if not training.enter_training_area(templates.training_icon):
                     logger.error("进入训练场失败，可能是未找到图标")
             elif choice == 3:  # 竞技场
                 try:

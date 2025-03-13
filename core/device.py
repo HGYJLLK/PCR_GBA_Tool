@@ -3,7 +3,6 @@
 from airtest.core.api import init_device
 from utils.adb import ADBTool
 from utils.logger import logger
-# from utils.environment_check import Env
 from setting import DEVICE_UUID, PACKAGE_NAME, GAME_ACTIVITY
 
 
@@ -14,7 +13,6 @@ class DeviceManager:
         self.device_uuid = DEVICE_UUID
         self.package_name = PACKAGE_NAME
         self.game_activity = GAME_ACTIVITY
-        # self.env = Env()
 
     def connect_device(self):
         """连接模拟器"""
