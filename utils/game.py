@@ -6,9 +6,9 @@ from setting import PACKAGE_NAME
 
 
 class Game:
-    def __init__(self):
+    def __init__(self, templates):
         self.GAME_PACKAGE = PACKAGE_NAME
-        self.templates = GameTemplates()  # 基础图标
+        self.templates = templates  # 基础图标
 
     def restart_game(self, device_manager):
         """重启游戏"""
@@ -57,15 +57,23 @@ class Game:
         retry_count = 0
         while retry_count < max_retries:
             if exists(icon):
-                pos = exists(icon)
-                logger.info(f"找到图标，坐标：{pos}")
-                self.click_pos(pos)
+                touch(icon)
+                time.sleep(0.5)
                 return True
             logger.info(f"未找到图标")
             retry_count += 1
-            # time.sleep(0.5)
-        # logger.error("未能找到图标")
         return False
+
+    @staticmethod
+    def find_icon(icon):
+        """查找图标"""
+        if exists(icon):
+            pos = exists(icon)
+            logger.info(f"找到图标，坐标：{pos}")
+            return pos
+        else:
+            logger.info(f"未找到图标")
+            return None
 
     @staticmethod
     def check_game_run_status(device_manager, sys):

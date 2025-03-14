@@ -4,7 +4,7 @@ import subprocess
 import platform
 from setting import MAC_ADB_PATH, WINDOWS_ADB_PATH, DEVICE_UUID
 from utils.logger import logger
-from utils.environment_check import Env
+from utils.env_check import Env
 
 
 class ADBTool:
@@ -16,7 +16,7 @@ class ADBTool:
     def _get_adb_path(self):
         """获取ADB路径"""
         self.current_os = self.env.check_sys()  # 检查系统环境
-        logger.info(f"当前操作系统: {self.current_os}")  # 添加日志
+        logger.info(f"当前操作系统: {self.current_os}")
 
         if self.current_os == "Windows":
             return WINDOWS_ADB_PATH

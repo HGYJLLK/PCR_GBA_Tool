@@ -47,5 +47,4 @@ class Env:
     def check_sys(self):
         """检查系统"""
         current_os = platform.system()
-        logger.info(f"当前系统: {current_os}")
         return current_os

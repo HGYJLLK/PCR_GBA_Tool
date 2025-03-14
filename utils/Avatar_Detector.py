@@ -1,19 +1,20 @@
-'''角色识别工具'''
+"""角色识别工具"""
+
 import os
 import cv2
 import numpy as np
-import logging
+# import logging
 import json
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Union
 from tqdm import tqdm
+from utils.logger import logger
 
-# 配置日志
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+# # 配置日志
+# logging.basicConfig(
+#     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+# )
+# logger = logging.getLogger(__name__)
 
 
 class CharacterGridDetector:
@@ -29,7 +30,7 @@ class CharacterGridDetector:
         # 颜色范围配置
         self.color_ranges = [
             (np.array([0, 40, 50]), np.array([30, 255, 255])),  # 橙色范围
-            (np.array([15, 40, 50]), np.array([40, 255, 255]))  # 黄色范围
+            (np.array([15, 40, 50]), np.array([40, 255, 255])),  # 黄色范围
         ]
 
         # 形态学操作参数
@@ -45,7 +46,7 @@ class CharacterGridDetector:
 
     def _normalize_path(self, path: Union[str, Path]) -> Path:
         """标准化路径"""
-        return Path(str(path).replace('\\', os.sep)).resolve()
+        return Path(str(path).replace("\\", os.sep)).resolve()
 
     def _ensure_path(self, path: Union[str, Path]) -> Path:
         """确保路径存在且格式正确"""
@@ -78,14 +79,16 @@ class CharacterGridDetector:
             hist_score = cv2.compareHist(
                 cv2.calcHist([img1], [0], None, [256], [0, 256]),
                 cv2.calcHist([img2], [0], None, [256], [0, 256]),
-                cv2.HISTCMP_CORREL
+                cv2.HISTCMP_CORREL,
             )
             return hist_score
         except Exception as e:
             logger.error(f"图像比较失败: {e}")
             return 0.0
 
-    def detect_character_boxes(self, image_path: Union[str, Path], output_path: Union[str, Path]) -> List[Dict]:
+    def detect_character_boxes(
+        self, image_path: Union[str, Path], output_path: Union[str, Path]
+    ) -> List[Dict]:
         """检测角色框"""
         img = self._load_image(image_path)
         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
@@ -97,7 +100,7 @@ class CharacterGridDetector:
         for contour in contours:
             x, y, w, h = cv2.boundingRect(contour)
             if self.min_area < w * h < self.max_area:
-                results.append({'box': (x, y, w, h)})
+                results.append({"box": (x, y, w, h)})
         return results
 
 
@@ -125,8 +128,8 @@ def main():
     with open(db_path, "r", encoding="utf-8") as f:
         character_data = json.load(f)
         for char_id, char_info in character_data.items():
-            if 'image_path' in char_info:
-                char_info['image_path'] = str(static_dir / char_info['image_path'])
+            if "image_path" in char_info:
+                char_info["image_path"] = str(static_dir / char_info["image_path"])
 
     # 截图
     capture_screenshot(screenshot_path)

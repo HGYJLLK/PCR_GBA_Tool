@@ -1,13 +1,16 @@
-'''角色识别器'''
+"""角色识别器"""
+
 import time
-import logging
+
+# import logging
 import cv2
 import numpy as np
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
-from utils.Avatar_Detector import CharacterGridDetector
+from utils.avatar_detector import CharacterGridDetector
+from utils.logger import logger
 
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
 
 
 class ScanInventory:
@@ -33,10 +36,10 @@ class ScanInventory:
 
         # 滑动配置优化
         self.scroll_config = {
-            'start_y': 0.75,  # 开始位置（略微调整以避免UI元素）
-            'end_y': 0.25,  # 结束位置（确保不会滑过头）
-            'duration': 0.8,  # 增加持续时间使滑动更稳定
-            'steps': 15  # 增加步数使滑动更平滑
+            "start_y": 0.75,  # 开始位置（略微调整以避免UI元素）
+            "end_y": 0.25,  # 结束位置（确保不会滑过头）
+            "duration": 0.8,  # 增加持续时间使滑动更稳定
+            "steps": 15,  # 增加步数使滑动更平滑
         }
 
         # 检测重复的阈值（调整以提高准确性）
@@ -51,6 +54,8 @@ class ScanInventory:
         try:
             # 使用优化后的截图方法
             screen = await self.device.snapshot()
+            # screen = self.device.snapshot()
+            print("截图成功", screen)
 
             # 如果需要保存截图
             if screen is not None:
@@ -93,8 +98,8 @@ class ScanInventory:
         """
         try:
             screen_size = await self.device.window_size()
-            start_y = int(screen_size[1] * self.scroll_config['start_y'])
-            end_y = int(screen_size[1] * self.scroll_config['end_y'])
+            start_y = int(screen_size[1] * self.scroll_config["start_y"])
+            end_y = int(screen_size[1] * self.scroll_config["end_y"])
             center_x = screen_size[0] // 2
 
             await self.device.swipe(
@@ -102,8 +107,8 @@ class ScanInventory:
                 start_y,
                 center_x,
                 end_y,
-                duration=self.scroll_config['duration'],
-                steps=self.scroll_config['steps']
+                duration=self.scroll_config["duration"],
+                steps=self.scroll_config["steps"],
             )
 
             # 等待滑动动画完成和界面稳定
@@ -124,13 +129,13 @@ class ScanInventory:
         seen = set()
 
         for result in results:
-            character = result['character']
-            if character != 'Unknown' and character not in seen:
+            character = result["character"]
+            if character != "Unknown" and character not in seen:
                 seen.add(character)
                 processed_results.append(result)
 
         # 按位置排序
-        return sorted(processed_results, key=lambda x: x['position'])
+        return sorted(processed_results, key=lambda x: x["position"])
 
     async def scan_characters(self, max_scans: int = 10) -> List[Dict]:
         """
@@ -162,11 +167,16 @@ class ScanInventory:
 
             # 使用检测器识别角色
             try:
-                identified_results = await self.detector.detect_characters(current_screen)
+                identified_results = await self.detector.detect_characters(
+                    current_screen
+                )
 
                 if identified_results:
                     # 统计新发现的角色
-                    new_characters = set(r['character'] for r in identified_results) - self.last_characters
+                    new_characters = (
+                        set(r["character"] for r in identified_results)
+                        - self.last_characters
+                    )
                     total_new_characters += len(new_characters)
                     self.last_characters.update(new_characters)
 
@@ -203,8 +213,8 @@ class ScanInventory:
         print("\n角色识别结果:")
         print("-" * 50)
         for result in unique_results:
-            print(f"位置 #{result['position']}: {result['character']}", end='')
-            if 'similarity' in result and result['similarity'] > 0:
+            print(f"位置 #{result['position']}: {result['character']}", end="")
+            if "similarity" in result and result["similarity"] > 0:
                 print(f" (相似度: {result['similarity']:.2f})")
             else:
                 print(" (未识别)")

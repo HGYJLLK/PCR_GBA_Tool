@@ -1,4 +1,5 @@
 """日志工具"""
+
 import logging
 from airtest.core.settings import Settings as ST
 
@@ -23,7 +24,7 @@ def setup_logger():
     # 控制台处理器 - 输出到控制台
 
     console_handler = logging.StreamHandler()
-    console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    console_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     console_handler.setFormatter(console_formatter)
     app_logger.addHandler(console_handler)
 
