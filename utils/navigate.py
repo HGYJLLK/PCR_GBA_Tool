@@ -89,6 +89,11 @@ class Nav:
         if not self.game.click_icon(self.templates.battle_arena_icon, max_retries=1):
             logger.error("没有找到jjc图标，进入jjc失败，请联系管理员")
             return False
+        
+        # 点击竞技场界面
+        if not self.game.click_icon(self.templates.arena_icon, max_retries=1):
+            logger.error("没有找到竞技场图标，进入jjc失败，请联系管理员")
+            return False
 
         logger.info("进入jjc成功")
         return True

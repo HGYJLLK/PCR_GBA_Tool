@@ -68,3 +68,8 @@ class GameTemplates:
     def setup_main_menu_icon(self):
         """启动主菜单图标"""
         return Template(str(self.button_path / "启动主菜单.png"))
+    
+    @property
+    def arena_icon(self):
+        '''竞技场界面'''
+        return Template(str(self.button_path / "竞技场界面.png"))
