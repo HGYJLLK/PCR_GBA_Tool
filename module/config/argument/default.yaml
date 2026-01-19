@@ -1,0 +1,32 @@
+# --------------------
+# 公主连结默认值定义
+# --------------------
+
+# ==================== Pcr ====================
+
+# ==================== Pcr 日常 ====================
+
+PcrDaily:
+  Scheduler:
+    Enable: true
+  Daily:
+    DungeonSweep: false
+    ArenaChallenge: false
+    ExploreQuest: false
+  Mission:
+    MainQuest: false
+    EventQuest: false
+    HardQuest: false
+    VeryHardQuest: false
+  Gacha:
+    AutoGacha: false
+  Guild:
+    AutoDonate: false
+    DonateEquipment: false
+    GuildBattleAttack: false
+  Equipment:
+    AutoEnhance: false
+    AutoRank: false
+  Character:
+    AutoLevelUp: false
+    AutoSkillLevelUp: false

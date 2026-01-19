@@ -1,0 +1,107 @@
+{
+  "Pcr": {
+    "Scheduler": {
+      "Enable": false,
+      "NextRun": "2020-01-01 00:00:00",
+      "Command": "Pcr",
+      "SuccessInterval": 0,
+      "FailureInterval": 120,
+      "ServerUpdate": "00:00"
+    },
+    "Emulator": {
+      "Serial": "auto",
+      "PackageName": "auto",
+      "ScreenshotMethod": "auto",
+      "ControlMethod": "auto",
+      "ScreenshotDedithering": false,
+      "AdbRestart": true
+    },
+    "EmulatorInfo": {
+      "Emulator": "auto",
+      "name": null,
+      "path": null
+    },
+    "Error": {
+      "HandleError": true,
+      "SaveError": true,
+      "OnePushConfig": "provider: null",
+      "ScreenshotLength": 1
+    },
+    "Optimization": {
+      "ScreenshotInterval": 0.3,
+      "ClickInterval": 0.3,
+      "CombatScreenshotInterval": 1.0,
+      "TaskHoardingDuration": 0,
+      "WhenTaskQueueEmpty": "goto_main"
+    },
+    "Startup": {
+      "WaitTime": 30,
+      "LoginTimeout": 60
+    },
+    "DropRecord": {
+      "SaveFolder": "./screenshots",
+      "ResearchRecord": "do_not",
+      "CombatRecord": "do_not"
+    },
+    "GameSettings": {
+      "Language": "cn",
+      "Server": "cn",
+      "AutoBattle": true,
+      "BattleSpeed": "x2"
+    },
+    "Storage": {
+      "Storage": {}
+    }
+  },
+  "PcrDaily": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2020-01-01 00:00:00",
+      "Command": "PcrDaily",
+      "SuccessInterval": 0,
+      "FailureInterval": 120,
+      "ServerUpdate": "00:00"
+    },
+    "Daily": {
+      "Enable": false,
+      "DungeonSweep": false,
+      "ArenaChallenge": false,
+      "ExploreQuest": false
+    },
+    "Mission": {
+      "MainQuest": false,
+      "EventQuest": false,
+      "HardQuest": false,
+      "VeryHardQuest": false
+    },
+    "Gacha": {
+      "AutoGacha": false,
+      "GachaType": "normal",
+      "MaxGachaCount": 10
+    },
+    "Guild": {
+      "AutoDonate": false,
+      "DonateEquipment": false,
+      "GuildBattleAttack": false
+    },
+    "Equipment": {
+      "AutoEnhance": false,
+      "AutoRank": false,
+      "EnhancePriority": "main_team"
+    },
+    "Character": {
+      "AutoLevelUp": false,
+      "AutoSkillLevelUp": false,
+      "MainTeam": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    "Storage": {
+      "Storage": {}
+    }
+  }
+}

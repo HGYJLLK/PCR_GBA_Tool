@@ -1,0 +1,26 @@
+# --------------------
+# 公主连结任务参数定义
+# --------------------
+
+# ==================== Pcr ====================
+
+Pcr:
+  - Scheduler
+  - Emulator
+  - EmulatorInfo
+  - Error
+  - Optimization
+  - Startup
+  - DropRecord
+  - GameSettings
+
+# ==================== Pcr 日常 ====================
+
+PcrDaily:
+  - Scheduler
+  - Daily
+  - Mission
+  - Gacha
+  - Guild
+  - Equipment
+  - Character
