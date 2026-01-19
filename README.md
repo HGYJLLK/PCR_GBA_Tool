@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # PCR_GBA (PrincessConnect!Re:Dive Guild Battle Automation)
 
 > **⚠️ 重要提示：**  
@@ -253,6 +254,53 @@ python main.py
 | 状态 | 问题描述 | 优先级 | 备注 |
 |:---:|---|:---:|---|
 | ⬜ | 性能优化 | 中 | 优化图像处理速度 |
+=======
+代码位置：
+1、这个可以去任意地方修改 test_ui.py  
+
+```python
+# anywhere → go anywhere
+ui.ui_ensure(page_train)  # 自动：main → adventure → team_battle
+```
+在page.py定义的位置。
+```py
+# 导入按钮定义
+from module.ui.assets import *
+
+
+page_adventure = Page(TEAM_BATTLE)
+page_main = Page(MAIN_CHECK)
+
+# 公会战
+page_team_battle = Page(TEAM_BATTLE_CHECK)
+page_team_battle.link(button=GO_TO_MAIN, destination=page_main)
+
+# 冒险模式
+page_adventure.link(button=GO_TO_MAIN, destination=page_main)
+page_adventure.link(button=TEAM_BATTLE, destination=page_team_battle)
+
+# 训练场
+page_train = Page(TRAIN_CHECK)
+page_train.link(button=GO_TO_MAIN, destination=page_main)
+page_train.link(button=ADVENTURE, destination=page_adventure)
+
+# 菜单界面
+page_menu = Page(MENU_CHECK)
+page_menu.link(button=GO_TO_MAIN, destination=page_main)
+page_menu.link(button=ADVENTURE, destination=page_adventure)
+page_menu.link(button=MENU_CHECK, destination=page_train)
+
+# 主界面
+page_main.link(button=ADVENTURE, destination=page_adventure)
+page_main.link(button=GO_TO_MENU, destination=page_menu)
+
+# Unknown page
+page_unknown = Page(None)
+page_unknown.link(button=GO_TO_MAIN, destination=page_main)
+
+```
+
+>>>>>>> Stashed changes
 =======
 代码位置：
 1、这个可以去任意地方修改 test_ui.py  
