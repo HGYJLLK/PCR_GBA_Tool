@@ -1,10 +1,6 @@
 """
 Test Battle Train - 测试战斗训练场
-<<<<<<< Updated upstream
-=======
 自动导航到训练场，开始战斗，监控倒计时到 0:01 后停止
->>>>>>> Stashed changes
-
 用法:
     python tests/test_battle_train.py
     python tests/test_battle_train.py --droidcast  # 使用 DroidCast 截图
