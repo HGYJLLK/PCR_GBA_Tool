@@ -1,0 +1,637 @@
+2025-10-11 20:48:40.052 | INFO | 配置文件：cwj.json
+2025-10-11 20:48:40.056 | INFO | 截图方式：DroidCast_raw
+2025-10-11 20:48:40.057 | INFO | 点击方式：ADB
+2025-10-11 20:48:40.060 | ERROR | 未知错误: 'PriconneConfig' object has no attribute 'Emulator'
+Traceback (most recent call last):
+  File "pcr.py", line 57, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 38, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 32, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 69, in __init__
+    self.serial = config.Emulator.Serial
+AttributeError: 'PriconneConfig' object has no attribute 'Emulator'
+2025-10-11 21:46:13.291 | INFO | 配置文件：cwj.json
+2025-10-11 21:52:19.411 | INFO | 配置文件：cwj.json
+2025-10-11 21:52:19.415 | INFO | 截图方式：DroidCast_raw
+2025-10-11 21:52:19.417 | INFO | 点击方式：ADB
+2025-10-11 21:52:19.419 | ERROR | 未知错误: 'PriconneConfig' object has no attribute 'Emulator'
+Traceback (most recent call last):
+  File "pcr.py", line 57, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 38, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 32, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 69, in __init__
+    self.serial = config.Emulator.Serial
+AttributeError: 'PriconneConfig' object has no attribute 'Emulator'
+2025-10-11 21:54:28.857 | INFO | 配置文件：cwj.json
+2025-10-11 21:54:28.862 | INFO | 截图方式：DroidCast_raw
+2025-10-11 21:54:28.863 | INFO | 点击方式：ADB
+2025-10-11 21:54:28.865 | ERROR | 未知错误: 'PriconneConfig' object has no attribute 'Emulator'
+Traceback (most recent call last):
+  File "pcr.py", line 57, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 38, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 32, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 69, in __init__
+    self.serial = config.Emulator.Serial
+AttributeError: 'PriconneConfig' object has no attribute 'Emulator'
+2025-10-11 21:55:49.444 | INFO | 配置文件：cwj.json
+2025-10-11 21:55:49.448 | INFO | 截图方式：DroidCast_raw
+2025-10-11 21:55:49.448 | INFO | 点击方式：ADB
+2025-10-11 21:55:49.453 | INFO | Found 1 devices
+2025-10-11 21:55:49.453 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 21:55:49.454 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 21:55:49.456 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 21:55:50.460 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 21:55:50.461 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 21:55:50.487 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 21:55:50.488 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 21:55:50.490 | INFO | Device initialized successfully
+2025-10-11 21:55:50.492 | ERROR | 未知错误: 'PriconneConfig' object has no attribute 'Emulator'
+Traceback (most recent call last):
+  File "pcr.py", line 57, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 47, in run
+    self.login_handler.app_start()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 39, in app_start
+    self.handle_app_login()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 64, in handle_app_login
+    image = self.device.screenshot()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\screenshot.py", line 56, in screenshot
+    method_name = self.config.Emulator.ScreenshotMethod
+AttributeError: 'PriconneConfig' object has no attribute 'Emulator'
+2025-10-11 21:56:04.748 | INFO | 配置文件：cwj.json
+2025-10-11 21:56:04.752 | INFO | 截图方式：DroidCast_raw
+2025-10-11 21:56:04.752 | INFO | 点击方式：ADB
+2025-10-11 21:56:04.755 | INFO | Found 1 devices
+2025-10-11 21:56:04.756 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 21:56:04.757 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 21:56:04.760 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 21:56:05.762 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 21:56:05.763 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 21:56:05.777 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 21:56:05.778 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 21:56:05.779 | INFO | Device initialized successfully
+2025-10-11 21:56:05.781 | INFO | Update droidcast resolution
+2025-10-11 21:56:06.561 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 21:56:06.562 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 21:56:06.564 | INFO | Create forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 21:56:06.568 | ERROR | ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-11 21:56:09.571 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-11 21:56:09.572 | INFO | Stopping DroidCast
+2025-10-11 21:56:09.582 | INFO | Update droidcast resolution
+2025-10-11 21:56:09.595 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 21:56:09.596 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 21:56:09.597 | INFO | Pushing DroidCast apk
+2025-10-11 21:56:09.687 | INFO | Starting DroidCast apk
+2025-10-11 21:56:09.691 | INFO | ShellBackgroundResponse(success=True, pid=4893, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-11 21:56:09.694 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 21:56:09.695 | INFO | DroidCast_raw = http://127.0.0.1:20134/screenshot?width=1280&height=720
+2025-10-11 21:56:09.961 | INFO | DroidCast = online
+2025-10-11 21:56:10.217 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:10.219 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:10.238 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-11 21:56:10.260 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:10.262 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:10.263 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:10.264 | INFO | Not in main page
+2025-10-11 21:56:10.265 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:10.266 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:10.268 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-11 21:56:10.276 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:10.276 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:10.277 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:56:10.914 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:10.916 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:10.917 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:10.918 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:10.919 | INFO | Not in main page
+2025-10-11 21:56:10.920 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:10.922 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:10.923 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:10.924 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:56:11.547 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:11.550 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:11.551 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:11.552 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:11.553 | INFO | Not in main page
+2025-10-11 21:56:11.554 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:11.555 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:11.556 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:11.557 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:56:12.175 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:12.177 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:12.178 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:12.179 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:12.180 | INFO | Not in main page
+2025-10-11 21:56:12.181 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:12.182 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:12.183 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:12.184 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:56:29.042 | INFO | 配置文件：cwj.json
+2025-10-11 21:56:29.046 | INFO | 截图方式：DroidCast_raw
+2025-10-11 21:56:29.048 | INFO | 点击方式：ADB
+2025-10-11 21:56:29.051 | INFO | Found 1 devices
+2025-10-11 21:56:29.052 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 21:56:29.054 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 21:56:29.056 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 21:56:30.059 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 21:56:30.060 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 21:56:30.072 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 21:56:30.073 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 21:56:30.074 | INFO | Device initialized successfully
+2025-10-11 21:56:30.077 | INFO | Update droidcast resolution
+2025-10-11 21:56:30.111 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 21:56:30.113 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 21:56:30.115 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 21:56:30.209 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:30.211 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:30.218 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-11 21:56:30.220 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:30.221 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:30.222 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:30.223 | INFO | Not in main page
+2025-10-11 21:56:30.224 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:30.226 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:30.227 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-11 21:56:30.229 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:30.230 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:30.231 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:56:30.860 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:56:30.862 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 21:56:30.863 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:56:30.864 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:56:30.865 | INFO | Not in main page
+2025-10-11 21:56:30.866 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:56:30.867 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:56:30.868 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:56:30.869 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:59:36.798 | INFO | 配置文件：cwj.json
+2025-10-11 21:59:36.801 | INFO | 截图方式：ADB
+2025-10-11 21:59:36.802 | INFO | 点击方式：ADB
+2025-10-11 21:59:36.805 | INFO | Found 1 devices
+2025-10-11 21:59:36.806 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 21:59:36.808 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 21:59:36.810 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 21:59:37.813 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 21:59:37.814 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 21:59:37.828 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 21:59:37.829 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 21:59:37.830 | INFO | Device initialized successfully
+2025-10-11 21:59:38.108 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:59:38.110 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:59:38.117 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-11 21:59:38.120 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0658, 阈值: 0.85, 匹配位置: (35, 31)
+2025-10-11 21:59:38.121 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:59:38.122 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:59:38.123 | INFO | Not in main page
+2025-10-11 21:59:38.124 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:59:38.125 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:59:38.127 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-11 21:59:38.129 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0074, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:59:38.130 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:59:38.131 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:59:38.932 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:59:38.934 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0658, 阈值: 0.85, 匹配位置: (35, 31)
+2025-10-11 21:59:38.936 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:59:38.937 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:59:38.938 | INFO | Not in main page
+2025-10-11 21:59:38.939 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:59:38.941 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0074, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:59:38.942 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:59:38.944 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 21:59:39.768 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 21:59:39.770 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0658, 阈值: 0.85, 匹配位置: (35, 31)
+2025-10-11 21:59:39.771 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 21:59:39.773 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 21:59:39.774 | INFO | Not in main page
+2025-10-11 21:59:39.775 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 21:59:39.777 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0074, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 21:59:39.778 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 21:59:39.780 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:02:34.945 | INFO | 配置文件：cwj.json
+2025-10-11 22:02:34.949 | INFO | 截图方式：DroidCast_raw
+2025-10-11 22:02:34.951 | INFO | 点击方式：ADB
+2025-10-11 22:02:34.955 | INFO | Found 1 devices
+2025-10-11 22:02:34.956 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 22:02:34.957 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 22:02:34.959 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 22:02:35.962 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 22:02:35.963 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 22:02:35.976 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 22:02:35.977 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 22:02:35.978 | INFO | Device initialized successfully
+2025-10-11 22:02:35.980 | INFO | Update droidcast resolution
+2025-10-11 22:02:36.003 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 22:02:36.005 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 22:02:36.007 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 22:02:36.094 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:02:36.095 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:02:36.103 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-11 22:02:36.105 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 22:02:36.106 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:02:36.107 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:02:36.108 | INFO | Not in main page
+2025-10-11 22:02:36.109 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:02:36.110 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:02:36.112 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-11 22:02:36.113 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 22:02:36.114 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:02:36.114 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:02:36.731 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:02:36.733 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 22:02:36.734 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:02:36.735 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:02:36.736 | INFO | Not in main page
+2025-10-11 22:02:36.737 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:02:36.739 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 22:02:36.740 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:02:36.741 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:02:37.367 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:02:37.368 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 22:02:37.369 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:02:37.370 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:02:37.371 | INFO | Not in main page
+2025-10-11 22:02:37.372 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:02:37.374 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 22:02:37.375 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:02:37.376 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:02:38.001 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:02:38.003 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0410, 阈值: 0.85, 匹配位置: (6, 30)
+2025-10-11 22:02:38.005 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:02:38.006 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:02:38.007 | INFO | Not in main page
+2025-10-11 22:02:38.008 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:02:38.010 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0109, 阈值: 0.85, 匹配位置: (0, 7)
+2025-10-11 22:02:38.011 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:02:38.012 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:04:27.658 | INFO | Found 1 devices
+2025-10-11 22:04:27.661 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 22:04:27.663 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 22:04:27.665 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 22:04:28.668 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 22:04:28.670 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 22:04:28.683 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 22:04:28.684 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 22:04:28.685 | INFO | Device initialized successfully
+2025-10-11 22:04:28.686 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-11 22:04:28.688 | INFO | Stopping DroidCast
+2025-10-11 22:04:28.717 | INFO | Kill pid=4893
+2025-10-11 22:04:28.722 | INFO | Kill pid=4894
+2025-10-11 22:04:28.728 | INFO | Update droidcast resolution
+2025-10-11 22:04:28.771 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 22:04:28.772 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 22:04:28.774 | INFO | Pushing DroidCast apk
+2025-10-11 22:04:28.823 | INFO | Starting DroidCast apk
+2025-10-11 22:04:28.834 | INFO | ShellBackgroundResponse(success=True, pid=5096, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-11 22:04:28.836 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 22:04:28.838 | INFO | DroidCast_raw = http://127.0.0.1:20134/screenshot?width=1280&height=720
+2025-10-11 22:04:29.097 | INFO | DroidCast = online
+2025-10-11 22:06:35.461 | INFO | Found 1 devices
+2025-10-11 22:06:35.465 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 22:06:35.467 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 22:06:35.469 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 22:06:36.471 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 22:06:36.473 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 22:06:36.486 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 22:06:36.487 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 22:06:36.488 | INFO | Device initialized successfully
+2025-10-11 22:13:29.387 | INFO | 配置文件：cwj.json
+2025-10-11 22:13:29.391 | INFO | 截图方式：DroidCast_raw
+2025-10-11 22:13:29.392 | INFO | 点击方式：ADB
+2025-10-11 22:13:29.398 | INFO | Found 1 devices
+2025-10-11 22:13:29.399 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-11 22:13:29.400 | INFO | Selected device: 127.0.0.1:16384
+2025-10-11 22:13:29.402 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-11 22:13:30.405 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-11 22:13:30.406 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-11 22:13:30.440 | INFO | Detected package: com.bilibili.priconne
+2025-10-11 22:13:30.443 | INFO | PackageName = com.bilibili.priconne
+2025-10-11 22:13:30.444 | INFO | Device initialized successfully
+2025-10-11 22:13:30.446 | INFO | App start: com.bilibili.priconne
+2025-10-11 22:13:30.448 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-11 22:13:30.485 | INFO | App started successfully
+2025-10-11 22:13:30.488 | INFO | Update droidcast resolution
+2025-10-11 22:13:30.588 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-11 22:13:30.591 | INFO | Droidcast resolution: (720, 1280)
+2025-10-11 22:13:30.594 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20134', remote='tcp:53516')
+2025-10-11 22:13:30.758 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:30.760 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:30.782 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-11 22:13:30.807 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:30.808 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:30.810 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:30.812 | INFO | Not in main page
+2025-10-11 22:13:30.814 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:30.815 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:30.817 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-11 22:13:30.825 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0675, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:30.828 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:30.830 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:31.472 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:31.475 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1371, 阈值: 0.85, 匹配位置: (5, 13)
+2025-10-11 22:13:31.477 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:31.479 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:31.480 | INFO | Not in main page
+2025-10-11 22:13:31.481 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:31.483 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0332, 阈值: 0.85, 匹配位置: (2, 29)
+2025-10-11 22:13:31.485 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:31.486 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:32.125 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:32.127 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:32.128 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:32.130 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:32.131 | INFO | Not in main page
+2025-10-11 22:13:32.132 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:32.134 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0867, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:32.136 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:32.138 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:32.848 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:32.850 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1343, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:32.851 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:32.852 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:32.853 | INFO | Not in main page
+2025-10-11 22:13:32.854 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:32.856 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0870, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:32.857 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:32.859 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:33.481 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:33.483 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1343, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:33.485 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:33.486 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:33.487 | INFO | Not in main page
+2025-10-11 22:13:33.489 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:33.492 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0870, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:33.493 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:33.494 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:34.114 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:34.117 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1343, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:34.119 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:34.120 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:34.121 | INFO | Not in main page
+2025-10-11 22:13:34.122 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:34.124 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0870, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:34.126 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:34.127 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:34.754 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:34.757 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1343, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:34.759 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:34.761 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:34.762 | INFO | Not in main page
+2025-10-11 22:13:34.764 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:34.767 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0870, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:34.769 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:34.771 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:35.415 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:35.417 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1343, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:35.418 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:35.419 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:35.419 | INFO | Not in main page
+2025-10-11 22:13:35.420 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:35.423 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0870, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:35.424 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:35.426 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:36.067 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:36.070 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:36.071 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:36.072 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:36.073 | INFO | Not in main page
+2025-10-11 22:13:36.074 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:36.078 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0867, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:36.080 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:36.081 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:36.734 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:36.736 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1691, 阈值: 0.85, 匹配位置: (46, 15)
+2025-10-11 22:13:36.737 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:36.738 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:36.739 | INFO | Not in main page
+2025-10-11 22:13:36.740 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:36.743 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0619, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:36.746 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:36.747 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:37.368 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:37.371 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1496, 阈值: 0.85, 匹配位置: (45, 15)
+2025-10-11 22:13:37.372 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:37.374 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:37.375 | INFO | Not in main page
+2025-10-11 22:13:37.376 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:37.378 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0469, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:37.381 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:37.382 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:37.999 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:38.001 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1569, 阈值: 0.85, 匹配位置: (45, 15)
+2025-10-11 22:13:38.002 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:38.003 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:38.004 | INFO | Not in main page
+2025-10-11 22:13:38.005 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:38.007 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0847, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-11 22:13:38.008 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:38.009 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:38.655 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:38.657 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:38.658 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:38.660 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:38.661 | INFO | Not in main page
+2025-10-11 22:13:38.664 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:38.668 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0403, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:38.669 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:38.670 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:39.297 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:39.299 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:39.301 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:39.302 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:39.303 | INFO | Not in main page
+2025-10-11 22:13:39.305 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:39.308 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:39.309 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:39.311 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:39.958 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:39.960 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:39.961 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:39.963 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:39.964 | INFO | Not in main page
+2025-10-11 22:13:39.965 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:39.968 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:39.970 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:39.971 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:40.613 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:40.617 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:40.618 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:40.620 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:40.621 | INFO | Not in main page
+2025-10-11 22:13:40.622 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:40.624 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:40.626 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:40.627 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:41.252 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:41.255 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:41.256 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:41.258 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:41.259 | INFO | Not in main page
+2025-10-11 22:13:41.261 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:41.267 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:41.269 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:41.271 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:41.902 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:41.904 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:41.907 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:41.909 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:41.910 | INFO | Not in main page
+2025-10-11 22:13:41.911 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:41.913 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:41.915 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:41.916 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:42.542 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:42.543 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:42.545 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:42.546 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:42.548 | INFO | Not in main page
+2025-10-11 22:13:42.551 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:42.555 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-11 22:13:42.556 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:42.557 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:43.190 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:43.192 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:43.194 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:43.195 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:43.196 | INFO | Not in main page
+2025-10-11 22:13:43.197 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:43.203 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0855, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-11 22:13:43.205 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:43.206 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:43.829 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:43.831 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.1329, 阈值: 0.85, 匹配位置: (18, 5)
+2025-10-11 22:13:43.833 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:43.833 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:43.834 | INFO | Not in main page
+2025-10-11 22:13:43.835 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:43.837 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1015, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-11 22:13:43.838 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:43.843 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:44.483 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:44.485 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:44.486 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:44.487 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:44.488 | INFO | Not in main page
+2025-10-11 22:13:44.489 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:44.491 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1713, 阈值: 0.85, 匹配位置: (1, 17)
+2025-10-11 22:13:44.491 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:44.493 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:45.128 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:45.130 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:45.131 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:45.132 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:45.133 | INFO | Not in main page
+2025-10-11 22:13:45.134 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:45.136 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:45.138 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:45.139 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:45.776 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:45.779 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:45.780 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:45.781 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:45.783 | INFO | Not in main page
+2025-10-11 22:13:45.784 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:45.787 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:45.789 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:45.791 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:46.418 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:46.420 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:46.422 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:46.423 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:46.424 | INFO | Not in main page
+2025-10-11 22:13:46.425 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:46.428 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:46.431 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:46.432 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:47.063 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:47.064 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:47.066 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:47.067 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:47.069 | INFO | Not in main page
+2025-10-11 22:13:47.070 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:47.072 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:47.074 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:47.075 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:47.705 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:47.708 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:47.709 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:47.711 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:47.712 | INFO | Not in main page
+2025-10-11 22:13:47.713 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:47.716 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:47.719 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:47.721 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:48.354 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:48.357 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-11 22:13:48.359 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:48.360 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:48.361 | INFO | Not in main page
+2025-10-11 22:13:48.363 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:48.365 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0743, 阈值: 0.85, 匹配位置: (1, 0)
+2025-10-11 22:13:48.367 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:48.368 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:49.011 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:49.013 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-11 22:13:49.015 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-11 22:13:49.018 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-11 22:13:49.020 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-11 22:13:49.022 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:49.025 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0446, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-11 22:13:49.026 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:49.028 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:49.671 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:49.673 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.3105, 阈值: 0.85, 匹配位置: (27, 29)
+2025-10-11 22:13:49.675 | DEBUG | MAIN_CHECK 模板匹配结果: False
+2025-10-11 22:13:49.676 | INFO | Template matching result for MAIN_CHECK: False
+2025-10-11 22:13:49.677 | INFO | Not in main page
+2025-10-11 22:13:49.679 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:49.682 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0640, 阈值: 0.85, 匹配位置: (0, 19)
+2025-10-11 22:13:49.684 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:49.685 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:50.685 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:50.688 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-11 22:13:50.690 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-11 22:13:50.692 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-11 22:13:50.693 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-11 22:13:50.695 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:50.697 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0373, 阈值: 0.85, 匹配位置: (0, 25)
+2025-10-11 22:13:50.699 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:50.700 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:51.325 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:51.327 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.8547, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-11 22:13:51.328 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-11 22:13:51.330 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (255.0, 159.49092229484387, 207.3522149600581), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-11 22:13:51.331 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-11 22:13:51.332 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:51.334 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0375, 阈值: 0.85, 匹配位置: (0, 26)
+2025-10-11 22:13:51.337 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:51.339 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:51.987 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:51.989 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-11 22:13:51.991 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-11 22:13:51.992 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-11 22:13:51.994 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-11 22:13:51.995 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-11 22:13:51.997 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0295, 阈值: 0.85, 匹配位置: (0, 22)
+2025-10-11 22:13:51.998 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-11 22:13:52.000 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-11 22:13:52.638 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-11 22:13:52.640 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-11 22:13:52.641 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-11 22:13:52.643 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-11 22:13:52.645 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-11 22:13:52.647 | INFO | Login to main confirmed
+2025-10-11 22:13:52.648 | INFO | Game started successfully

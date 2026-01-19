@@ -1,0 +1,767 @@
+2025-10-04 09:50:58.278 | INFO | 设备控制：ADB
+2025-10-04 09:50:58.281 | INFO | 图像识别：DroidCast_raw
+2025-10-04 09:50:58.282 | INFO | 点击控制：MaaTouch
+2025-10-04 09:50:58.293 | INFO | Found 1 devices
+2025-10-04 09:50:58.294 | INFO | Auto selected device: (no serial number)
+2025-10-04 09:50:58.296 | INFO | Selected device: (no serial number)
+2025-10-04 09:50:58.298 | INFO | Connected to device: (no serial number)
+2025-10-04 09:50:58.299 | INFO | AdbDevice = AdbDevice(serial=(no serial number))
+2025-10-04 09:50:58.302 | ERROR | Failed to list packages: device '(no serial number)' not found
+2025-10-04 09:50:58.303 | ERROR | 未知错误: device '(no serial number)' not found
+Traceback (most recent call last):
+  File "pcr.py", line 47, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 41, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 31, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 81, in __init__
+    self.detect_package()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 296, in detect_package
+    result = self.adb_shell(["pm", "list", "packages"])
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 122, in adb_shell
+    return self.adb.shell(cmd).strip()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 210, in shell
+    c = self.open_transport(timeout=timeout)
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 112, in open_transport
+    c.check_okay()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_adb.py", line 140, in check_okay
+    raise AdbError(self.read_string_block())
+adbutils.errors.AdbError: device '(no serial number)' not found
+2025-10-04 09:57:46.181 | INFO | 设备控制：ADB
+2025-10-04 09:57:46.185 | INFO | 图像识别：DroidCast_raw
+2025-10-04 09:57:46.186 | INFO | 点击控制：MaaTouch
+2025-10-04 09:57:46.191 | INFO | Found 1 devices
+2025-10-04 09:57:46.193 | INFO | Auto selected device: (no serial number)
+2025-10-04 09:57:46.195 | INFO | Selected device: (no serial number)
+2025-10-04 09:57:46.197 | INFO | Connected to device: (no serial number)
+2025-10-04 09:57:46.198 | INFO | AdbDevice = AdbDevice(serial=(no serial number))
+2025-10-04 09:57:46.201 | ERROR | Failed to list packages: device '(no serial number)' not found
+2025-10-04 09:57:46.203 | ERROR | 未知错误: device '(no serial number)' not found
+Traceback (most recent call last):
+  File "pcr.py", line 47, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 41, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 31, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 81, in __init__
+    self.detect_package()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 296, in detect_package
+    result = self.adb_shell(["pm", "list", "packages"])
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 122, in adb_shell
+    return self.adb.shell(cmd).strip()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 210, in shell
+    c = self.open_transport(timeout=timeout)
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 112, in open_transport
+    c.check_okay()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_adb.py", line 140, in check_okay
+    raise AdbError(self.read_string_block())
+adbutils.errors.AdbError: device '(no serial number)' not found
+2025-10-04 09:59:10.869 | INFO | 设备控制：ADB
+2025-10-04 09:59:10.872 | INFO | 图像识别：DroidCast_raw
+2025-10-04 09:59:10.874 | INFO | 点击控制：MaaTouch
+2025-10-04 09:59:10.880 | INFO | Found 1 devices
+2025-10-04 09:59:10.881 | INFO | Auto selected device: (no serial number)
+2025-10-04 09:59:10.883 | INFO | Selected device: (no serial number)
+2025-10-04 09:59:10.886 | INFO | Connected to device: (no serial number)
+2025-10-04 09:59:10.887 | INFO | AdbDevice = AdbDevice(serial=(no serial number))
+2025-10-04 09:59:10.890 | ERROR | Failed to list packages: device '(no serial number)' not found
+2025-10-04 09:59:10.892 | ERROR | 未知错误: device '(no serial number)' not found
+Traceback (most recent call last):
+  File "pcr.py", line 47, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 41, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 31, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 81, in __init__
+    self.detect_package()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 296, in detect_package
+    result = self.adb_shell(["pm", "list", "packages"])
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 122, in adb_shell
+    return self.adb.shell(cmd).strip()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 210, in shell
+    c = self.open_transport(timeout=timeout)
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_device.py", line 112, in open_transport
+    c.check_okay()
+  File "C:\Users\Alc29\anaconda3\envs\alas\lib\site-packages\adbutils\_adb.py", line 140, in check_okay
+    raise AdbError(self.read_string_block())
+adbutils.errors.AdbError: device '(no serial number)' not found
+2025-10-04 10:03:37.829 | INFO | 设备控制：ADB
+2025-10-04 10:03:37.832 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:03:37.833 | INFO | 点击控制：MaaTouch
+2025-10-04 10:03:37.836 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:37.837 | INFO | Found 0 devices
+2025-10-04 10:03:37.838 | ERROR | No available devices found
+2025-10-04 10:03:37.839 | INFO | Attempting to restart ADB server
+2025-10-04 10:03:37.840 | INFO | Starting ADB server
+2025-10-04 10:03:39.947 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:39.948 | CRITICAL | No devices available
+2025-10-04 10:03:39.950 | INFO | 可能的原因:
+2025-10-04 10:03:39.951 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:03:39.952 | INFO |   - ADB 连接未建立
+2025-10-04 10:03:39.953 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:03:39.954 | WARNING | Emulator not running, trial 1/4
+2025-10-04 10:03:39.955 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:39.956 | INFO | Found 0 devices
+2025-10-04 10:03:39.957 | ERROR | No available devices found
+2025-10-04 10:03:39.961 | INFO | Attempting to restart ADB server
+2025-10-04 10:03:39.962 | INFO | Starting ADB server
+2025-10-04 10:03:41.998 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:41.999 | CRITICAL | No devices available
+2025-10-04 10:03:42.001 | INFO | 可能的原因:
+2025-10-04 10:03:42.003 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:03:42.003 | INFO |   - ADB 连接未建立
+2025-10-04 10:03:42.004 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:03:42.005 | WARNING | Emulator not running, trial 2/4
+2025-10-04 10:03:42.006 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:42.008 | INFO | Found 0 devices
+2025-10-04 10:03:42.009 | ERROR | No available devices found
+2025-10-04 10:03:42.010 | INFO | Attempting to restart ADB server
+2025-10-04 10:03:42.012 | INFO | Starting ADB server
+2025-10-04 10:03:44.048 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:44.049 | CRITICAL | No devices available
+2025-10-04 10:03:44.050 | INFO | 可能的原因:
+2025-10-04 10:03:44.051 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:03:44.052 | INFO |   - ADB 连接未建立
+2025-10-04 10:03:44.053 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:03:44.054 | WARNING | Emulator not running, trial 3/4
+2025-10-04 10:03:44.056 | ERROR | Failed to list devices: 'AdbClient' object has no attribute 'list'
+2025-10-04 10:03:44.056 | INFO | Found 0 devices
+2025-10-04 10:03:44.057 | ERROR | No available devices found
+2025-10-04 10:03:44.059 | INFO | Attempting to restart ADB server
+2025-10-04 10:03:44.060 | INFO | Starting ADB server
+2025-10-04 10:05:45.174 | INFO | 设备控制：ADB
+2025-10-04 10:05:45.177 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:05:45.178 | INFO | 点击控制：MaaTouch
+2025-10-04 10:05:45.181 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:05:45.183 | INFO | Found 0 devices
+2025-10-04 10:05:45.183 | ERROR | No available devices found
+2025-10-04 10:05:45.185 | INFO | Attempting to restart ADB server
+2025-10-04 10:05:45.186 | INFO | Starting ADB server
+2025-10-04 10:05:47.238 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:05:47.240 | CRITICAL | No devices available
+2025-10-04 10:05:47.241 | INFO | 可能的原因:
+2025-10-04 10:05:47.242 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:05:47.243 | INFO |   - ADB 连接未建立
+2025-10-04 10:05:47.245 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:05:47.246 | WARNING | Emulator not running, trial 1/4
+2025-10-04 10:05:47.247 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:05:47.248 | INFO | Found 0 devices
+2025-10-04 10:05:47.250 | ERROR | No available devices found
+2025-10-04 10:05:47.251 | INFO | Attempting to restart ADB server
+2025-10-04 10:05:47.252 | INFO | Starting ADB server
+2025-10-04 10:07:05.018 | INFO | 设备控制：ADB
+2025-10-04 10:07:05.021 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:07:05.022 | INFO | 点击控制：MaaTouch
+2025-10-04 10:07:05.025 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:07:05.026 | WARNING | Unknown device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:07:05.028 | INFO | Found 0 devices
+2025-10-04 10:07:05.029 | ERROR | No available devices found
+2025-10-04 10:07:05.030 | INFO | Attempting to restart ADB server
+2025-10-04 10:07:05.031 | INFO | Starting ADB server
+2025-10-04 10:07:07.065 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:07:07.067 | WARNING | Unknown device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:07:07.069 | CRITICAL | No devices available
+2025-10-04 10:07:07.070 | INFO | 可能的原因:
+2025-10-04 10:07:07.071 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:07:07.072 | INFO |   - ADB 连接未建立
+2025-10-04 10:07:07.073 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:07:07.074 | WARNING | Emulator not running, trial 1/4
+2025-10-04 10:07:07.075 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:07:07.076 | WARNING | Unknown device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:07:07.079 | INFO | Found 0 devices
+2025-10-04 10:07:07.079 | ERROR | No available devices found
+2025-10-04 10:07:07.080 | INFO | Attempting to restart ADB server
+2025-10-04 10:07:07.081 | INFO | Starting ADB server
+2025-10-04 10:07:09.116 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:07:09.118 | WARNING | Unknown device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:07:09.120 | CRITICAL | No devices available
+2025-10-04 10:07:09.121 | INFO | 可能的原因:
+2025-10-04 10:07:09.121 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:07:09.123 | INFO |   - ADB 连接未建立
+2025-10-04 10:07:09.123 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:07:09.124 | WARNING | Emulator not running, trial 2/4
+2025-10-04 10:07:09.126 | WARNING | Unknown device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:07:09.127 | WARNING | Unknown device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:07:09.130 | INFO | Found 0 devices
+2025-10-04 10:07:09.130 | ERROR | No available devices found
+2025-10-04 10:07:09.130 | INFO | Attempting to restart ADB server
+2025-10-04 10:07:09.131 | INFO | Starting ADB server
+2025-10-04 10:08:39.595 | INFO | 设备控制：ADB
+2025-10-04 10:08:39.599 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:08:39.600 | INFO | 点击控制：MaaTouch
+2025-10-04 10:08:39.604 | DEBUG | Raw ADB device list: [AdbDevice(serial=(no serial number)), AdbDevice(serial=127.0.0.1:16384)]
+2025-10-04 10:08:39.606 | WARNING | Unexpected device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:08:39.607 | WARNING | Unexpected device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:08:39.608 | INFO | Found 0 devices
+2025-10-04 10:08:39.609 | ERROR | No available devices found
+2025-10-04 10:08:39.609 | INFO | Attempting to restart ADB server
+2025-10-04 10:08:39.611 | INFO | Starting ADB server
+2025-10-04 10:08:41.658 | DEBUG | Raw ADB device list: [AdbDevice(serial=(no serial number)), AdbDevice(serial=127.0.0.1:16384)]
+2025-10-04 10:08:41.661 | WARNING | Unexpected device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:08:41.662 | WARNING | Unexpected device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:08:41.663 | CRITICAL | No devices available
+2025-10-04 10:08:41.664 | INFO | 可能的原因:
+2025-10-04 10:08:41.665 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:08:41.666 | INFO |   - ADB 连接未建立
+2025-10-04 10:08:41.666 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:08:41.668 | WARNING | Emulator not running, trial 1/4
+2025-10-04 10:08:41.669 | DEBUG | Raw ADB device list: [AdbDevice(serial=(no serial number)), AdbDevice(serial=127.0.0.1:16384)]
+2025-10-04 10:08:41.672 | WARNING | Unexpected device format: AdbDevice(serial=(no serial number))
+2025-10-04 10:08:41.673 | WARNING | Unexpected device format: AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:08:41.674 | INFO | Found 0 devices
+2025-10-04 10:08:41.674 | ERROR | No available devices found
+2025-10-04 10:08:41.675 | INFO | Attempting to restart ADB server
+2025-10-04 10:08:41.676 | INFO | Starting ADB server
+2025-10-04 10:09:14.262 | INFO | 设备控制：ADB
+2025-10-04 10:09:14.266 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:09:14.267 | INFO | 点击控制：MaaTouch
+2025-10-04 10:09:14.271 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDevice object
+2025-10-04 10:09:14.272 | INFO | Found 0 devices
+2025-10-04 10:09:14.273 | ERROR | No available devices found
+2025-10-04 10:09:14.274 | INFO | Attempting to restart ADB server
+2025-10-04 10:09:14.275 | INFO | Starting ADB server
+2025-10-04 10:09:16.321 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDevice object
+2025-10-04 10:09:16.322 | CRITICAL | No devices available
+2025-10-04 10:09:16.324 | INFO | 可能的原因:
+2025-10-04 10:09:16.325 | INFO |   - MuMu 模拟器未启动
+2025-10-04 10:09:16.326 | INFO |   - ADB 连接未建立
+2025-10-04 10:09:16.327 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-04 10:09:16.328 | WARNING | Emulator not running, trial 1/4
+2025-10-04 10:09:16.331 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDevice object
+2025-10-04 10:09:16.332 | INFO | Found 0 devices
+2025-10-04 10:09:16.333 | ERROR | No available devices found
+2025-10-04 10:09:16.335 | INFO | Attempting to restart ADB server
+2025-10-04 10:09:16.336 | INFO | Starting ADB server
+2025-10-04 10:11:03.446 | INFO | 设备控制：ADB
+2025-10-04 10:11:03.449 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:11:03.450 | INFO | 点击控制：MaaTouch
+2025-10-04 10:11:03.453 | INFO | Found 2 devices
+2025-10-04 10:11:03.455 | ERROR | Multiple devices found: ['(no serial number)', '127.0.0.1:16384']
+2025-10-04 10:11:03.457 | CRITICAL | 需要人工介入: Please specify device serial in config
+2025-10-04 10:14:08.611 | INFO | 设备控制：ADB
+2025-10-04 10:14:08.614 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:14:08.615 | INFO | 点击控制：MaaTouch
+2025-10-04 10:14:08.620 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:14:08.621 | INFO | Found 1 devices
+2025-10-04 10:14:08.622 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:14:08.623 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:14:08.625 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:14:08.626 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:14:09.628 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:14:09.629 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:14:09.658 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:14:09.660 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:14:09.661 | INFO | Device initialized successfully
+2025-10-04 10:14:09.663 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:14:09.664 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:14:09.690 | INFO | Force stop finished
+2025-10-04 10:14:09.694 | INFO | App start: com.bilibili.priconne
+2025-10-04 10:14:09.695 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 10:14:09.761 | INFO | App started successfully
+2025-10-04 10:14:09.763 | INFO | Game started successfully
+2025-10-04 10:14:27.327 | INFO | 设备控制：ADB
+2025-10-04 10:14:27.330 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:14:27.332 | INFO | 点击控制：MaaTouch
+2025-10-04 10:14:27.336 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:14:27.338 | INFO | Found 1 devices
+2025-10-04 10:14:27.339 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:14:27.340 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:14:27.342 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:14:27.342 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:14:28.345 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:14:28.346 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:14:28.373 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:14:28.374 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:14:28.375 | INFO | Device initialized successfully
+2025-10-04 10:14:28.377 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:14:28.378 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:14:28.534 | INFO | Force stop finished
+2025-10-04 10:14:28.537 | INFO | App start: com.bilibili.priconne
+2025-10-04 10:14:28.538 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 10:14:28.635 | INFO | App started successfully
+2025-10-04 10:14:29.073 | ERROR | 'latin-1' codec can't encode character '\u98ad' in position 79: ordinal not in range(256)
+Traceback (most recent call last):
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 42, in retry_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 323, in screenshot_adb
+    data = data.encode("latin1")
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u98ad' in position 79: ordinal not in range(256)
+2025-10-04 10:14:32.519 | ERROR | 'latin-1' codec can't encode character '\u98ad' in position 79: ordinal not in range(256)
+Traceback (most recent call last):
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 42, in retry_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 323, in screenshot_adb
+    data = data.encode("latin1")
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u98ad' in position 79: ordinal not in range(256)
+2025-10-04 10:14:35.966 | ERROR | 'latin-1' codec can't encode character '\u011a' in position 89: ordinal not in range(256)
+Traceback (most recent call last):
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 42, in retry_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\method\adb.py", line 323, in screenshot_adb
+    data = data.encode("latin1")
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u011a' in position 89: ordinal not in range(256)
+2025-10-04 10:18:08.396 | INFO | 设备控制：ADB
+2025-10-04 10:18:08.399 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:18:08.400 | INFO | 点击控制：MaaTouch
+2025-10-04 10:18:08.404 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:18:08.405 | INFO | Found 1 devices
+2025-10-04 10:18:08.406 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:18:08.407 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:18:08.409 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:18:08.410 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:18:09.413 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:18:09.414 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:18:09.449 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:18:09.451 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:18:09.452 | INFO | Device initialized successfully
+2025-10-04 10:18:09.453 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:18:09.454 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:18:09.506 | INFO | Force stop finished
+2025-10-04 10:18:09.968 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:09.971 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:09.972 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:10.783 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:10.786 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:10.787 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:11.588 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:11.591 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:11.593 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:12.395 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:12.397 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:12.398 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:13.196 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:13.199 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:13.200 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:14.000 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:14.003 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:14.005 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:14.835 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:14.838 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:14.839 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:18:15.641 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:18:15.642 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:18:15.645 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:19:24.412 | INFO | 设备控制：ADB
+2025-10-04 10:19:24.416 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:19:24.417 | INFO | 点击控制：MaaTouch
+2025-10-04 10:19:24.420 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:19:24.421 | INFO | Found 1 devices
+2025-10-04 10:19:24.422 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:19:24.423 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:19:24.425 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:19:24.426 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:19:25.429 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:19:25.430 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:19:25.444 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:19:25.445 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:19:25.446 | INFO | Device initialized successfully
+2025-10-04 10:19:25.448 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:19:25.449 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:19:25.462 | INFO | Force stop finished
+2025-10-04 10:19:25.464 | INFO | App start: com.bilibili.priconne
+2025-10-04 10:19:25.465 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 10:19:25.498 | INFO | App started successfully
+2025-10-04 10:19:25.696 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:19:25.698 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:19:25.700 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:19:26.721 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:19:26.723 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:19:26.725 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:19:27.505 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:19:27.507 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:19:27.509 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:19:28.187 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:19:28.189 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:19:28.191 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:25:10.429 | INFO | 设备控制：ADB
+2025-10-04 10:25:10.433 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:25:10.434 | INFO | 点击控制：MaaTouch
+2025-10-04 10:25:10.438 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:25:10.438 | INFO | Found 1 devices
+2025-10-04 10:25:10.439 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:25:10.440 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:25:10.442 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:25:10.443 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:25:11.446 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:25:11.447 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:25:11.474 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:25:11.475 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:25:11.476 | INFO | Device initialized successfully
+2025-10-04 10:25:11.478 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:25:11.479 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:25:11.565 | INFO | Force stop finished
+2025-10-04 10:25:11.568 | INFO | App start: com.bilibili.priconne
+2025-10-04 10:25:11.569 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 10:25:11.626 | INFO | App started successfully
+2025-10-04 10:25:11.956 | WARNING | Template matching failed for MAIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/main/MAIN_CHECK.png'
+2025-10-04 10:25:11.959 | WARNING | Template matching failed for LOGIN_CHECK: [Errno 2] No such file or directory: './assets/pcr/login/LOGIN_CHECK.png'
+2025-10-04 10:25:11.960 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/pcr/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:13.129 | INFO | 设备控制：ADB
+2025-10-04 10:28:13.132 | INFO | 图像识别：DroidCast_raw
+2025-10-04 10:28:13.134 | INFO | 点击控制：MaaTouch
+2025-10-04 10:28:13.138 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:28:13.139 | INFO | Found 1 devices
+2025-10-04 10:28:13.141 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 10:28:13.142 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 10:28:13.144 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 10:28:13.146 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 10:28:14.148 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 10:28:14.149 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 10:28:14.163 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 10:28:14.164 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 10:28:14.165 | INFO | Device initialized successfully
+2025-10-04 10:28:14.165 | INFO | App stop: com.bilibili.priconne
+2025-10-04 10:28:14.167 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 10:28:14.202 | INFO | Force stop finished
+2025-10-04 10:28:14.204 | INFO | App start: com.bilibili.priconne
+2025-10-04 10:28:14.205 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 10:28:14.296 | INFO | App started successfully
+2025-10-04 10:28:14.686 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:14.689 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:14.690 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:15.574 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:15.576 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:15.578 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:16.429 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:16.431 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:16.433 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:17.240 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:17.243 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:17.245 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:17.941 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:17.944 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:17.945 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:18.646 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:18.648 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:18.650 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:19.436 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:19.439 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:19.441 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:20.140 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:20.143 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:20.145 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:20.853 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:20.855 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 10:28:20.856 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 10:28:20.858 | INFO | Closing announcement
+2025-10-04 10:28:20.859 | ERROR | 未知错误: 'Device' object has no attribute 'click'
+Traceback (most recent call last):
+  File "pcr.py", line 49, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 50, in run
+    self.login_handler.app_start()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 38, in app_start
+    self.handle_app_login()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 85, in handle_app_login
+    self.device.click(ANNOUNCE_CLOSE)
+AttributeError: 'Device' object has no attribute 'click'
+2025-10-04 11:11:41.431 | INFO | 设备控制：ADB
+2025-10-04 11:11:41.434 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:11:41.435 | INFO | 点击控制：MaaTouch
+2025-10-04 11:11:41.438 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:11:41.439 | INFO | Found 1 devices
+2025-10-04 11:11:41.441 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:11:41.442 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:11:41.444 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:11:41.445 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:11:42.448 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:11:42.449 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:11:42.467 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:11:42.468 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:11:42.470 | INFO | Device initialized successfully
+2025-10-04 11:11:42.472 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:11:42.473 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:11:42.592 | INFO | Force stop finished
+2025-10-04 11:11:42.596 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:11:42.597 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:11:42.652 | INFO | App started successfully
+2025-10-04 11:11:43.310 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:43.314 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:43.316 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:44.197 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:44.199 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:44.201 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:44.897 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:44.899 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:44.901 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:45.586 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:45.588 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:45.590 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:46.371 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:46.373 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:46.375 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:47.069 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:47.071 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:47.073 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:47.827 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:47.829 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:47.830 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:11:48.575 | WARNING | Template matching failed for MAIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:48.578 | WARNING | Template matching failed for LOGIN_CHECK: slice indices must be integers or None or have an __index__ method
+2025-10-04 11:11:48.580 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:06.207 | INFO | 设备控制：ADB
+2025-10-04 11:13:06.211 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:13:06.212 | INFO | 点击控制：MaaTouch
+2025-10-04 11:13:06.216 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:13:06.218 | INFO | Found 1 devices
+2025-10-04 11:13:06.219 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:13:06.220 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:13:06.222 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:13:06.223 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:13:07.226 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:13:07.227 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:13:07.255 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:13:07.256 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:13:07.257 | INFO | Device initialized successfully
+2025-10-04 11:13:07.259 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:13:07.260 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:13:07.376 | INFO | Force stop finished
+2025-10-04 11:13:07.379 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:13:07.381 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:13:07.424 | INFO | App started successfully
+2025-10-04 11:13:07.816 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:08.692 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:09.563 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:10.398 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:11.167 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:13:11.944 | WARNING | Template matching failed for ANNOUNCE_CLOSE: [Errno 2] No such file or directory: './assets/login/ANNOUNCE_CLOSE.png'
+2025-10-04 11:14:00.802 | INFO | 设备控制：ADB
+2025-10-04 11:14:00.805 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:14:00.806 | INFO | 点击控制：MaaTouch
+2025-10-04 11:14:00.810 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:14:00.811 | INFO | Found 1 devices
+2025-10-04 11:14:00.813 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:14:00.813 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:14:00.815 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:14:00.816 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:14:01.819 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:14:01.820 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:14:01.842 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:14:01.843 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:14:01.845 | INFO | Device initialized successfully
+2025-10-04 11:14:01.847 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:14:01.847 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:14:01.944 | INFO | Force stop finished
+2025-10-04 11:14:01.947 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:14:01.948 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:14:01.985 | INFO | App started successfully
+2025-10-04 11:15:23.907 | INFO | 设备控制：ADB
+2025-10-04 11:15:23.911 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:15:23.912 | INFO | 点击控制：MaaTouch
+2025-10-04 11:15:23.917 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:15:23.918 | INFO | Found 1 devices
+2025-10-04 11:15:23.919 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:15:23.920 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:15:23.921 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:15:23.922 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:15:24.924 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:15:24.925 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:15:24.949 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:15:24.950 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:15:24.952 | INFO | Device initialized successfully
+2025-10-04 11:15:24.954 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:15:24.955 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:15:24.991 | INFO | Force stop finished
+2025-10-04 11:15:24.995 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:15:24.996 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:15:25.063 | INFO | App started successfully
+2025-10-04 11:15:25.065 | INFO | Login iteration 1
+2025-10-04 11:15:25.786 | INFO | Login iteration 2
+2025-10-04 11:15:26.563 | INFO | Login iteration 3
+2025-10-04 11:15:27.466 | INFO | Login iteration 4
+2025-10-04 11:15:28.179 | INFO | Login iteration 5
+2025-10-04 11:15:28.916 | INFO | Login iteration 6
+2025-10-04 11:15:29.653 | INFO | Login iteration 7
+2025-10-04 11:15:30.396 | INFO | Login iteration 8
+2025-10-04 11:15:31.093 | INFO | Login iteration 9
+2025-10-04 11:15:31.848 | INFO | Login iteration 10
+2025-10-04 11:15:32.543 | INFO | Login iteration 11
+2025-10-04 11:15:33.311 | INFO | Login iteration 12
+2025-10-04 11:15:34.150 | INFO | Login iteration 13
+2025-10-04 11:15:35.082 | INFO | Login iteration 14
+2025-10-04 11:15:35.987 | INFO | Login iteration 15
+2025-10-04 11:15:36.856 | INFO | Login iteration 16
+2025-10-04 11:15:37.705 | INFO | Login iteration 17
+2025-10-04 11:15:38.577 | INFO | Login iteration 18
+2025-10-04 11:15:39.475 | INFO | Login iteration 19
+2025-10-04 11:15:40.410 | INFO | Login iteration 20
+2025-10-04 11:15:41.295 | INFO | Login iteration 21
+2025-10-04 11:15:42.122 | INFO | Login iteration 22
+2025-10-04 11:15:42.927 | INFO | Login iteration 23
+2025-10-04 11:15:43.849 | INFO | Login iteration 24
+2025-10-04 11:15:44.686 | INFO | Login iteration 25
+2025-10-04 11:15:45.636 | INFO | Login iteration 26
+2025-10-04 11:15:46.515 | INFO | Login iteration 27
+2025-10-04 11:15:47.409 | INFO | Login iteration 28
+2025-10-04 11:15:48.245 | INFO | Login iteration 29
+2025-10-04 11:15:49.092 | INFO | Login iteration 30
+2025-10-04 11:15:49.888 | INFO | Login iteration 31
+2025-10-04 11:15:50.709 | INFO | Login iteration 32
+2025-10-04 11:15:51.548 | INFO | Login iteration 33
+2025-10-04 11:15:52.361 | INFO | Login iteration 34
+2025-10-04 11:15:53.170 | INFO | Login iteration 35
+2025-10-04 11:15:53.999 | INFO | Login iteration 36
+2025-10-04 11:15:54.812 | INFO | Login iteration 37
+2025-10-04 11:15:55.652 | INFO | Login iteration 38
+2025-10-04 11:15:56.478 | INFO | Login iteration 39
+2025-10-04 11:15:57.437 | INFO | Login iteration 40
+2025-10-04 11:15:58.354 | INFO | Login iteration 41
+2025-10-04 11:15:59.201 | INFO | Login iteration 42
+2025-10-04 11:16:01.316 | INFO | 设备控制：ADB
+2025-10-04 11:16:01.319 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:16:01.320 | INFO | 点击控制：MaaTouch
+2025-10-04 11:16:01.324 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:16:01.327 | INFO | Found 1 devices
+2025-10-04 11:16:01.328 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:16:01.329 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:16:01.331 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:16:01.332 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:16:02.334 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:16:02.335 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:16:02.358 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:16:02.360 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:16:02.361 | INFO | Device initialized successfully
+2025-10-04 11:16:02.362 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:16:02.363 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:16:02.404 | INFO | Force stop finished
+2025-10-04 11:16:02.407 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:16:02.408 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:16:02.483 | INFO | App started successfully
+2025-10-04 11:16:02.486 | INFO | Login iteration 1
+2025-10-04 11:16:02.747 | INFO | Not in main page
+2025-10-04 11:16:03.250 | INFO | Login iteration 2
+2025-10-04 11:16:03.591 | INFO | Not in main page
+2025-10-04 11:16:04.094 | INFO | Login iteration 3
+2025-10-04 11:16:04.369 | INFO | Not in main page
+2025-10-04 11:16:04.871 | INFO | Login iteration 4
+2025-10-04 11:16:05.160 | INFO | Not in main page
+2025-10-04 11:16:05.662 | INFO | Login iteration 5
+2025-10-04 11:16:05.883 | INFO | Not in main page
+2025-10-04 11:16:06.386 | INFO | Login iteration 6
+2025-10-04 11:16:06.560 | INFO | Not in main page
+2025-10-04 11:16:07.061 | INFO | Login iteration 7
+2025-10-04 11:16:07.329 | INFO | Not in main page
+2025-10-04 11:16:07.831 | INFO | Login iteration 8
+2025-10-04 11:16:08.077 | INFO | Not in main page
+2025-10-04 11:16:08.580 | INFO | Login iteration 9
+2025-10-04 11:16:08.776 | INFO | Not in main page
+2025-10-04 11:16:09.279 | INFO | Login iteration 10
+2025-10-04 11:16:09.469 | INFO | Not in main page
+2025-10-04 11:16:09.972 | INFO | Login iteration 11
+2025-10-04 11:16:10.171 | INFO | Not in main page
+2025-10-04 11:16:10.673 | INFO | Login iteration 12
+2025-10-04 11:16:10.860 | INFO | Not in main page
+2025-10-04 11:16:11.362 | INFO | Login iteration 13
+2025-10-04 11:16:11.547 | INFO | Not in main page
+2025-10-04 11:16:12.050 | INFO | Login iteration 14
+2025-10-04 11:16:12.236 | INFO | Not in main page
+2025-10-04 11:16:12.738 | INFO | Login iteration 15
+2025-10-04 11:16:12.943 | INFO | Not in main page
+2025-10-04 11:16:13.446 | INFO | Login iteration 16
+2025-10-04 11:16:13.617 | INFO | Not in main page
+2025-10-04 11:16:14.119 | INFO | Login iteration 17
+2025-10-04 11:16:14.363 | INFO | Not in main page
+2025-10-04 11:16:14.866 | INFO | Login iteration 18
+2025-10-04 11:16:15.154 | INFO | Not in main page
+2025-10-04 11:16:15.657 | INFO | Login iteration 19
+2025-10-04 11:16:16.055 | INFO | Not in main page
+2025-10-04 11:16:16.557 | INFO | Login iteration 20
+2025-10-04 11:16:16.890 | INFO | Not in main page
+2025-10-04 11:16:17.392 | INFO | Login iteration 21
+2025-10-04 11:16:17.733 | INFO | Not in main page
+2025-10-04 11:16:18.237 | INFO | Login iteration 22
+2025-10-04 11:16:18.581 | INFO | Not in main page
+2025-10-04 11:16:19.083 | INFO | Login iteration 23
+2025-10-04 11:16:19.466 | INFO | Not in main page
+2025-10-04 11:16:19.969 | INFO | Login iteration 24
+2025-10-04 11:16:20.368 | INFO | Not in main page
+2025-10-04 11:16:20.871 | INFO | Login iteration 25
+2025-10-04 11:16:21.287 | INFO | Not in main page
+2025-10-04 11:16:21.789 | INFO | Login iteration 26
+2025-10-04 11:16:22.114 | INFO | Not in main page
+2025-10-04 11:16:22.617 | INFO | Login iteration 27
+2025-10-04 11:16:22.933 | INFO | Not in main page
+2025-10-04 11:18:26.962 | INFO | 设备控制：ADB
+2025-10-04 11:18:26.965 | INFO | 图像识别：DroidCast_raw
+2025-10-04 11:18:26.966 | INFO | 点击控制：MaaTouch
+2025-10-04 11:18:26.969 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:18:26.971 | INFO | Found 1 devices
+2025-10-04 11:18:26.972 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-04 11:18:26.973 | INFO | Selected device: 127.0.0.1:16384
+2025-10-04 11:18:26.975 | WARNING | Skipping device with invalid serial: (no serial number)
+2025-10-04 11:18:26.976 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-04 11:18:27.980 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-04 11:18:27.981 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-04 11:18:27.997 | INFO | Detected package: com.bilibili.priconne
+2025-10-04 11:18:27.998 | INFO | PackageName = com.bilibili.priconne
+2025-10-04 11:18:27.999 | INFO | Device initialized successfully
+2025-10-04 11:18:28.001 | INFO | App stop: com.bilibili.priconne
+2025-10-04 11:18:28.001 | INFO | Stopping app: com.bilibili.priconne
+2025-10-04 11:18:28.104 | INFO | Force stop finished
+2025-10-04 11:18:28.107 | INFO | App start: com.bilibili.priconne
+2025-10-04 11:18:28.109 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-04 11:18:28.140 | INFO | App started successfully
+2025-10-04 11:18:28.142 | INFO | Login iteration 1
+2025-10-04 11:18:28.466 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:28.468 | INFO | Not in main page
+2025-10-04 11:18:28.470 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:28.472 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:28.974 | INFO | Login iteration 2
+2025-10-04 11:18:29.247 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:29.249 | INFO | Not in main page
+2025-10-04 11:18:29.251 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:29.252 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:29.754 | INFO | Login iteration 3
+2025-10-04 11:18:30.008 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:30.010 | INFO | Not in main page
+2025-10-04 11:18:30.012 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:30.014 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:30.516 | INFO | Login iteration 4
+2025-10-04 11:18:30.846 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:30.847 | INFO | Not in main page
+2025-10-04 11:18:30.848 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:30.850 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:31.352 | INFO | Login iteration 5
+2025-10-04 11:18:31.588 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:31.589 | INFO | Not in main page
+2025-10-04 11:18:31.590 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:31.592 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:32.093 | INFO | Login iteration 6
+2025-10-04 11:18:32.271 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:32.272 | INFO | Not in main page
+2025-10-04 11:18:32.274 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:32.275 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:32.777 | INFO | Login iteration 7
+2025-10-04 11:18:33.061 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:33.063 | INFO | Not in main page
+2025-10-04 11:18:33.064 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:33.066 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:33.568 | INFO | Login iteration 8
+2025-10-04 11:18:33.773 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:33.775 | INFO | Not in main page
+2025-10-04 11:18:33.776 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:33.778 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:34.279 | INFO | Login iteration 9
+2025-10-04 11:18:34.533 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:34.535 | INFO | Not in main page
+2025-10-04 11:18:34.536 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:34.537 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:35.038 | INFO | Login iteration 10
+2025-10-04 11:18:35.224 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:35.226 | INFO | Not in main page
+2025-10-04 11:18:35.228 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:35.229 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功
+2025-10-04 11:18:35.730 | INFO | Login iteration 11
+2025-10-04 11:18:36.008 | DEBUG | MAIN_CHECK 模板匹配成功
+2025-10-04 11:18:36.010 | INFO | Not in main page
+2025-10-04 11:18:36.011 | DEBUG | LOGIN_CHECK 模板匹配成功
+2025-10-04 11:18:36.014 | DEBUG | ANNOUNCE_CLOSE 模板匹配成功

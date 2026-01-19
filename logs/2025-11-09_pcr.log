@@ -1,0 +1,1520 @@
+2025-11-09 00:09:05.046 | INFO | Bind task ['Pcr']
+2025-11-09 00:09:05.050 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:09:05.052 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:05.053 | INFO | Found 1 devices total
+2025-11-09 00:09:05.054 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:09:05.055 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:09:06.057 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:06.058 | INFO | Found 1 devices total
+2025-11-09 00:09:06.060 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:09:06.073 | INFO | Available devices (status='device'): 1
+2025-11-09 00:09:06.074 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:09:06.076 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:06.078 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:09:07.080 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:09:07.081 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:09:07.093 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:09:07.094 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:09:07.096 | INFO | Device initialized successfully
+2025-11-09 00:09:07.097 | INFO | Early initializing MaaTouch
+2025-11-09 00:09:07.098 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:09:07.099 | INFO | Disable stuck detection
+2025-11-09 00:09:07.101 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:09:07.102 | INFO | UI get current page
+2025-11-09 00:09:07.103 | INFO | Update droidcast resolution
+2025-11-09 00:09:07.114 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:09:07.152 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:09:07.153 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:09:07.155 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:09:07.256 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:09:07.264 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:09:07.270 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:09:07.272 | INFO | UI = page_team_battle
+2025-11-09 00:09:07.273 | INFO | Already at page_team_battle
+2025-11-09 00:09:07.274 | INFO |  成功进入公会战！
+2025-11-09 00:09:12.233 | INFO | Bind task ['Pcr']
+2025-11-09 00:09:12.238 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:09:12.239 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:12.240 | INFO | Found 1 devices total
+2025-11-09 00:09:12.242 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:09:12.243 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:09:13.255 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:13.257 | INFO | Found 1 devices total
+2025-11-09 00:09:13.259 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:09:13.260 | INFO | Available devices (status='device'): 1
+2025-11-09 00:09:13.261 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:09:13.263 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:09:13.264 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:09:14.267 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:09:14.268 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:09:14.287 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:09:14.288 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:09:14.290 | INFO | Device initialized successfully
+2025-11-09 00:09:14.291 | INFO | Early initializing MaaTouch
+2025-11-09 00:09:14.292 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:09:14.294 | INFO | Disable stuck detection
+2025-11-09 00:09:14.296 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:09:14.297 | INFO | UI get current page
+2025-11-09 00:09:14.300 | INFO | Update droidcast resolution
+2025-11-09 00:09:14.317 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:09:14.325 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:09:14.327 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:09:14.329 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:09:14.437 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:09:14.442 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:09:14.444 | INFO | UI = page_main
+2025-11-09 00:09:14.446 | INFO | Goto page_team_battle
+2025-11-09 00:09:14.447 | INFO | [bold]<<< UI GOTO PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:09:14.452 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:09:14.454 | INFO | UI page switch: page_main -> page_adventure
+2025-11-09 00:09:14.455 | INFO | Click at (719, 708)
+2025-11-09 00:09:14.525 | INFO | ^ 10 1280 720 255
+2025-11-09 00:09:14.526 | INFO | $ 255
+2025-11-09 00:09:14.528 | INFO | MaaTouch stream connected
+2025-11-09 00:09:14.529 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:09:14.657 | INFO | UI page switch: page_main -> page_adventure
+2025-11-09 00:09:14.658 | INFO | Click at (710, 701)
+2025-11-09 00:09:15.325 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:09:15.326 | INFO | Click at (1193, 440)
+2025-11-09 00:09:15.453 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:09:15.454 | INFO | Click at (1157, 439)
+2025-11-09 00:09:17.317 | INFO | Arrive page_team_battle
+2025-11-09 00:09:17.318 | INFO |  成功进入公会战！
+2025-11-09 00:12:41.152 | INFO | Bind task ['Pcr']
+2025-11-09 00:12:41.156 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:12:41.158 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:12:41.159 | INFO | Found 1 devices total
+2025-11-09 00:12:41.160 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:12:41.162 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:12:42.165 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:12:42.166 | INFO | Found 1 devices total
+2025-11-09 00:12:42.168 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:12:42.169 | INFO | Available devices (status='device'): 1
+2025-11-09 00:12:42.169 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:12:42.171 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:12:42.173 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:12:43.176 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:12:43.178 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:12:43.192 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:12:43.194 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:12:43.195 | INFO | Device initialized successfully
+2025-11-09 00:12:43.196 | INFO | Early initializing MaaTouch
+2025-11-09 00:12:43.198 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:12:43.199 | INFO | Disable stuck detection
+2025-11-09 00:12:43.200 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:12:43.201 | INFO | UI get current page
+2025-11-09 00:12:43.202 | INFO | Update droidcast resolution
+2025-11-09 00:12:43.216 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:12:43.241 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:12:43.242 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:12:43.245 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:12:43.356 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:12:43.364 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:12:43.369 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:12:43.371 | INFO | UI = page_team_battle
+2025-11-09 00:12:43.372 | INFO | Already at page_team_battle
+2025-11-09 00:12:43.373 | INFO |  成功进入公会战！
+2025-11-09 00:17:18.066 | INFO | Bind task ['Pcr']
+2025-11-09 00:17:18.070 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:17:18.072 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:17:18.073 | INFO | Found 1 devices total
+2025-11-09 00:17:18.074 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:17:18.076 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:17:19.078 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:17:19.080 | INFO | Found 1 devices total
+2025-11-09 00:17:19.081 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:17:19.083 | INFO | Available devices (status='device'): 1
+2025-11-09 00:17:19.084 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:17:19.086 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:17:19.087 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:17:20.089 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:17:20.090 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:17:20.105 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:17:20.106 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:17:20.107 | INFO | Device initialized successfully
+2025-11-09 00:17:20.108 | INFO | Early initializing MaaTouch
+2025-11-09 00:17:20.109 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:17:20.110 | INFO | Disable stuck detection
+2025-11-09 00:17:20.112 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:17:20.113 | INFO | UI get current page
+2025-11-09 00:17:20.114 | INFO | Update droidcast resolution
+2025-11-09 00:17:20.129 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:17:20.135 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:17:20.136 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:17:20.138 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:17:20.248 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:17:20.254 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:17:20.260 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:17:20.263 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:17:20.264 | INFO | Unknown ui page
+2025-11-09 00:17:20.269 | DEBUG | Loaded template for button 'GO_TO_MAIN' from './assets/ui/GO_TO_MAIN.png'
+2025-11-09 00:17:20.271 | INFO | Click at (104, 704)
+2025-11-09 00:17:20.310 | INFO | ^ 10 1280 720 255
+2025-11-09 00:17:20.312 | INFO | $ 255
+2025-11-09 00:17:20.312 | INFO | MaaTouch stream connected
+2025-11-09 00:17:20.313 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:17:20.434 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:17:20.435 | INFO | Unknown ui page
+2025-11-09 00:17:20.452 | INFO | Current_package = 
+2025-11-09 00:25:30.129 | INFO | Bind task ['Pcr']
+2025-11-09 00:25:30.133 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:25:30.134 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:25:30.135 | INFO | Found 1 devices total
+2025-11-09 00:25:30.137 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:25:30.138 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:25:31.141 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:25:31.142 | INFO | Found 1 devices total
+2025-11-09 00:25:31.143 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:25:31.144 | INFO | Available devices (status='device'): 1
+2025-11-09 00:25:31.146 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:25:31.148 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:25:31.149 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:25:32.151 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:25:32.152 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:25:32.165 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:25:32.166 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:25:32.167 | INFO | Device initialized successfully
+2025-11-09 00:25:32.168 | INFO | Early initializing MaaTouch
+2025-11-09 00:25:32.170 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:25:32.171 | INFO | Disable stuck detection
+2025-11-09 00:25:32.173 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:25:32.174 | INFO | UI get current page
+2025-11-09 00:25:32.175 | INFO | Update droidcast resolution
+2025-11-09 00:25:32.184 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:25:32.206 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:25:32.208 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:25:32.210 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:25:32.311 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:25:32.317 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:25:32.323 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:25:32.326 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:25:32.327 | INFO | Unknown ui page
+2025-11-09 00:25:32.332 | DEBUG | Loaded template for button 'GO_TO_MAIN' from './assets/ui/GO_TO_MAIN.png'
+2025-11-09 00:25:32.335 | INFO | Click at (96, 696)
+2025-11-09 00:25:32.472 | INFO | ^ 10 1280 720 255
+2025-11-09 00:25:32.473 | INFO | $ 255
+2025-11-09 00:25:32.474 | INFO | MaaTouch stream connected
+2025-11-09 00:25:32.475 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:25:32.589 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:25:32.591 | INFO | Unknown ui page
+2025-11-09 00:25:32.611 | INFO | Current_package = 
+2025-11-09 00:26:01.332 | INFO | Bind task ['Pcr']
+2025-11-09 00:26:01.339 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:26:01.341 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:26:01.342 | INFO | Found 1 devices total
+2025-11-09 00:26:01.343 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:26:01.344 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:26:02.347 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:26:02.348 | INFO | Found 1 devices total
+2025-11-09 00:26:02.349 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:26:02.350 | INFO | Available devices (status='device'): 1
+2025-11-09 00:26:02.352 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:26:02.354 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:26:02.355 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:26:03.358 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:26:03.359 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:26:03.373 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:26:03.374 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:26:03.375 | INFO | Device initialized successfully
+2025-11-09 00:26:03.376 | INFO | Early initializing MaaTouch
+2025-11-09 00:26:03.378 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:26:03.379 | INFO | Disable stuck detection
+2025-11-09 00:26:03.380 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:26:03.381 | INFO | UI get current page
+2025-11-09 00:26:03.382 | INFO | Update droidcast resolution
+2025-11-09 00:26:03.397 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:26:03.415 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:26:03.416 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:26:03.419 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:26:03.513 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:26:03.520 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:26:03.525 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:26:03.527 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:26:03.528 | INFO | Unknown ui page
+2025-11-09 00:26:03.533 | DEBUG | Loaded template for button 'GO_TO_MAIN' from './assets/ui/GO_TO_MAIN.png'
+2025-11-09 00:26:03.535 | INFO | Click at (132, 704)
+2025-11-09 00:26:03.589 | INFO | ^ 10 1280 720 255
+2025-11-09 00:26:03.591 | INFO | $ 255
+2025-11-09 00:26:03.592 | INFO | MaaTouch stream connected
+2025-11-09 00:26:03.593 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:26:03.710 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:26:03.711 | INFO | Unknown ui page
+2025-11-09 00:26:03.728 | INFO | Current_package = 
+2025-11-09 00:46:06.395 | INFO | Bind task ['Pcr']
+2025-11-09 00:46:06.399 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:46:06.402 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:06.404 | INFO | Found 1 devices total
+2025-11-09 00:46:06.405 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:46:06.406 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:46:07.409 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:07.410 | INFO | Found 1 devices total
+2025-11-09 00:46:07.411 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:46:07.412 | INFO | Available devices (status='device'): 1
+2025-11-09 00:46:07.413 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:46:07.414 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:07.415 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:46:08.418 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:46:08.419 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:46:08.431 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:46:08.432 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:46:08.434 | INFO | Device initialized successfully
+2025-11-09 00:46:08.435 | INFO | Early initializing MaaTouch
+2025-11-09 00:46:08.437 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:46:08.438 | INFO | Disable stuck detection
+2025-11-09 00:46:08.439 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:46:08.440 | INFO | UI get current page
+2025-11-09 00:46:08.441 | INFO | Update droidcast resolution
+2025-11-09 00:46:08.452 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:46:08.465 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:46:08.466 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:46:08.468 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:46:08.565 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:46:08.572 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:46:08.577 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:46:08.578 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:08.579 | INFO | Unknown ui page
+2025-11-09 00:46:08.586 | DEBUG | Loaded template for button 'GO_TO_MAIN' from './assets/ui/GO_TO_MAIN.png'
+2025-11-09 00:46:08.587 | INFO | Click at (101, 703)
+2025-11-09 00:46:08.612 | INFO | ^ 10 1280 720 255
+2025-11-09 00:46:08.614 | INFO | $ 255
+2025-11-09 00:46:08.615 | INFO | MaaTouch stream connected
+2025-11-09 00:46:08.616 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:46:08.735 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:08.736 | INFO | Unknown ui page
+2025-11-09 00:46:08.763 | INFO | Current_package = com.bilibili.priconne
+2025-11-09 00:46:08.776 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:46:08.836 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:08.837 | INFO | Unknown ui page
+2025-11-09 00:46:08.904 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:08.905 | INFO | Unknown ui page
+2025-11-09 00:46:08.968 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:08.970 | INFO | Unknown ui page
+2025-11-09 00:46:09.028 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.029 | INFO | Unknown ui page
+2025-11-09 00:46:09.095 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.097 | INFO | Unknown ui page
+2025-11-09 00:46:09.158 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.159 | INFO | Unknown ui page
+2025-11-09 00:46:09.220 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.222 | INFO | Unknown ui page
+2025-11-09 00:46:09.292 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.294 | INFO | Unknown ui page
+2025-11-09 00:46:09.355 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.356 | INFO | Unknown ui page
+2025-11-09 00:46:09.425 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.426 | INFO | Unknown ui page
+2025-11-09 00:46:09.484 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.486 | INFO | Unknown ui page
+2025-11-09 00:46:09.549 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.550 | INFO | Unknown ui page
+2025-11-09 00:46:09.613 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.615 | INFO | Unknown ui page
+2025-11-09 00:46:09.681 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.682 | INFO | Unknown ui page
+2025-11-09 00:46:09.744 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.746 | INFO | Unknown ui page
+2025-11-09 00:46:09.804 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.805 | INFO | Unknown ui page
+2025-11-09 00:46:09.867 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.868 | INFO | Unknown ui page
+2025-11-09 00:46:09.929 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.930 | INFO | Unknown ui page
+2025-11-09 00:46:09.991 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:09.992 | INFO | Unknown ui page
+2025-11-09 00:46:10.056 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.057 | INFO | Unknown ui page
+2025-11-09 00:46:10.119 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.120 | INFO | Unknown ui page
+2025-11-09 00:46:10.188 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.189 | INFO | Unknown ui page
+2025-11-09 00:46:10.248 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.250 | INFO | Unknown ui page
+2025-11-09 00:46:10.353 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.354 | INFO | Unknown ui page
+2025-11-09 00:46:10.420 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.422 | INFO | Unknown ui page
+2025-11-09 00:46:10.510 | DEBUG | Page page_unknown has no check_button
+2025-11-09 00:46:10.511 | INFO | Unknown ui page
+2025-11-09 00:46:10.590 | INFO | UI = page_main
+2025-11-09 00:46:10.591 | INFO | Goto page_team_battle
+2025-11-09 00:46:10.593 | INFO | [bold]<<< UI GOTO PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:46:10.595 | INFO | UI page switch: page_main -> page_adventure
+2025-11-09 00:46:10.596 | INFO | Click at (708, 700)
+2025-11-09 00:46:10.726 | INFO | UI page switch: page_main -> page_adventure
+2025-11-09 00:46:10.728 | INFO | Click at (720, 703)
+2025-11-09 00:46:10.850 | INFO | UI page switch: page_main -> page_adventure
+2025-11-09 00:46:10.851 | INFO | Click at (721, 706)
+2025-11-09 00:46:11.432 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:11.433 | INFO | Click at (1183, 432)
+2025-11-09 00:46:11.557 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:11.558 | INFO | Click at (1163, 438)
+2025-11-09 00:46:11.946 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:11.947 | INFO | Click at (1198, 437)
+2025-11-09 00:46:12.076 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:12.077 | INFO | Click at (1168, 433)
+2025-11-09 00:46:12.195 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:12.196 | INFO | Click at (1183, 434)
+2025-11-09 00:46:12.315 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:12.316 | INFO | Click at (1174, 428)
+2025-11-09 00:46:13.648 | INFO | Arrive page_team_battle
+2025-11-09 00:46:13.650 | INFO |  成功进入公会战！
+2025-11-09 00:46:17.644 | INFO | Bind task ['Pcr']
+2025-11-09 00:46:17.649 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 00:46:17.651 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:17.654 | INFO | Found 1 devices total
+2025-11-09 00:46:17.655 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 00:46:17.656 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 00:46:18.658 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:18.659 | INFO | Found 1 devices total
+2025-11-09 00:46:18.661 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 00:46:18.662 | INFO | Available devices (status='device'): 1
+2025-11-09 00:46:18.663 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 00:46:18.665 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 00:46:18.666 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 00:46:19.669 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 00:46:19.670 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 00:46:19.683 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 00:46:19.684 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 00:46:19.685 | INFO | Device initialized successfully
+2025-11-09 00:46:19.686 | INFO | Early initializing MaaTouch
+2025-11-09 00:46:19.687 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 00:46:19.689 | INFO | Disable stuck detection
+2025-11-09 00:46:19.690 | INFO | [bold]<<< UI ENSURE PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:46:19.691 | INFO | UI get current page
+2025-11-09 00:46:19.692 | INFO | Update droidcast resolution
+2025-11-09 00:46:19.702 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:46:19.719 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 00:46:19.721 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 00:46:19.723 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20648', remote='tcp:53516')
+2025-11-09 00:46:19.829 | DEBUG | Loaded template for button 'TEAM_BATTLE' from './assets/ui/TEAM_BATTLE.png'
+2025-11-09 00:46:19.831 | INFO | UI = page_adventure
+2025-11-09 00:46:19.832 | INFO | Goto page_team_battle
+2025-11-09 00:46:19.834 | INFO | [bold]<<< UI GOTO PAGE_TEAM_BATTLE >>>[/bold]
+2025-11-09 00:46:19.838 | DEBUG | Loaded template for button 'TEAM_BATTLE_CHECK' from './assets/ui/TEAM_BATTLE_CHECK.png'
+2025-11-09 00:46:19.841 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:19.842 | INFO | Click at (1178, 433)
+2025-11-09 00:46:19.881 | INFO | ^ 10 1280 720 255
+2025-11-09 00:46:19.882 | INFO | $ 255
+2025-11-09 00:46:19.884 | INFO | MaaTouch stream connected
+2025-11-09 00:46:19.885 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 00:46:20.001 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:20.002 | INFO | Click at (1168, 442)
+2025-11-09 00:46:20.118 | DEBUG | Loaded template for button 'MAIN_CHECK' from './assets/ui/MAIN_CHECK.png'
+2025-11-09 00:46:20.371 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:20.373 | INFO | Click at (1187, 429)
+2025-11-09 00:46:20.486 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:20.487 | INFO | Click at (1171, 432)
+2025-11-09 00:46:20.605 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:20.607 | INFO | Click at (1165, 434)
+2025-11-09 00:46:20.724 | INFO | UI page switch: page_adventure -> page_team_battle
+2025-11-09 00:46:20.725 | INFO | Click at (1162, 425)
+2025-11-09 00:46:22.030 | INFO | Arrive page_team_battle
+2025-11-09 00:46:22.031 | INFO |  成功进入公会战！
+2025-11-09 20:45:04.481 | INFO | Bind task ['Pcr']
+2025-11-09 20:45:04.489 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:45:09.571 | INFO | Found 0 devices total
+2025-11-09 20:45:09.572 | INFO | Available devices: []
+2025-11-09 20:45:09.573 | INFO | Found 0 devices total
+2025-11-09 20:45:09.574 | INFO | Available devices: []
+2025-11-09 20:45:09.575 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:45:10.641 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:45:10.643 | INFO | Found 1 devices total
+2025-11-09 20:45:10.645 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:45:10.646 | INFO | Available devices (status='device'): 1
+2025-11-09 20:45:10.647 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:45:10.648 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:45:10.650 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:45:11.653 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:45:11.653 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:45:11.703 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:45:11.704 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:45:11.706 | INFO | Device initialized successfully
+2025-11-09 20:45:11.707 | INFO | Early initializing MaaTouch
+2025-11-09 20:45:11.708 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:45:11.709 | INFO | Disable stuck detection
+2025-11-09 20:45:11.771 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:45:12.358 | INFO | ^ 10 1280 720 255
+2025-11-09 20:45:12.359 | INFO | $ 255
+2025-11-09 20:45:12.361 | INFO | MaaTouch stream connected
+2025-11-09 20:45:12.362 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:45:13.118 | INFO | Update droidcast resolution
+2025-11-09 20:45:13.850 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:45:13.851 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:45:13.852 | INFO | Create forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:45:13.865 | ERROR | ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-09 20:45:16.867 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-09 20:45:16.868 | INFO | Stopping DroidCast
+2025-11-09 20:45:16.891 | INFO | Update droidcast resolution
+2025-11-09 20:45:16.905 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:45:16.906 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:45:16.907 | INFO | Pushing DroidCast apk
+2025-11-09 20:45:17.002 | INFO | Starting DroidCast apk
+2025-11-09 20:45:17.007 | INFO | ShellBackgroundResponse(success=True, pid=30224, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-09 20:45:17.009 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:45:17.011 | INFO | DroidCast_raw = http://127.0.0.1:20039/screenshot?width=1280&height=720
+2025-11-09 20:45:17.269 | INFO | DroidCast = online
+2025-11-09 20:45:17.559 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:45:17.562 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:45:17.563 | INFO |   区域: (1218, 174, 1230, 484)
+2025-11-09 20:45:17.564 | INFO |   大小: (12, 310) (宽x高)
+2025-11-09 20:45:17.565 | INFO |   配置颜色: (24, 34, 49)
+2025-11-09 20:45:17.567 | INFO | 滚动条长度: 29 像素
+2025-11-09 20:45:17.568 | INFO | 总长度: 310 像素
+2025-11-09 20:45:17.569 | INFO | 匹配行数: 29 / 310
+2025-11-09 20:45:17.571 | ERROR |  滚动条检测失败！
+2025-11-09 20:45:17.575 | WARNING | 可能原因:
+2025-11-09 20:45:17.576 | WARNING |   1. 滚动条区域坐标不正确
+2025-11-09 20:45:17.577 | WARNING |   2. 滚动条颜色不匹配
+2025-11-09 20:45:17.578 | WARNING |   3. 未进入角色列表界面
+2025-11-09 20:45:17.579 | WARNING | 
+请检查:
+2025-11-09 20:45:17.580 | WARNING |   - debug_full_screenshot.png (完整截图)
+2025-11-09 20:45:17.582 | WARNING |   - debug_scroll_area.png (滚动条区域)
+2025-11-09 20:45:17.582 | WARNING |   - 滚动条应该在坐标 (1218, 174, 1230, 484)
+2025-11-09 20:46:04.648 | INFO | Bind task ['Pcr']
+2025-11-09 20:46:04.649 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:46:04.651 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:46:04.652 | INFO | Found 1 devices total
+2025-11-09 20:46:04.653 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:46:04.656 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:46:05.658 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:46:05.659 | INFO | Found 1 devices total
+2025-11-09 20:46:05.661 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:46:05.663 | INFO | Available devices (status='device'): 1
+2025-11-09 20:46:05.664 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:46:05.666 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:46:05.667 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:46:06.670 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:46:06.672 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:46:06.707 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:46:06.708 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:46:06.710 | INFO | Device initialized successfully
+2025-11-09 20:46:06.711 | INFO | Early initializing MaaTouch
+2025-11-09 20:46:06.712 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:46:06.713 | INFO | Disable stuck detection
+2025-11-09 20:46:06.725 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:46:06.918 | INFO | ^ 10 1280 720 255
+2025-11-09 20:46:06.920 | INFO | $ 255
+2025-11-09 20:46:06.922 | INFO | MaaTouch stream connected
+2025-11-09 20:46:06.923 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:46:07.965 | INFO | Update droidcast resolution
+2025-11-09 20:46:07.982 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:46:07.983 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:46:07.985 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:46:08.110 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:46:08.112 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:46:08.113 | INFO |   区域: (1218, 174, 1230, 484)
+2025-11-09 20:46:08.115 | INFO |   大小: (12, 310) (宽x高)
+2025-11-09 20:46:08.116 | INFO |   配置颜色: (24, 34, 49)
+2025-11-09 20:46:08.118 | INFO | 滚动条长度: 32 像素
+2025-11-09 20:46:08.119 | INFO | 总长度: 310 像素
+2025-11-09 20:46:08.120 | INFO | 匹配行数: 32 / 310
+2025-11-09 20:46:08.121 | INFO |  滚动条检测成功
+2025-11-09 20:46:08.122 | INFO | CHARACTER_SCROLL = 0.00 (15.5-16.0)/(310-32)
+2025-11-09 20:46:08.123 | INFO |   当前位置: 0.00
+2025-11-09 20:46:08.124 | INFO |   当前在顶部
+2025-11-09 20:48:57.301 | INFO | Bind task ['Pcr']
+2025-11-09 20:48:57.306 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:48:57.308 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:48:57.310 | INFO | Found 1 devices total
+2025-11-09 20:48:57.311 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:48:57.312 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:48:58.315 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:48:58.317 | INFO | Found 1 devices total
+2025-11-09 20:48:58.318 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:48:58.319 | INFO | Available devices (status='device'): 1
+2025-11-09 20:48:58.320 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:48:58.322 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:48:58.323 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:48:59.325 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:48:59.326 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:48:59.341 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:48:59.342 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:48:59.343 | INFO | Device initialized successfully
+2025-11-09 20:48:59.344 | INFO | Early initializing MaaTouch
+2025-11-09 20:48:59.346 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:48:59.348 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-09 20:48:59.349 | INFO | Stopping DroidCast
+2025-11-09 20:48:59.363 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:48:59.379 | INFO | Kill pid=30224
+2025-11-09 20:48:59.385 | INFO | Kill pid=30225
+2025-11-09 20:48:59.390 | INFO | Update droidcast resolution
+2025-11-09 20:48:59.450 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:48:59.452 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:48:59.453 | INFO | Pushing DroidCast apk
+2025-11-09 20:48:59.510 | INFO | Starting DroidCast apk
+2025-11-09 20:48:59.519 | INFO | ShellBackgroundResponse(success=True, pid=30374, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-09 20:48:59.522 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:48:59.524 | INFO | DroidCast_raw = http://127.0.0.1:20039/screenshot?width=1280&height=720
+2025-11-09 20:48:59.592 | INFO | ^ 10 1280 720 255
+2025-11-09 20:48:59.594 | INFO | $ 255
+2025-11-09 20:48:59.595 | INFO | MaaTouch stream connected
+2025-11-09 20:48:59.596 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:48:59.791 | INFO | DroidCast = online
+2025-11-09 20:52:21.939 | INFO | Assets extract
+2025-11-09 20:52:22.255 | INFO | Module: character(7)
+2025-11-09 20:52:22.277 | INFO | Module: handler(2)
+2025-11-09 20:52:22.335 | INFO | Module: ui(6)
+2025-11-09 20:52:53.981 | INFO | Bind task ['Pcr']
+2025-11-09 20:52:53.985 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:52:53.987 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:52:53.988 | INFO | Found 1 devices total
+2025-11-09 20:52:53.989 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:52:53.990 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:52:54.992 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:52:54.994 | INFO | Found 1 devices total
+2025-11-09 20:52:54.995 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:52:54.997 | INFO | Available devices (status='device'): 1
+2025-11-09 20:52:54.998 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:52:55.000 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:52:55.001 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:52:56.004 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:52:56.005 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:52:56.024 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:52:56.026 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:52:56.028 | INFO | Device initialized successfully
+2025-11-09 20:52:56.029 | INFO | Early initializing MaaTouch
+2025-11-09 20:52:56.030 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:52:56.031 | INFO | Disable stuck detection
+2025-11-09 20:52:56.045 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:52:56.191 | INFO | ^ 10 1280 720 255
+2025-11-09 20:52:56.192 | INFO | $ 255
+2025-11-09 20:52:56.194 | INFO | MaaTouch stream connected
+2025-11-09 20:52:56.196 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:52:57.445 | INFO | Update droidcast resolution
+2025-11-09 20:52:57.480 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:52:57.481 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:52:57.483 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:52:57.598 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:52:57.600 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:52:57.602 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:52:57.603 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:52:57.605 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:52:57.606 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:52:57.607 | INFO | 总长度: 319 像素
+2025-11-09 20:52:57.608 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:52:57.611 | INFO |  滚动条检测成功
+2025-11-09 20:52:57.613 | INFO | CHARACTER_SCROLL = 0.00 (16.0-16.5)/(319-33)
+2025-11-09 20:52:57.614 | INFO |   当前位置: 0.00
+2025-11-09 20:52:57.615 | INFO |   当前在顶部
+2025-11-09 20:53:07.022 | INFO | Bind task ['Pcr']
+2025-11-09 20:53:07.023 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:53:07.025 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:07.026 | INFO | Found 1 devices total
+2025-11-09 20:53:07.027 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:53:07.029 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:53:08.031 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:08.033 | INFO | Found 1 devices total
+2025-11-09 20:53:08.034 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:53:08.036 | INFO | Available devices (status='device'): 1
+2025-11-09 20:53:08.037 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:53:08.038 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:08.039 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:53:09.041 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:53:09.042 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:53:09.055 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:53:09.056 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:53:09.057 | INFO | Device initialized successfully
+2025-11-09 20:53:09.058 | INFO | Early initializing MaaTouch
+2025-11-09 20:53:09.060 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:53:09.061 | INFO | Disable stuck detection
+2025-11-09 20:53:09.071 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:09.228 | INFO | ^ 10 1280 720 255
+2025-11-09 20:53:09.230 | INFO | $ 255
+2025-11-09 20:53:09.232 | INFO | MaaTouch stream connected
+2025-11-09 20:53:09.234 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:53:09.764 | INFO | Update droidcast resolution
+2025-11-09 20:53:09.791 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:09.793 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:53:09.795 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:53:09.895 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:53:09.898 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:53:09.899 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:53:09.900 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:53:09.901 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:53:09.902 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:53:09.903 | INFO | 总长度: 319 像素
+2025-11-09 20:53:09.904 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:53:09.905 | INFO |  滚动条检测成功
+2025-11-09 20:53:09.907 | INFO | CHARACTER_SCROLL = 0.02 (21.0-16.5)/(319-33)
+2025-11-09 20:53:09.908 | INFO |   当前位置: 0.02
+2025-11-09 20:53:09.909 | INFO |   当前在中间位置
+2025-11-09 20:53:21.452 | INFO | Bind task ['Pcr']
+2025-11-09 20:53:21.453 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:53:21.454 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:21.455 | INFO | Found 1 devices total
+2025-11-09 20:53:21.456 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:53:21.457 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:53:22.461 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:22.463 | INFO | Found 1 devices total
+2025-11-09 20:53:22.464 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:53:22.465 | INFO | Available devices (status='device'): 1
+2025-11-09 20:53:22.466 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:53:22.468 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:22.469 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:53:23.471 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:53:23.472 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:53:23.490 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:53:23.492 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:53:23.493 | INFO | Device initialized successfully
+2025-11-09 20:53:23.494 | INFO | Early initializing MaaTouch
+2025-11-09 20:53:23.496 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:53:23.497 | INFO | Disable stuck detection
+2025-11-09 20:53:23.506 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:23.705 | INFO | ^ 10 1280 720 255
+2025-11-09 20:53:23.707 | INFO | $ 255
+2025-11-09 20:53:23.708 | INFO | MaaTouch stream connected
+2025-11-09 20:53:23.709 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:53:23.977 | INFO | Update droidcast resolution
+2025-11-09 20:53:24.003 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:24.005 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:53:24.008 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:53:24.164 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:53:24.166 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:53:24.168 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:53:24.169 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:53:24.170 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:53:24.171 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:53:24.172 | INFO | 总长度: 319 像素
+2025-11-09 20:53:24.172 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:53:24.174 | INFO |  滚动条检测成功
+2025-11-09 20:53:24.176 | INFO | CHARACTER_SCROLL = 0.03 (24.0-16.5)/(319-33)
+2025-11-09 20:53:24.177 | INFO |   当前位置: 0.03
+2025-11-09 20:53:24.179 | INFO |   当前在中间位置
+2025-11-09 20:53:27.141 | INFO | Bind task ['Pcr']
+2025-11-09 20:53:27.143 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:53:27.144 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:27.146 | INFO | Found 1 devices total
+2025-11-09 20:53:27.148 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:53:27.149 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:53:28.151 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:28.153 | INFO | Found 1 devices total
+2025-11-09 20:53:28.154 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:53:28.155 | INFO | Available devices (status='device'): 1
+2025-11-09 20:53:28.156 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:53:28.158 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:28.159 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:53:29.162 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:53:29.163 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:53:29.176 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:53:29.176 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:53:29.178 | INFO | Device initialized successfully
+2025-11-09 20:53:29.179 | INFO | Early initializing MaaTouch
+2025-11-09 20:53:29.180 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:53:29.181 | INFO | Disable stuck detection
+2025-11-09 20:53:29.191 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:29.339 | INFO | ^ 10 1280 720 255
+2025-11-09 20:53:29.340 | INFO | $ 255
+2025-11-09 20:53:29.341 | INFO | MaaTouch stream connected
+2025-11-09 20:53:29.343 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:53:29.675 | INFO | Update droidcast resolution
+2025-11-09 20:53:29.691 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:29.692 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:53:29.695 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:53:29.800 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:53:29.802 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:53:29.803 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:53:29.805 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:53:29.806 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:53:29.808 | INFO | 滚动条长度: 118 像素
+2025-11-09 20:53:29.809 | INFO | 总长度: 319 像素
+2025-11-09 20:53:29.810 | INFO | 匹配行数: 118 / 319
+2025-11-09 20:53:29.813 | INFO |  滚动条检测成功
+2025-11-09 20:53:29.814 | INFO | CHARACTER_SCROLL = 0.12 (83.5-59.0)/(319-118)
+2025-11-09 20:53:29.816 | INFO |   当前位置: 0.12
+2025-11-09 20:53:29.817 | INFO |   当前在中间位置
+2025-11-09 20:53:32.670 | INFO | Bind task ['Pcr']
+2025-11-09 20:53:32.671 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:53:32.673 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:32.674 | INFO | Found 1 devices total
+2025-11-09 20:53:32.675 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:53:32.679 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:53:33.682 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:33.684 | INFO | Found 1 devices total
+2025-11-09 20:53:33.686 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:53:33.688 | INFO | Available devices (status='device'): 1
+2025-11-09 20:53:33.689 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:53:33.691 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:33.692 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:53:34.695 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:53:34.696 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:53:34.709 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:53:34.710 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:53:34.711 | INFO | Device initialized successfully
+2025-11-09 20:53:34.712 | INFO | Early initializing MaaTouch
+2025-11-09 20:53:34.713 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:53:34.714 | INFO | Disable stuck detection
+2025-11-09 20:53:34.724 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:34.903 | INFO | ^ 10 1280 720 255
+2025-11-09 20:53:34.905 | INFO | $ 255
+2025-11-09 20:53:34.906 | INFO | MaaTouch stream connected
+2025-11-09 20:53:34.908 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:53:35.168 | INFO | Update droidcast resolution
+2025-11-09 20:53:35.196 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:35.197 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:53:35.199 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:53:35.308 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:53:35.310 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:53:35.312 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:53:35.314 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:53:35.315 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:53:35.316 | INFO | 滚动条长度: 119 像素
+2025-11-09 20:53:35.317 | INFO | 总长度: 319 像素
+2025-11-09 20:53:35.318 | INFO | 匹配行数: 119 / 319
+2025-11-09 20:53:35.321 | INFO |  滚动条检测成功
+2025-11-09 20:53:35.322 | INFO | CHARACTER_SCROLL = 0.00 (59.0-59.5)/(319-119)
+2025-11-09 20:53:35.323 | INFO |   当前位置: 0.00
+2025-11-09 20:53:35.324 | INFO |   当前在顶部
+2025-11-09 20:53:47.417 | INFO | Bind task ['Pcr']
+2025-11-09 20:53:47.418 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:53:47.419 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:47.420 | INFO | Found 1 devices total
+2025-11-09 20:53:47.421 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:53:47.422 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:53:48.426 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:48.428 | INFO | Found 1 devices total
+2025-11-09 20:53:48.429 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:53:48.430 | INFO | Available devices (status='device'): 1
+2025-11-09 20:53:48.432 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:53:48.434 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:53:48.435 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:53:49.437 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:53:49.438 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:53:49.452 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:53:49.454 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:53:49.455 | INFO | Device initialized successfully
+2025-11-09 20:53:49.456 | INFO | Early initializing MaaTouch
+2025-11-09 20:53:49.456 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:53:49.457 | INFO | Disable stuck detection
+2025-11-09 20:53:49.470 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:49.685 | INFO | ^ 10 1280 720 255
+2025-11-09 20:53:49.686 | INFO | $ 255
+2025-11-09 20:53:49.688 | INFO | MaaTouch stream connected
+2025-11-09 20:53:49.689 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:53:50.819 | INFO | CHARACTER_SCROLL set to 1.0
+2025-11-09 20:53:50.820 | INFO | Update droidcast resolution
+2025-11-09 20:53:50.854 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:53:50.855 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:53:50.857 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:53:50.962 | INFO | CHARACTER_SCROLL = 0.02 (21.0-16.5)/(319-33)
+2025-11-09 20:53:50.979 | INFO | CHARACTER_SCROLL current position: 0.016, target: 1.000, diff: 0.984
+2025-11-09 20:53:51.034 | INFO | CHARACTER_SCROLL swipe from (1218, 181) to (1222, 589), distance: 408.0px
+2025-11-09 20:53:51.036 | INFO | Swipe (1218,  181) -> (1222,  589)
+2025-11-09 20:53:51.579 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.580 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.651 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.654 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.722 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.724 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.793 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.794 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.851 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.853 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.910 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.911 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:51.976 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:51.978 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:52.052 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:52.054 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:52.128 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:52.130 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:52.187 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:52.188 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:52.249 | INFO | CHARACTER_SCROLL = 0.19 (71.31428571428572-17.5)/(319-35)
+2025-11-09 20:53:52.250 | INFO | CHARACTER_SCROLL current position: 0.189, target: 1.000, diff: 0.811
+2025-11-09 20:53:52.309 | INFO | CHARACTER_SCROLL = 0.99 (300.5-17.0)/(319-34)
+2025-11-09 20:53:52.311 | INFO | CHARACTER_SCROLL current position: 0.995, target: 1.000, diff: 0.005
+2025-11-09 20:53:52.313 | INFO | CHARACTER_SCROLL reached target position
+2025-11-09 20:53:52.314 | INFO | CHARACTER_SCROLL dragged 1 times
+2025-11-09 20:53:53.315 | INFO |  成功滚动到底部
+2025-11-09 20:53:53.317 | INFO | 搜索第 1/20 页
+2025-11-09 20:53:53.585 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:53:53.587 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:53:53.589 | INFO | 翻页...
+2025-11-09 20:53:53.649 | INFO | CHARACTER_SCROLL swipe in area from (786, 255) to (786, 385)
+2025-11-09 20:53:53.650 | INFO | Swipe ( 786,  255) -> ( 786,  385)
+2025-11-09 20:53:54.707 | INFO | 搜索第 2/20 页
+2025-11-09 20:53:54.839 | INFO |   亮度匹配相似度: 0.6783
+2025-11-09 20:53:54.840 | INFO |   未找到目标角色（相似度 0.6783 <= 0.85）
+2025-11-09 20:53:54.842 | INFO | 翻页...
+2025-11-09 20:53:54.898 | INFO | CHARACTER_SCROLL swipe in area from (776, 255) to (780, 385)
+2025-11-09 20:53:54.900 | INFO | Swipe ( 776,  255) -> ( 780,  385)
+2025-11-09 20:53:55.958 | INFO | 搜索第 3/20 页
+2025-11-09 20:53:56.096 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:53:56.097 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:53:56.099 | INFO | 翻页...
+2025-11-09 20:53:56.156 | INFO | CHARACTER_SCROLL swipe in area from (781, 255) to (780, 385)
+2025-11-09 20:53:56.157 | INFO | Swipe ( 781,  255) -> ( 780,  385)
+2025-11-09 20:53:57.208 | INFO | 搜索第 4/20 页
+2025-11-09 20:53:57.341 | INFO |   亮度匹配相似度: 0.6765
+2025-11-09 20:53:57.341 | INFO |   未找到目标角色（相似度 0.6765 <= 0.85）
+2025-11-09 20:53:57.344 | INFO | 翻页...
+2025-11-09 20:53:57.407 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (777, 385)
+2025-11-09 20:53:57.408 | INFO | Swipe ( 780,  255) -> ( 777,  385)
+2025-11-09 20:53:58.459 | INFO | 搜索第 5/20 页
+2025-11-09 20:53:58.586 | INFO |   亮度匹配相似度: 0.6847
+2025-11-09 20:53:58.587 | INFO |   未找到目标角色（相似度 0.6847 <= 0.85）
+2025-11-09 20:53:58.589 | INFO | 翻页...
+2025-11-09 20:53:58.647 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (779, 385)
+2025-11-09 20:53:58.648 | INFO | Swipe ( 780,  255) -> ( 779,  385)
+2025-11-09 20:53:59.707 | INFO | 搜索第 6/20 页
+2025-11-09 20:53:59.858 | INFO |   亮度匹配相似度: 0.6962
+2025-11-09 20:53:59.860 | INFO |   未找到目标角色（相似度 0.6962 <= 0.85）
+2025-11-09 20:53:59.864 | INFO | 翻页...
+2025-11-09 20:53:59.927 | INFO | CHARACTER_SCROLL swipe in area from (776, 255) to (783, 385)
+2025-11-09 20:53:59.929 | INFO | Swipe ( 776,  255) -> ( 783,  385)
+2025-11-09 20:54:00.992 | INFO | 搜索第 7/20 页
+2025-11-09 20:54:01.135 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:01.137 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:01.139 | INFO | 翻页...
+2025-11-09 20:54:01.202 | INFO | CHARACTER_SCROLL swipe in area from (776, 255) to (779, 385)
+2025-11-09 20:54:01.204 | INFO | Swipe ( 776,  255) -> ( 779,  385)
+2025-11-09 20:54:02.258 | INFO | 搜索第 8/20 页
+2025-11-09 20:54:02.389 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:02.391 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:02.392 | INFO | 翻页...
+2025-11-09 20:54:02.453 | INFO | CHARACTER_SCROLL swipe in area from (782, 255) to (776, 385)
+2025-11-09 20:54:02.455 | INFO | Swipe ( 782,  255) -> ( 776,  385)
+2025-11-09 20:54:03.506 | INFO | 搜索第 9/20 页
+2025-11-09 20:54:03.656 | INFO |   亮度匹配相似度: 0.6929
+2025-11-09 20:54:03.657 | INFO |   未找到目标角色（相似度 0.6929 <= 0.85）
+2025-11-09 20:54:03.659 | INFO | 翻页...
+2025-11-09 20:54:03.724 | INFO | CHARACTER_SCROLL swipe in area from (785, 255) to (781, 385)
+2025-11-09 20:54:03.725 | INFO | Swipe ( 785,  255) -> ( 781,  385)
+2025-11-09 20:54:04.775 | INFO | 搜索第 10/20 页
+2025-11-09 20:54:04.911 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:04.912 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:04.914 | INFO | 翻页...
+2025-11-09 20:54:04.985 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (784, 385)
+2025-11-09 20:54:04.986 | INFO | Swipe ( 780,  255) -> ( 784,  385)
+2025-11-09 20:54:06.043 | INFO | 搜索第 11/20 页
+2025-11-09 20:54:06.179 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:06.181 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:06.182 | INFO | 翻页...
+2025-11-09 20:54:06.243 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (786, 385)
+2025-11-09 20:54:06.244 | INFO | Swipe ( 780,  255) -> ( 786,  385)
+2025-11-09 20:54:07.309 | INFO | 搜索第 12/20 页
+2025-11-09 20:54:07.442 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:07.443 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:07.445 | INFO | 翻页...
+2025-11-09 20:54:07.505 | INFO | CHARACTER_SCROLL swipe in area from (776, 255) to (778, 385)
+2025-11-09 20:54:07.507 | INFO | Swipe ( 776,  255) -> ( 778,  385)
+2025-11-09 20:54:08.559 | INFO | 搜索第 13/20 页
+2025-11-09 20:54:08.698 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:08.700 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:08.702 | INFO | 翻页...
+2025-11-09 20:54:08.760 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (783, 385)
+2025-11-09 20:54:08.762 | INFO | Swipe ( 780,  255) -> ( 783,  385)
+2025-11-09 20:54:09.824 | INFO | 搜索第 14/20 页
+2025-11-09 20:54:09.960 | INFO |   亮度匹配相似度: 0.6798
+2025-11-09 20:54:09.962 | INFO |   未找到目标角色（相似度 0.6798 <= 0.85）
+2025-11-09 20:54:09.964 | INFO | 翻页...
+2025-11-09 20:54:10.029 | INFO | CHARACTER_SCROLL swipe in area from (779, 255) to (778, 385)
+2025-11-09 20:54:10.031 | INFO | Swipe ( 779,  255) -> ( 778,  385)
+2025-11-09 20:54:11.092 | INFO | 搜索第 15/20 页
+2025-11-09 20:54:11.236 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:11.238 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:11.240 | INFO | 翻页...
+2025-11-09 20:54:11.300 | INFO | CHARACTER_SCROLL swipe in area from (780, 255) to (786, 385)
+2025-11-09 20:54:11.301 | INFO | Swipe ( 780,  255) -> ( 786,  385)
+2025-11-09 20:54:12.358 | INFO | 搜索第 16/20 页
+2025-11-09 20:54:12.486 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:12.487 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:12.489 | INFO | 翻页...
+2025-11-09 20:54:12.549 | INFO | CHARACTER_SCROLL swipe in area from (784, 255) to (785, 385)
+2025-11-09 20:54:12.550 | INFO | Swipe ( 784,  255) -> ( 785,  385)
+2025-11-09 20:54:13.607 | INFO | 搜索第 17/20 页
+2025-11-09 20:54:13.744 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:13.746 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:13.748 | INFO | 翻页...
+2025-11-09 20:54:13.817 | INFO | CHARACTER_SCROLL swipe in area from (778, 255) to (785, 385)
+2025-11-09 20:54:13.820 | INFO | Swipe ( 778,  255) -> ( 785,  385)
+2025-11-09 20:54:14.875 | INFO | 搜索第 18/20 页
+2025-11-09 20:54:15.008 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:15.009 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:15.011 | INFO | 翻页...
+2025-11-09 20:54:15.069 | INFO | CHARACTER_SCROLL swipe in area from (784, 255) to (786, 385)
+2025-11-09 20:54:15.070 | INFO | Swipe ( 784,  255) -> ( 786,  385)
+2025-11-09 20:54:16.141 | INFO | 搜索第 19/20 页
+2025-11-09 20:54:16.267 | INFO |   亮度匹配相似度: 0.6666
+2025-11-09 20:54:16.268 | INFO |   未找到目标角色（相似度 0.6666 <= 0.85）
+2025-11-09 20:54:16.270 | INFO | 翻页...
+2025-11-09 20:54:16.328 | INFO | CHARACTER_SCROLL swipe in area from (781, 255) to (779, 385)
+2025-11-09 20:54:16.329 | INFO | Swipe ( 781,  255) -> ( 779,  385)
+2025-11-09 20:54:17.394 | INFO | 搜索第 20/20 页
+2025-11-09 20:54:17.523 | INFO |   亮度匹配相似度: 1.0000
+2025-11-09 20:54:17.525 | INFO | 角色: TEMPLATE_CHUNJIAN
+2025-11-09 20:54:17.527 | INFO | 相似度: 1.0000 > 0.85
+2025-11-09 20:54:17.528 | INFO | 位置: (113, 153, 174, 211)
+2025-11-09 20:54:17.602 | INFO | 结果已保存: scroll_search_result.png
+2025-11-09 20:54:17.603 | INFO | 点击角色...
+2025-11-09 20:54:17.604 | INFO | Click at (154, 173)
+2025-11-09 20:54:18.163 | INFO |  角色选择成功！
+2025-11-09 20:54:18.164 | INFO |   目标: TEMPLATE_CHUNJIAN
+2025-11-09 20:54:18.166 | INFO |   翻页次数: 19
+2025-11-09 20:56:13.185 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:13.187 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:13.188 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:13.189 | INFO | Found 1 devices total
+2025-11-09 20:56:13.190 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:13.191 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:14.194 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:14.196 | INFO | Found 1 devices total
+2025-11-09 20:56:14.198 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:14.199 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:14.200 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:14.201 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:14.202 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:15.204 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:15.205 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:15.225 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:15.227 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:15.228 | INFO | Device initialized successfully
+2025-11-09 20:56:15.229 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:15.230 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:15.231 | INFO | Disable stuck detection
+2025-11-09 20:56:15.241 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:15.444 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:15.445 | INFO | $ 255
+2025-11-09 20:56:15.447 | INFO | MaaTouch stream connected
+2025-11-09 20:56:15.447 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:16.042 | INFO | Update droidcast resolution
+2025-11-09 20:56:16.069 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:16.070 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:16.071 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:16.181 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:16.183 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:16.184 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:16.186 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:16.187 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:16.189 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:56:16.190 | INFO | 总长度: 319 像素
+2025-11-09 20:56:16.190 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:56:16.191 | INFO |  滚动条检测成功
+2025-11-09 20:56:16.193 | INFO | CHARACTER_SCROLL = 0.02 (21.0-16.5)/(319-33)
+2025-11-09 20:56:16.194 | INFO |   当前位置: 0.02
+2025-11-09 20:56:16.195 | INFO |   当前在中间位置
+2025-11-09 20:56:18.891 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:18.893 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:18.895 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:18.896 | INFO | Found 1 devices total
+2025-11-09 20:56:18.897 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:18.899 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:19.902 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:19.903 | INFO | Found 1 devices total
+2025-11-09 20:56:19.905 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:19.906 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:19.907 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:19.908 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:19.909 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:20.911 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:20.912 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:20.931 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:20.932 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:20.933 | INFO | Device initialized successfully
+2025-11-09 20:56:20.934 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:20.935 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:20.936 | INFO | Disable stuck detection
+2025-11-09 20:56:20.949 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:21.126 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:21.127 | INFO | $ 255
+2025-11-09 20:56:21.129 | INFO | MaaTouch stream connected
+2025-11-09 20:56:21.130 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:21.783 | INFO | Update droidcast resolution
+2025-11-09 20:56:21.817 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:21.818 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:21.820 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:21.927 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:21.930 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:21.931 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:21.932 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:21.933 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:21.935 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:56:21.936 | INFO | 总长度: 319 像素
+2025-11-09 20:56:21.937 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:56:21.939 | INFO |  滚动条检测成功
+2025-11-09 20:56:21.940 | INFO | CHARACTER_SCROLL = 0.00 (16.0-16.5)/(319-33)
+2025-11-09 20:56:21.941 | INFO |   当前位置: 0.00
+2025-11-09 20:56:21.942 | INFO |   当前在顶部
+2025-11-09 20:56:28.600 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:28.601 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:28.602 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:28.603 | INFO | Found 1 devices total
+2025-11-09 20:56:28.604 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:28.605 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:29.608 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:29.612 | INFO | Found 1 devices total
+2025-11-09 20:56:29.614 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:29.615 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:29.616 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:29.617 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:29.618 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:30.621 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:30.622 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:30.636 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:30.636 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:30.637 | INFO | Device initialized successfully
+2025-11-09 20:56:30.638 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:30.642 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:30.643 | INFO | Disable stuck detection
+2025-11-09 20:56:30.656 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:30.822 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:30.824 | INFO | $ 255
+2025-11-09 20:56:30.826 | INFO | MaaTouch stream connected
+2025-11-09 20:56:30.828 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:31.052 | INFO | Update droidcast resolution
+2025-11-09 20:56:31.091 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:31.092 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:31.095 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:31.210 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:31.213 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:31.214 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:31.215 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:31.216 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:31.218 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:56:31.219 | INFO | 总长度: 319 像素
+2025-11-09 20:56:31.220 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:56:31.222 | INFO |  滚动条检测成功
+2025-11-09 20:56:31.223 | INFO | CHARACTER_SCROLL = 0.02 (22.0-16.5)/(319-33)
+2025-11-09 20:56:31.224 | INFO |   当前位置: 0.02
+2025-11-09 20:56:31.225 | INFO |   当前在中间位置
+2025-11-09 20:56:35.772 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:35.774 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:35.776 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:35.778 | INFO | Found 1 devices total
+2025-11-09 20:56:35.780 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:35.781 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:36.784 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:36.785 | INFO | Found 1 devices total
+2025-11-09 20:56:36.786 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:36.787 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:36.789 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:36.791 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:36.792 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:37.794 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:37.795 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:37.819 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:37.821 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:37.823 | INFO | Device initialized successfully
+2025-11-09 20:56:37.824 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:37.825 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:37.827 | INFO | Disable stuck detection
+2025-11-09 20:56:37.838 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:38.030 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:38.031 | INFO | $ 255
+2025-11-09 20:56:38.033 | INFO | MaaTouch stream connected
+2025-11-09 20:56:38.034 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:42.981 | INFO | Update droidcast resolution
+2025-11-09 20:56:43.014 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:43.016 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:43.019 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:43.122 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:43.124 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:43.125 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:43.127 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:43.128 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:43.130 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:56:43.131 | INFO | 总长度: 319 像素
+2025-11-09 20:56:43.132 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:56:43.136 | INFO |  滚动条检测成功
+2025-11-09 20:56:43.137 | INFO | CHARACTER_SCROLL = 0.03 (24.0-16.5)/(319-33)
+2025-11-09 20:56:43.139 | INFO |   当前位置: 0.03
+2025-11-09 20:56:43.140 | INFO |   当前在中间位置
+2025-11-09 20:56:47.744 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:47.746 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:47.747 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:47.749 | INFO | Found 1 devices total
+2025-11-09 20:56:47.750 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:47.752 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:48.754 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:48.756 | INFO | Found 1 devices total
+2025-11-09 20:56:48.757 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:48.758 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:48.759 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:48.761 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:48.762 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:49.765 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:49.765 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:49.787 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:49.788 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:49.790 | INFO | Device initialized successfully
+2025-11-09 20:56:49.791 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:49.793 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:49.794 | INFO | Disable stuck detection
+2025-11-09 20:56:49.803 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:49.952 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:49.953 | INFO | $ 255
+2025-11-09 20:56:49.956 | INFO | MaaTouch stream connected
+2025-11-09 20:56:49.957 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:50.053 | INFO | Update droidcast resolution
+2025-11-09 20:56:50.088 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:50.089 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:50.091 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:50.186 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:50.188 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:50.190 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:50.191 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:50.192 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:50.193 | INFO | 滚动条长度: 118 像素
+2025-11-09 20:56:50.195 | INFO | 总长度: 319 像素
+2025-11-09 20:56:50.196 | INFO | 匹配行数: 118 / 319
+2025-11-09 20:56:50.198 | INFO |  滚动条检测成功
+2025-11-09 20:56:50.199 | INFO | CHARACTER_SCROLL = 0.12 (83.5-59.0)/(319-118)
+2025-11-09 20:56:50.201 | INFO |   当前位置: 0.12
+2025-11-09 20:56:50.202 | INFO |   当前在中间位置
+2025-11-09 20:56:56.841 | INFO | Bind task ['Pcr']
+2025-11-09 20:56:56.845 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:56:56.846 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:56.848 | INFO | Found 1 devices total
+2025-11-09 20:56:56.850 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:56:56.850 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:56:57.853 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:57.855 | INFO | Found 1 devices total
+2025-11-09 20:56:57.856 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:56:57.857 | INFO | Available devices (status='device'): 1
+2025-11-09 20:56:57.858 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:56:57.861 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:56:57.862 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:56:58.866 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:56:58.867 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:56:58.880 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:56:58.882 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:56:58.882 | INFO | Device initialized successfully
+2025-11-09 20:56:58.883 | INFO | Early initializing MaaTouch
+2025-11-09 20:56:58.885 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:56:58.886 | INFO | Disable stuck detection
+2025-11-09 20:56:58.899 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:59.040 | INFO | ^ 10 1280 720 255
+2025-11-09 20:56:59.041 | INFO | $ 255
+2025-11-09 20:56:59.042 | INFO | MaaTouch stream connected
+2025-11-09 20:56:59.043 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:56:59.516 | INFO | Update droidcast resolution
+2025-11-09 20:56:59.545 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:56:59.546 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:56:59.548 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:56:59.654 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:56:59.656 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:56:59.657 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:56:59.658 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:56:59.659 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:56:59.661 | INFO | 滚动条长度: 118 像素
+2025-11-09 20:56:59.662 | INFO | 总长度: 319 像素
+2025-11-09 20:56:59.663 | INFO | 匹配行数: 118 / 319
+2025-11-09 20:56:59.666 | INFO |  滚动条检测成功
+2025-11-09 20:56:59.668 | INFO | CHARACTER_SCROLL = 0.12 (83.5-59.0)/(319-118)
+2025-11-09 20:56:59.669 | INFO |   当前位置: 0.12
+2025-11-09 20:56:59.671 | INFO | CHARACTER_SCROLL = 0.12 (83.5-59.0)/(319-118)
+2025-11-09 20:56:59.672 | INFO | CHARACTER_SCROLL = 0.12 (83.5-59.0)/(319-118)
+2025-11-09 20:56:59.673 | INFO |   当前在中间位置
+2025-11-09 20:57:02.223 | INFO | Bind task ['Pcr']
+2025-11-09 20:57:02.224 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:57:02.226 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:02.227 | INFO | Found 1 devices total
+2025-11-09 20:57:02.228 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:57:02.229 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:57:03.233 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:03.235 | INFO | Found 1 devices total
+2025-11-09 20:57:03.237 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:57:03.237 | INFO | Available devices (status='device'): 1
+2025-11-09 20:57:03.238 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:57:03.240 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:03.241 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:57:04.244 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:57:04.245 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:57:04.257 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:57:04.258 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:57:04.259 | INFO | Device initialized successfully
+2025-11-09 20:57:04.261 | INFO | Early initializing MaaTouch
+2025-11-09 20:57:04.262 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:57:04.263 | INFO | Disable stuck detection
+2025-11-09 20:57:04.274 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:04.430 | INFO | ^ 10 1280 720 255
+2025-11-09 20:57:04.431 | INFO | $ 255
+2025-11-09 20:57:04.433 | INFO | MaaTouch stream connected
+2025-11-09 20:57:04.434 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:57:04.847 | INFO | Update droidcast resolution
+2025-11-09 20:57:04.887 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:04.888 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:57:04.890 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:57:04.985 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:57:04.988 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:57:04.989 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:57:04.990 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:57:04.991 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:57:04.992 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:57:04.993 | INFO | 总长度: 319 像素
+2025-11-09 20:57:04.994 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:57:04.996 | INFO |  滚动条检测成功
+2025-11-09 20:57:04.997 | INFO | CHARACTER_SCROLL = 0.02 (21.0-16.5)/(319-33)
+2025-11-09 20:57:04.999 | INFO |   当前位置: 0.02
+2025-11-09 20:57:05.000 | INFO | CHARACTER_SCROLL = 0.02 (21.0-16.5)/(319-33)
+2025-11-09 20:57:05.001 | INFO |   当前在顶部
+2025-11-09 20:57:11.039 | INFO | Bind task ['Pcr']
+2025-11-09 20:57:11.040 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:57:11.042 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:11.043 | INFO | Found 1 devices total
+2025-11-09 20:57:11.044 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:57:11.047 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:57:12.049 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:12.051 | INFO | Found 1 devices total
+2025-11-09 20:57:12.052 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:57:12.053 | INFO | Available devices (status='device'): 1
+2025-11-09 20:57:12.055 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:57:12.056 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:12.057 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:57:13.061 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:57:13.062 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:57:13.102 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:57:13.104 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:57:13.105 | INFO | Device initialized successfully
+2025-11-09 20:57:13.106 | INFO | Early initializing MaaTouch
+2025-11-09 20:57:13.108 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:57:13.109 | INFO | Disable stuck detection
+2025-11-09 20:57:13.122 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:13.263 | INFO | ^ 10 1280 720 255
+2025-11-09 20:57:13.264 | INFO | $ 255
+2025-11-09 20:57:13.266 | INFO | MaaTouch stream connected
+2025-11-09 20:57:13.267 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:57:13.451 | INFO | Update droidcast resolution
+2025-11-09 20:57:13.474 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:13.477 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:57:13.479 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:57:13.584 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:57:13.586 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:57:13.587 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:57:13.588 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:57:13.589 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:57:13.591 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:57:13.592 | INFO | 总长度: 319 像素
+2025-11-09 20:57:13.593 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:57:13.594 | INFO |  滚动条检测成功
+2025-11-09 20:57:13.596 | INFO | CHARACTER_SCROLL = 0.03 (24.0-16.5)/(319-33)
+2025-11-09 20:57:13.597 | INFO |   当前位置: 0.03
+2025-11-09 20:57:13.599 | INFO | CHARACTER_SCROLL = 0.03 (24.0-16.5)/(319-33)
+2025-11-09 20:57:13.600 | INFO |   当前在顶部
+2025-11-09 20:57:19.849 | INFO | Bind task ['Pcr']
+2025-11-09 20:57:19.850 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:57:19.851 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:19.852 | INFO | Found 1 devices total
+2025-11-09 20:57:19.853 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:57:19.854 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:57:20.857 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:20.859 | INFO | Found 1 devices total
+2025-11-09 20:57:20.861 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:57:20.862 | INFO | Available devices (status='device'): 1
+2025-11-09 20:57:20.863 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:57:20.865 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:20.866 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:57:21.869 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:57:21.870 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:57:21.887 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:57:21.888 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:57:21.889 | INFO | Device initialized successfully
+2025-11-09 20:57:21.890 | INFO | Early initializing MaaTouch
+2025-11-09 20:57:21.892 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:57:21.893 | INFO | Disable stuck detection
+2025-11-09 20:57:21.904 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:22.051 | INFO | ^ 10 1280 720 255
+2025-11-09 20:57:22.051 | INFO | $ 255
+2025-11-09 20:57:22.053 | INFO | MaaTouch stream connected
+2025-11-09 20:57:22.054 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:57:22.502 | INFO | Update droidcast resolution
+2025-11-09 20:57:22.553 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:22.554 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:57:22.556 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:57:22.648 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:57:22.650 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:57:22.651 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:57:22.653 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:57:22.654 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:57:22.656 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:57:22.657 | INFO | 总长度: 319 像素
+2025-11-09 20:57:22.657 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:57:22.658 | INFO |  滚动条检测成功
+2025-11-09 20:57:22.660 | INFO | CHARACTER_SCROLL = 0.03 (26.0-16.5)/(319-33)
+2025-11-09 20:57:22.662 | INFO |   当前位置: 0.03
+2025-11-09 20:57:22.663 | INFO | CHARACTER_SCROLL = 0.03 (26.0-16.5)/(319-33)
+2025-11-09 20:57:22.664 | INFO |   当前在顶部
+2025-11-09 20:57:29.795 | INFO | Bind task ['Pcr']
+2025-11-09 20:57:29.797 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 20:57:29.798 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:29.799 | INFO | Found 1 devices total
+2025-11-09 20:57:29.800 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 20:57:29.802 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 20:57:30.804 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:30.806 | INFO | Found 1 devices total
+2025-11-09 20:57:30.807 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 20:57:30.809 | INFO | Available devices (status='device'): 1
+2025-11-09 20:57:30.810 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 20:57:30.812 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 20:57:30.813 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 20:57:31.816 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 20:57:31.817 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 20:57:31.844 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 20:57:31.845 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 20:57:31.847 | INFO | Device initialized successfully
+2025-11-09 20:57:31.848 | INFO | Early initializing MaaTouch
+2025-11-09 20:57:31.849 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 20:57:31.850 | INFO | Disable stuck detection
+2025-11-09 20:57:31.861 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:32.032 | INFO | ^ 10 1280 720 255
+2025-11-09 20:57:32.034 | INFO | $ 255
+2025-11-09 20:57:32.035 | INFO | MaaTouch stream connected
+2025-11-09 20:57:32.037 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 20:57:32.167 | INFO | Update droidcast resolution
+2025-11-09 20:57:32.194 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 20:57:32.195 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 20:57:32.197 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 20:57:32.312 | INFO | 完整截图已保存到: debug_full_screenshot.png
+2025-11-09 20:57:32.314 | INFO | 滚动条区域截图已保存到: debug_scroll_area.png
+2025-11-09 20:57:32.316 | INFO |   区域: (1218, 165, 1230, 484)
+2025-11-09 20:57:32.317 | INFO |   大小: (12, 319) (宽x高)
+2025-11-09 20:57:32.318 | INFO |   配置颜色: (22, 30, 42)
+2025-11-09 20:57:32.320 | INFO | 滚动条长度: 33 像素
+2025-11-09 20:57:32.321 | INFO | 总长度: 319 像素
+2025-11-09 20:57:32.321 | INFO | 匹配行数: 33 / 319
+2025-11-09 20:57:32.322 | INFO |  滚动条检测成功
+2025-11-09 20:57:32.324 | INFO | CHARACTER_SCROLL = 0.04 (27.0-16.5)/(319-33)
+2025-11-09 20:57:32.325 | INFO |   当前位置: 0.04
+2025-11-09 20:57:32.326 | INFO | CHARACTER_SCROLL = 0.04 (27.0-16.5)/(319-33)
+2025-11-09 20:57:32.328 | INFO |   当前在顶部
+2025-11-09 21:00:06.806 | INFO | Bind task ['Pcr']
+2025-11-09 21:00:06.812 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 21:00:06.815 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:00:06.817 | INFO | Found 1 devices total
+2025-11-09 21:00:06.819 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 21:00:06.820 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 21:00:07.822 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:00:07.824 | INFO | Found 1 devices total
+2025-11-09 21:00:07.825 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 21:00:07.826 | INFO | Available devices (status='device'): 1
+2025-11-09 21:00:07.827 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 21:00:07.830 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:00:07.831 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 21:00:08.833 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 21:00:08.834 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 21:00:08.864 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 21:00:08.865 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 21:00:08.866 | INFO | Device initialized successfully
+2025-11-09 21:00:08.867 | INFO | Early initializing MaaTouch
+2025-11-09 21:00:08.869 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 21:00:08.870 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-09 21:00:08.871 | INFO | Stopping DroidCast
+2025-11-09 21:00:08.897 | INFO | Kill pid=30374
+2025-11-09 21:00:08.902 | INFO | Kill pid=30375
+2025-11-09 21:00:08.907 | INFO | Update droidcast resolution
+2025-11-09 21:00:08.918 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:00:08.993 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:00:08.995 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 21:00:08.997 | INFO | Pushing DroidCast apk
+2025-11-09 21:00:09.132 | INFO | Starting DroidCast apk
+2025-11-09 21:00:09.143 | INFO | ShellBackgroundResponse(success=True, pid=32474, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-09 21:00:09.147 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 21:00:09.149 | INFO | DroidCast_raw = http://127.0.0.1:20039/screenshot?width=1280&height=720
+2025-11-09 21:00:09.412 | INFO | DroidCast = offline
+2025-11-09 21:00:09.656 | INFO | ^ 10 1280 720 255
+2025-11-09 21:00:09.657 | INFO | $ 255
+2025-11-09 21:00:09.659 | INFO | MaaTouch stream connected
+2025-11-09 21:00:09.660 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 21:00:09.684 | INFO | DroidCast = online
+2025-11-09 21:06:10.109 | INFO | Bind task ['Pcr']
+2025-11-09 21:06:10.115 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 21:06:10.118 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:06:10.119 | INFO | Found 1 devices total
+2025-11-09 21:06:10.120 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 21:06:10.120 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 21:06:11.123 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:06:11.124 | INFO | Found 1 devices total
+2025-11-09 21:06:11.127 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 21:06:11.129 | INFO | Available devices (status='device'): 1
+2025-11-09 21:06:11.130 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 21:06:11.132 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:06:11.133 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 21:06:12.135 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 21:06:12.136 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 21:06:12.208 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 21:06:12.209 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 21:06:12.211 | INFO | Device initialized successfully
+2025-11-09 21:06:12.212 | INFO | Early initializing MaaTouch
+2025-11-09 21:06:12.213 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 21:06:12.214 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-09 21:06:12.215 | INFO | Stopping DroidCast
+2025-11-09 21:06:12.280 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:06:12.292 | INFO | Kill pid=32474
+2025-11-09 21:06:12.298 | INFO | Kill pid=32476
+2025-11-09 21:06:12.304 | INFO | Update droidcast resolution
+2025-11-09 21:06:12.350 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:06:12.351 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 21:06:12.353 | INFO | Pushing DroidCast apk
+2025-11-09 21:06:12.408 | INFO | Starting DroidCast apk
+2025-11-09 21:06:12.422 | INFO | ShellBackgroundResponse(success=True, pid=10194, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-09 21:06:12.425 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 21:06:12.426 | INFO | DroidCast_raw = http://127.0.0.1:20039/screenshot?width=1280&height=720
+2025-11-09 21:06:12.691 | INFO | DroidCast = offline
+2025-11-09 21:06:12.944 | INFO | DroidCast = offline
+2025-11-09 21:06:13.200 | INFO | DroidCast = offline
+2025-11-09 21:06:13.453 | INFO | DroidCast = offline
+2025-11-09 21:06:13.716 | INFO | DroidCast = offline
+2025-11-09 21:06:13.831 | INFO | ^ 10 1280 720 255
+2025-11-09 21:06:13.833 | INFO | $ 255
+2025-11-09 21:06:13.834 | INFO | MaaTouch stream connected
+2025-11-09 21:06:13.836 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 21:06:14.031 | INFO | DroidCast = online
+2025-11-09 21:11:59.712 | INFO | Bind task ['Pcr']
+2025-11-09 21:11:59.718 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-09 21:11:59.720 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:11:59.722 | INFO | Found 1 devices total
+2025-11-09 21:11:59.723 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-09 21:11:59.724 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-09 21:12:00.727 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:12:00.729 | INFO | Found 1 devices total
+2025-11-09 21:12:00.730 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-09 21:12:00.731 | INFO | Available devices (status='device'): 1
+2025-11-09 21:12:00.732 | INFO | Selected device: 127.0.0.1:16384
+2025-11-09 21:12:00.734 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-09 21:12:00.735 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-09 21:12:01.737 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-09 21:12:01.738 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-09 21:12:01.782 | INFO | Detected package: com.bilibili.priconne
+2025-11-09 21:12:01.784 | INFO | PackageName = com.bilibili.priconne
+2025-11-09 21:12:01.785 | INFO | Device initialized successfully
+2025-11-09 21:12:01.786 | INFO | Early initializing MaaTouch
+2025-11-09 21:12:01.787 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-09 21:12:01.789 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-09 21:12:01.790 | INFO | Stopping DroidCast
+2025-11-09 21:12:01.823 | INFO | Kill pid=10194
+2025-11-09 21:12:01.830 | INFO | Kill pid=10195
+2025-11-09 21:12:01.836 | INFO | Update droidcast resolution
+2025-11-09 21:12:01.882 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:12:01.884 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-09 21:12:01.885 | INFO | Droidcast resolution: (720, 1280)
+2025-11-09 21:12:01.886 | INFO | Pushing DroidCast apk
+2025-11-09 21:12:01.958 | INFO | Starting DroidCast apk
+2025-11-09 21:12:01.963 | INFO | ShellBackgroundResponse(success=True, pid=10726, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-09 21:12:01.966 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20039', remote='tcp:53516')
+2025-11-09 21:12:01.968 | INFO | DroidCast_raw = http://127.0.0.1:20039/screenshot?width=1280&height=720
+2025-11-09 21:12:02.222 | INFO | DroidCast = offline
+2025-11-09 21:12:02.484 | INFO | DroidCast = offline
+2025-11-09 21:12:02.747 | INFO | DroidCast = offline
+2025-11-09 21:12:03.009 | INFO | DroidCast = offline
+2025-11-09 21:12:03.263 | INFO | DroidCast = offline
+2025-11-09 21:12:03.526 | INFO | DroidCast = offline
+2025-11-09 21:12:03.795 | INFO | DroidCast = offline
+2025-11-09 21:12:04.058 | INFO | DroidCast = offline
+2025-11-09 21:12:04.321 | INFO | DroidCast = offline
+2025-11-09 21:12:04.583 | INFO | DroidCast = offline
+2025-11-09 21:12:04.846 | INFO | DroidCast = offline
+2025-11-09 21:12:05.098 | INFO | DroidCast = offline
+2025-11-09 21:12:05.362 | INFO | DroidCast = offline
+2025-11-09 21:12:05.624 | INFO | DroidCast = offline
+2025-11-09 21:12:05.886 | INFO | DroidCast = offline
+2025-11-09 21:12:06.149 | INFO | DroidCast = offline
+2025-11-09 21:12:06.338 | INFO | ^ 10 1280 720 255
+2025-11-09 21:12:06.339 | INFO | $ 255
+2025-11-09 21:12:06.340 | INFO | MaaTouch stream connected
+2025-11-09 21:12:06.341 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-09 21:12:06.428 | INFO | DroidCast = online
+2025-11-09 21:33:40.575 | INFO | Assets extract
+2025-11-09 21:33:40.840 | INFO | Module: character(7)
+2025-11-09 21:33:40.863 | INFO | Module: handler(2)
+2025-11-09 21:33:40.950 | INFO | Module: ui(9)

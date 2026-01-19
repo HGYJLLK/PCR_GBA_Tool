@@ -1,0 +1,264 @@
+2025-10-01 17:07:29.740 | INFO | 设备控制：ADB
+2025-10-01 17:07:29.744 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:07:29.745 | INFO | 点击控制：MaaTouch
+2025-10-01 17:07:29.746 | INFO | 创建默认配置文件……
+2025-10-01 17:07:29.749 | INFO | 默认配置文件创建成功：config\config.yaml
+2025-10-01 17:07:34.696 | INFO | Found 0 devices
+2025-10-01 17:07:34.698 | ERROR | No available devices found
+2025-10-01 17:07:34.700 | INFO | Attempting to restart ADB server
+2025-10-01 17:07:34.701 | INFO | Starting ADB server
+2025-10-01 17:07:36.736 | CRITICAL | No devices available
+2025-10-01 17:07:36.739 | INFO | 可能的原因:
+2025-10-01 17:07:36.740 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:07:36.741 | INFO |   - ADB 连接未建立
+2025-10-01 17:07:36.742 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:07:36.743 | WARNING | Emulator not running, trial 1/4
+2025-10-01 17:07:36.745 | CRITICAL | 需要人工介入: 请启动 MuMu 模拟器后重试
+2025-10-01 17:20:45.740 | INFO | 设备控制：ADB
+2025-10-01 17:20:45.743 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:20:45.745 | INFO | 点击控制：MaaTouch
+2025-10-01 17:20:45.746 | ERROR | 创建默认配置文件失败：local variable 'default_config' referenced before assignment
+2025-10-01 17:20:45.748 | ERROR | 配置创建失败，请检查配置
+2025-10-01 17:32:17.038 | INFO | 设备控制：ADB
+2025-10-01 17:32:17.041 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:32:17.042 | INFO | 点击控制：MaaTouch
+2025-10-01 17:32:17.047 | INFO | Found 0 devices
+2025-10-01 17:32:17.048 | ERROR | No available devices found
+2025-10-01 17:32:17.051 | INFO | Attempting to restart ADB server
+2025-10-01 17:32:17.052 | INFO | Starting ADB server
+2025-10-01 17:32:19.097 | CRITICAL | No devices available
+2025-10-01 17:32:19.100 | INFO | 可能的原因:
+2025-10-01 17:32:19.101 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:32:19.102 | INFO |   - ADB 连接未建立
+2025-10-01 17:32:19.103 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:32:19.105 | WARNING | Emulator not running, trial 1/4
+2025-10-01 17:32:19.106 | CRITICAL | 需要人工介入: 请启动 MuMu 模拟器后重试
+2025-10-01 17:33:43.767 | INFO | 设备控制：ADB
+2025-10-01 17:33:43.771 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:33:43.772 | INFO | 点击控制：MaaTouch
+2025-10-01 17:33:43.776 | INFO | Found 0 devices
+2025-10-01 17:33:43.778 | ERROR | No available devices found
+2025-10-01 17:33:43.779 | INFO | Attempting to restart ADB server
+2025-10-01 17:33:43.781 | INFO | Starting ADB server
+2025-10-01 17:33:45.822 | CRITICAL | No devices available
+2025-10-01 17:33:45.825 | INFO | 可能的原因:
+2025-10-01 17:33:45.826 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:33:45.827 | INFO |   - ADB 连接未建立
+2025-10-01 17:33:45.828 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:33:45.830 | WARNING | Emulator not running, trial 1/4
+2025-10-01 17:33:45.833 | INFO | Found 0 devices
+2025-10-01 17:33:45.834 | ERROR | No available devices found
+2025-10-01 17:33:45.836 | INFO | Attempting to restart ADB server
+2025-10-01 17:33:45.837 | INFO | Starting ADB server
+2025-10-01 17:33:47.872 | CRITICAL | No devices available
+2025-10-01 17:33:47.876 | INFO | 可能的原因:
+2025-10-01 17:33:47.877 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:33:47.878 | INFO |   - ADB 连接未建立
+2025-10-01 17:33:47.879 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:33:47.880 | WARNING | Emulator not running, trial 2/4
+2025-10-01 17:33:47.882 | INFO | Found 0 devices
+2025-10-01 17:33:47.884 | ERROR | No available devices found
+2025-10-01 17:33:47.885 | INFO | Attempting to restart ADB server
+2025-10-01 17:33:47.886 | INFO | Starting ADB server
+2025-10-01 17:33:49.921 | CRITICAL | No devices available
+2025-10-01 17:33:49.925 | INFO | 可能的原因:
+2025-10-01 17:33:49.926 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:33:49.928 | INFO |   - ADB 连接未建立
+2025-10-01 17:33:49.929 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:33:49.929 | WARNING | Emulator not running, trial 3/4
+2025-10-01 17:33:49.932 | INFO | Found 0 devices
+2025-10-01 17:33:49.934 | ERROR | No available devices found
+2025-10-01 17:33:49.935 | INFO | Attempting to restart ADB server
+2025-10-01 17:33:49.936 | INFO | Starting ADB server
+2025-10-01 17:33:51.971 | CRITICAL | No devices available
+2025-10-01 17:33:51.974 | INFO | 可能的原因:
+2025-10-01 17:33:51.976 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:33:51.978 | INFO |   - ADB 连接未建立
+2025-10-01 17:33:51.979 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:33:51.980 | CRITICAL | Failed to start emulator after 3 trials
+2025-10-01 17:33:51.981 | CRITICAL | 需要人工介入: 模拟器启动失败，请手动启动模拟器
+2025-10-01 17:40:59.927 | INFO | 设备控制：ADB
+2025-10-01 17:40:59.930 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:40:59.931 | INFO | 点击控制：MaaTouch
+2025-10-01 17:40:59.936 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:40:59.937 | INFO | Found 0 devices
+2025-10-01 17:40:59.939 | ERROR | No available devices found
+2025-10-01 17:40:59.940 | INFO | Attempting to restart ADB server
+2025-10-01 17:40:59.941 | INFO | Starting ADB server
+2025-10-01 17:41:01.984 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:01.987 | CRITICAL | No devices available
+2025-10-01 17:41:01.988 | INFO | 可能的原因:
+2025-10-01 17:41:01.989 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:41:01.990 | INFO |   - ADB 连接未建立
+2025-10-01 17:41:01.992 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:41:01.993 | WARNING | Emulator not running, trial 1/4
+2025-10-01 17:41:01.996 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:01.998 | INFO | Found 0 devices
+2025-10-01 17:41:01.999 | ERROR | No available devices found
+2025-10-01 17:41:02.000 | INFO | Attempting to restart ADB server
+2025-10-01 17:41:02.002 | INFO | Starting ADB server
+2025-10-01 17:41:04.038 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:04.041 | CRITICAL | No devices available
+2025-10-01 17:41:04.042 | INFO | 可能的原因:
+2025-10-01 17:41:04.044 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:41:04.045 | INFO |   - ADB 连接未建立
+2025-10-01 17:41:04.046 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:41:04.047 | WARNING | Emulator not running, trial 2/4
+2025-10-01 17:41:04.051 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:04.053 | INFO | Found 0 devices
+2025-10-01 17:41:04.054 | ERROR | No available devices found
+2025-10-01 17:41:04.056 | INFO | Attempting to restart ADB server
+2025-10-01 17:41:04.057 | INFO | Starting ADB server
+2025-10-01 17:41:06.093 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:06.096 | CRITICAL | No devices available
+2025-10-01 17:41:06.097 | INFO | 可能的原因:
+2025-10-01 17:41:06.098 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:41:06.098 | INFO |   - ADB 连接未建立
+2025-10-01 17:41:06.100 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:41:06.101 | WARNING | Emulator not running, trial 3/4
+2025-10-01 17:41:06.105 | ERROR | Failed to list devices: cannot unpack non-iterable AdbDeviceInfo object
+2025-10-01 17:41:06.106 | INFO | Found 0 devices
+2025-10-01 17:41:06.108 | ERROR | No available devices found
+2025-10-01 17:41:06.109 | INFO | Attempting to restart ADB server
+2025-10-01 17:41:06.110 | INFO | Starting ADB server
+2025-10-01 17:42:38.921 | INFO | 设备控制：ADB
+2025-10-01 17:42:38.925 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:42:38.926 | INFO | 点击控制：MaaTouch
+2025-10-01 17:42:38.931 | INFO | Found 1 devices
+2025-10-01 17:42:38.933 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-01 17:42:38.934 | INFO | Selected device: 127.0.0.1:16384
+2025-10-01 17:42:38.936 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-01 17:42:39.940 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-01 17:42:39.942 | ERROR | 未知错误: 'Logger' object has no attribute 'attr'
+Traceback (most recent call last):
+  File "pcr.py", line 47, in loop
+    self.start_manager.run()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 41, in run
+    self.initialize_device()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\manager\start.py", line 30, in initialize_device
+    self.device = Device(self.config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\device.py", line 31, in __init__
+    super().__init__(config)
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\device\connection.py", line 77, in __init__
+    logger.attr("AdbDevice", self.adb)
+AttributeError: 'Logger' object has no attribute 'attr'
+2025-10-01 17:45:13.781 | INFO | 设备控制：ADB
+2025-10-01 17:45:13.785 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:45:13.787 | INFO | 点击控制：MaaTouch
+2025-10-01 17:45:13.792 | INFO | Found 1 devices
+2025-10-01 17:45:13.794 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-01 17:45:13.795 | INFO | Selected device: 127.0.0.1:16384
+2025-10-01 17:45:13.797 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-01 17:45:14.800 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-01 17:45:14.802 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-01 17:45:14.817 | INFO | Detected package: com.bilibili.priconne
+2025-10-01 17:45:14.818 | INFO | PackageName = com.bilibili.priconne
+2025-10-01 17:45:14.820 | INFO | Device initialized successfully
+2025-10-01 17:45:14.822 | INFO | App stop: com.bilibili.priconne
+2025-10-01 17:45:14.824 | INFO | Stopping app: com.bilibili.priconne
+2025-10-01 17:45:14.846 | INFO | Force stop finished
+2025-10-01 17:45:14.850 | INFO | App start: com.bilibili.priconne
+2025-10-01 17:45:14.852 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.princonne.MainActivity
+2025-10-01 17:45:14.867 | INFO | App started successfully
+2025-10-01 17:46:04.940 | WARNING | Login process timeout
+2025-10-01 17:46:04.942 | INFO | Game started successfully
+2025-10-01 17:48:35.843 | INFO | 设备控制：ADB
+2025-10-01 17:48:35.847 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:48:35.848 | INFO | 点击控制：MaaTouch
+2025-10-01 17:48:35.854 | INFO | Found 1 devices
+2025-10-01 17:48:35.856 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-01 17:48:35.857 | INFO | Selected device: 127.0.0.1:16384
+2025-10-01 17:48:35.859 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-01 17:48:36.863 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-01 17:48:36.866 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-01 17:48:36.878 | INFO | Detected package: com.bilibili.priconne
+2025-10-01 17:48:36.879 | INFO | PackageName = com.bilibili.priconne
+2025-10-01 17:48:36.881 | INFO | Device initialized successfully
+2025-10-01 17:48:36.882 | INFO | App stop: com.bilibili.priconne
+2025-10-01 17:48:36.883 | INFO | Stopping app: com.bilibili.priconne
+2025-10-01 17:48:36.895 | INFO | Force stop finished
+2025-10-01 17:48:36.898 | INFO | App start: com.bilibili.priconne
+2025-10-01 17:48:36.900 | INFO | Starting app via AM: com.bilibili.priconne/.MainActivity
+2025-10-01 17:48:36.913 | INFO | App started successfully
+2025-10-01 17:49:26.984 | WARNING | Login process timeout
+2025-10-01 17:49:26.988 | INFO | Game started successfully
+2025-10-01 17:59:40.702 | INFO | 设备控制：ADB
+2025-10-01 17:59:40.706 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:59:40.707 | INFO | 点击控制：MaaTouch
+2025-10-01 17:59:40.712 | INFO | Found 1 devices
+2025-10-01 17:59:40.713 | ERROR | No available devices found
+2025-10-01 17:59:40.714 | INFO | Attempting to restart ADB server
+2025-10-01 17:59:40.715 | INFO | Starting ADB server
+2025-10-01 17:59:42.777 | CRITICAL | No devices available
+2025-10-01 17:59:42.780 | INFO | 可能的原因:
+2025-10-01 17:59:42.781 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:59:42.783 | INFO |   - ADB 连接未建立
+2025-10-01 17:59:42.784 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:59:42.786 | WARNING | Emulator not running, trial 1/4
+2025-10-01 17:59:42.788 | INFO | Found 1 devices
+2025-10-01 17:59:42.789 | ERROR | No available devices found
+2025-10-01 17:59:42.790 | INFO | Attempting to restart ADB server
+2025-10-01 17:59:42.792 | INFO | Starting ADB server
+2025-10-01 17:59:44.841 | CRITICAL | No devices available
+2025-10-01 17:59:44.844 | INFO | 可能的原因:
+2025-10-01 17:59:44.845 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:59:44.847 | INFO |   - ADB 连接未建立
+2025-10-01 17:59:44.848 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:59:44.849 | WARNING | Emulator not running, trial 2/4
+2025-10-01 17:59:44.851 | INFO | Found 1 devices
+2025-10-01 17:59:44.852 | ERROR | No available devices found
+2025-10-01 17:59:44.853 | INFO | Attempting to restart ADB server
+2025-10-01 17:59:44.855 | INFO | Starting ADB server
+2025-10-01 17:59:46.892 | CRITICAL | No devices available
+2025-10-01 17:59:46.895 | INFO | 可能的原因:
+2025-10-01 17:59:46.896 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:59:46.898 | INFO |   - ADB 连接未建立
+2025-10-01 17:59:46.900 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:59:46.901 | WARNING | Emulator not running, trial 3/4
+2025-10-01 17:59:46.905 | INFO | Found 1 devices
+2025-10-01 17:59:46.906 | ERROR | No available devices found
+2025-10-01 17:59:46.908 | INFO | Attempting to restart ADB server
+2025-10-01 17:59:46.910 | INFO | Starting ADB server
+2025-10-01 17:59:48.947 | CRITICAL | No devices available
+2025-10-01 17:59:55.670 | INFO | 可能的原因:
+2025-10-01 17:59:55.672 | INFO |   - MuMu 模拟器未启动
+2025-10-01 17:59:55.673 | INFO |   - ADB 连接未建立
+2025-10-01 17:59:55.675 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-01 17:59:55.677 | CRITICAL | Failed to start emulator after 3 trials
+2025-10-01 17:59:55.678 | CRITICAL | 需要人工介入: 模拟器启动失败，请手动启动模拟器
+2025-10-01 17:59:57.908 | INFO | 设备控制：ADB
+2025-10-01 17:59:57.911 | INFO | 图像识别：DroidCast_raw
+2025-10-01 17:59:57.913 | INFO | 点击控制：MaaTouch
+2025-10-01 17:59:57.919 | INFO | Found 1 devices
+2025-10-01 17:59:57.920 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-01 17:59:57.922 | INFO | Selected device: 127.0.0.1:16384
+2025-10-01 17:59:57.924 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-01 17:59:58.926 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-01 17:59:58.930 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-01 17:59:58.945 | INFO | Detected package: com.bilibili.priconne
+2025-10-01 17:59:58.945 | INFO | PackageName = com.bilibili.priconne
+2025-10-01 17:59:58.947 | INFO | Device initialized successfully
+2025-10-01 17:59:58.951 | INFO | App stop: com.bilibili.priconne
+2025-10-01 17:59:58.953 | INFO | Stopping app: com.bilibili.priconne
+2025-10-01 17:59:58.971 | INFO | Force stop finished
+2025-10-01 17:59:58.974 | INFO | App start: com.bilibili.priconne
+2025-10-01 17:59:58.975 | INFO | Starting app via AM: com.bilibili.priconne/.MainActivity
+2025-10-01 17:59:58.988 | INFO | App started successfully
+2025-10-01 19:40:18.910 | INFO | 设备控制：ADB
+2025-10-01 19:40:18.915 | INFO | 图像识别：DroidCast_raw
+2025-10-01 19:40:18.916 | INFO | 点击控制：MaaTouch
+2025-10-01 19:40:18.921 | INFO | Found 1 devices
+2025-10-01 19:40:18.922 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-01 19:40:18.924 | INFO | Selected device: 127.0.0.1:16384
+2025-10-01 19:40:18.927 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-01 19:40:19.930 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-01 19:40:19.932 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-01 19:40:19.947 | INFO | Detected package: com.bilibili.priconne
+2025-10-01 19:40:19.949 | INFO | PackageName = com.bilibili.priconne
+2025-10-01 19:40:19.950 | INFO | Device initialized successfully
+2025-10-01 19:40:19.952 | INFO | App stop: com.bilibili.priconne
+2025-10-01 19:40:19.953 | INFO | Stopping app: com.bilibili.priconne
+2025-10-01 19:40:19.970 | INFO | Force stop finished
+2025-10-01 19:40:19.973 | INFO | App start: com.bilibili.priconne
+2025-10-01 19:40:19.975 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.princonne.MainActivity
+2025-10-01 19:40:20.008 | INFO | App started successfully

@@ -1,0 +1,165 @@
+2025-11-10 20:10:21.555 | INFO | Bind task ['Pcr']
+2025-11-10 20:10:21.562 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-10 20:10:26.759 | INFO | Found 0 devices total
+2025-11-10 20:10:26.760 | INFO | Available devices: []
+2025-11-10 20:10:26.762 | INFO | Found 0 devices total
+2025-11-10 20:10:26.763 | INFO | Available devices: []
+2025-11-10 20:10:26.765 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-10 20:10:27.774 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:10:27.775 | INFO | Found 1 devices total
+2025-11-10 20:10:27.777 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-10 20:10:27.778 | INFO | Available devices (status='device'): 1
+2025-11-10 20:10:27.779 | INFO | Selected device: 127.0.0.1:16384
+2025-11-10 20:10:27.781 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:10:27.782 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-10 20:10:28.785 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-10 20:10:28.786 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-10 20:10:28.813 | INFO | Detected package: com.bilibili.priconne
+2025-11-10 20:10:28.814 | INFO | PackageName = com.bilibili.priconne
+2025-11-10 20:10:28.816 | INFO | Device initialized successfully
+2025-11-10 20:10:28.818 | INFO | Early initializing MaaTouch
+2025-11-10 20:10:28.819 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-10 20:10:28.822 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-10 20:10:28.824 | INFO | Stopping DroidCast
+2025-11-10 20:10:28.855 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:10:29.494 | INFO | ^ 10 1280 720 255
+2025-11-10 20:10:29.497 | INFO | $ 255
+2025-11-10 20:10:29.499 | INFO | MaaTouch stream connected
+2025-11-10 20:10:29.501 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-10 20:10:29.671 | INFO | Update droidcast resolution
+2025-11-10 20:10:29.700 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:10:29.702 | INFO | Droidcast resolution: (720, 1280)
+2025-11-10 20:10:29.705 | INFO | Pushing DroidCast apk
+2025-11-10 20:10:29.774 | INFO | Starting DroidCast apk
+2025-11-10 20:10:29.785 | INFO | ShellBackgroundResponse(success=True, pid=4579, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-10 20:10:29.789 | INFO | Create forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20258', remote='tcp:53516')
+2025-11-10 20:10:29.792 | INFO | DroidCast_raw = http://127.0.0.1:20258/screenshot?width=1280&height=720
+2025-11-10 20:10:30.051 | INFO | DroidCast = online
+2025-11-10 20:12:26.632 | INFO | Bind task ['Pcr']
+2025-11-10 20:12:26.639 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-10 20:12:26.641 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:12:26.641 | INFO | Found 1 devices total
+2025-11-10 20:12:26.642 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-10 20:12:26.643 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-10 20:12:27.647 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:12:27.648 | INFO | Found 1 devices total
+2025-11-10 20:12:27.650 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-10 20:12:27.651 | INFO | Available devices (status='device'): 1
+2025-11-10 20:12:27.652 | INFO | Selected device: 127.0.0.1:16384
+2025-11-10 20:12:27.654 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:12:27.656 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-10 20:12:28.658 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-10 20:12:28.659 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-10 20:12:28.682 | INFO | Detected package: com.bilibili.priconne
+2025-11-10 20:12:28.683 | INFO | PackageName = com.bilibili.priconne
+2025-11-10 20:12:28.685 | INFO | Device initialized successfully
+2025-11-10 20:12:28.687 | INFO | Early initializing MaaTouch
+2025-11-10 20:12:28.689 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-10 20:12:28.690 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-10 20:12:28.691 | INFO | Stopping DroidCast
+2025-11-10 20:12:28.709 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:12:28.745 | INFO | Kill pid=4579
+2025-11-10 20:12:28.754 | INFO | Kill pid=4580
+2025-11-10 20:12:28.769 | INFO | Update droidcast resolution
+2025-11-10 20:12:28.830 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:12:28.832 | INFO | Droidcast resolution: (720, 1280)
+2025-11-10 20:12:28.835 | INFO | Pushing DroidCast apk
+2025-11-10 20:12:28.926 | INFO | Starting DroidCast apk
+2025-11-10 20:12:28.934 | INFO | ShellBackgroundResponse(success=True, pid=5876, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-10 20:12:28.939 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20258', remote='tcp:53516')
+2025-11-10 20:12:28.943 | INFO | DroidCast_raw = http://127.0.0.1:20258/screenshot?width=1280&height=720
+2025-11-10 20:12:29.039 | INFO | ^ 10 1280 720 255
+2025-11-10 20:12:29.041 | INFO | $ 255
+2025-11-10 20:12:29.043 | INFO | MaaTouch stream connected
+2025-11-10 20:12:29.045 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-10 20:12:29.201 | INFO | DroidCast = online
+2025-11-10 20:17:00.433 | INFO | Bind task ['Pcr']
+2025-11-10 20:17:00.443 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-10 20:17:00.448 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:17:00.450 | INFO | Found 1 devices total
+2025-11-10 20:17:00.450 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-10 20:17:00.452 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-10 20:17:01.464 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:17:01.466 | INFO | Found 1 devices total
+2025-11-10 20:17:01.467 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-10 20:17:01.469 | INFO | Available devices (status='device'): 1
+2025-11-10 20:17:01.470 | INFO | Selected device: 127.0.0.1:16384
+2025-11-10 20:17:01.472 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:17:01.473 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-10 20:17:02.477 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-10 20:17:02.479 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-10 20:17:02.511 | INFO | Detected package: com.bilibili.priconne
+2025-11-10 20:17:02.512 | INFO | PackageName = com.bilibili.priconne
+2025-11-10 20:17:02.514 | INFO | Device initialized successfully
+2025-11-10 20:17:02.515 | INFO | Early initializing MaaTouch
+2025-11-10 20:17:02.517 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-10 20:17:02.519 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-10 20:17:02.521 | INFO | Stopping DroidCast
+2025-11-10 20:17:02.556 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:17:02.727 | INFO | Kill pid=5876
+2025-11-10 20:17:02.732 | INFO | Kill pid=5877
+2025-11-10 20:17:02.772 | INFO | Update droidcast resolution
+2025-11-10 20:17:02.813 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:17:02.815 | INFO | Droidcast resolution: (720, 1280)
+2025-11-10 20:17:02.817 | INFO | Pushing DroidCast apk
+2025-11-10 20:17:03.169 | INFO | Starting DroidCast apk
+2025-11-10 20:17:03.174 | INFO | ShellBackgroundResponse(success=True, pid=6023, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-10 20:17:03.177 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20258', remote='tcp:53516')
+2025-11-10 20:17:03.179 | INFO | DroidCast_raw = http://127.0.0.1:20258/screenshot?width=1280&height=720
+2025-11-10 20:17:03.442 | INFO | DroidCast = offline
+2025-11-10 20:17:03.704 | INFO | DroidCast = offline
+2025-11-10 20:17:03.960 | INFO | DroidCast = offline
+2025-11-10 20:17:04.215 | INFO | DroidCast = offline
+2025-11-10 20:17:04.477 | INFO | DroidCast = offline
+2025-11-10 20:17:04.731 | INFO | DroidCast = offline
+2025-11-10 20:17:04.993 | INFO | DroidCast = offline
+2025-11-10 20:17:05.248 | INFO | DroidCast = offline
+2025-11-10 20:17:05.503 | INFO | DroidCast = offline
+2025-11-10 20:17:05.757 | INFO | DroidCast = offline
+2025-11-10 20:17:06.010 | INFO | DroidCast = offline
+2025-11-10 20:17:06.263 | INFO | DroidCast = offline
+2025-11-10 20:17:06.515 | INFO | ^ 10 1280 720 255
+2025-11-10 20:17:06.517 | INFO | $ 255
+2025-11-10 20:17:06.518 | INFO | MaaTouch stream connected
+2025-11-10 20:17:06.520 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-10 20:17:06.524 | INFO | DroidCast = online
+2025-11-10 20:29:33.811 | INFO | Bind task ['Pcr']
+2025-11-10 20:29:33.820 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-10 20:29:33.823 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:29:33.825 | INFO | Found 1 devices total
+2025-11-10 20:29:33.826 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-10 20:29:33.827 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-10 20:29:34.833 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:29:34.835 | INFO | Found 1 devices total
+2025-11-10 20:29:34.835 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-10 20:29:34.837 | INFO | Available devices (status='device'): 1
+2025-11-10 20:29:34.838 | INFO | Selected device: 127.0.0.1:16384
+2025-11-10 20:29:34.840 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-10 20:29:34.841 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-10 20:29:35.845 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-10 20:29:35.846 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-10 20:29:35.862 | INFO | Detected package: com.bilibili.priconne
+2025-11-10 20:29:35.864 | INFO | PackageName = com.bilibili.priconne
+2025-11-10 20:29:35.865 | INFO | Device initialized successfully
+2025-11-10 20:29:35.867 | INFO | Early initializing MaaTouch
+2025-11-10 20:29:35.869 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-10 20:29:35.871 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-10 20:29:35.872 | INFO | Stopping DroidCast
+2025-11-10 20:29:35.892 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:29:35.905 | INFO | Kill pid=6023
+2025-11-10 20:29:35.913 | INFO | Kill pid=6024
+2025-11-10 20:29:35.920 | INFO | Update droidcast resolution
+2025-11-10 20:29:35.979 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-10 20:29:35.981 | INFO | Droidcast resolution: (720, 1280)
+2025-11-10 20:29:35.983 | INFO | Pushing DroidCast apk
+2025-11-10 20:29:36.065 | INFO | Starting DroidCast apk
+2025-11-10 20:29:36.072 | INFO | ShellBackgroundResponse(success=True, pid=6268, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-10 20:29:36.075 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20258', remote='tcp:53516')
+2025-11-10 20:29:36.078 | INFO | DroidCast_raw = http://127.0.0.1:20258/screenshot?width=1280&height=720
+2025-11-10 20:29:36.332 | INFO | DroidCast = offline
+2025-11-10 20:29:36.596 | INFO | DroidCast = offline
+2025-11-10 20:29:36.609 | INFO | ^ 10 1280 720 255
+2025-11-10 20:29:36.610 | INFO | $ 255
+2025-11-10 20:29:36.612 | INFO | MaaTouch stream connected
+2025-11-10 20:29:36.613 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-10 20:29:36.858 | INFO | DroidCast = online

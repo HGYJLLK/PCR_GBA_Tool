@@ -1,0 +1,21 @@
+2025-11-12 09:19:58.141 | DEBUG | Loaded template for button 'NULL_ONE' from './assets/character/NULL_ONE.png'
+2025-11-12 09:20:51.092 | DEBUG | Loaded template for button 'NULL_ONE' from './assets/character/NULL_ONE.png'
+2025-11-12 09:20:51.106 | DEBUG | NULL_ONE 模板匹配结果: True
+2025-11-12 09:20:51.107 | DEBUG | NULL_ONE 颜色匹配 - 实际颜色: (238.9122602168474, 235.91142618849042, 238.92010008340284), 期望颜色: (239, 236, 239), 匹配结果: True
+2025-11-12 09:20:51.108 | DEBUG | 颜色匹配结果: True
+2025-11-12 09:20:51.122 | DEBUG | Loaded template for button 'NULL_TWO' from './assets/character/NULL_TWO.png'
+2025-11-12 09:20:51.124 | DEBUG | NULL_TWO 模板匹配结果: True
+2025-11-12 09:20:51.124 | DEBUG | NULL_TWO 颜色匹配 - 实际颜色: (238.76843053735257, 236.990498034076, 240.93946592398427), 期望颜色: (239, 236, 239), 匹配结果: True
+2025-11-12 09:20:51.125 | DEBUG | 颜色匹配结果: True
+2025-11-12 09:20:51.140 | DEBUG | Loaded template for button 'NULL_THREE' from './assets/character/NULL_THREE.png'
+2025-11-12 09:20:51.142 | DEBUG | NULL_THREE 模板匹配结果: True
+2025-11-12 09:20:51.142 | DEBUG | NULL_THREE 颜色匹配 - 实际颜色: (238.99876733436056, 235.99907550077043, 239.00215716486903), 期望颜色: (239, 236, 239), 匹配结果: True
+2025-11-12 09:20:51.143 | DEBUG | 颜色匹配结果: True
+2025-11-12 09:20:51.159 | DEBUG | Loaded template for button 'NULL_FOUR' from './assets/character/NULL_FOUR.png'
+2025-11-12 09:20:51.161 | DEBUG | NULL_FOUR 模板匹配结果: True
+2025-11-12 09:20:51.161 | DEBUG | NULL_FOUR 颜色匹配 - 实际颜色: (238.9993894993895, 236.0006105006105, 239.00755494505495), 期望颜色: (239, 236, 239), 匹配结果: True
+2025-11-12 09:20:51.162 | DEBUG | 颜色匹配结果: True
+2025-11-12 09:20:51.177 | DEBUG | Loaded template for button 'NULL_FIVE' from './assets/character/NULL_FIVE.png'
+2025-11-12 09:20:51.179 | DEBUG | NULL_FIVE 模板匹配结果: True
+2025-11-12 09:20:51.179 | DEBUG | NULL_FIVE 颜色匹配 - 实际颜色: (238.99362244897958, 235.96093749999997, 238.99808673469386), 期望颜色: (239, 236, 239), 匹配结果: True
+2025-11-12 09:20:51.180 | DEBUG | 颜色匹配结果: True

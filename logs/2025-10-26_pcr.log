@@ -1,0 +1,587 @@
+2025-10-26 00:13:29.689 | INFO | Connected to device: auto
+2025-10-26 00:13:29.693 | INFO | AdbDevice = AdbDevice(serial=auto)
+2025-10-26 00:13:29.694 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:13:29.696 | INFO | Found 0 devices total
+2025-10-26 00:13:29.698 | INFO | Available devices (status='device'): 0
+2025-10-26 00:13:29.699 | ERROR | No available devices found
+2025-10-26 00:13:29.711 | INFO | Attempting to restart ADB server
+2025-10-26 00:13:29.713 | INFO | Starting ADB server
+2025-10-26 00:13:31.773 | INFO | After restart: 0 available devices
+2025-10-26 00:13:31.788 | CRITICAL | No devices available
+2025-10-26 00:13:31.789 | INFO | 可能的原因:
+2025-10-26 00:13:31.790 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:13:31.791 | INFO |   - ADB 连接未建立
+2025-10-26 00:13:31.791 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:13:31.793 | WARNING | Emulator not running, trial 1/4
+2025-10-26 00:13:31.795 | INFO | Connected to device: auto
+2025-10-26 00:13:31.796 | INFO | AdbDevice = AdbDevice(serial=auto)
+2025-10-26 00:13:31.798 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:13:31.799 | INFO | Found 0 devices total
+2025-10-26 00:13:31.800 | INFO | Available devices (status='device'): 0
+2025-10-26 00:13:31.802 | ERROR | No available devices found
+2025-10-26 00:13:31.803 | INFO | Attempting to restart ADB server
+2025-10-26 00:13:31.804 | INFO | Starting ADB server
+2025-10-26 00:13:33.845 | INFO | After restart: 0 available devices
+2025-10-26 00:13:33.847 | CRITICAL | No devices available
+2025-10-26 00:13:33.847 | INFO | 可能的原因:
+2025-10-26 00:13:33.848 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:13:33.849 | INFO |   - ADB 连接未建立
+2025-10-26 00:13:33.849 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:13:33.851 | WARNING | Emulator not running, trial 2/4
+2025-10-26 00:13:33.853 | INFO | Connected to device: auto
+2025-10-26 00:13:33.854 | INFO | AdbDevice = AdbDevice(serial=auto)
+2025-10-26 00:13:33.856 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:13:33.858 | INFO | Found 0 devices total
+2025-10-26 00:13:33.859 | INFO | Available devices (status='device'): 0
+2025-10-26 00:13:33.860 | ERROR | No available devices found
+2025-10-26 00:13:33.861 | INFO | Attempting to restart ADB server
+2025-10-26 00:13:33.862 | INFO | Starting ADB server
+2025-10-26 00:13:35.900 | INFO | After restart: 0 available devices
+2025-10-26 00:13:35.902 | CRITICAL | No devices available
+2025-10-26 00:13:35.903 | INFO | 可能的原因:
+2025-10-26 00:13:35.903 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:13:35.904 | INFO |   - ADB 连接未建立
+2025-10-26 00:13:35.905 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:13:35.906 | WARNING | Emulator not running, trial 3/4
+2025-10-26 00:13:35.908 | INFO | Connected to device: auto
+2025-10-26 00:13:35.909 | INFO | AdbDevice = AdbDevice(serial=auto)
+2025-10-26 00:13:35.911 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:13:35.913 | INFO | Found 0 devices total
+2025-10-26 00:13:35.915 | INFO | Available devices (status='device'): 0
+2025-10-26 00:13:35.922 | ERROR | No available devices found
+2025-10-26 00:13:35.923 | INFO | Attempting to restart ADB server
+2025-10-26 00:13:35.923 | INFO | Starting ADB server
+2025-10-26 00:13:36.622 | INFO | Benchmark interrupted by user
+2025-10-26 00:15:15.898 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:15:15.903 | INFO | Found 0 devices total
+2025-10-26 00:15:15.904 | INFO | Available devices (status='device'): 0
+2025-10-26 00:15:15.905 | ERROR | No available devices found
+2025-10-26 00:15:15.907 | INFO | Attempting to restart ADB server
+2025-10-26 00:15:15.907 | INFO | Starting ADB server
+2025-10-26 00:15:17.952 | INFO | After restart: 0 available devices
+2025-10-26 00:15:17.953 | CRITICAL | No devices available
+2025-10-26 00:15:17.955 | INFO | 可能的原因:
+2025-10-26 00:15:17.956 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:15:17.957 | INFO |   - ADB 连接未建立
+2025-10-26 00:15:17.959 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:15:17.960 | WARNING | Emulator not running, trial 1/4
+2025-10-26 00:15:17.962 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:15:17.964 | INFO | Found 0 devices total
+2025-10-26 00:15:17.965 | INFO | Available devices (status='device'): 0
+2025-10-26 00:15:17.966 | ERROR | No available devices found
+2025-10-26 00:15:17.967 | INFO | Attempting to restart ADB server
+2025-10-26 00:15:17.968 | INFO | Starting ADB server
+2025-10-26 00:15:20.004 | INFO | After restart: 0 available devices
+2025-10-26 00:15:20.005 | CRITICAL | No devices available
+2025-10-26 00:15:20.007 | INFO | 可能的原因:
+2025-10-26 00:15:20.008 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:15:20.010 | INFO |   - ADB 连接未建立
+2025-10-26 00:15:20.010 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:15:20.012 | WARNING | Emulator not running, trial 2/4
+2025-10-26 00:15:20.014 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:15:20.015 | INFO | Found 0 devices total
+2025-10-26 00:15:20.017 | INFO | Available devices (status='device'): 0
+2025-10-26 00:15:20.018 | ERROR | No available devices found
+2025-10-26 00:15:20.019 | INFO | Attempting to restart ADB server
+2025-10-26 00:15:20.020 | INFO | Starting ADB server
+2025-10-26 00:15:22.057 | INFO | After restart: 0 available devices
+2025-10-26 00:15:22.059 | CRITICAL | No devices available
+2025-10-26 00:15:22.060 | INFO | 可能的原因:
+2025-10-26 00:15:22.061 | INFO |   - MuMu 模拟器未启动
+2025-10-26 00:15:22.062 | INFO |   - ADB 连接未建立
+2025-10-26 00:15:22.063 | INFO |   - 模拟器 ADB 端口配置错误
+2025-10-26 00:15:22.064 | WARNING | Emulator not running, trial 3/4
+2025-10-26 00:15:22.065 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:15:22.067 | INFO | Found 0 devices total
+2025-10-26 00:15:22.069 | INFO | Available devices (status='device'): 0
+2025-10-26 00:15:22.070 | ERROR | No available devices found
+2025-10-26 00:15:22.071 | INFO | Attempting to restart ADB server
+2025-10-26 00:15:22.072 | INFO | Starting ADB server
+2025-10-26 00:15:22.470 | INFO | Benchmark interrupted by user
+2025-10-26 00:18:41.928 | INFO | Current config: Serial='auto', PackageName='auto'
+2025-10-26 00:18:41.933 | INFO | Found 0 devices total
+2025-10-26 00:18:41.934 | INFO | Available devices: []
+2025-10-26 00:18:41.936 | INFO | Attempting brute-force ADB connect for MuMu12...
+2025-10-26 00:18:52.458 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:18:52.460 | INFO | Found 1 devices total
+2025-10-26 00:18:52.460 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:18:52.462 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:18:52.463 | INFO | Found 1 devices total
+2025-10-26 00:18:52.464 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:18:52.465 | INFO | Available devices (status='device'): 1
+2025-10-26 00:18:52.467 | INFO | Using AUTO mode to select device
+2025-10-26 00:18:52.468 | INFO |  Auto selected device: 127.0.0.1:16384 (only one available)
+2025-10-26 00:18:52.470 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:18:52.472 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:18:52.473 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:18:53.476 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:18:53.477 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:18:53.510 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:18:53.511 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:18:53.513 | INFO | Device initialized successfully
+2025-10-26 00:18:53.516 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:18:53.517 | INFO | MaaTouch initialized successfully
+2025-10-26 00:18:53.531 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:18:53.571 | INFO | 01/15 = 0.051s
+2025-10-26 00:18:53.622 | INFO | 02/15 = 0.051s
+2025-10-26 00:18:53.675 | INFO | 03/15 = 0.051s
+2025-10-26 00:18:53.726 | INFO | 04/15 = 0.051s
+2025-10-26 00:18:53.779 | INFO | 05/15 = 0.051s
+2025-10-26 00:18:53.830 | INFO | 06/15 = 0.051s
+2025-10-26 00:18:53.847 | INFO | ^ 10 1280 720 255
+2025-10-26 00:18:53.848 | INFO | $ 255
+2025-10-26 00:18:53.851 | INFO | MaaTouch stream connected
+2025-10-26 00:18:53.852 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:18:53.882 | INFO | 07/15 = 0.051s
+2025-10-26 00:18:53.934 | INFO | 08/15 = 0.051s
+2025-10-26 00:18:53.986 | INFO | 09/15 = 0.051s
+2025-10-26 00:18:54.037 | INFO | 10/15 = 0.051s
+2025-10-26 00:18:54.089 | INFO | 11/15 = 0.051s
+2025-10-26 00:18:54.142 | INFO | 12/15 = 0.051s
+2025-10-26 00:18:54.193 | INFO | 13/15 = 0.051s
+2025-10-26 00:18:54.245 | INFO | 14/15 = 0.051s
+2025-10-26 00:18:54.297 | INFO | 15/15 = 0.051s
+2025-10-26 00:18:54.351 | INFO | Average: 0.051s (best 12 out of 15 tests)
+2025-10-26 00:18:54.407 | INFO | 01/15 = 0.055s
+2025-10-26 00:18:54.461 | INFO | 02/15 = 0.053s
+2025-10-26 00:18:54.515 | INFO | 03/15 = 0.053s
+2025-10-26 00:18:54.572 | INFO | 04/15 = 0.056s
+2025-10-26 00:18:54.626 | INFO | 05/15 = 0.053s
+2025-10-26 00:18:54.680 | INFO | 06/15 = 0.054s
+2025-10-26 00:18:54.740 | INFO | 07/15 = 0.059s
+2025-10-26 00:18:54.795 | INFO | 08/15 = 0.054s
+2025-10-26 00:18:54.849 | INFO | 09/15 = 0.054s
+2025-10-26 00:18:54.904 | INFO | 10/15 = 0.054s
+2025-10-26 00:18:54.959 | INFO | 11/15 = 0.054s
+2025-10-26 00:18:55.013 | INFO | 12/15 = 0.054s
+2025-10-26 00:18:55.074 | INFO | 13/15 = 0.060s
+2025-10-26 00:18:55.130 | INFO | 14/15 = 0.055s
+2025-10-26 00:18:55.183 | INFO | 15/15 = 0.053s
+2025-10-26 00:18:55.184 | INFO | Average: 0.054s (best 12 out of 15 tests)
+2025-10-26 00:18:55.191 | INFO | Recommend click method: ADB (0.051s)
+2025-10-26 00:18:55.192 | INFO | ADB is 5.5% faster than MaaTouch
+2025-10-26 00:19:05.250 | INFO | 配置文件：cwj.json
+2025-10-26 00:19:05.253 | INFO | 截图方式：DroidCast_raw
+2025-10-26 00:19:05.254 | INFO | 点击方式：MaaTouch
+2025-10-26 00:19:05.256 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:19:05.258 | INFO | Found 0 devices total
+2025-10-26 00:19:05.260 | INFO | Available devices: []
+2025-10-26 00:19:05.261 | INFO | Found 0 devices total
+2025-10-26 00:19:05.262 | INFO | Available devices: []
+2025-10-26 00:19:05.263 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:19:06.266 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:19:06.268 | INFO | Found 1 devices total
+2025-10-26 00:19:06.269 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:19:06.270 | INFO | Available devices (status='device'): 1
+2025-10-26 00:19:06.271 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:19:06.274 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:19:06.275 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:19:07.278 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:19:07.279 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:19:07.302 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:19:07.303 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:19:07.305 | INFO | Device initialized successfully
+2025-10-26 00:19:07.306 | INFO | Early initializing MaaTouch
+2025-10-26 00:19:07.307 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:19:07.309 | INFO | Scheduler: Start task `Start`
+2025-10-26 00:19:07.313 | INFO | App start: com.bilibili.priconne
+2025-10-26 00:19:07.315 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-26 00:19:07.325 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:19:07.343 | INFO | App started successfully
+2025-10-26 00:19:07.346 | INFO | Update droidcast resolution
+2025-10-26 00:19:07.392 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:19:07.394 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:19:07.396 | INFO | Create forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:19:07.506 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/handler/MAIN_CHECK.png
+2025-10-26 00:19:07.519 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (45, 43, 3)
+2025-10-26 00:19:07.521 | DEBUG | LOGIN_CHECK 加载模板图像: ./assets/handler/LOGIN_CHECK.png
+2025-10-26 00:19:07.525 | DEBUG | LOGIN_CHECK 模板图像加载成功, shape: (54, 54, 3)
+2025-10-26 00:19:07.528 | DEBUG | ANNOUNCE_CLOSE 加载模板图像: ./assets/handler/ANNOUNCE_CLOSE.png
+2025-10-26 00:19:07.533 | DEBUG | ANNOUNCE_CLOSE 模板图像加载成功, shape: (66, 277, 3)
+2025-10-26 00:19:07.573 | INFO | ^ 10 1280 720 255
+2025-10-26 00:19:07.575 | INFO | $ 255
+2025-10-26 00:19:07.576 | INFO | MaaTouch stream connected
+2025-10-26 00:19:07.577 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:19:08.917 | INFO | Login to main confirmed
+2025-10-26 00:19:08.918 | INFO | Scheduler: End task `Start`
+2025-10-26 00:19:08.920 | INFO | 没有指定任务，程序结束
+2025-10-26 00:22:36.834 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:22:36.838 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:22:36.840 | INFO | Found 1 devices total
+2025-10-26 00:22:36.841 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:22:36.843 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:22:37.845 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:22:37.847 | INFO | Found 1 devices total
+2025-10-26 00:22:37.849 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:22:37.850 | INFO | Available devices (status='device'): 1
+2025-10-26 00:22:37.852 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:22:37.853 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:22:37.855 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:22:38.858 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:22:38.860 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:22:38.882 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:22:38.883 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:22:38.885 | INFO | Device initialized successfully
+2025-10-26 00:22:38.886 | INFO | Early initializing MaaTouch
+2025-10-26 00:22:38.887 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:22:38.889 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 00:22:38.890 | INFO | Stopping DroidCast
+2025-10-26 00:22:38.913 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:22:39.063 | INFO | Kill pid=3150
+2025-10-26 00:22:39.069 | INFO | Kill pid=3151
+2025-10-26 00:22:39.075 | INFO | Update droidcast resolution
+2025-10-26 00:22:39.174 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:22:39.175 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:22:39.177 | INFO | Pushing DroidCast apk
+2025-10-26 00:22:39.251 | INFO | Starting DroidCast apk
+2025-10-26 00:22:39.272 | INFO | ShellBackgroundResponse(success=True, pid=15651, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 00:22:39.275 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:22:39.277 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 00:22:39.531 | INFO | DroidCast = offline
+2025-10-26 00:22:39.684 | INFO | ^ 10 1280 720 255
+2025-10-26 00:22:39.686 | INFO | $ 255
+2025-10-26 00:22:39.687 | INFO | MaaTouch stream connected
+2025-10-26 00:22:39.689 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:22:39.811 | INFO | DroidCast = online
+2025-10-26 00:24:36.134 | INFO | 配置文件：cwj.json
+2025-10-26 00:24:36.138 | INFO | 截图方式：DroidCast_raw
+2025-10-26 00:24:36.139 | INFO | 点击方式：MaaTouch
+2025-10-26 00:24:36.142 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:24:36.144 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:24:36.145 | INFO | Found 1 devices total
+2025-10-26 00:24:36.146 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:24:36.147 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:24:37.151 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:24:37.152 | INFO | Found 1 devices total
+2025-10-26 00:24:37.154 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:24:37.156 | INFO | Available devices (status='device'): 1
+2025-10-26 00:24:37.157 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:24:37.160 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:24:37.161 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:24:38.166 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:24:38.167 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:24:38.181 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:24:38.183 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:24:38.183 | INFO | Device initialized successfully
+2025-10-26 00:24:38.184 | INFO | Early initializing MaaTouch
+2025-10-26 00:24:38.186 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:24:38.188 | INFO | Scheduler: Start task `Start`
+2025-10-26 00:24:38.191 | INFO | App start: com.bilibili.priconne
+2025-10-26 00:24:38.192 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-26 00:24:38.202 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:24:38.241 | INFO | App started successfully
+2025-10-26 00:24:38.244 | INFO | Update droidcast resolution
+2025-10-26 00:24:38.279 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:24:38.281 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:24:38.284 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:24:38.377 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/handler/MAIN_CHECK.png
+2025-10-26 00:24:38.389 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (45, 43, 3)
+2025-10-26 00:24:38.390 | DEBUG | LOGIN_CHECK 加载模板图像: ./assets/handler/LOGIN_CHECK.png
+2025-10-26 00:24:38.396 | DEBUG | LOGIN_CHECK 模板图像加载成功, shape: (54, 54, 3)
+2025-10-26 00:24:38.397 | DEBUG | ANNOUNCE_CLOSE 加载模板图像: ./assets/handler/ANNOUNCE_CLOSE.png
+2025-10-26 00:24:38.403 | DEBUG | ANNOUNCE_CLOSE 模板图像加载成功, shape: (66, 277, 3)
+2025-10-26 00:24:38.405 | DEBUG | GO_TO_MAIN 加载模板图像: ./assets/handler/GO_TO_MAIN.png
+2025-10-26 00:24:38.411 | DEBUG | GO_TO_MAIN 模板图像加载成功, shape: (29, 88, 3)
+2025-10-26 00:24:38.493 | INFO | ^ 10 1280 720 255
+2025-10-26 00:24:38.494 | INFO | $ 255
+2025-10-26 00:24:38.496 | INFO | MaaTouch stream connected
+2025-10-26 00:24:38.497 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:25:14.189 | INFO | Assets extract
+2025-10-26 00:25:14.293 | INFO | Module: handler(5)
+2025-10-26 00:25:14.298 | INFO | Module: ui(0)
+2025-10-26 00:26:24.256 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:26:24.261 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:26:24.262 | INFO | Found 1 devices total
+2025-10-26 00:26:24.263 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:26:24.264 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:26:25.267 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:26:25.269 | INFO | Found 1 devices total
+2025-10-26 00:26:25.272 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:26:25.273 | INFO | Available devices (status='device'): 1
+2025-10-26 00:26:25.274 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:26:25.277 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:26:25.278 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:26:26.281 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:26:26.282 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:26:26.300 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:26:26.302 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:26:26.304 | INFO | Device initialized successfully
+2025-10-26 00:26:26.305 | INFO | Early initializing MaaTouch
+2025-10-26 00:26:26.306 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:26:26.308 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 00:26:26.309 | INFO | Stopping DroidCast
+2025-10-26 00:26:26.328 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:26:26.331 | INFO | Kill pid=15651
+2025-10-26 00:26:26.344 | INFO | Kill pid=15652
+2025-10-26 00:26:26.354 | INFO | Update droidcast resolution
+2025-10-26 00:26:26.370 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:26:26.372 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:26:26.374 | INFO | Pushing DroidCast apk
+2025-10-26 00:26:26.453 | INFO | Starting DroidCast apk
+2025-10-26 00:26:26.464 | INFO | ShellBackgroundResponse(success=True, pid=16095, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 00:26:26.466 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:26:26.469 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 00:26:26.579 | INFO | ^ 10 1280 720 255
+2025-10-26 00:26:26.581 | INFO | $ 255
+2025-10-26 00:26:26.582 | INFO | MaaTouch stream connected
+2025-10-26 00:26:26.583 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:26:26.741 | INFO | DroidCast = online
+2025-10-26 00:27:01.520 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:27:01.524 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:27:01.526 | INFO | Found 1 devices total
+2025-10-26 00:27:01.527 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:27:01.529 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:27:02.531 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:27:02.532 | INFO | Found 1 devices total
+2025-10-26 00:27:02.534 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:27:02.535 | INFO | Available devices (status='device'): 1
+2025-10-26 00:27:02.536 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:27:02.538 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:27:02.540 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:27:03.543 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:27:03.544 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:27:03.558 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:27:03.559 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:27:03.560 | INFO | Device initialized successfully
+2025-10-26 00:27:03.561 | INFO | Early initializing MaaTouch
+2025-10-26 00:27:03.564 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:27:03.565 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 00:27:03.567 | INFO | Stopping DroidCast
+2025-10-26 00:27:03.579 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:27:03.591 | INFO | Kill pid=16095
+2025-10-26 00:27:03.597 | INFO | Kill pid=16096
+2025-10-26 00:27:03.603 | INFO | Update droidcast resolution
+2025-10-26 00:27:03.653 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:27:03.655 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:27:03.656 | INFO | Pushing DroidCast apk
+2025-10-26 00:27:03.712 | INFO | Starting DroidCast apk
+2025-10-26 00:27:03.717 | INFO | ShellBackgroundResponse(success=True, pid=16160, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 00:27:03.719 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:27:03.722 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 00:27:03.791 | INFO | ^ 10 1280 720 255
+2025-10-26 00:27:03.793 | INFO | $ 255
+2025-10-26 00:27:03.794 | INFO | MaaTouch stream connected
+2025-10-26 00:27:03.795 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:27:03.991 | INFO | DroidCast = online
+2025-10-26 00:27:22.442 | INFO | Assets extract
+2025-10-26 00:27:22.522 | INFO | Module: handler(5)
+2025-10-26 00:27:22.545 | INFO | Module: ui(2)
+2025-10-26 00:28:09.421 | INFO | Assets extract
+2025-10-26 00:28:09.456 | INFO | Module: handler(2)
+2025-10-26 00:28:09.495 | INFO | Module: ui(3)
+2025-10-26 00:28:17.704 | INFO | 配置文件：cwj.json
+2025-10-26 00:28:17.707 | INFO | 截图方式：DroidCast_raw
+2025-10-26 00:28:17.708 | INFO | 点击方式：MaaTouch
+2025-10-26 00:28:17.711 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:28:17.713 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:28:17.714 | INFO | Found 1 devices total
+2025-10-26 00:28:17.715 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:28:17.716 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:28:18.718 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:28:18.719 | INFO | Found 1 devices total
+2025-10-26 00:28:18.721 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:28:18.722 | INFO | Available devices (status='device'): 1
+2025-10-26 00:28:18.723 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:28:18.725 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:28:18.727 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:28:19.729 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:28:19.730 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:28:19.743 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:28:19.745 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:28:19.746 | INFO | Device initialized successfully
+2025-10-26 00:28:19.747 | INFO | Early initializing MaaTouch
+2025-10-26 00:28:19.748 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:28:19.750 | INFO | Scheduler: Start task `Start`
+2025-10-26 00:28:19.754 | INFO | App start: com.bilibili.priconne
+2025-10-26 00:28:19.755 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-26 00:28:19.762 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:28:19.790 | INFO | App started successfully
+2025-10-26 00:28:19.794 | INFO | Update droidcast resolution
+2025-10-26 00:28:19.816 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:28:19.818 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:28:19.820 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:28:19.922 | ERROR | name 'MAIN_CHECK' is not defined
+Traceback (most recent call last):
+  File "pcr.py", line 79, in run
+    self.__getattribute__(command)()
+  File "pcr.py", line 108, in start
+    LoginHandler(self.config, device=self.device).app_start()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 34, in app_start
+    self.handle_app_login()
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 74, in handle_app_login
+    if self._is_in_main():
+  File "C:\Users\Alc29\Desktop\del\GameScript\PCR_GBA_Tool\module\handler\login.py", line 116, in _is_in_main
+    return self.appear(MAIN_CHECK, offset=(30, 30))
+NameError: name 'MAIN_CHECK' is not defined
+2025-10-26 00:28:19.957 | INFO | ^ 10 1280 720 255
+2025-10-26 00:28:20.036 | CRITICAL | Unexpected error occurred
+2025-10-26 00:28:20.037 | INFO | $ 255
+2025-10-26 00:28:20.038 | INFO | MaaTouch stream connected
+2025-10-26 00:28:20.039 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:29:21.560 | INFO | 配置文件：cwj.json
+2025-10-26 00:29:21.564 | INFO | 截图方式：DroidCast_raw
+2025-10-26 00:29:21.565 | INFO | 点击方式：MaaTouch
+2025-10-26 00:29:21.568 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:29:21.569 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:29:21.571 | INFO | Found 1 devices total
+2025-10-26 00:29:21.571 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:29:21.572 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:29:22.575 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:29:22.575 | INFO | Found 1 devices total
+2025-10-26 00:29:22.577 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:29:22.579 | INFO | Available devices (status='device'): 1
+2025-10-26 00:29:22.580 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:29:22.582 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:29:22.583 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:29:23.585 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:29:23.586 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:29:23.600 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:29:23.601 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:29:23.602 | INFO | Device initialized successfully
+2025-10-26 00:29:23.603 | INFO | Early initializing MaaTouch
+2025-10-26 00:29:23.605 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:29:23.606 | INFO | Scheduler: Start task `Start`
+2025-10-26 00:29:23.610 | INFO | App start: com.bilibili.priconne
+2025-10-26 00:29:23.611 | INFO | Starting app via AM: com.bilibili.priconne/com.bilibili.permission.PermissionActivity
+2025-10-26 00:29:23.621 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:29:23.636 | INFO | App started successfully
+2025-10-26 00:29:23.639 | INFO | Update droidcast resolution
+2025-10-26 00:29:23.671 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:29:23.673 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:29:23.675 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:29:23.766 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/ui/MAIN_CHECK.png
+2025-10-26 00:29:23.781 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (45, 43, 3)
+2025-10-26 00:29:23.783 | DEBUG | LOGIN_CHECK 加载模板图像: ./assets/handler/LOGIN_CHECK.png
+2025-10-26 00:29:23.787 | DEBUG | LOGIN_CHECK 模板图像加载成功, shape: (54, 54, 3)
+2025-10-26 00:29:23.789 | DEBUG | ANNOUNCE_CLOSE 加载模板图像: ./assets/handler/ANNOUNCE_CLOSE.png
+2025-10-26 00:29:23.795 | DEBUG | ANNOUNCE_CLOSE 模板图像加载成功, shape: (66, 277, 3)
+2025-10-26 00:29:23.797 | DEBUG | GO_TO_MAIN 加载模板图像: ./assets/ui/GO_TO_MAIN.png
+2025-10-26 00:29:23.803 | DEBUG | GO_TO_MAIN 模板图像加载成功, shape: (24, 87, 3)
+2025-10-26 00:29:23.805 | INFO | Go to main button detected - clicking
+2025-10-26 00:29:23.806 | INFO | Click at (127, 692)
+2025-10-26 00:29:23.818 | INFO | ^ 10 1280 720 255
+2025-10-26 00:29:23.820 | INFO | $ 255
+2025-10-26 00:29:23.821 | INFO | MaaTouch stream connected
+2025-10-26 00:29:23.822 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:29:27.050 | INFO | Login to main confirmed
+2025-10-26 00:29:27.051 | INFO | Scheduler: End task `Start`
+2025-10-26 00:29:27.053 | INFO | 没有指定任务，程序结束
+2025-10-26 00:44:27.664 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:44:27.668 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:44:27.670 | INFO | Found 1 devices total
+2025-10-26 00:44:27.671 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:44:27.672 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:44:28.676 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:44:28.678 | INFO | Found 1 devices total
+2025-10-26 00:44:28.680 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:44:28.681 | INFO | Available devices (status='device'): 1
+2025-10-26 00:44:28.682 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:44:28.684 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:44:28.685 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:44:29.687 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:44:29.688 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:44:29.725 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:44:29.727 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:44:29.728 | INFO | Device initialized successfully
+2025-10-26 00:44:29.729 | INFO | Early initializing MaaTouch
+2025-10-26 00:44:29.730 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:44:29.732 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 00:44:29.733 | INFO | Stopping DroidCast
+2025-10-26 00:44:29.764 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:44:30.585 | INFO | Kill pid=16160
+2025-10-26 00:44:30.592 | INFO | Kill pid=16161
+2025-10-26 00:44:30.598 | INFO | Update droidcast resolution
+2025-10-26 00:44:30.673 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:44:30.674 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:44:30.675 | INFO | Pushing DroidCast apk
+2025-10-26 00:44:31.057 | INFO | Starting DroidCast apk
+2025-10-26 00:44:31.078 | INFO | ShellBackgroundResponse(success=True, pid=20434, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 00:44:31.080 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:44:31.082 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 00:44:31.345 | INFO | DroidCast = offline
+2025-10-26 00:44:31.608 | INFO | DroidCast = offline
+2025-10-26 00:44:31.864 | INFO | DroidCast = offline
+2025-10-26 00:44:32.118 | INFO | DroidCast = offline
+2025-10-26 00:44:32.381 | INFO | DroidCast = offline
+2025-10-26 00:44:32.457 | INFO | ^ 10 1280 720 255
+2025-10-26 00:44:32.459 | INFO | $ 255
+2025-10-26 00:44:32.462 | INFO | MaaTouch stream connected
+2025-10-26 00:44:32.463 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:44:32.648 | INFO | DroidCast = online
+2025-10-26 00:47:59.423 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 00:47:59.427 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:47:59.429 | INFO | Found 1 devices total
+2025-10-26 00:47:59.430 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 00:47:59.431 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 00:48:00.434 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:48:00.435 | INFO | Found 1 devices total
+2025-10-26 00:48:00.437 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 00:48:00.438 | INFO | Available devices (status='device'): 1
+2025-10-26 00:48:00.439 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 00:48:00.440 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 00:48:00.441 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 00:48:01.445 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 00:48:01.447 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 00:48:01.461 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 00:48:01.462 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 00:48:01.464 | INFO | Device initialized successfully
+2025-10-26 00:48:01.465 | INFO | Early initializing MaaTouch
+2025-10-26 00:48:01.467 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 00:48:01.468 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 00:48:01.469 | INFO | Stopping DroidCast
+2025-10-26 00:48:01.482 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:48:01.495 | INFO | Kill pid=20434
+2025-10-26 00:48:01.502 | INFO | Kill pid=20435
+2025-10-26 00:48:01.509 | INFO | Update droidcast resolution
+2025-10-26 00:48:01.561 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 00:48:01.562 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 00:48:01.565 | INFO | Pushing DroidCast apk
+2025-10-26 00:48:01.641 | INFO | Starting DroidCast apk
+2025-10-26 00:48:01.649 | INFO | ShellBackgroundResponse(success=True, pid=26490, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 00:48:01.652 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 00:48:01.654 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 00:48:01.753 | INFO | ^ 10 1280 720 255
+2025-10-26 00:48:01.755 | INFO | $ 255
+2025-10-26 00:48:01.757 | INFO | MaaTouch stream connected
+2025-10-26 00:48:01.758 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 00:48:01.921 | INFO | DroidCast = online
+2025-10-26 00:53:26.179 | INFO | Assets extract
+2025-10-26 00:53:26.334 | INFO | Module: handler(2)
+2025-10-26 00:53:26.388 | INFO | Module: ui(5)
+2025-10-26 01:08:44.648 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-10-26 01:08:44.653 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 01:08:44.654 | INFO | Found 1 devices total
+2025-10-26 01:08:44.655 | INFO | Available devices: ['127.0.0.1:16384']
+2025-10-26 01:08:44.657 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-10-26 01:08:45.660 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 01:08:45.662 | INFO | Found 1 devices total
+2025-10-26 01:08:45.663 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-10-26 01:08:45.664 | INFO | Available devices (status='device'): 1
+2025-10-26 01:08:45.665 | INFO | Selected device: 127.0.0.1:16384
+2025-10-26 01:08:45.667 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-10-26 01:08:45.668 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-26 01:08:46.672 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-26 01:08:46.673 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-26 01:08:46.688 | INFO | Detected package: com.bilibili.priconne
+2025-10-26 01:08:46.689 | INFO | PackageName = com.bilibili.priconne
+2025-10-26 01:08:46.691 | INFO | Device initialized successfully
+2025-10-26 01:08:46.693 | INFO | Early initializing MaaTouch
+2025-10-26 01:08:46.694 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-10-26 01:08:46.696 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-10-26 01:08:46.697 | INFO | Stopping DroidCast
+2025-10-26 01:08:46.726 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 01:08:46.734 | INFO | Kill pid=26490
+2025-10-26 01:08:46.741 | INFO | Kill pid=26491
+2025-10-26 01:08:46.746 | INFO | Update droidcast resolution
+2025-10-26 01:08:46.804 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-26 01:08:46.806 | INFO | Droidcast resolution: (720, 1280)
+2025-10-26 01:08:46.807 | INFO | Pushing DroidCast apk
+2025-10-26 01:08:46.876 | INFO | Starting DroidCast apk
+2025-10-26 01:08:46.884 | INFO | ShellBackgroundResponse(success=True, pid=31367, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-10-26 01:08:46.887 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20092', remote='tcp:53516')
+2025-10-26 01:08:46.889 | INFO | DroidCast_raw = http://127.0.0.1:20092/screenshot?width=1280&height=720
+2025-10-26 01:08:47.098 | INFO | ^ 10 1280 720 255
+2025-10-26 01:08:47.099 | INFO | $ 255
+2025-10-26 01:08:47.100 | INFO | MaaTouch stream connected
+2025-10-26 01:08:47.101 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-10-26 01:08:47.148 | INFO | DroidCast = online

@@ -1,0 +1,441 @@
+2025-10-08 00:22:16.348 | INFO | 截图方式：DroidCast_raw
+2025-10-08 00:22:16.353 | INFO | 点击方式：ADB
+2025-10-08 00:22:16.360 | INFO | Found 1 devices
+2025-10-08 00:22:16.362 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-08 00:22:16.362 | INFO | Selected device: 127.0.0.1:16384
+2025-10-08 00:22:16.365 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-08 00:22:17.369 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-08 00:22:17.370 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-08 00:22:17.386 | INFO | Detected package: com.bilibili.priconne
+2025-10-08 00:22:17.388 | INFO | PackageName = com.bilibili.priconne
+2025-10-08 00:22:17.389 | INFO | Device initialized successfully
+2025-10-08 00:22:17.391 | INFO | Update droidcast resolution
+2025-10-08 00:22:17.431 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-08 00:22:17.432 | INFO | Droidcast resolution: (720, 1280)
+2025-10-08 00:22:17.434 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20455', remote='tcp:53516')
+2025-10-08 00:22:17.542 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:17.544 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:17.562 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-08 00:22:17.572 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:17.574 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:17.593 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0905, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:17.594 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:17.597 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:18.281 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:18.283 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:18.284 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:18.286 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1122, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:18.288 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:18.290 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:18.918 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:18.921 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:18.922 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:18.924 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1114, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:18.925 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:18.926 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:19.542 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:19.545 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:19.546 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:19.548 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1114, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:19.549 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:19.550 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:20.166 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:20.168 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:20.169 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:20.171 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1114, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:20.173 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:20.174 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:20.788 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:20.790 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:20.791 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:20.793 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1114, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:20.794 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:20.795 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:21.414 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:21.417 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:21.418 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:21.420 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1114, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:21.421 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:21.422 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:22.064 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:22.067 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:22.069 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:22.071 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1122, 阈值: 0.85, 匹配位置: (14, 2)
+2025-10-08 00:22:22.072 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:22.074 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:22.694 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:22.697 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:22.698 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:22.700 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0070, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:22.701 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:22.702 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:23.326 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:23.328 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:23.330 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:23.332 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0069, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:23.334 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:23.335 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:23.964 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:23.967 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:23.968 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:23.970 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0070, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:23.972 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:23.973 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:24.599 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:24.601 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:24.603 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:24.604 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0070, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:24.605 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:24.606 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:25.228 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:25.230 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:25.232 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:25.234 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0070, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:25.235 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:25.236 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:25.855 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:25.857 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:25.858 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:25.860 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0070, 阈值: 0.85, 匹配位置: (8, 27)
+2025-10-08 00:22:25.861 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:25.862 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:26.499 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:26.502 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:26.504 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:26.506 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.1418, 阈值: 0.85, 匹配位置: (20, 2)
+2025-10-08 00:22:26.507 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:26.508 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:27.150 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:27.152 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:27.154 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:27.155 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (10, 18)
+2025-10-08 00:22:27.157 | DEBUG | UPDATE_CONFIRM 模板匹配结果: True
+2025-10-08 00:22:27.159 | DEBUG | UPDATE_CONFIRM 颜色匹配 - 实际颜色: (104.00941176470589, 164.40501960784314, 239.63929411764707), 期望颜色: (104, 164, 239), 匹配结果: True
+2025-10-08 00:22:27.162 | INFO | Template matching result for UPDATE_CONFIRM: True
+2025-10-08 00:22:27.163 | INFO | Clicking update
+2025-10-08 00:22:27.164 | INFO | Click at (769, 464)
+2025-10-08 00:22:27.299 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:27.301 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:27.302 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:27.304 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (10, 18)
+2025-10-08 00:22:27.305 | DEBUG | UPDATE_CONFIRM 模板匹配结果: True
+2025-10-08 00:22:27.305 | DEBUG | UPDATE_CONFIRM 颜色匹配 - 实际颜色: (104.00941176470589, 164.40501960784314, 239.63929411764707), 期望颜色: (104, 164, 239), 匹配结果: True
+2025-10-08 00:22:27.308 | INFO | Template matching result for UPDATE_CONFIRM: True
+2025-10-08 00:22:27.310 | INFO | Clicking update
+2025-10-08 00:22:27.311 | INFO | Click at (745, 450)
+2025-10-08 00:22:27.428 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:27.430 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:27.431 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:27.433 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.6481, 阈值: 0.85, 匹配位置: (10, 18)
+2025-10-08 00:22:27.434 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:27.436 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:28.056 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:28.058 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:28.059 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:28.061 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0629, 阈值: 0.85, 匹配位置: (20, 9)
+2025-10-08 00:22:28.062 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:28.063 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:28.785 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:28.788 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:28.790 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:28.792 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0630, 阈值: 0.85, 匹配位置: (4, 28)
+2025-10-08 00:22:28.793 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:28.794 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:29.463 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:29.466 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:29.468 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:29.469 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0647, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-08 00:22:29.471 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:29.472 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:30.088 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:30.090 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:30.092 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:30.094 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0670, 阈值: 0.85, 匹配位置: (0, 29)
+2025-10-08 00:22:30.096 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:30.097 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:30.714 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:30.716 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:30.718 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:30.719 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:30.721 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:30.722 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:31.342 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:31.344 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:31.345 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:31.348 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:31.349 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:31.349 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:31.962 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:31.965 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:31.966 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:31.968 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:31.969 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:31.970 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:32.591 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:32.593 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:32.595 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:32.596 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:32.597 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:32.598 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:33.215 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:33.217 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:33.219 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:33.220 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:33.221 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:33.222 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:33.834 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:33.836 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:33.837 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:33.839 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:33.840 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:33.842 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:34.487 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:34.489 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:34.491 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:34.492 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0374, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 00:22:34.493 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:34.495 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:35.118 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:35.120 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:35.123 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:35.125 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0398, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 00:22:35.126 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:35.127 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:35.818 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:35.820 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:35.822 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:35.824 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0000, 阈值: 0.85, 匹配位置: (0, 0)
+2025-10-08 00:22:35.825 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:35.826 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:36.495 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:36.498 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:36.500 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:36.502 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0384, 阈值: 0.85, 匹配位置: (0, 26)
+2025-10-08 00:22:36.503 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:36.504 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:37.134 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:37.137 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:37.138 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:37.140 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0357, 阈值: 0.85, 匹配位置: (0, 25)
+2025-10-08 00:22:37.141 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:37.143 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:37.766 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:37.769 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:37.771 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:37.773 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0312, 阈值: 0.85, 匹配位置: (0, 22)
+2025-10-08 00:22:37.774 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:37.775 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:38.410 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:38.412 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:38.413 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:38.415 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0397, 阈值: 0.85, 匹配位置: (0, 19)
+2025-10-08 00:22:38.417 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:38.418 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:39.041 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:39.043 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:39.045 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:39.048 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0487, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 00:22:39.049 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:39.051 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:39.682 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:39.686 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:39.688 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:39.689 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0432, 阈值: 0.85, 匹配位置: (0, 23)
+2025-10-08 00:22:39.690 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:39.691 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:40.356 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:40.359 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:40.360 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:40.362 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0407, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:22:40.364 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:40.365 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:40.981 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:40.984 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:40.985 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:40.987 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0306, 阈值: 0.85, 匹配位置: (0, 26)
+2025-10-08 00:22:40.988 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:40.989 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:41.611 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:41.614 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:41.615 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:41.618 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0439, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:22:41.620 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:41.621 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:42.238 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:42.240 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:42.242 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:42.244 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0302, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 00:22:42.246 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:42.248 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:42.871 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:42.873 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:42.874 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:42.876 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0406, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 00:22:42.877 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:42.878 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:43.495 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:43.497 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:43.499 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:43.501 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0376, 阈值: 0.85, 匹配位置: (0, 22)
+2025-10-08 00:22:43.503 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:43.504 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:44.126 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:44.129 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:44.131 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:44.133 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0362, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:22:44.134 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:44.135 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:44.757 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:44.760 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:44.761 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:44.763 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0412, 阈值: 0.85, 匹配位置: (0, 27)
+2025-10-08 00:22:44.764 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:44.765 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:45.384 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:52.592 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:52.594 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:52.596 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0272, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:22:52.598 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:52.599 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:22:53.248 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:22:53.251 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:22:53.252 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:22:53.254 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0358, 阈值: 0.85, 匹配位置: (0, 25)
+2025-10-08 00:22:53.255 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:22:53.256 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:24:06.938 | INFO | 截图方式：DroidCast_raw
+2025-10-08 00:24:06.942 | INFO | 点击方式：ADB
+2025-10-08 00:24:06.947 | INFO | Found 1 devices
+2025-10-08 00:24:06.949 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-08 00:24:06.950 | INFO | Selected device: 127.0.0.1:16384
+2025-10-08 00:24:06.952 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-08 00:24:07.955 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-08 00:24:07.957 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-08 00:24:07.977 | INFO | Detected package: com.bilibili.priconne
+2025-10-08 00:24:07.979 | INFO | PackageName = com.bilibili.priconne
+2025-10-08 00:24:07.980 | INFO | Device initialized successfully
+2025-10-08 00:24:07.984 | INFO | Update droidcast resolution
+2025-10-08 00:24:08.049 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-08 00:24:08.051 | INFO | Droidcast resolution: (720, 1280)
+2025-10-08 00:24:08.053 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20455', remote='tcp:53516')
+2025-10-08 00:24:08.153 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 00:24:08.154 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-08 00:24:08.163 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-08 00:24:08.166 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 00:24:08.167 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 00:24:08.174 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 00:24:08.176 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 00:24:08.177 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 00:24:08.178 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 00:24:08.180 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:24:08.181 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:24:08.185 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-08 00:24:08.187 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:24:08.188 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:24:08.190 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0376, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:24:08.191 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:24:08.193 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:24:08.815 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 00:24:08.817 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 00:24:08.819 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 00:24:08.820 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.8547, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 00:24:08.821 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 00:24:08.823 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (255.0, 159.49092229484387, 207.3522149600581), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 00:24:08.825 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 00:24:08.827 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:24:08.829 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:24:08.831 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:24:08.832 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0409, 阈值: 0.85, 匹配位置: (0, 27)
+2025-10-08 00:24:08.833 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:24:08.834 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:24:09.461 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 00:24:09.463 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 00:24:09.465 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 00:24:09.467 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9998, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 00:24:09.469 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 00:24:09.470 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.64560639070442, 156.00580973129993, 198.36310820624547), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 00:24:09.471 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 00:24:09.473 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 00:24:09.474 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 00:24:09.475 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 00:24:09.477 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0317, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 00:24:09.478 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 00:24:09.480 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 00:24:10.106 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 00:24:10.107 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 00:24:10.110 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 00:24:10.111 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 00:24:10.112 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 00:24:10.114 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 00:24:10.115 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 00:24:10.116 | INFO | Login to main confirmed
+2025-10-08 00:24:10.119 | INFO | Game started successfully
+2025-10-08 01:35:19.338 | INFO | 截图方式：DroidCast_raw
+2025-10-08 01:35:19.343 | INFO | 点击方式：ADB
+2025-10-08 01:35:19.344 | INFO | 创建默认配置文件……
+2025-10-08 01:35:19.347 | INFO | 默认配置文件创建成功：config\config.yaml
+2025-10-08 01:35:19.356 | INFO | Found 1 devices
+2025-10-08 01:35:19.358 | INFO | Auto selected device: 127.0.0.1:16384
+2025-10-08 01:35:19.360 | INFO | Selected device: 127.0.0.1:16384
+2025-10-08 01:35:19.362 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-10-08 01:35:20.367 | INFO | Connected to device: 127.0.0.1:16384
+2025-10-08 01:35:20.368 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-10-08 01:35:20.387 | INFO | Detected package: com.bilibili.priconne
+2025-10-08 01:35:20.388 | INFO | PackageName = com.bilibili.priconne
+2025-10-08 01:35:20.390 | INFO | Device initialized successfully
+2025-10-08 01:35:20.392 | INFO | Update droidcast resolution
+2025-10-08 01:35:20.450 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-10-08 01:35:20.452 | INFO | Droidcast resolution: (720, 1280)
+2025-10-08 01:35:20.456 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20455', remote='tcp:53516')
+2025-10-08 01:35:20.621 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 01:35:20.623 | DEBUG | MAIN_CHECK 加载模板图像: ./assets/main/MAIN_CHECK.png
+2025-10-08 01:35:20.639 | DEBUG | MAIN_CHECK 模板图像加载成功, shape: (26, 87, 3)
+2025-10-08 01:35:20.650 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 01:35:20.651 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 01:35:20.667 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.8547, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 01:35:20.668 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 01:35:20.670 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (255.0, 159.49092229484387, 207.3522149600581), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 01:35:20.672 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 01:35:20.673 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 01:35:20.675 | DEBUG | UPDATE_CONFIRM 加载模板图像: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 01:35:20.677 | DEBUG | UPDATE_CONFIRM 模板图像加载成功, shape: (61, 275, 3)
+2025-10-08 01:35:20.679 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 01:35:20.681 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 01:35:20.696 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0337, 阈值: 0.85, 匹配位置: (0, 20)
+2025-10-08 01:35:20.698 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 01:35:20.700 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 01:35:21.335 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 01:35:21.337 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 01:35:21.339 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 01:35:21.340 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 01:35:21.342 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 01:35:21.343 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 01:35:21.345 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 01:35:21.347 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 01:35:21.349 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 01:35:21.350 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 01:35:21.352 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0461, 阈值: 0.85, 匹配位置: (0, 24)
+2025-10-08 01:35:21.354 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 01:35:21.355 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 01:35:21.984 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 01:35:21.984 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 01:35:21.986 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 01:35:21.988 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9999, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 01:35:21.989 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 01:35:21.990 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.6085693536674, 156.02178649237473, 198.42992011619464), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 01:35:21.992 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 01:35:21.993 | INFO | Trying template matching for UPDATE_CONFIRM with file: ./assets/login/UPDATE_CONFIRM.png
+2025-10-08 01:35:21.996 | DEBUG | UPDATE_CONFIRM 原始区域: (659, 467, 914, 517), 偏移后搜索区域: [639 447 934 537]
+2025-10-08 01:35:21.998 | DEBUG | UPDATE_CONFIRM 搜索图像尺寸: (90, 295), 模板尺寸: (61, 275)
+2025-10-08 01:35:21.999 | DEBUG | UPDATE_CONFIRM 模板匹配相似度: 0.0296, 阈值: 0.85, 匹配位置: (0, 25)
+2025-10-08 01:35:22.001 | DEBUG | UPDATE_CONFIRM 模板匹配结果: False
+2025-10-08 01:35:22.001 | INFO | Template matching result for UPDATE_CONFIRM: False
+2025-10-08 01:35:22.637 | INFO | Trying template matching for MAIN_CHECK with file: ./assets/main/MAIN_CHECK.png
+2025-10-08 01:35:22.638 | DEBUG | MAIN_CHECK 原始区域: (68, 693, 149, 710), 偏移后搜索区域: [ 38 663 179 740]
+2025-10-08 01:35:22.640 | DEBUG | MAIN_CHECK 搜索图像尺寸: (77, 141), 模板尺寸: (26, 87)
+2025-10-08 01:35:22.641 | DEBUG | MAIN_CHECK 模板匹配相似度: 0.9811, 阈值: 0.85, 匹配位置: (28, 27)
+2025-10-08 01:35:22.642 | DEBUG | MAIN_CHECK 模板匹配结果: True
+2025-10-08 01:35:22.643 | DEBUG | MAIN_CHECK 颜色匹配 - 实际颜色: (247.88525780682644, 155.8489469862019, 197.9992737835875), 期望颜色: (255, 159, 207), 匹配结果: True
+2025-10-08 01:35:22.646 | INFO | Template matching result for MAIN_CHECK: True
+2025-10-08 01:35:22.649 | INFO | Login to main confirmed
+2025-10-08 01:35:22.650 | INFO | Game started successfully

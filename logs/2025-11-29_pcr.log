@@ -1,0 +1,440 @@
+2025-11-29 14:22:12.591 | INFO | Bind task ['Pcr']
+2025-11-29 14:22:12.596 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 14:22:17.653 | INFO | Found 0 devices total
+2025-11-29 14:22:17.654 | INFO | Available devices: []
+2025-11-29 14:22:17.656 | INFO | Found 0 devices total
+2025-11-29 14:22:17.657 | INFO | Available devices: []
+2025-11-29 14:22:17.658 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 14:22:18.664 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:22:18.666 | INFO | Found 1 devices total
+2025-11-29 14:22:18.667 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 14:22:18.668 | INFO | Available devices (status='device'): 1
+2025-11-29 14:22:18.670 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 14:22:18.672 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:22:18.673 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 14:22:19.675 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 14:22:19.676 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 14:22:19.695 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 14:22:19.696 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 14:22:19.698 | INFO | Device initialized successfully
+2025-11-29 14:22:19.699 | INFO | Early initializing MaaTouch
+2025-11-29 14:22:19.700 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 14:22:19.701 | INFO | Disable stuck detection
+2025-11-29 14:22:19.703 | INFO | ============================================================
+2025-11-29 14:22:19.704 | INFO | 倒计时数据集采集工具
+2025-11-29 14:22:19.706 | INFO | ============================================================
+2025-11-29 14:22:19.709 | INFO | 当前游戏倍速: 1x
+2025-11-29 14:22:19.710 | INFO | 倒计时识别区域: (1078, 24, 1120, 48)
+2025-11-29 14:22:19.711 | INFO | 截图间隔: 1.00 秒
+2025-11-29 14:22:19.712 | INFO | 数据保存到: train_data/timer_20251129_142219/
+2025-11-29 14:22:19.713 | INFO | 
+2025-11-29 14:22:19.713 | INFO | 采集范围: 1:30 -> 0:00 (共约 90 张)
+2025-11-29 14:22:19.714 | INFO | 
+2025-11-29 14:22:19.715 | INFO | 操作说明:
+2025-11-29 14:22:19.716 | INFO | 1. 确保游戏战斗已开始，倒计时可见
+2025-11-29 14:22:19.721 | INFO | 2. 脚本会自动采集倒计时从 1:30 到 0:00 的所有截图
+2025-11-29 14:22:19.722 | INFO | 3. 按 Ctrl+C 可以随时停止
+2025-11-29 14:22:19.723 | INFO | 
+2025-11-29 14:22:19.724 | INFO | 开始采集...
+2025-11-29 14:22:19.725 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:22:19.726 | INFO | 
+2025-11-29 14:22:19.727 | INFO | Update droidcast resolution
+2025-11-29 14:22:20.066 | INFO | ^ 10 1280 720 255
+2025-11-29 14:22:20.067 | INFO | $ 255
+2025-11-29 14:22:20.069 | INFO | MaaTouch stream connected
+2025-11-29 14:22:20.070 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 14:22:20.519 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:22:20.521 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 14:22:20.523 | INFO | Create forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 14:22:20.536 | ERROR | ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-29 14:22:23.537 | INFO | [bold]<<< DROIDCAST INIT >>>[/bold]
+2025-11-29 14:22:23.538 | INFO | Stopping DroidCast
+2025-11-29 14:22:23.549 | INFO | Update droidcast resolution
+2025-11-29 14:22:23.565 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:22:23.566 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 14:22:23.567 | INFO | Pushing DroidCast apk
+2025-11-29 14:22:23.624 | INFO | Starting DroidCast apk
+2025-11-29 14:22:23.629 | INFO | ShellBackgroundResponse(success=True, pid=14847, description='Successfully started program: CLASSPATH=/data/local/tmp/DroidCast_raw.apk app_process / ink.mol.droidcast_raw.Main > /dev/null')
+2025-11-29 14:22:23.632 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 14:22:23.633 | INFO | DroidCast_raw = http://127.0.0.1:20177/screenshot?width=1280&height=720
+2025-11-29 14:22:23.893 | INFO | DroidCast = online
+2025-11-29 14:22:24.138 | INFO | Loading OCR dependencies
+2025-11-29 14:22:27.171 | INFO | GPU not available, using CPU for OCR (reason: MXNetError)
+2025-11-29 14:22:27.185 | INFO | Loading OCR model: ./bin/cnocr_models/pcr
+2025-11-29 14:22:27.240 | INFO | BattleTimer 3.103s = 1:3
+2025-11-29 14:22:27.243 | WARNING | Invalid duration: 1:3
+2025-11-29 14:22:27.337 | INFO | BattleTimer 0.010s = 3
+2025-11-29 14:22:27.339 | WARNING | Invalid duration: 3
+2025-11-29 14:22:28.355 | INFO | BattleTimer 0.011s = 12
+2025-11-29 14:22:28.358 | WARNING | Invalid duration: 12
+2025-11-29 14:22:29.352 | INFO | BattleTimer 0.010s = 1
+2025-11-29 14:22:29.354 | WARNING | Invalid duration: 1
+2025-11-29 14:22:30.334 | INFO | BattleTimer 0.010s = 1:
+2025-11-29 14:22:30.336 | WARNING | Invalid duration: 1:
+2025-11-29 14:22:31.336 | INFO | BattleTimer 0.010s = 1:3
+2025-11-29 14:22:31.339 | WARNING | Invalid duration: 1:3
+2025-11-29 14:22:32.331 | INFO | BattleTimer 0.011s = 14
+2025-11-29 14:22:32.333 | WARNING | Invalid duration: 14
+2025-11-29 14:22:33.329 | INFO | BattleTimer 0.011s = :3
+2025-11-29 14:22:33.331 | WARNING | Invalid duration: :3
+2025-11-29 14:22:34.337 | INFO | BattleTimer 0.012s = 13
+2025-11-29 14:22:34.339 | WARNING | Invalid duration: 13
+2025-11-29 14:22:35.348 | INFO | BattleTimer 0.010s = 11
+2025-11-29 14:22:35.351 | WARNING | Invalid duration: 11
+2025-11-29 14:22:35.645 | INFO | 
+2025-11-29 14:22:35.647 | INFO | 用户中断采集
+2025-11-29 14:22:35.649 | INFO | 
+2025-11-29 14:22:35.649 | INFO | ============================================================
+2025-11-29 14:22:35.650 | INFO | 数据采集完成
+2025-11-29 14:22:35.651 | INFO | ============================================================
+2025-11-29 14:22:35.652 | INFO | 总采集数: 0 张
+2025-11-29 14:22:35.653 | INFO | 图片目录: train_data/timer_20251129_142219/images/
+2025-11-29 14:22:35.656 | INFO | 标注文件: train_data/timer_20251129_142219\labels.txt
+2025-11-29 14:22:35.658 | INFO | 
+2025-11-29 14:22:35.659 | INFO | 数据集统计:
+2025-11-29 14:22:35.660 | INFO |   - 总样本数: 0
+2025-11-29 14:22:35.661 | INFO |   - 时间范围: 0:00 - 1:30
+2025-11-29 14:22:35.662 | INFO |   - 覆盖率: 0/91 (0.0%)
+2025-11-29 14:22:35.663 | INFO | 
+2025-11-29 14:22:35.667 | WARNING | 缺失的秒数: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+2025-11-29 14:22:35.671 | WARNING | 建议重新运行采集补全数据
+2025-11-29 14:22:35.672 | INFO | 
+2025-11-29 14:22:35.674 | INFO | 下一步:
+2025-11-29 14:22:35.677 | INFO | 1. 检查数据质量: python tools/verify_dataset.py train_data/timer_20251129_142219
+2025-11-29 14:22:35.679 | INFO | 2. 训练模型: python tools/train_pcr_ocr.py train_data/timer_20251129_142219
+2025-11-29 14:30:05.453 | INFO | Bind task ['Pcr']
+2025-11-29 14:30:05.458 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 14:30:05.461 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:30:05.462 | INFO | Found 1 devices total
+2025-11-29 14:30:05.464 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 14:30:05.465 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 14:30:06.467 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:30:06.469 | INFO | Found 1 devices total
+2025-11-29 14:30:06.471 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 14:30:06.473 | INFO | Available devices (status='device'): 1
+2025-11-29 14:30:06.474 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 14:30:06.476 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:30:06.477 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 14:30:07.478 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 14:30:07.480 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 14:30:07.496 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 14:30:07.497 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 14:30:07.498 | INFO | Device initialized successfully
+2025-11-29 14:30:07.499 | INFO | Early initializing MaaTouch
+2025-11-29 14:30:07.501 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 14:30:07.502 | INFO | Disable stuck detection
+2025-11-29 14:30:07.517 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:30:07.788 | INFO | ^ 10 1280 720 255
+2025-11-29 14:30:07.789 | INFO | $ 255
+2025-11-29 14:30:07.791 | INFO | MaaTouch stream connected
+2025-11-29 14:30:07.792 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 14:30:43.792 | INFO | Update droidcast resolution
+2025-11-29 14:30:43.816 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:30:43.818 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 14:30:43.820 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 14:38:10.119 | INFO | Bind task ['Pcr']
+2025-11-29 14:38:10.125 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 14:38:10.126 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:38:10.128 | INFO | Found 1 devices total
+2025-11-29 14:38:10.130 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 14:38:10.131 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 14:38:11.134 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:38:11.136 | INFO | Found 1 devices total
+2025-11-29 14:38:11.137 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 14:38:11.138 | INFO | Available devices (status='device'): 1
+2025-11-29 14:38:11.140 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 14:38:11.140 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 14:38:11.142 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 14:38:12.146 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 14:38:12.147 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 14:38:12.161 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 14:38:12.163 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 14:38:12.164 | INFO | Device initialized successfully
+2025-11-29 14:38:12.165 | INFO | Early initializing MaaTouch
+2025-11-29 14:38:12.166 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 14:38:12.167 | INFO | Disable stuck detection
+2025-11-29 14:38:12.182 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:38:12.494 | INFO | ^ 10 1280 720 255
+2025-11-29 14:38:12.495 | INFO | $ 255
+2025-11-29 14:38:12.496 | INFO | MaaTouch stream connected
+2025-11-29 14:38:12.498 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 14:38:18.465 | INFO | Update droidcast resolution
+2025-11-29 14:38:18.492 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 14:38:18.493 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 14:38:18.495 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 15:04:13.188 | INFO | Bind task ['Pcr']
+2025-11-29 15:04:13.194 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 15:04:13.196 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:04:13.197 | INFO | Found 1 devices total
+2025-11-29 15:04:13.198 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 15:04:13.199 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 15:04:14.202 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:04:14.204 | INFO | Found 1 devices total
+2025-11-29 15:04:14.206 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 15:04:14.207 | INFO | Available devices (status='device'): 1
+2025-11-29 15:04:14.208 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 15:04:14.209 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:04:14.210 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 15:04:15.213 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 15:04:15.214 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 15:04:15.233 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 15:04:15.234 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 15:04:15.235 | INFO | Device initialized successfully
+2025-11-29 15:04:15.236 | INFO | Early initializing MaaTouch
+2025-11-29 15:04:15.238 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 15:04:15.239 | INFO | Disable stuck detection
+2025-11-29 15:04:15.253 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:04:15.570 | INFO | ^ 10 1280 720 255
+2025-11-29 15:04:15.571 | INFO | $ 255
+2025-11-29 15:04:15.573 | INFO | MaaTouch stream connected
+2025-11-29 15:04:15.574 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 15:04:34.413 | INFO | Update droidcast resolution
+2025-11-29 15:04:34.459 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:04:34.460 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 15:04:34.462 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 15:05:39.411 | INFO | Bind task ['Pcr']
+2025-11-29 15:05:39.416 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 15:05:39.419 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:05:39.420 | INFO | Found 1 devices total
+2025-11-29 15:05:39.422 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 15:05:39.423 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 15:05:40.426 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:05:40.428 | INFO | Found 1 devices total
+2025-11-29 15:05:40.430 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 15:05:40.431 | INFO | Available devices (status='device'): 1
+2025-11-29 15:05:40.432 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 15:05:40.434 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:05:40.435 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 15:05:41.438 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 15:05:41.439 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 15:05:41.457 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 15:05:41.459 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 15:05:41.460 | INFO | Device initialized successfully
+2025-11-29 15:05:41.461 | INFO | Early initializing MaaTouch
+2025-11-29 15:05:41.462 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 15:05:41.463 | INFO | Disable stuck detection
+2025-11-29 15:05:41.476 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:05:41.680 | INFO | ^ 10 1280 720 255
+2025-11-29 15:05:41.681 | INFO | $ 255
+2025-11-29 15:05:41.682 | INFO | MaaTouch stream connected
+2025-11-29 15:05:41.684 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 15:05:41.973 | INFO | Update droidcast resolution
+2025-11-29 15:05:42.007 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:05:42.008 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 15:05:42.010 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 15:12:52.029 | INFO | Bind task ['Pcr']
+2025-11-29 15:12:52.035 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 15:12:52.037 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:12:52.039 | INFO | Found 1 devices total
+2025-11-29 15:12:52.040 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 15:12:52.042 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 15:12:53.044 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:12:53.046 | INFO | Found 1 devices total
+2025-11-29 15:12:53.047 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 15:12:53.048 | INFO | Available devices (status='device'): 1
+2025-11-29 15:12:53.050 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 15:12:53.051 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:12:53.053 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 15:12:54.055 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 15:12:54.056 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 15:12:54.068 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 15:12:54.070 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 15:12:54.071 | INFO | Device initialized successfully
+2025-11-29 15:12:54.072 | INFO | Early initializing MaaTouch
+2025-11-29 15:12:54.073 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 15:12:54.074 | INFO | Disable stuck detection
+2025-11-29 15:12:54.088 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:12:54.356 | INFO | ^ 10 1280 720 255
+2025-11-29 15:12:54.358 | INFO | $ 255
+2025-11-29 15:12:54.359 | INFO | MaaTouch stream connected
+2025-11-29 15:12:54.360 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 15:12:55.446 | INFO | Update droidcast resolution
+2025-11-29 15:12:55.475 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:12:55.476 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 15:12:55.478 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 15:16:18.847 | INFO | Bind task ['Pcr']
+2025-11-29 15:16:18.852 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 15:16:18.855 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:16:18.857 | INFO | Found 1 devices total
+2025-11-29 15:16:18.858 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 15:16:18.859 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 15:16:19.861 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:16:19.863 | INFO | Found 1 devices total
+2025-11-29 15:16:19.864 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 15:16:19.866 | INFO | Available devices (status='device'): 1
+2025-11-29 15:16:19.867 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 15:16:19.870 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 15:16:19.872 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 15:16:20.875 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 15:16:20.876 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 15:16:20.891 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 15:16:20.893 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 15:16:20.894 | INFO | Device initialized successfully
+2025-11-29 15:16:20.895 | INFO | Early initializing MaaTouch
+2025-11-29 15:16:20.896 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 15:16:20.897 | INFO | Disable stuck detection
+2025-11-29 15:16:20.910 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:16:21.188 | INFO | ^ 10 1280 720 255
+2025-11-29 15:16:21.189 | INFO | $ 255
+2025-11-29 15:16:21.191 | INFO | MaaTouch stream connected
+2025-11-29 15:16:21.192 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 15:17:15.377 | INFO | Update droidcast resolution
+2025-11-29 15:17:15.421 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 15:17:15.422 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 15:17:15.425 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 16:33:36.756 | INFO | Bind task ['Pcr']
+2025-11-29 16:33:36.760 | INFO | Current config: Serial='127.0.0.1:16384', PackageName='auto'
+2025-11-29 16:33:36.763 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 16:33:36.765 | INFO | Found 1 devices total
+2025-11-29 16:33:36.766 | INFO | Available devices: ['127.0.0.1:16384']
+2025-11-29 16:33:36.767 | INFO | Attempting to connect to 127.0.0.1:16384
+2025-11-29 16:33:37.770 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 16:33:37.771 | INFO | Found 1 devices total
+2025-11-29 16:33:37.773 | INFO |   [1] 127.0.0.1:16384 - Status: device
+2025-11-29 16:33:37.774 | INFO | Available devices (status='device'): 1
+2025-11-29 16:33:37.775 | INFO | Selected device: 127.0.0.1:16384
+2025-11-29 16:33:37.777 | INFO | Found device: 127.0.0.1:16384 (device)
+2025-11-29 16:33:37.778 | INFO | Connecting to 127.0.0.1:16384 (trial 1/3)
+2025-11-29 16:33:38.781 | INFO | Connected to device: 127.0.0.1:16384
+2025-11-29 16:33:38.782 | INFO | AdbDevice = AdbDevice(serial=127.0.0.1:16384)
+2025-11-29 16:33:38.813 | INFO | Detected package: com.bilibili.priconne
+2025-11-29 16:33:38.814 | INFO | PackageName = com.bilibili.priconne
+2025-11-29 16:33:38.816 | INFO | Device initialized successfully
+2025-11-29 16:33:38.817 | INFO | Early initializing MaaTouch
+2025-11-29 16:33:38.818 | INFO | [bold]<<< MAATOUCH INIT >>>[/bold]
+2025-11-29 16:33:38.819 | INFO | Disable stuck detection
+2025-11-29 16:33:38.835 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 16:33:39.227 | INFO | ^ 10 1280 720 255
+2025-11-29 16:33:39.228 | INFO | $ 255
+2025-11-29 16:33:39.230 | INFO | MaaTouch stream connected
+2025-11-29 16:33:39.231 | INFO | max_contact: 10; max_x: 1280; max_y: 720; max_pressure: 255
+2025-11-29 16:34:15.993 | INFO | Update droidcast resolution
+2025-11-29 16:34:16.056 | INFO | Device Orientation = 1 (HOME key on the right)
+2025-11-29 16:34:16.058 | INFO | Droidcast resolution: (720, 1280)
+2025-11-29 16:34:16.060 | INFO | Reuse forward: ForwardItem(serial='127.0.0.1:16384', local='tcp:20177', remote='tcp:53516')
+2025-11-29 16:48:00.486 | INFO | ============================================================
+2025-11-29 16:48:00.490 | INFO | 数据集验证工具
+2025-11-29 16:48:00.492 | INFO | ============================================================
+2025-11-29 16:48:00.493 | INFO | 数据集目录: train_data/timer_manual_20251129_143812
+2025-11-29 16:48:00.495 | INFO | 
+2025-11-29 16:48:00.496 | INFO | 标注文件: 243 条记录
+2025-11-29 16:48:00.498 | INFO | 图片文件: 243 个
+2025-11-29 16:48:00.499 | INFO | 
+2025-11-29 16:48:00.502 | INFO | 交叉验证:
+2025-11-29 16:48:00.503 | INFO |   ✓ 所有标注和图片一一对应
+2025-11-29 16:48:00.504 | INFO | 
+2025-11-29 16:48:00.505 | INFO | 标注格式验证:
+2025-11-29 16:48:00.506 | INFO |   - 有效标注: 243/243
+2025-11-29 16:48:00.507 | INFO |   ✓ 所有标注格式正确
+2025-11-29 16:48:00.508 | INFO | 
+2025-11-29 16:48:00.509 | INFO | 图片质量检查:
+2025-11-29 16:48:00.577 | INFO |   - 可读取图片: 243/243
+2025-11-29 16:48:00.581 | INFO |   - 图片尺寸: 42x24 ~ 42x24
+2025-11-29 16:48:00.583 | INFO |   - 平均尺寸: 42x24
+2025-11-29 16:48:00.584 | INFO |   ✓ 所有图片尺寸一致
+2025-11-29 16:48:00.585 | INFO | 
+2025-11-29 16:48:00.586 | INFO | 标注分布:
+2025-11-29 16:48:00.590 | INFO |   字符频率:
+2025-11-29 16:48:00.591 | INFO |     '0': 267 次
+2025-11-29 16:48:00.592 | INFO |     '1': 137 次
+2025-11-29 16:48:00.593 | INFO |     '2': 84 次
+2025-11-29 16:48:00.593 | INFO |     '3': 62 次
+2025-11-29 16:48:00.593 | INFO |     '4': 38 次
+2025-11-29 16:48:00.594 | INFO |     '5': 50 次
+2025-11-29 16:48:00.595 | INFO |     '6': 19 次
+2025-11-29 16:48:00.596 | INFO |     '7': 28 次
+2025-11-29 16:48:00.599 | INFO |     '8': 26 次
+2025-11-29 16:48:00.601 | INFO |     '9': 18 次
+2025-11-29 16:48:00.602 | INFO |     ':': 243 次
+2025-11-29 16:48:00.603 | INFO |   ✓ 包含所有必要字符 (0-9, :)
+2025-11-29 16:48:00.604 | INFO | 
+2025-11-29 16:48:00.605 | INFO | ============================================================
+2025-11-29 16:48:00.606 | INFO | 数据集摘要
+2025-11-29 16:48:00.607 | INFO | ============================================================
+2025-11-29 16:48:00.608 | INFO | 总样本数: 243
+2025-11-29 16:48:00.610 | INFO | 标注覆盖: 243 个文件
+2025-11-29 16:48:00.611 | INFO | 有效率: 100.0%
+2025-11-29 16:48:00.612 | INFO | 
+2025-11-29 16:48:00.612 | INFO | ✓ 数据集质量良好，可以开始训练！
+2025-11-29 16:48:00.613 | INFO | 
+2025-11-29 16:48:00.614 | INFO | 下一步:
+2025-11-29 16:48:00.615 | INFO |   python tools/train_pcr_ocr.py train_data/timer_manual_20251129_143812
+2025-11-29 16:51:02.742 | INFO | 字符集文件已创建: bin/cnocr_models/pcr_timer\label_cn.txt
+2025-11-29 16:51:02.746 | INFO | 字符集: 0123456789: (11 个字符)
+2025-11-29 16:51:04.649 | INFO | ============================================================
+2025-11-29 16:51:04.651 | INFO | 开始训练 PCR OCR 模型
+2025-11-29 16:51:04.652 | INFO | ============================================================
+2025-11-29 16:51:04.654 | INFO | 数据集: train_data/timer_manual_20251129_143812
+2025-11-29 16:51:04.655 | INFO | 输出目录: bin/cnocr_models/pcr_timer
+2025-11-29 16:51:04.656 | INFO | 训练轮数: 20
+2025-11-29 16:51:04.657 | INFO | 
+2025-11-29 16:51:04.658 | INFO | 训练配置:
+2025-11-29 16:51:04.659 | INFO |   model_name: densenet-lite-gru
+2025-11-29 16:51:04.661 | INFO |   model_epoch: None
+2025-11-29 16:51:04.662 | INFO |   root: bin/cnocr_models/pcr_timer
+2025-11-29 16:51:04.663 | INFO |   train_data_dir: train_data/timer_manual_20251129_143812
+2025-11-29 16:51:04.664 | INFO |   epochs: 20
+2025-11-29 16:51:04.665 | INFO |   batch_size: 64
+2025-11-29 16:51:04.666 | INFO |   learning_rate: 0.001
+2025-11-29 16:51:04.667 | INFO |   charset: 0123456789:
+2025-11-29 16:51:04.668 | INFO | 
+2025-11-29 16:51:04.669 | WARNING | ============================================================
+2025-11-29 16:51:04.672 | WARNING | 重要提示
+2025-11-29 16:51:04.673 | WARNING | ============================================================
+2025-11-29 16:51:04.674 | WARNING | CnOcr 1.2.x (Alas 使用的版本) 不提供公开的训练 API
+2025-11-29 16:51:04.675 | WARNING | 
+2025-11-29 16:51:04.676 | WARNING | 推荐方案：
+2025-11-29 16:51:04.678 | WARNING | 1. 使用 CnOcr 2.x 训练（推荐）
+2025-11-29 16:51:04.679 | WARNING |    pip install cnocr>=2.0
+2025-11-29 16:51:04.680 | WARNING | 
+2025-11-29 16:51:04.682 | WARNING | 2. 使用字体生成合成数据 + 数据增强
+2025-11-29 16:51:04.683 | WARNING |    见 tools/train_pcr_ocr_v2.py
+2025-11-29 16:51:04.683 | WARNING | 
+2025-11-29 16:51:04.685 | WARNING | 3. 使用 PaddleOCR 训练
+2025-11-29 16:51:04.686 | WARNING |    pip install paddlepaddle paddleocr
+2025-11-29 16:51:04.687 | WARNING | 
+2025-11-29 16:51:04.688 | ERROR | 未安装 CnOcr 2.x 训练模块
+2025-11-29 16:51:04.690 | ERROR | 
+2025-11-29 16:51:04.691 | ERROR | 请执行以下步骤：
+2025-11-29 16:51:04.692 | ERROR | 
+2025-11-29 16:51:04.693 | ERROR | 方案一：升级到 CnOcr 2.x
+2025-11-29 16:51:04.694 | ERROR |   pip uninstall cnocr
+2025-11-29 16:51:04.695 | ERROR |   pip install 'cnocr>=2.3'
+2025-11-29 16:51:04.696 | ERROR | 
+2025-11-29 16:51:04.697 | ERROR | 方案二：使用合成数据训练
+2025-11-29 16:51:04.701 | ERROR |   python tools/generate_synthetic_data.py
+2025-11-29 16:51:04.702 | ERROR |   python tools/train_pcr_ocr_v2.py
+2025-11-29 16:51:04.703 | ERROR | 
+2025-11-29 16:51:04.704 | ERROR | 训练失败，请查看上面的错误信息
+2025-11-29 16:54:58.600 | INFO | 字符集文件已创建: bin/cnocr_models/pcr_timer\label_cn.txt
+2025-11-29 16:54:58.604 | INFO | 字符集: 0123456789: (11 个字符)
+2025-11-29 16:54:59.926 | INFO | ============================================================
+2025-11-29 16:54:59.928 | INFO | 开始训练 PCR OCR 模型
+2025-11-29 16:54:59.929 | INFO | ============================================================
+2025-11-29 16:54:59.931 | INFO | 数据集: train_data/timer_manual_20251129_143812
+2025-11-29 16:54:59.932 | INFO | 输出目录: bin/cnocr_models/pcr_timer
+2025-11-29 16:54:59.934 | INFO | 训练轮数: 20
+2025-11-29 16:54:59.936 | INFO | 
+2025-11-29 16:54:59.938 | INFO | 训练配置:
+2025-11-29 16:54:59.939 | INFO |   model_name: densenet-lite-gru
+2025-11-29 16:54:59.940 | INFO |   model_epoch: None
+2025-11-29 16:54:59.940 | INFO |   root: bin/cnocr_models/pcr_timer
+2025-11-29 16:54:59.942 | INFO |   train_data_dir: train_data/timer_manual_20251129_143812
+2025-11-29 16:54:59.942 | INFO |   epochs: 20
+2025-11-29 16:54:59.943 | INFO |   batch_size: 64
+2025-11-29 16:54:59.945 | INFO |   learning_rate: 0.001
+2025-11-29 16:54:59.946 | INFO |   charset: 0123456789:
+2025-11-29 16:54:59.949 | INFO | 
+2025-11-29 16:54:59.950 | WARNING | ============================================================
+2025-11-29 16:54:59.952 | WARNING | 重要提示
+2025-11-29 16:54:59.953 | WARNING | ============================================================
+2025-11-29 16:54:59.954 | WARNING | CnOcr 1.2.x (Alas 使用的版本) 不提供公开的训练 API
+2025-11-29 16:54:59.955 | WARNING | 
+2025-11-29 16:54:59.956 | WARNING | 推荐方案：
+2025-11-29 16:54:59.958 | WARNING | 1. 使用字体生成合成数据 + 数据增强
+2025-11-29 16:54:59.959 | WARNING |    见 tools/train_pcr_ocr_v2.py
+2025-11-29 16:54:59.960 | WARNING | 
+2025-11-29 16:54:59.961 | WARNING | 2. 使用 PaddleOCR 训练
+2025-11-29 16:54:59.963 | WARNING |    pip install paddlepaddle paddleocr
+2025-11-29 16:54:59.964 | WARNING | 
+2025-11-29 16:54:59.967 | ERROR | 训练失败，请查看上面的错误信息
