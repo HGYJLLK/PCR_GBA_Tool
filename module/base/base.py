@@ -117,34 +117,6 @@ class ModuleBase:
             self.device.click(button)
         return appear
 
-    def match_template(self, button, offset=20, similarity=0.85):
-        """
-        模板匹配
-
-        Args:
-            button (Button): Button对象
-            offset (int, tuple): 检测区域偏移量
-            similarity (float): 相似度阈值
-
-        Returns:
-            bool: 是否匹配
-        """
-        if not hasattr(self.device, "image") or self.device.image is None:
-            logger.warning("No screenshot available")
-            return False
-
-        if not button.file:
-            logger.warning(f"Button {button.name} has no template file")
-            return False
-
-        try:
-            return button.match_luma(
-                self.device.image, offset=offset, similarity=similarity
-            )
-        except Exception as e:
-            logger.warning(f"Template matching failed for {button.name}: {e}")
-            return False
-
     def image_crop(self, button, copy=True):
         """
         从当前截图中裁剪区域
@@ -169,3 +141,34 @@ class ModuleBase:
             return crop(self.device.image, button.area, copy=copy)
         else:
             return crop(self.device.image, button, copy=copy)
+
+    def match_template_color(self, button, offset=(20, 20), interval=0, similarity=0.85, threshold=30):
+        """
+        Args:
+            button (Button):
+            offset (bool, int):
+            interval (int, float): interval between two active events.
+            similarity (int, float): 0 to 1.
+            threshold (int, float): 0 to 255 if not use offset, smaller means more similar
+
+        Returns:
+            bool:
+        """
+        self.device.stuck_record_add(button)
+
+        if interval:
+            if button.name in self.interval_timer:
+                if self.interval_timer[button.name].limit != interval:
+                    self.interval_timer[button.name] = Timer(interval)
+            else:
+                self.interval_timer[button.name] = Timer(interval)
+            if not self.interval_timer[button.name].reached():
+                return False
+
+        appear = button.match_template_color(
+            self.device.image, offset=offset, similarity=similarity, threshold=threshold)
+
+        if appear and interval:
+            self.interval_timer[button.name].reset()
+
+        return appear

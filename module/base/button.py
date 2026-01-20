@@ -381,7 +381,7 @@ class Button:
         """
         # 模板匹配
         template_match = self.match_luma(image, offset=offset, similarity=similarity)
-        logger.debug(f"{self.name} 模板匹配结果: {template_match}")
+        # logger.debug(f"{self.name} 模板匹配结果: {template_match}")
 
         if template_match:
             # 颜色验证
@@ -391,13 +391,13 @@ class Button:
             color_match = color_similar(
                 color1=color, color2=self.color, threshold=threshold
             )
-            logger.debug(
-                f"{self.name} 颜色匹配 - 实际颜色: {color}, 期望颜色: {self.color}, 匹配结果: {color_match}"
-            )
-            logger.debug(f"颜色匹配结果: {color_match}")
+            # logger.debug(
+            #     f"{self.name} 颜色匹配 - 实际颜色: {color}, 期望颜色: {self.color}, 匹配结果: {color_match}"
+            # )
+            # logger.debug(f"颜色匹配结果: {color_match}")
             return color_match
         else:
-            logger.debug(f"{self.name} 模板匹配失败")
+            # logger.debug(f"{self.name} 模板匹配失败")
             return False
 
     def crop(self, area, image=None, name=None):
