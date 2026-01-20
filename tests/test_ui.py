@@ -15,7 +15,7 @@ from module.ui.assets import *
 
 
 def main():
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     # 禁用卡死检测
     device.disable_stuck_detection()

@@ -180,7 +180,7 @@ def run_quick_benchmark():
     """快速基准测试"""
     logger.hr("PCR Quick Screenshot Benchmark", level=1)
 
-    config = PriconneConfig(config_name="cwj")
+    config = PriconneConfig(config_name="maple")
     device = Device(config)
 
     # 快速测试配置

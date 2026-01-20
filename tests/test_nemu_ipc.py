@@ -75,7 +75,7 @@ def compare_with_droidcast():
 
     # 初始化 DroidCast
     print("初始化 DroidCast...")
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     device.droidcast_init()
     time.sleep(1)

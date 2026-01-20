@@ -27,7 +27,7 @@ def scroll_detection():
     """
     logger.hr("Scroll Detection", level=0)
 
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
 
     # 禁用卡死检测
@@ -105,7 +105,7 @@ def scroll_control():
     """
     logger.hr("Scroll Control", level=0)
 
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
 
     # 禁用卡死检测
@@ -186,7 +186,7 @@ def template_matching():
     """
     logger.hr("Template Matching (Fullscreen)", level=0)
 
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     device.disable_stuck_detection()
 
@@ -302,7 +302,7 @@ def template_matching():
 def complete_flow():
     logger.hr("Complete Scroll Search Flow", level=0)
 
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     device.disable_stuck_detection()
 

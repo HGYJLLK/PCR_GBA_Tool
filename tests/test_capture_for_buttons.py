@@ -24,7 +24,7 @@ def main():
     """
     主函数 - 捕获三个界面的截图
     """
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     device.disable_stuck_detection()
     

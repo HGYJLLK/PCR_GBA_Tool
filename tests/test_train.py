@@ -100,7 +100,7 @@ def main():
     """
     主测试函数
     """
-    config = PriconneConfig("cwj", "Pcr")
+    config = PriconneConfig("maple", "Pcr")
     device = Device(config)
     # 禁用卡死检测
     device.disable_stuck_detection()

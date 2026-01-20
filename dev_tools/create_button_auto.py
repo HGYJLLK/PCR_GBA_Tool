@@ -28,7 +28,7 @@ from module.base.utils import load_image
 
 class AutoButtonCreator:
     def __init__(self):
-        self.config = PriconneConfig("cwj", "Pcr")
+        self.config = PriconneConfig("maple", "Pcr")
         self.device = Device(self.config)
         self.device.disable_stuck_detection()
         self.screenshot_path = "./temp_screenshot.png"

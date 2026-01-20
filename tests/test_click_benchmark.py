@@ -186,7 +186,7 @@ def run_quick_benchmark():
     """快速基准测试"""
     logger.hr("PCR Quick Click Benchmark", level=1)
 
-    config = PriconneConfig(config_name="cwj")
+    config = PriconneConfig(config_name="maple")
     device = Device(config)
 
     # 快速测试配置
@@ -280,7 +280,7 @@ if __name__ == "__main__":
             run_quick_benchmark()
         else:
             # 完整测试模式
-            # config = PriconneConfig(config_name="cwj")
+            # config = PriconneConfig(config_name="maple")
             config = PriconneConfig()
             benchmark = ClickBenchmark(config)
             benchmark.run()

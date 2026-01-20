@@ -14,12 +14,12 @@ class PCRGBATool:
     PCR 自动化工具类
     """
 
-    def __init__(self, config_name="cwj"):
+    def __init__(self, config_name="maple"):
         """
         初始化 PCR
 
         Args:
-            config_name: 配置文件名,默认为 "cwj"
+            config_name: 配置文件名,默认为 "maple"
         """
         logger.hr("Start", level=0)
         self.config_name = config_name

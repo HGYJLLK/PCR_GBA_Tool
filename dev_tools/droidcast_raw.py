@@ -21,7 +21,7 @@ try:
 
     # 初始化配置
     print("\n 初始化配置...")
-    config = PriconneConfig(config_name="cwj")
+    config = PriconneConfig(config_name="maple")
 
     # 初始化设备
     print(" 连接设备...")

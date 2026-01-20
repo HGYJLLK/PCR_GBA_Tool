@@ -219,7 +219,7 @@ def main():
         from module.config.config import PriconneConfig
         from module.device.device import Device
 
-        config = PriconneConfig("cwj", "Pcr")
+        config = PriconneConfig("maple", "Pcr")
         device = Device(config)
         device.disable_stuck_detection()
 
@@ -234,7 +234,10 @@ def main():
         print("使用 NemuIpc 截图模式（极速）...")
         from module.device.method.nemu_ipc import NemuIpcImpl
 
-        nemu_folder = r"C:\Program Files\Netease\MuMu Player 12"
+        # hgyjllk环境
+        # nemu_folder = r"C:\Program Files\Netease\MuMu Player 12"
+        # maple环境
+        nemu_folder = r"C:\Program Files\Netease\MuMuPlayer-12.0"
         nemu = NemuIpcImpl(nemu_folder, instance_id=0)
         nemu.connect()
         print(f"NemuIpc 已连接，分辨率: {nemu.width}x{nemu.height}")
