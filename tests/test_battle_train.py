@@ -342,23 +342,23 @@ class BattleTrainTest(UI, TrainCombat):
         ocr_engine.init()
         logger.info("✓ OCR 模型预热完成")
 
-        # # ========== 步骤 1: 训练场交互 ==========
-        # logger.hr("Step 1: Train Interaction", level=1)
-        # self.handle_train_interaction(slow_mode=slow_mode)
+        # ========== 步骤 1: 训练场交互 ==========
+        logger.hr("Step 1: Train Interaction", level=1)
+        self.handle_train_interaction(slow_mode=slow_mode)
 
-        # # ========== 步骤 2: 角色选择 ==========
-        # logger.hr("Step 2: Character Selection", level=1)
-        # logger.info("跳过角色选择,使用默认队伍...")
-        # # TODO: 如果需要选择特定角色,在这里实现
+        # ========== 步骤 2: 角色选择 ==========
+        logger.hr("Step 2: Character Selection", level=1)
+        logger.info("跳过角色选择,使用默认队伍...")
+        # TODO: 如果需要选择特定角色,在这里实现
 
-        # # ========== 步骤 3: 开始战斗 ==========
-        # logger.hr("Step 3: Start Battle", level=1)
-        # logger.info("点击开始战斗...")
-        # self.combat_preparation_with_ui_click()
-        # logger.info("✓ 已进入战斗")
+        # ========== 步骤 3: 开始战斗 ==========
+        logger.hr("Step 3: Start Battle", level=1)
+        logger.info("点击开始战斗...")
+        self.combat_preparation_with_ui_click()
+        logger.info("✓ 已进入战斗")
 
-        # # 等待战斗界面稳定
-        # time.sleep(2.0)
+        # 等待战斗界面稳定
+        time.sleep(2.0)
 
         # ========== 步骤 4: 监控战斗倒计时 ==========
         logger.hr("Step 4: Monitor Battle Timer", level=1)
@@ -504,14 +504,20 @@ class BattleTrainTest(UI, TrainCombat):
                     self.device.screenshot()
                     
                     # 检测 TEAM 按钮（结算界面标志）
-                    if self.appear(TEAM):
+                    # if self.appear(TEAM):
+                    # if self.appear(REPORT):
+                    if self.match_template_color(REPORT,interval=2):
                         debug_path = "./logs/debug_report_detected.png"
                         self.device.image_save(debug_path)
+                        # logger.info(f"\n 检测到 TEAM 按钮！(运行: {elapsed:.1f}s)")
                         logger.info(f"\n 检测到 REPORT 按钮！(运行: {elapsed:.1f}s)")
                         logger.info(f"  截图已保存: {debug_path}")
+                        # logger.info("  点击 TEAM 按钮...")
                         logger.info("  点击 REPORT 按钮...")
-                        self.device.click(TEAM)
+                        # self.device.click(TEAM)
+                        self.device.click(REPORT)
                         time.sleep(1.0)
+                        # logger.info("  已点击 TEAM")
                         logger.info("  已点击 REPORT")
                         break
 

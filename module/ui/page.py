@@ -66,7 +66,7 @@ class Page:
             check_button (Button): 用于识别该页面的特征按钮
         """
         self.check_button = check_button  # 用于识别该页面的特征按钮
-        self.links = {}  # 存放 check_button所在的页面到其他页面的导航链接
+        self.links = {}  # 存放 check_button 所在的页面到其他页面的导航链接
         # 自动获取变量名作为页面名称
         (filename, line_number, function_name, text) = traceback.extract_stack()[-2]
         self.name = text[: text.find("=")].strip()
