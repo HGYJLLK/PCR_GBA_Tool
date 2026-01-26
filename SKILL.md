@@ -7,11 +7,11 @@ description: 完成新功能后编写开发文档的标准流程
 
 ## 🚀 启动流程
 1. **确认功能完成**: 确保新功能代码已测试通过 (参考 `CLAUDE.md` 或 `tests/`)。
-2. **生成初稿**: 由 AI 生成文档初稿 (例如 `config.md`)。
+2. **生成初稿**
 3. **定位目录**: 文档应存放在 `doc/` 目录下，保持命名规范 (如 `2.2 config.md`)。
 
 ## 📖 编写原则 (微调指南)
-**核心目标**: 去除 AI 痕迹，参考 [AzurLaneAutoScript Wiki](https://github.com/LmeSzinc/AzurLaneAutoScript/wiki) 的优秀写法，使其看起来像人写的。
+**核心目标**: 参考 [AzurLaneAutoScript Wiki](https://github.com/LmeSzinc/AzurLaneAutoScript/wiki) 的优秀写法。
 
 ### 关键修改点
 1. **标题简化与重命名**:
@@ -88,7 +88,7 @@ description: 完成新功能后编写开发文档的标准流程
 - [ ] 已参考 ALAS Wiki 优秀写法进行微调
 - [ ] **(新)** 涉及输出的功能，是否展示了**实际效果图/日志**
 - [ ] **(新)** 是否使用了 `Method(args)` 作为标题
-- [ ] 已删除 `概述`、`核心类`、`文件结构` 等 AI 常用标题
+- [ ] 已删除 `概述`、`核心类`、`文件结构` 等常用标题
 - [ ] 标题是否足够简洁直白 (如 "参数说明" 优于 "文件命名规则")
 - [ ] H2 标题前是否有简短介绍
 - [ ] 复杂逻辑是否已用 ASCII 图示可视化 (推荐使用 `bash` 块)
