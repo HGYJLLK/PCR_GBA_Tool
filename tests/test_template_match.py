@@ -11,6 +11,7 @@ from module.logger import logger
 from module.ui.ui import UI
 from module.ui.page import page_train
 from module.ui.scroll import Scroll
+from module.ui.assets import *
 from module.train.assets import *
 from module.character.assets import *
 
@@ -33,9 +34,9 @@ class TemplateMatchTest(UI):
             # if self.appear(
             #     NULL_FIVE, interval=5, threshold=30, offset=(20, 20), similarity=0.75
             # ):
-            if self.appear(NULL_FIVE, threshold=30, similarity=0.75):
-                logger.info("NULL_FIVE button appear")
-                self.device.click(NULL_FIVE)
+            if self.appear(前往角色界面, threshold=30, similarity=0.75):
+                logger.info("前往角色界面 button appear")
+                self.device.click(前往角色界面)
             logger.info(f"Loop {count}")
 
     def test_select_characters_with_mask(self):

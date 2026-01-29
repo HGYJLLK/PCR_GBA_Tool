@@ -315,8 +315,8 @@ class ModuleExtractor:
         if not os.path.exists(folder):
             os.mkdir(folder)
 
-        # 写入文件
-        with open(os.path.join(folder, BUTTON_FILE), "w", newline="") as f:
+        # 写入文件，使用UTF-8编码以支持中文
+        with open(os.path.join(folder, BUTTON_FILE), "w", encoding="utf-8", newline="") as f:
             for text in self.expression:
                 f.write(text + "\n")
 

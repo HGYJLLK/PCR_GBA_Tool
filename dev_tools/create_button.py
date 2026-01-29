@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 一体化按钮提取工具
 
@@ -68,7 +70,15 @@ class ButtonCreator:
         """获取按钮信息"""
         logger.hr("Step 3: 输入按钮信息", level=1)
         
-        button_name = input("请输入按钮名称 (例如: PHYSICAL_TEST): ").strip().upper()
+        button_name = input("请输入按钮名称 (例如: PHYSICAL_TEST，中文直接输入): ").strip()
+        # 英文自动转换为大写，中文保持不变
+        try:
+            # 检查是否全为英文和数字
+            if button_name.isalnum():
+                button_name = button_name.upper()
+        except:
+            # 处理中文等特殊字符
+            pass
         
         print("请输入按钮坐标 (从HTML工具中复制):")
         x1 = int(input("  左上角 X: "))
@@ -90,8 +100,8 @@ class ButtonCreator:
         """提取按钮并保存为黑色背景图片"""
         logger.hr("Step 4: 提取并保存按钮", level=1)
         
-        import cv2
         import numpy as np
+        from PIL import Image
         from module.base.utils import load_image
         
         # 加载截图
@@ -108,9 +118,11 @@ class ButtonCreator:
         # 复制到黑色背景
         result[y1:y2, x1:x2] = button_region
         
-        # 保存
-        output_path = f"./assets/train/{self.button_data['name']}.png"
-        cv2.imwrite(output_path, cv2.cvtColor(result, cv2.COLOR_RGB2BGR))
+        # 保存，使用PIL替代CV2以支持中文路径
+        output_path = os.path.abspath(f"./assets/train/{self.button_data['name']}.png")
+        # 将numpy数组转换为PIL Image
+        pil_image = Image.fromarray(result.astype('uint8'))
+        pil_image.save(output_path, 'PNG')
         
         logger.info(f"✓ 已保存按钮图片: {output_path}")
         logger.info(f"  尺寸: {x2-x1} × {y2-y1}")
