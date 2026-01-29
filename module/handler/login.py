@@ -118,4 +118,4 @@ class LoginHandler(UI):
         Returns:
             bool: 是否在主界面
         """
-        return self.appear(MAIN_CHECK, offset=(30, 30))
+        return self.appear(主界面检查, offset=(30, 30))
