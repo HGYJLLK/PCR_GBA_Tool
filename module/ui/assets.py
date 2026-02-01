@@ -15,4 +15,6 @@ TEAM_BATTLE = Button(area=(1133, 419, 1209, 448), color=(180, 197, 212), button=
 TEAM_BATTLE_CHECK = Button(area=(589, 526, 715, 554), color=(131, 176, 251), button=(589, 526, 715, 554), file="./assets/ui/TEAM_BATTLE_CHECK.png")
 TRAIN_CHECK = Button(area=(656, 203, 767, 278), color=(163, 145, 116), button=(656, 203, 767, 278), file="./assets/ui/TRAIN_CHECK.png")
 主界面检查 = Button(area=(1203, 37, 1245, 77), color=(221, 229, 248), button=(1203, 37, 1245, 77), file="./assets/ui/主界面检查.png")
+前往剧情界面 = Button(area=(532, 680, 589, 716), color=(205, 200, 207), button=(532, 680, 589, 716), file="./assets/ui/前往剧情界面.png")
+前往强化界面 = Button(area=(380, 688, 438, 714), color=(179, 195, 210), button=(380, 688, 438, 714), file="./assets/ui/前往强化界面.png")
 前往角色界面 = Button(area=(231, 689, 278, 717), color=(191, 190, 200), button=(231, 689, 278, 717), file="./assets/ui/前往角色界面.png")

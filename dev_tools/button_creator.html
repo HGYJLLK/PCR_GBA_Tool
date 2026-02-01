@@ -1,309 +1,350 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>按钮创建工具</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #f5f5f5;
-        }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f5f5f5;
+      }
 
-        h1 {
-            color: #333;
-            text-align: center;
-        }
+      h1 {
+        color: #333;
+        text-align: center;
+      }
 
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
 
-        .screenshot-container {
-            position: relative;
-            display: inline-block;
-            margin: 10px 0;
-        }
+      .screenshot-container {
+        position: relative;
+        display: inline-block;
+        margin: 10px 0;
+      }
 
-        canvas {
-            border: 2px solid #ddd;
-            cursor: crosshair;
-            display: block;
-            max-width: 100%;
-        }
+      canvas {
+        border: 2px solid #ddd;
+        cursor: crosshair;
+        display: block;
+        max-width: 100%;
+      }
 
-        .info {
-            background: #e3f2fd;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 10px 0;
-        }
+      .info {
+        background: #e3f2fd;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 10px 0;
+      }
 
-        .coords {
-            background: #f1f8e9;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 10px 0;
-            font-family: 'Courier New', monospace;
-            font-size: 14px;
-        }
+      .coords {
+        background: #f1f8e9;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 10px 0;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+      }
 
-        .button-code {
-            background: #fff3e0;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 10px 0;
-        }
+      .button-code {
+        background: #fff3e0;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 10px 0;
+      }
 
-        button {
-            background: #2196F3;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
-            margin: 5px;
-        }
+      button {
+        background: #2196f3;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        margin: 5px;
+      }
 
-        button:hover {
-            background: #1976D2;
-        }
+      button:hover {
+        background: #1976d2;
+      }
 
-        .reset-btn {
-            background: #f44336;
-        }
+      .reset-btn {
+        background: #f44336;
+      }
 
-        .reset-btn:hover {
-            background: #d32f2f;
-        }
+      .reset-btn:hover {
+        background: #d32f2f;
+      }
 
-        .save-btn {
-            background: #4CAF50;
-        }
+      .save-btn {
+        background: #4caf50;
+      }
 
-        .save-btn:hover {
-            background: #45a049;
-        }
+      .save-btn:hover {
+        background: #45a049;
+      }
 
-        input[type="text"] {
-            margin: 10px 0;
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-            width: 300px;
-        }
+      input[type="text"] {
+        margin: 10px 0;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        width: 300px;
+      }
 
-        .input-group {
-            margin: 15px 0;
-        }
+      .input-group {
+        margin: 15px 0;
+      }
 
-        .input-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
+      .input-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>🎯 按钮创建工具</h1>
 
     <div class="container">
-        <div class="info">
-            <h3>📖 使用说明:</h3>
-            <p>1. 截图会自动加载</p>
-            <p>2. 在图片上<strong>拖动鼠标</strong>框选按钮区域</p>
-            <p>3. 输入按钮名称(如: PHYSICAL_TEST)</p>
-            <p>4. 点击"生成按钮数据"</p>
-            <p>5. 复制JSON数据,粘贴到终端</p>
+      <div class="info">
+        <h3>📖 使用说明:</h3>
+        <p>1. 截图会自动加载</p>
+        <p>2. 在图片上<strong>拖动鼠标</strong>框选按钮区域</p>
+        <p>3. 输入按钮名称，点击"生成JSON"</p>
+        <p>4. 复制JSON，粘贴到控制台，回车</p>
+        <p>5. 点击"继续选取"创建下一个按钮</p>
+        <p>6. 控制台直接回车退出并保存所有按钮</p>
+      </div>
+
+      <div>
+        <h3>框选按钮区域</h3>
+        <div class="screenshot-container">
+          <canvas id="canvas"></canvas>
         </div>
 
-        <div>
-            <h3>框选按钮区域</h3>
-            <div class="screenshot-container">
-                <canvas id="canvas"></canvas>
-            </div>
+        <div id="coords" class="coords" style="display: none"></div>
 
-            <div id="coords" class="coords" style="display:none;"></div>
-
-            <div class="input-group" id="nameInput" style="display:none;">
-                <label for="buttonName">按钮名称 (大写,用下划线分隔):</label>
-                <input type="text" id="buttonName" placeholder="例如: PHYSICAL_TEST" style="text-transform: uppercase;">
-            </div>
-
-            <div id="code" class="button-code" style="display:none;"></div>
-
-            <button onclick="resetCanvas()" class="reset-btn">重置</button>
-            <button onclick="generateButton()" class="save-btn" id="generateBtn" style="display:none;">生成按钮数据</button>
+        <div class="input-group" id="nameInput" style="display: none">
+          <label for="buttonName">按钮名称 (大写,用下划线分隔):</label>
+          <input
+            type="text"
+            id="buttonName"
+            placeholder="例如: PHYSICAL_TEST"
+            style="text-transform: uppercase"
+          />
         </div>
+
+        <div id="code" class="button-code" style="display: none"></div>
+
+        <button
+          onclick="generateButton()"
+          class="save-btn"
+          id="generateBtn"
+          style="display: none"
+        >
+          生成JSON
+        </button>
+      </div>
     </div>
 
     <script>
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-        let image = null;
-        let selection = { startX: 0, startY: 0, endX: 0, endY: 0, isDrawing: false };
-        let selectedCoords = null;
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      let image = null;
+      let selection = {
+        startX: 0,
+        startY: 0,
+        endX: 0,
+        endY: 0,
+        isDrawing: false,
+      };
+      let selectedCoords = null;
 
-        // 鼠标事件
-        canvas.addEventListener('mousedown', startSelection);
-        canvas.addEventListener('mousemove', updateSelection);
-        canvas.addEventListener('mouseup', endSelection);
+      // 鼠标事件
+      canvas.addEventListener("mousedown", startSelection);
+      canvas.addEventListener("mousemove", updateSelection);
+      canvas.addEventListener("mouseup", endSelection);
 
-        // 页面加载时自动加载截图
-        window.addEventListener('load', function () {
-            const img = new Image();
-            img.onload = function () {
-                image = img;
-                canvas.width = img.width;
-                canvas.height = img.height;
-                ctx.drawImage(img, 0, 0);
+      // 页面加载时自动加载截图
+      window.addEventListener("load", function () {
+        const img = new Image();
+        img.onload = function () {
+          image = img;
+          canvas.width = img.width;
+          canvas.height = img.height;
+          ctx.drawImage(img, 0, 0);
 
-                const info = document.querySelector('.info');
-                info.innerHTML = '<h3>✓ 已自动加载截图</h3><p><strong>现在可以直接框选按钮了!</strong></p>';
-                info.style.background = '#c8e6c9';
-            };
-            img.onerror = function () {
-                console.log('未找到 temp_screenshot.png');
-            };
-            img.src = '../temp_screenshot.png?t=' + new Date().getTime();
-        });
+          const info = document.querySelector(".info");
+          info.innerHTML =
+            "<h3>✓ 已自动加载截图</h3><p><strong>现在可以直接框选按钮了!</strong></p>";
+          info.style.background = "#c8e6c9";
+        };
+        img.onerror = function () {
+          console.log("未找到 temp_screenshot.png");
+        };
+        img.src = "../temp_screenshot.png?t=" + new Date().getTime();
+      });
 
-        function startSelection(e) {
-            const rect = canvas.getBoundingClientRect();
-            selection.startX = e.clientX - rect.left;
-            selection.startY = e.clientY - rect.top;
-            selection.isDrawing = true;
+      function startSelection(e) {
+        const rect = canvas.getBoundingClientRect();
+        selection.startX = e.clientX - rect.left;
+        selection.startY = e.clientY - rect.top;
+        selection.isDrawing = true;
+      }
+
+      function updateSelection(e) {
+        if (!selection.isDrawing) return;
+
+        const rect = canvas.getBoundingClientRect();
+        selection.endX = e.clientX - rect.left;
+        selection.endY = e.clientY - rect.top;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(image, 0, 0);
+
+        ctx.strokeStyle = "#2196F3";
+        ctx.lineWidth = 3;
+        ctx.strokeRect(
+          selection.startX,
+          selection.startY,
+          selection.endX - selection.startX,
+          selection.endY - selection.startY,
+        );
+
+        ctx.fillStyle = "rgba(33, 150, 243, 0.2)";
+        ctx.fillRect(
+          selection.startX,
+          selection.startY,
+          selection.endX - selection.startX,
+          selection.endY - selection.startY,
+        );
+      }
+
+      function calculateAverageColor(imageData) {
+        // 计算图像数据的平均颜色，与 Python 的 get_color 函数保持一致
+        const data = imageData.data;
+        let r = 0,
+          g = 0,
+          b = 0;
+        const pixels = data.length / 4;
+
+        for (let i = 0; i < data.length; i += 4) {
+          r += data[i]; // red
+          g += data[i + 1]; // green
+          b += data[i + 2]; // blue
         }
 
-        function updateSelection(e) {
-            if (!selection.isDrawing) return;
+        // 与 Python 中的 cv2.mean 计算结果保持一致
+        return {
+          r: Math.round(r / pixels),
+          g: Math.round(g / pixels),
+          b: Math.round(b / pixels),
+        };
+      }
 
-            const rect = canvas.getBoundingClientRect();
-            selection.endX = e.clientX - rect.left;
-            selection.endY = e.clientY - rect.top;
+      function endSelection(e) {
+        if (!selection.isDrawing) return;
+        selection.isDrawing = false;
 
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.drawImage(image, 0, 0);
+        const rect = canvas.getBoundingClientRect();
+        selection.endX = e.clientX - rect.left;
+        selection.endY = e.clientY - rect.top;
 
-            ctx.strokeStyle = '#2196F3';
-            ctx.lineWidth = 3;
-            ctx.strokeRect(
-                selection.startX,
-                selection.startY,
-                selection.endX - selection.startX,
-                selection.endY - selection.startY
-            );
+        // 与 Python 中的 crop 函数保持一致的坐标处理
+        const x1 = Math.round(Math.min(selection.startX, selection.endX));
+        const y1 = Math.round(Math.min(selection.startY, selection.endY));
+        const x2 = Math.round(Math.max(selection.startX, selection.endX));
+        const y2 = Math.round(Math.max(selection.startY, selection.endY));
 
-            ctx.fillStyle = 'rgba(33, 150, 243, 0.2)';
-            ctx.fillRect(
-                selection.startX,
-                selection.startY,
-                selection.endX - selection.startX,
-                selection.endY - selection.startY
-            );
+        selectedCoords = { x1, y1, x2, y2 };
+
+        // 计算尺寸
+        const width = x2 - x1;
+        const height = y2 - y1;
+
+        // 确保选择区域有效
+        if (width <= 0 || height <= 0) {
+          alert("请选择有效的按钮区域！");
+          return;
         }
 
-        function endSelection(e) {
-            if (!selection.isDrawing) return;
-            selection.isDrawing = false;
-
-            const rect = canvas.getBoundingClientRect();
-            selection.endX = e.clientX - rect.left;
-            selection.endY = e.clientY - rect.top;
-
-            const x1 = Math.min(Math.round(selection.startX), Math.round(selection.endX));
-            const y1 = Math.min(Math.round(selection.startY), Math.round(selection.endY));
-            const x2 = Math.max(Math.round(selection.startX), Math.round(selection.endX));
-            const y2 = Math.max(Math.round(selection.startY), Math.round(selection.endY));
-
-            selectedCoords = { x1, y1, x2, y2 };
-
-            const coordsDiv = document.getElementById('coords');
-            coordsDiv.style.display = 'block';
-            coordsDiv.innerHTML = `
+        const coordsDiv = document.getElementById("coords");
+        coordsDiv.style.display = "block";
+        coordsDiv.innerHTML = `
                 <strong>✓ 选择完成!</strong><br><br>
                 坐标: (${x1}, ${y1}, ${x2}, ${y2})<br>
-                尺寸: ${x2 - x1} × ${y2 - y1}
+                尺寸: ${width} × ${height}<br>
+                <span style="color: #666;">💡 颜色将由Python自动计算</span>
             `;
 
-            document.getElementById('nameInput').style.display = 'block';
-            document.getElementById('generateBtn').style.display = 'inline-block';
+        document.getElementById("nameInput").style.display = "block";
+        document.getElementById("generateBtn").style.display = "inline-block";
+      }
+
+      function generateButton() {
+        const buttonName = document
+          .getElementById("buttonName")
+          .value.trim()
+          .toUpperCase();
+        if (!buttonName) {
+          alert("请输入按钮名称!");
+          return;
         }
 
-        function generateButton() {
-            const buttonName = document.getElementById('buttonName').value.trim().toUpperCase();
-            if (!buttonName) {
-                alert('请输入按钮名称!');
-                return;
-            }
+        if (!selectedCoords) {
+          alert("请先框选按钮区域!");
+          return;
+        }
 
-            if (!selectedCoords) {
-                alert('请先框选按钮区域!');
-                return;
-            }
+        const { x1, y1, x2, y2 } = selectedCoords;
+        // JSON数据（不包含颜色，Python会自动计算）
+        const jsonData = `{"name": "${buttonName}", "coords": [${x1}, ${y1}, ${x2}, ${y2}]}`;
+        // 生成代码预览（颜色部分为占位符）
+        const code = `${buttonName} = Button(area=(${x1}, ${y1}, ${x2}, ${y2}), color=<由Python计算>, button=(${x1}, ${y1}, ${x2}, ${y2}), file="./assets/train/${buttonName}.png")`;
 
-            const { x1, y1, x2, y2 } = selectedCoords;
-            const jsonData = `{"name": "${buttonName}", "coords": [${x1}, ${y1}, ${x2}, ${y2}]}`;
-            const code = `${buttonName} = Button(area=(${x1}, ${y1}, ${x2}, ${y2}), color=(100, 150, 200), button=(${x1}, ${y1}, ${x2}, ${y2}), file="./assets/train/${buttonName}.png")`;
-
-            const codeDiv = document.getElementById('code');
-            codeDiv.style.display = 'block';
-            codeDiv.innerHTML = `
-<strong>✓ 按钮信息已生成!</strong><br><br>
-<strong>步骤 1: 复制下面的JSON数据</strong><br>
+        const codeDiv = document.getElementById("code");
+        codeDiv.style.display = "block";
+        codeDiv.innerHTML = `
+<strong>✓ JSON已生成!</strong><br><br>
+<strong>复制下面的JSON到控制台:</strong><br>
 <textarea id="jsonOutput" readonly onclick="this.select()" style="width: 100%; height: 60px; padding: 10px; font-family: monospace; font-size: 14px; margin: 10px 0; border: 2px solid #2196F3; border-radius: 4px; cursor: pointer;">${jsonData}</textarea>
 <button onclick="copyJson()" style="background: #4CAF50; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin: 5px;">点击复制</button>
 <br><br>
-<strong>步骤 2: 返回终端,粘贴数据</strong><br>
-Python 脚本会自动完成所有操作<br><br>
-<strong>生成的代码预览:</strong><br>
-<div style="background: #e8f5e9; padding: 10px; margin: 10px 0; font-family: monospace; font-size: 11px; border-radius: 4px;">
-${code}
-</div>
+<strong>💡 提示:</strong><br>
+• 复制后到控制台粘贴并回车<br>
+• 直接回车退出并保存所有按钮<br>
             `;
 
-            // 自动选中
-            setTimeout(() => {
-                document.getElementById('jsonOutput').select();
-            }, 100);
-        }
+        // 自动选中并显示继续按钮
+        setTimeout(() => {
+          document.getElementById("jsonOutput").select();
+        }, 100);
 
-        function copyJson() {
-            const textarea = document.getElementById('jsonOutput');
-            textarea.select();
-            try {
-                document.execCommand('copy');
-                alert('✓ 已复制到剪贴板!');
-            } catch (err) {
-                alert('请手动选择并复制(Ctrl+C)');
-            }
-        }
+        document.getElementById("continueBtn").style.display = "inline-block";
+      }
 
-        function resetCanvas() {
-            if (image) {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.drawImage(image, 0, 0);
-            }
-            document.getElementById('coords').style.display = 'none';
-            document.getElementById('nameInput').style.display = 'none';
-            document.getElementById('code').style.display = 'none';
-            document.getElementById('generateBtn').style.display = 'none';
-            document.getElementById('buttonName').value = '';
-            selection = { startX: 0, startY: 0, endX: 0, endY: 0, isDrawing: false };
-            selectedCoords = null;
+      function copyJson() {
+        const textarea = document.getElementById("jsonOutput");
+        textarea.select();
+        try {
+          document.execCommand("copy");
+          alert("✓ 已复制到剪贴板!");
+        } catch (err) {
+          alert("请手动选择并复制(Ctrl+C)");
         }
+      }
     </script>
-</body>
-
+  </body>
 </html>

@@ -16,3 +16,5 @@ REPORT = Button(area=(1093, 38, 1182, 68), color=(203, 204, 208), button=(1093, 
 SETTINGS = Button(area=(952, 143, 975, 168), color=(243, 241, 243), button=(952, 143, 975, 168), file="./assets/train/SETTINGS.png")
 TEAM = Button(area=(1196, 105, 1239, 136), color=(192, 212, 252), button=(1196, 105, 1239, 136), file="./assets/train/TEAM.png")
 WULI_TEST = Button(area=(636, 188, 1207, 301), color=(215, 210, 207), button=(636, 188, 1207, 301), file="./assets/train/WULI_TEST.png")
+前往剧情界面 = Button(area=(541, 690, 585, 716), color=(196, 200, 223), button=(541, 690, 585, 716), file="./assets/train/前往剧情界面.png")
+前往家具界面 = Button(area=(829, 684, 920, 716), color=(205, 200, 206), button=(829, 684, 920, 716), file="./assets/train/前往家具界面.png")

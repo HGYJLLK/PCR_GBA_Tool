@@ -7,3 +7,5 @@ from module.base.template import Template
 ANNOUNCE_CLOSE = Button(area=(501, 606, 778, 672), color=(226, 224, 223), button=(501, 606, 778, 672), file="./assets/handler/ANNOUNCE_CLOSE.png")
 COMFIRE = Button(area=(661, 468, 911, 521), color=(95, 163, 248), button=(661, 468, 911, 521), file="./assets/handler/COMFIRE.png")
 LOGIN_CHECK = Button(area=(177, 649, 231, 703), color=(206, 217, 230), button=(177, 649, 231, 703), file="./assets/handler/LOGIN_CHECK.png")
+前往商店 = Button(area=(727, 475, 848, 518), color=(118, 158, 221), button=(727, 475, 848, 518), file="./assets/handler/前往商店.png")
+取消 = Button(area=(459, 471, 526, 518), color=(216, 217, 220), button=(459, 471, 526, 518), file="./assets/handler/取消.png")
