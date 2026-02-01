@@ -37,6 +37,14 @@
      ```
    - 如果显示版本信息，说明配置成功
 
+### 依赖问题
+
+#### Q1：安装requirements.txt av 库报错
+
+1. 使用 conda单独安装这个 av 库：conda install av=10.0.0 -c conda-forge -y
+2. 安装完成后从 requirements.txt 注释 av 库依赖
+3. 重新运行 pip install -r requirements.txt 安装依赖
+
 ## 贡献
 
 如果您遇到了新的问题并找到了解决方案，欢迎贡献到本 FAQ 文档！
