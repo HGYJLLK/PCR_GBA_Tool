@@ -20,7 +20,7 @@ class GeneratedConfig:
     # Group `Emulator`
     Emulator_Serial = 'auto'
     Emulator_PackageName = 'auto'  # auto
-    Emulator_ScreenshotMethod = 'auto'  # auto, ADB, DroidCast_raw
+    Emulator_ScreenshotMethod = 'auto'  # auto, ADB, DroidCast_raw, NemuIpc
     Emulator_ControlMethod = 'auto'  # auto, ADB, MaaTouch
     Emulator_ScreenshotDedithering = False
     Emulator_AdbRestart = True

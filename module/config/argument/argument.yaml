@@ -30,7 +30,7 @@ Emulator:
     option: [auto]
   ScreenshotMethod:
     value: auto
-    option: [auto, ADB, DroidCast_raw]
+    option: [auto, ADB, DroidCast_raw, NemuIpc]
   ControlMethod:
     value: auto
     option: [auto,ADB,MaaTouch]

@@ -10,6 +10,7 @@ from module.base.decorator import cached_property
 from module.base.utils import save_image
 from module.device.method.adb import Adb
 from module.device.method.droidcast import DroidCast
+from module.device.method.nemu_ipc import get_nemu_ipc, NemuIpcIncompatible, NemuIpcError
 from module.exception import ScriptError
 from module.logger import logger
 
@@ -33,6 +34,7 @@ class Screenshot(Adb):
         return {
             "ADB": self.screenshot_adb,
             "DroidCast_raw": self.screenshot_droidcast_raw,
+            "NemuIpc": self.screenshot_nemu_ipc,
         }
 
     @cached_property
@@ -135,3 +137,37 @@ class Screenshot(Adb):
         判断是否已经有缓存截图，用于后续skip_first_screenshot跳过第一次截图的时候能否使用缓存截图
         """
         return hasattr(self, "image") and self.image is not None
+
+    @cached_property
+    def _nemu_ipc_instance(self):
+        """
+        NemuIpc 实例缓存
+
+        Returns:
+            NemuIpcImpl: NemuIpc 实例
+        """
+        try:
+            serial = self.config.Emulator_Serial
+            nemu_ipc = get_nemu_ipc(serial=serial)
+            logger.info("NemuIpc initialized successfully")
+            return nemu_ipc
+        except (NemuIpcIncompatible, NemuIpcError) as e:
+            logger.error(f"Failed to initialize NemuIpc: {e}")
+            raise
+
+    def screenshot_nemu_ipc(self):
+        """
+        使用 NemuIpc 截图（MuMu12 专用，极速）
+
+        Returns:
+            np.ndarray: RGB格式的图像数组
+        """
+        try:
+            # NemuIpc 返回的是 BGR 格式，需要转换为 RGB
+            image = self._nemu_ipc_instance.screenshot()
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            return image
+        except (NemuIpcIncompatible, NemuIpcError) as e:
+            logger.error(f"NemuIpc screenshot failed: {e}")
+            logger.warning("Fallback to ADB screenshot")
+            return self.screenshot_adb()

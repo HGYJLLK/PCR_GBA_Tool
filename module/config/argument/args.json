@@ -54,7 +54,8 @@
         "option": [
           "auto",
           "ADB",
-          "DroidCast_raw"
+          "DroidCast_raw",
+          "NemuIpc"
         ]
       },
       "ControlMethod": {
