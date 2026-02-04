@@ -331,7 +331,9 @@ class DroidCast(Uiautomator2):
                 yield proc
 
     def droidcast_stop(self):
-        """停止所有DroidCast进程"""
+        """
+        Stop DroidCast processes.
+        """
         logger.info("Stopping DroidCast")
         for proc in self._iter_droidcast_proc():
             logger.info(f"Kill pid={proc.pid}")

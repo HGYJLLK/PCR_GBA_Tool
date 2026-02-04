@@ -7,12 +7,13 @@ import subprocess
 import time
 import random
 import platform
+import logging
 
 import uiautomator2 as u2
 from adbutils import AdbClient, AdbDevice, AdbTimeout, ForwardItem
 from adbutils.errors import AdbError
 
-from module.base.decorator import cached_property
+from module.base.decorator import cached_property, del_cached_property
 from module.config.config import PriconneConfig
 from module.config.server import VALID_PACKAGE, set_server
 from module.device.method.adb import Adb
@@ -637,10 +638,48 @@ class Connection(Adb):
         except (IndexError, ValueError):
             return 0
 
-    @cached_property
-    def u2(self):
-        """uiautomator2实例"""
-        return u2.connect(self.serial)
+    def install_uiautomator2(self):
+        """
+        初始化并安装 uiautomator2
+        """
+        logger.info("Install uiautomator2")
+        init = u2.init.Initer(self.adb, loglevel=logging.DEBUG)
+
+        # MuMu X has no ro.product.cpu.abi, pick abi from ro.product.cpu.abilist
+        if init.abi not in ["x86_64", "x86", "arm64-v8a", "armeabi-v7a", "armeabi"]:
+            init.abi = init.abis[0]
+
+        init.set_atx_agent_addr("127.0.0.1:7912")
+
+        try:
+            init.install()
+        except ConnectionError:
+            # 如果连接 GitHub 失败，尝试使用国内镜像
+            logger.warning("GitHub connection failed, trying mirror...")
+            u2.init.GITHUB_BASEURL = "http://tool.appetizer.io/openatx"
+            init.install()
+
+        self.uninstall_minicap()
+
+    def uninstall_minicap(self):
+        """
+        移除 minicap（某些模拟器上 minicap 无法正常工作或会发送压缩图像）
+        """
+        logger.info("Removing minicap")
+        self.adb_shell(["rm", "/data/local/tmp/minicap"])
+        self.adb_shell(["rm", "/data/local/tmp/minicap.so"])
+
+    def restart_atx(self):
+        """
+        重启 ATX agent
+        Minitouch 一次只支持一个连接，重启 ATX 可以踢掉现有连接
+        """
+        logger.info("Restart ATX")
+        atx_agent_path = "/data/local/tmp/atx-agent"
+        self.adb_shell([atx_agent_path, "server", "--stop"])
+        self.adb_shell(
+            [atx_agent_path, "server", "--nouia", "-d", "--addr", "127.0.0.1:7912"]
+        )
 
     _orientation_description = {
         0: "Normal",
