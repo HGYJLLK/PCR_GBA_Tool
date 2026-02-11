@@ -51,3 +51,11 @@ CLAUDE.md
 # git文件
 .git/
 
+# 模型权重文件 (太大，不适合上传git)
+*.pth
+
+# 训练数据 (图片+标签，用户本地生成)
+training_data/
+
+# OCR调试输出
+ocr_debug_images/
