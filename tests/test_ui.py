@@ -22,10 +22,10 @@ def main():
     # 实例化 UI 类
     ui = UI(config=config, device=device)
 
-    # 从任意位置 → 公会战
-    ui.ui_ensure(page_team_battle)  # 自动：main → adventure → team_battle
+    # 从任意位置 → 训练场
+    ui.ui_ensure(page_train)
 
-    logger.info(" 成功进入公会战！")
+    logger.info(" 成功进入训练场！")
 
 
 if __name__ == "__main__":

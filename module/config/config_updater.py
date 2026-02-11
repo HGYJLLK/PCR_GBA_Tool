@@ -6,7 +6,7 @@
 import re
 from copy import deepcopy
 from datetime import datetime
-from cached_property import cached_property
+from module.base.decorator import cached_property
 
 from module.base.timer import timer
 from module.config.deep import deep_default, deep_get, deep_iter, deep_pop, deep_set
