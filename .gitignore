@@ -59,3 +59,34 @@ training_data/
 
 # OCR调试输出
 ocr_debug_images/
+tests/debug_ocr_images/
+
+# CnOCR 缓存模型
+bin/cnocr_models/
+
+# 训练日志
+lightning_logs/
+
+# 旧模型目录
+module/ocr/models/
+
+# 临时帮助文件
+help.txt
+help_utf8.txt
+
+# 实验性测试脚本
+tests/test_custom_model.py
+tests/test_ocr_performance.py
+tests/test_ocr_simple.py
+tests/test_ocr_validation_window.py
+tests/test_timeline.py
+
+# 实验性工具脚本
+tools/dataset_manager.py
+tools/debug_ocr_inputs.py
+tools/label_debug_images.py
+tools/label_debug_images_simple.py
+tools/test_cnn.py
+tools/test_debug_images.py
+tools/train_from_debug.py
+tools/train_manager.py
