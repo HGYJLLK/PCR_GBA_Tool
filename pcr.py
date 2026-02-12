@@ -116,6 +116,17 @@ class PCRGBATool:
 
         LoginHandler(self.config, device=self.device).app_restart()
 
+    def train(self):
+        """
+        训练场任务
+        """
+        # from module.handler.train import TrainHandler
+        # TrainHandler(self.config, device=self.device).run()
+        # use lazy import to avoid circular dependency if any
+        from module.handler.train import TrainHandler
+        TrainHandler(self.config, device=self.device).run()
+
+
     def loop(self):
         """
         主循环入口
@@ -130,10 +141,16 @@ class PCRGBATool:
             self.device.config = self.config
 
             # 执行启动任务
-            logger.info("Scheduler: Start task `Start`")
-            logger.hr("Start", level=0)
-            success = self.run("start")
-            logger.info("Scheduler: End task `Start`")
+            command = self.config.Scheduler_Command
+            # 默认命令为 Pcr，即启动
+            if command == "Pcr":
+                command = "start"
+
+            logger.info(f"Scheduler: Start task `{command}`")
+            logger.hr(command, level=0)
+            success = self.run(command)
+            logger.info(f"Scheduler: End task `{command}`")
+
 
             if success:
                 logger.hr("PCR 启动完成", level=1)

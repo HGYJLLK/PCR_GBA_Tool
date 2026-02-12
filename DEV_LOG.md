@@ -153,4 +153,80 @@
 
 ---
 
+## 2026-02-12
+
+### [14:40] 重构：迁移角色选择模块
+
+**目标**: 将 `module/train/character_selector.py` 移动到 `module/character/selector.py` 并修复引用。
+
+**方案 A**: 直接移动并使用 `grep` 查找引用
+- 结果: ✅ 成功
+- 关键决策: 使用 `grep_search` 查找所有引用，发现 `tests/test_train.py` 需要更新。
+- 验证: 运行 `tests/test_train.py`，确认模块能够被正确导入并执行逻辑。
+- 遇到的问题: `conda run` 在 Windows 下似乎无法正确设置环境路径，导致 `ModuleNotFoundError`。最终使用完整路径 `C:\Users\wdnmd\anaconda3\envs\alas\python.exe` 解决。
+
+**完成状态**: ✅ 已完成
+
+**后续建议**: 继续集成训练场自动化功能。
+
+---
+
+## 2026-02-12
+
+### [14:55] 集成训练场自动化 (MVP)
+
+**目标**: 将训练场测试代码重构为正式功能模块，实现 `python pcr.py` 运行 `train` 任务。
+
+**方案**:
+1. 创建 `module/handler/train.py`，实现 `TrainHandler` 类。
+   - 继承 `UI` 和 `TrainCombat`。
+   - 移植 `tests/test_battle_train.py` 中的交互逻辑和战斗监控逻辑。
+   - 包含 `AsyncScreenshot` 和 `AsyncOCR` 等辅助类。
+2. 修改 `pcr.py`:
+   - 添加 `train()` 方法，负责实例化并运行 `TrainHandler`。
+   - 修改 `loop()` 方法，使其根据 `config.Scheduler_Command` 动态调度任务（不再硬编码为 `Start`，如果配置为 `Pcr` 则映射为 `start`）。
+
+**完成状态**: ✅ 已完成
+
+**后续建议**:
+- 验证 `train` 命令的执行（需在 config 中设置 `Command: "train"`）。
+- 进一步优化 `CharacterSelector`，解除对 `module.train.assets` 的依赖（如果适用）。
+
+---
+
+### [15:05] 优化角色选择器
+
+**目标**: 移除 `module/character/selector.py` 对 `module.train.assets` 的依赖，使其更通用。
+
+**方案**:
+- 确认 `DOCK_SCROLL` 等必需资源已存在于 `module/character/assets.py`。
+- 移除 `module/character/selector.py` 中的 `from module.train.assets import *`。
+
+**完成状态**: ✅ 已完成
+
+**总结**:
+本阶段完成了：
+1. `CharacterSelector` 的模块迁移和重构。
+2. 训练场自动化的 MVP 集成（`TrainHandler`）。
+3. `pcr.py` 的命令调度支持。
+
+所有高优先级和新功能任务已基本完成。
+
+---
+
+### [16:55] 更新任务列表
+
+**目标**: 提交代码并添加验证 `train` 命令的任务。
+
+**内容**:
+- ✅ 执行 `git push` (显示 Everything up-to-date/已推送)。
+- ✅ 更新 `TODO.md`:
+  - 标记 "集成训练场自动化 (MVP)" 为已完成。
+  - 添加 "验证 `train` 命令执行" 任务。
+
+**当前状态**: ✅ 已完成
+
+---
+
 _后续 AI 工作记录将追加在此处_
+

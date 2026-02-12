@@ -12,7 +12,7 @@ from module.train.assets import *
 from module.character.assets import *
 from module.ui.scroll import Scroll
 from module.base.mask import Mask
-from module.train.character_selector import CharacterSelector
+from module.character.selector import CharacterSelector
 from module.train.combat import TrainCombat
 
 
