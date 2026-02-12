@@ -17,7 +17,7 @@
       "Command": {
         "type": "input",
         "value": "Pcr",
-        "display": "hide"
+        "display": "normal"
       },
       "SuccessInterval": {
         "type": "input",
