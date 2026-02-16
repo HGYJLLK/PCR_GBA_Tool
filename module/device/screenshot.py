@@ -5,6 +5,7 @@
 import os
 import numpy as np
 import time
+import cv2
 
 from module.base.decorator import cached_property
 from module.base.utils import save_image

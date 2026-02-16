@@ -11,7 +11,7 @@
     "Emulator": {
       "Serial": "127.0.0.1:16384",
       "PackageName": "auto",
-      "ScreenshotMethod": "ADB",
+      "ScreenshotMethod": "NemuIpc",
       "ControlMethod": "MaaTouch",
       "ScreenshotDedithering": false,
       "AdbRestart": false

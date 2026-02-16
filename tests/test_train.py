@@ -12,7 +12,7 @@ from module.train.assets import *
 from module.character.assets import *
 from module.ui.scroll import Scroll
 from module.base.mask import Mask
-from module.train.character_selector import CharacterSelector
+from module.character.selector import Selector
 from module.train.combat import TrainCombat
 
 
@@ -38,7 +38,7 @@ class TrainTest(UI, TrainCombat):
         }
 
         # 创建角色选择器
-        self.character_selector = CharacterSelector(
+        self.character_selector = Selector(
             main=self,
             target_characters=self.target_characters,
             clear_button_position=(706, 601),  # 清空按钮坐标
@@ -68,13 +68,13 @@ class TrainTest(UI, TrainCombat):
                 confirm_timer.reset()
 
             # 检测是否开启无敌
-            if self.appear(SETTINGS, interval=5):
+            if self.appear(SETTINGS, interval=5,offset=(30, 30)):
                 logger.info("SETTINGS button detected - clicking")
                 self.device.click(SETTINGS)
                 continue
 
             # 检测并处理 CHANGE 按钮
-            if self.appear(CHANGE, interval=5):
+            if self.appear(CHANGE, interval=5,offset=(30, 30)):
                 logger.info("CHANGE button detected - clicking")
                 self.device.click(CHANGE)
                 if not interaction_success:

@@ -5,7 +5,11 @@
 import time
 import socket
 from module.exception import RequestHumanTakeover
-from adbutils import _AdbStreamConnection as AdbConnection
+try:
+    from adbutils import _AdbStreamConnection as AdbConnection
+except ImportError:
+    # 新版本 adbutils (>= 1.0.0) 使用 AdbConnection
+    from adbutils import AdbConnection
 
 
 # 重试配置
