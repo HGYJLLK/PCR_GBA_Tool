@@ -7,7 +7,6 @@ import ctypes
 import os
 import sys
 import contextlib
-import threading
 
 import cv2
 import numpy as np
@@ -27,29 +26,23 @@ class NemuIpcError(Exception):
     pass
 
 
-# 全局锁，用于保护文件描述符操作
-_stderr_redirect_lock = threading.Lock()
-
-
 @contextlib.contextmanager
 def suppress_stderr():
     """临时抑制 stderr 输出（用于抑制 DLL 的 'screencap fail' 消息）"""
     if sys.platform == "win32":
-        # 使用线程锁保护文件描述符操作
-        with _stderr_redirect_lock:
-            # 重定向 stderr 到 NUL
-            import msvcrt
+        # 重定向 stderr 到 NUL
+        import msvcrt
 
-            stderr_fd = sys.stderr.fileno()
-            old_stderr = os.dup(stderr_fd)
-            devnull = os.open("NUL", os.O_WRONLY)
-            os.dup2(devnull, stderr_fd)
-            try:
-                yield
-            finally:
-                os.dup2(old_stderr, stderr_fd)
-                os.close(old_stderr)
-                os.close(devnull)
+        stderr_fd = sys.stderr.fileno()
+        old_stderr = os.dup(stderr_fd)
+        devnull = os.open("NUL", os.O_WRONLY)
+        os.dup2(devnull, stderr_fd)
+        try:
+            yield
+        finally:
+            os.dup2(old_stderr, stderr_fd)
+            os.close(old_stderr)
+            os.close(devnull)
     else:
         yield
 
@@ -303,7 +296,6 @@ class NemuIpcImpl:
         )
 
         # RGBA -> BGR，并垂直翻转
-        # 注意：DLL 返回的是 RGBA 格式，不是 BGRA
         image = cv2.cvtColor(image, cv2.COLOR_RGBA2BGR)
         cv2.flip(image, 0, dst=image)
 

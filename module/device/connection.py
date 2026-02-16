@@ -236,22 +236,27 @@ class Connection(Adb):
         """
         try:
             devices = []
-            # 使用 device_list() 获取设备（adbutils 0.11.0）
-            adb_devices = self.adb_client.device_list()
-            for adb_dev in adb_devices:
-                serial = adb_dev.serial
-                # 默认状态为 device（device_list 不返回状态信息）
-                status = "device"
+            # 使用 ADB 协议获取设备状态
+            with self.adb_client._connect() as c:
+                c.send_command("host:devices")
+                c.check_okay()
+                output = c.read_string_block()
+                for line in output.splitlines():
+                    parts = line = line.strip().split("\t")
+                    if len(parts) != 2:
+                        continue
 
-                # 无效序列号
-                if not serial or serial == "(no serial number)":
-                    logger.warning(f"Skipping device with invalid serial: {serial}")
-                    continue
+                    serial, status = parts[0].strip(), parts[1].strip()
 
-                # 创建带状态的设备对象
-                device = AdbDeviceWithStatus(self.adb_client, serial, status)
-                devices.append(device)
-                logger.info(f"Found device: {serial} ({status})")
+                    # 无效序列号
+                    if not serial or serial == "(no serial number)":
+                        logger.warning(f"Skipping device with invalid serial: {serial}")
+                        continue
+
+                    # 创建带状态的设备对象
+                    device = AdbDeviceWithStatus(self.adb_client, serial, status)
+                    devices.append(device)
+                    logger.info(f"Found device: {serial} ({status})")
 
             return devices
         except Exception as e:
@@ -587,8 +592,10 @@ class Connection(Adb):
             local (str): PC端地址，如 'tcp:2437'
         """
         try:
-            # 使用标准 API 移除端口转发
-            self.adb.forward_remove(local, raise_non_found=True)
+            with self.adb_client._connect() as c:
+                list_cmd = f"host-serial:{self.serial}:killforward:{local}"
+                c.send_command(list_cmd)
+                c.check_okay()
         except AdbError as e:
             msg = str(e)
             if re.search(r"listener .*? not found", msg):
