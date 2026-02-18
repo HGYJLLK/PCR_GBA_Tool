@@ -52,6 +52,11 @@ class Device(Control, Screenshot):
 
         logger.info("Device initialized successfully")
 
+        # 检查分辨率
+        if not self._screen_size_checked:
+            self.check_screen_size()
+            self._screen_size_checked = True
+
         # Early init for MaaTouch
         if (
             hasattr(config, "Emulator_ControlMethod")

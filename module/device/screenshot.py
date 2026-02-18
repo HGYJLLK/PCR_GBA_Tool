@@ -12,7 +12,7 @@ from module.base.utils import save_image
 from module.device.method.adb import Adb
 from module.device.method.droidcast import DroidCast
 from module.device.method.nemu_ipc import get_nemu_ipc, NemuIpcIncompatible, NemuIpcError
-from module.exception import ScriptError
+from module.exception import ScriptError, RequestHumanTakeover
 from module.logger import logger
 
 
@@ -172,3 +172,22 @@ class Screenshot(Adb):
             logger.error(f"NemuIpc screenshot failed: {e}")
             logger.warning("Fallback to ADB screenshot")
             return self.screenshot_adb()
+
+    def check_screen_size(self):
+        """
+        检查模拟器分辨率是否为 1280x720，初始化时调用一次。
+
+        Raises:
+            RequestHumanTakeover: 分辨率不符合要求
+        """
+        logger.info("Checking screen size")
+        method_name = self.config.Emulator_ScreenshotMethod
+        method = self.screenshot_methods.get(method_name, self.screenshot_adb)
+        image = method()
+        h, w = image.shape[:2]
+        if (w, h) != (1280, 720):
+            logger.critical(f"Screen size is {w}x{h}, required 1280x720")
+            raise RequestHumanTakeover(
+                f"模拟器分辨率为 {w}x{h}，请将其设置为 1280x720 后重新运行"
+            )
+        logger.attr("ScreenSize", f"{w}x{h}")
