@@ -116,6 +116,14 @@ class PCRGBATool:
 
         LoginHandler(self.config, device=self.device).app_restart()
 
+    def train(self):
+        """
+        训练场任务
+        """
+        from module.train.train import TrainHandler
+
+        TrainHandler(self.config, device=self.device).run_train_task()
+
     def loop(self):
         """
         主循环入口
@@ -129,17 +137,29 @@ class PCRGBATool:
             _ = self.device
             self.device.config = self.config
 
-            # 执行启动任务
+            # 启动
             logger.info("Scheduler: Start task `Start`")
             logger.hr("Start", level=0)
             success = self.run("start")
             logger.info("Scheduler: End task `Start`")
 
+            if not success:
+                logger.error("PCR 启动失败")
+                return 1
+
+            logger.hr("PCR 启动完成", level=1)
+
+            # 训练场
+            logger.info("Scheduler: Start task `Train`")
+            logger.hr("Train", level=0)
+            success = self.run("train")
+            logger.info("Scheduler: End task `Train`")
+
             if success:
-                logger.hr("PCR 启动完成", level=1)
+                logger.hr("所有任务完成", level=1)
                 return 0
             else:
-                logger.error("PCR 启动失败")
+                logger.error("训练场任务执行失败")
                 return 1
 
         except RequestHumanTakeover as e:

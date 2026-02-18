@@ -78,12 +78,7 @@ class TrainCombat:
             if timeout_timer.reached():
                 logger.warning("✗ 战斗加载超时")
                 return False
-
-            # TODO: 可以在这里检测加载进度条
-            # if self.appear(LOADING_BAR):
-            #     progress = self.get_loading_progress()
-            #     logger.attr('Loading', f'{progress}%')
-
+                
             self.device.sleep(0.5)
 
         return False

@@ -228,6 +228,10 @@ class BattleTrainTest(UI, TrainCombat):
         """
         super().__init__(config, device)
 
+    def _on_monitor_loop(self, async_screenshot, current_time, timer_threshold_reached):
+        """子类可重写此方法，在战斗监控循环中执行额外逻辑"""
+        pass
+
     def ensure_in_train_page(self):
         """
         确保在训练场页面，如果不在则导航过去
@@ -659,6 +663,9 @@ class BattleTrainTest(UI, TrainCombat):
                         # logger.info("  已点击 TEAM")
                         logger.info("  已点击 REPORT")
                         break
+
+                # ========== 子类钩子 ==========
+                self._on_monitor_loop(async_screenshot, current_time, timer_threshold_reached)
 
                 # ========== 控制循环频率 ==========
                 loop_time = time.time() - loop_start

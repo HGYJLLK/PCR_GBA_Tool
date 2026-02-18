@@ -108,6 +108,16 @@ class NemuIpcSelectorTest(UI, TrainCombat):
             else:
                 confirm_timer.reset()
 
+            if self.appear(WULI_TEST, interval=5, offset=(30, 30)):
+                logger.info("WULI_TEST button detected - clicking")
+                self.device.click(WULI_TEST)
+                continue
+
+            if self.appear(EZ_BUTTON, interval=5, offset=(30, 30)):
+                logger.info("EZ_BUTTON button detected - clicking")
+                self.device.click(EZ_BUTTON)
+                continue
+
             # 检测是否开启无敌
             if self.appear(SETTINGS, interval=5, offset=(30, 30)):
                 logger.info("SETTINGS button detected - clicking")
@@ -122,8 +132,6 @@ class NemuIpcSelectorTest(UI, TrainCombat):
                     logger.info("Interaction success - button clicked")
                     interaction_success = True
                 continue
-
-            self.device.click_adb(922, 278)
 
         return True
 
