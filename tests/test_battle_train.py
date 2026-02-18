@@ -479,13 +479,8 @@ class BattleTrainTest(UI, TrainCombat):
             screenshot_mode = "DroidCast"
         else:
             logger.info("使用 NemuIpc 截图模式（极速）...")
-            from module.device.method.nemu_ipc import NemuIpcImpl
-            # hgyjllk环境
-            nemu_folder = r"C:\Program Files\Netease\MuMu Player 12"
-            # maple环境
-            # nemu_folder = r"C:\Program Files\Netease\MuMuPlayer-12.0"
-            nemu = NemuIpcImpl(nemu_folder, instance_id=0)
-            nemu.connect()
+            from module.device.method.nemu_ipc import get_nemu_ipc
+            nemu = get_nemu_ipc(serial=self.device.serial)
             async_screenshot = AsyncScreenshotNemuIpc(nemu, crop_area=timer_area)
             screenshot_mode = "NemuIpc"
 
