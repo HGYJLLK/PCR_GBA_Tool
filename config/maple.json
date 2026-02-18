@@ -9,7 +9,7 @@
       "ServerUpdate": "00:00"
     },
     "Emulator": {
-      "Serial": "127.0.0.1:16384",
+      "Serial": "127.0.0.1:16416",
       "PackageName": "auto",
       "ScreenshotMethod": "NemuIpc",
       "ControlMethod": "MaaTouch",

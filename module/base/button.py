@@ -238,6 +238,11 @@ class Button:
                 self._button_offset = area_offset(
                     self._button, offset[:2] + np.array(point)
                 )
+                # logger.debug(
+                #     f"[match/gif] {self.name} | "
+                #     f"相似度={sim:.4f} 阈值={similarity} | "
+                #     f"结果={'匹配' if sim > similarity else '不匹配'}"
+                # )
                 if sim > similarity:
                     return True
             return False
@@ -248,7 +253,13 @@ class Button:
             self._button_offset = area_offset(
                 self._button, offset[:2] + np.array(point)
             )
-            return sim > similarity
+            result = sim > similarity
+            # logger.debug(
+            #     f"[match] {self.name} | "
+            #     f"相似度={sim:.4f} 阈值={similarity} | "
+            #     f"结果={'匹配' if result else '不匹配'}"
+            # )
+            return result
 
     def match_binary(self, image, offset=30, similarity=0.85):
         """
