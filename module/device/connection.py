@@ -186,6 +186,16 @@ class Connection(Adb):
         except Exception as e:
             logger.error(f"Failed to start ADB server: {e}")
 
+    @cached_property
+    def u2(self):
+        """
+        uiautomator2 设备连接
+        """
+        import uiautomator2
+
+        device = uiautomator2.connect(self.serial)
+        return device
+
     def adb_disconnect(self):
         """
         断开 ADB 连接
