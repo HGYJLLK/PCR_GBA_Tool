@@ -10,6 +10,7 @@ from module.train.combat import TrainCombat
 from module.character.selector import Selector
 from module.train.assets import *
 from module.character.assets import *
+from module.character.assets import *
 
 
 class TrainHandler(UI, TrainCombat):
@@ -27,11 +28,11 @@ class TrainHandler(UI, TrainCombat):
 
         # 目标角色配置
         self.target_characters = {
-            "CHUNJIAN": TEMPLATE_CHUNJIAN,
-            "QINGBING": TEMPLATE_QINGBING,
-            "SHUIMA": TEMPLATE_SHUIMA,
-            "TIANJIE": TEMPLATE_TIANJIE,
-            "SHUISHENGMU": TEMPLATE_SHUISHENGMU,
+            "水NNK": TEMPLATE_水NNK,
+            "AMS": TEMPLATE_AMS,
+            "梦狐": TEMPLATE_梦狐,
+            "水AMS": TEMPLATE_水AMS,
+            "莱莱": TEMPLATE_莱莱,
         }
 
         # 创建角色选择器
