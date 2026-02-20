@@ -237,6 +237,7 @@ class Selector:
                 break
 
             # 向上翻页
+            self.main.device.click_record_clear()
             self.scroll.next_page(main=self.main, skip_first_screenshot=False)
             self.main.device.sleep(0.8)
 

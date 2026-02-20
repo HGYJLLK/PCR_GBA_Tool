@@ -78,7 +78,7 @@ class TrainHandler(UI, TrainCombat):
                 self.device.click(WULI_TEST)
                 continue
 
-            if self.appear(EZ_BUTTON, interval=5, offset=(30, 30)):
+            if self.appear(EZ_BUTTON, interval=1.5, offset=(30, 30)):
                 self.device.click(EZ_BUTTON)
                 continue
 
@@ -86,7 +86,7 @@ class TrainHandler(UI, TrainCombat):
                 self.device.click(SETTINGS)
                 continue
 
-            if self.appear(CHANGE, interval=5, offset=(30, 30)):
+            if self.appear(CHANGE, interval=1.5, offset=(30, 30)):
                 self.device.click(CHANGE)
                 if not interaction_success:
                     interaction_success = True

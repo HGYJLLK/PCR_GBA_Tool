@@ -224,9 +224,9 @@ class Scroll:
 
             # 计算当前位置
             current = self.cal_position(main)
-            logger.info(
-                f"{self.name} current position: {current:.3f}, target: {position:.3f}, diff: {abs(position - current):.3f}"
-            )
+            # logger.info(
+            #     f"{self.name} current position: {current:.3f}, target: {position:.3f}, diff: {abs(position - current):.3f}"
+            # )
             # 判断是否到达目标位置
             if abs(position - current) < self.drag_threshold:
                 logger.info(f"{self.name} reached target position")
