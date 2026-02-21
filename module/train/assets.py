@@ -34,6 +34,6 @@ WULI_TEST = Button(area=(636, 188, 1207, 301), color=(215, 210, 207), button=(63
 四号位满 = Button(area=(742, 692, 867, 701), color=(61, 199, 228), button=(742, 692, 867, 701), file="./assets/train/四号位满.png")
 四号位空技能 = Button(area=(742, 693, 866, 701), color=(30, 33, 42), button=(742, 693, 866, 701), file="./assets/train/四号位空技能.png")
 立即发动OFF = Button(area=(1200, 438, 1243, 481), color=(185, 185, 190), button=(1200, 438, 1243, 481), file="./assets/train/立即发动OFF.png")
+立即发动ON = Button(area=(1202, 437, 1245, 480), color=(160, 214, 247), button=(1202, 437, 1245, 480), file="./assets/train/立即发动ON.png")
 自动关 = Button(area=(1195, 538, 1251, 575), color=(216, 215, 218), button=(1195, 538, 1251, 575), file="./assets/train/自动关.png")
 自动开 = Button(area=(1194, 540, 1252, 573), color=(127, 189, 232), button=(1194, 540, 1252, 573), file="./assets/train/自动开.png")
-立即发动ON = Button(area=(1202, 437, 1245, 480), color=(160, 214, 247), button=(1202, 437, 1245, 480), file="./assets/train/立即发动ON.png")

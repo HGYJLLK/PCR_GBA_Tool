@@ -408,7 +408,7 @@ class Button:
             # logger.debug(f"颜色匹配结果: {color_match}")
             return color_match
         else:
-            logger.debug(f"{self.name} 模板匹配失败")
+            # logger.debug(f"{self.name} 模板匹配失败")
             return False
 
     def crop(self, area, image=None, name=None):

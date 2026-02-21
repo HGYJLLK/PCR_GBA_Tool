@@ -1,6 +1,5 @@
 """
-异步截图模块
-在后台线程持续截图，供战斗监控等实时处理场景使用
+异步截图模块 - 在后台线程持续截图，供战斗监控等实时处理场景使用
 """
 
 import time
@@ -66,7 +65,7 @@ class AsyncScreenshotBase:
 
     def get_image(self):
         """
-        获取裁剪后的图像（线程安全）
+        获取裁剪后的图像
 
         Returns:
             (np.ndarray | None, float): (裁剪图像, 截图耗时)
@@ -76,7 +75,7 @@ class AsyncScreenshotBase:
 
     def get_full_image(self):
         """
-        获取完整截图（线程安全）
+        获取完整截图
 
         Returns:
             np.ndarray | None
@@ -86,12 +85,12 @@ class AsyncScreenshotBase:
 
 
 class AsyncScreenshotNemuIpc(AsyncScreenshotBase):
-    """异步截图 - NemuIpc 后端（MuMu12 专用，极速）"""
+    """异步截图 - NemuIpc"""
 
     def __init__(self, nemu_ipc, crop_area=None):
         """
         Args:
-            nemu_ipc: NemuIpc 实例（由 get_nemu_ipc 创建）
+            nemu_ipc: NemuIpc 实例
             crop_area: 截图后裁剪区域 (x1, y1, x2, y2)
         """
         super().__init__(crop_area=crop_area)
@@ -102,12 +101,12 @@ class AsyncScreenshotNemuIpc(AsyncScreenshotBase):
 
 
 class AsyncScreenshotDroidCast(AsyncScreenshotBase):
-    """异步截图 - DroidCast 后端（兼容模式）"""
+    """异步截图 - DroidCast"""
 
     def __init__(self, device, crop_area=None):
         """
         Args:
-            device: Device 实例，需支持 screenshot_droidcast_raw()
+            device: Device 实例
             crop_area: 截图后裁剪区域 (x1, y1, x2, y2)
         """
         super().__init__(crop_area=crop_area)
@@ -122,7 +121,7 @@ def create_async_screenshot(device, mode="NemuIpc", crop_area=None):
     工厂函数：根据模式创建对应的异步截图实例。
 
     Args:
-        device: Device 实例（用于 DroidCast 模式或获取 serial）
+        device: Device 实例（DroidCast 模式 | 获取 serial）
         mode (str): "NemuIpc" 或 "DroidCast"
         crop_area (tuple | None): 截图后裁剪区域 (x1, y1, x2, y2)
 

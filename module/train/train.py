@@ -7,7 +7,7 @@ from module.base.timer import Timer
 from module.ui.ui import UI
 from module.ui.page import page_train
 from module.train.combat import TrainCombat
-from module.train.battle_monitor import BattleMonitor
+from module.battle.monitor import BattleMonitor
 from module.character.selector import Selector
 from module.train.assets import *
 from module.character.assets import *
