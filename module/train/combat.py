@@ -17,19 +17,12 @@ class TrainCombat:
         """
         检测是否已进入战斗
 
-        通过检测战斗界面特有的UI元素来判断：
-        - MENU: 暂停/菜单按钮
-        - AUTO: 自动战斗按钮
-
         Returns:
             Button or False: 如果在战斗中返回检测到的按钮，否则返回 False
         """
         if self.appear(MENU, offset=(20, 20)):
             logger.attr("BattleUI", "MENU")
             return MENU
-        if self.appear(AUTO, offset=(20, 20)):
-            logger.attr("BattleUI", "AUTO")
-            return AUTO
 
         return False
 
@@ -76,7 +69,7 @@ class TrainCombat:
 
             # 超时检查
             if timeout_timer.reached():
-                logger.warning("✗ 战斗加载超时")
+                logger.warning(" 战斗加载超时")
                 return False
                 
             self.device.sleep(0.5)

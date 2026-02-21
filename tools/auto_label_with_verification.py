@@ -26,7 +26,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from module.logger import logger
 from cnocr import CnOcr
 
-
 def compute_image_hash(img_path):
     """计算图片的MD5哈希值"""
     with open(img_path, 'rb') as f:

@@ -196,7 +196,7 @@ class TimelineEditor:
         
         # 生成代码
         code_lines = [
-            "from module.train.timeline import Timeline",
+            "from module.battle.timeline import Timeline",
             "",
             f"timeline = Timeline(\"{self.timeline_name.get()}\")"
         ]

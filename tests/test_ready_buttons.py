@@ -159,7 +159,7 @@ def main():
     test = ReadyButtonBattleTest(config=config, device=device)
 
     # 创建时间轴
-    from module.train.timeline import Timeline
+    from module.battle.timeline import Timeline
 
     logger.hr("创建时间轴", level=1)
     timeline = Timeline("1-D3-14764w")

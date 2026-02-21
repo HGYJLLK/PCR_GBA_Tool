@@ -322,7 +322,7 @@ class BattleTrainTest(UI, TrainCombat):
         Args:
             action: TimelineAction 对象
         """
-        from module.train.character_positions import CHARACTER_POSITIONS
+        from module.character.position import CHARACTER_POSITIONS
         
         # 换行显示时间轴动作（避免覆盖倒计时显示）
         sys.stdout.write("\n")
@@ -723,7 +723,7 @@ def main():
     # 创建时间轴（如果启用）
     timeline = None
     if args.timeline:
-        from module.train.timeline import Timeline
+        from module.battle.timeline import Timeline
         
         logger.hr("创建时间轴", level=1)
         
