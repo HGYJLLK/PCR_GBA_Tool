@@ -28,11 +28,11 @@ class TrainHandler(UI, TrainCombat, BattleMonitor):
 
         # 目标角色配置
         self.target_characters = {
-            "水NNK": TEMPLATE_水NNK,
-            "AMS": TEMPLATE_AMS,
-            "梦狐": TEMPLATE_梦狐,
-            "水AMS": TEMPLATE_水AMS,
-            "莱莱": TEMPLATE_莱莱,
+            "智_S6": TEMPLATE_智_S6,
+            "智(魔法少女)_S3": TEMPLATE_智_魔法少女_S3,
+            "珠希_S6": TEMPLATE_珠希_S6,
+            "珠希(咖啡厅)_S3": TEMPLATE_珠希_咖啡厅_S3,
+            "真阳_S6": TEMPLATE_真阳_S6,
         }
 
         # 创建角色选择器
@@ -59,6 +59,7 @@ class TrainHandler(UI, TrainCombat, BattleMonitor):
 
         confirm_timer = Timer(1.5, count=4).start()
         interaction_success = False
+        settings_gone_timer = Timer(1.5, count=3)
 
         # 清空记录
         self.device.stuck_record_clear()
@@ -82,15 +83,21 @@ class TrainHandler(UI, TrainCombat, BattleMonitor):
                 self.device.click(EZ_BUTTON)
                 continue
 
-            if self.appear(SETTINGS, interval=5, offset=(30, 30)):
-                self.device.click(SETTINGS)
+            if self.appear(SETTINGS, offset=(30, 30)):
+                settings_gone_timer.clear()
+                if self.appear(SETTINGS, interval=1.5, offset=(30, 30)):
+                    self.device.click(SETTINGS)
                 continue
+            else:
+                if not settings_gone_timer.started():
+                    settings_gone_timer.start()
 
-            if self.appear(CHANGE, interval=1.5, offset=(30, 30)):
-                self.device.click(CHANGE)
-                if not interaction_success:
-                    interaction_success = True
-                continue
+            if settings_gone_timer.reached():
+                if self.appear(CHANGE, interval=1.5, offset=(30, 30)):
+                    self.device.click(CHANGE)
+                    if not interaction_success:
+                        interaction_success = True
+                    continue
 
             self.device.sleep(0.3)
 
