@@ -7,13 +7,13 @@ from module.base.timer import Timer
 from module.ui.ui import UI
 from module.ui.page import page_train
 from module.train.combat import TrainCombat
+from module.train.battle_monitor import BattleMonitor
 from module.character.selector import Selector
 from module.train.assets import *
 from module.character.assets import *
-from module.character.assets import *
 
 
-class TrainHandler(UI, TrainCombat):
+class TrainHandler(UI, TrainCombat, BattleMonitor):
     """
     训练场任务处理类
     """
@@ -127,14 +127,44 @@ class TrainHandler(UI, TrainCombat):
         self.combat_preparation_with_ui_click()
         logger.info(" 已进入战斗")
 
-    def run_train_task(self):
+    def start_battle_and_monitor(self, use_droidcast=False, timeline=None):
         """
+        开始战斗并完成完整战斗流程：
+        1. 点击开始战斗并进入
+        2. 开启全set（立即发动 ON）
+        3. 监控倒计时，战斗结束后点击伤害报告
 
-        流程：
-        1. 导航
+        Args:
+            use_droidcast: 是否使用 DroidCast 截图（默认 NemuIpc）
+            timeline: Timeline 对象（可选）
+        """
+        logger.hr("开始战斗并监控", level=1)
+        self.combat_preparation_with_ui_click()
+        logger.info(" 已进入战斗")
+
+        # 等待战斗界面稳定
+        import time
+        time.sleep(2.0)
+
+        # 开启全set（立即发动）
+        self.enable_full_set()
+
+        # 监控倒计时 + 结束后点击报告
+        self.monitor_until_end(use_droidcast=use_droidcast, timeline=timeline)
+
+    def run_train_task(self, use_droidcast=False, timeline=None):
+        """
+        完整训练场任务流程：
+        1. 导航到训练场
         2. 选择关卡和难度
         3. 选择角色
         4. 开始战斗
+        5. 开启全set（立即发动 ON）
+        6. 监控倒计时，战斗结束后点击伤害报告
+
+        Args:
+            use_droidcast: 是否使用 DroidCast 截图（默认 NemuIpc）
+            timeline: Timeline 对象（可选）
         """
         logger.hr("开始训练场任务", level=0)
 
@@ -148,8 +178,11 @@ class TrainHandler(UI, TrainCombat):
             # 选择角色
             self.select_characters()
 
-            # 开始战斗
-            self.start_battle()
+            # 开始战斗 + 开启全set + 监控倒计时 + 点击报告
+            self.start_battle_and_monitor(
+                use_droidcast=use_droidcast,
+                timeline=timeline,
+            )
 
             logger.hr("训练场任务完成", level=0)
             return True
