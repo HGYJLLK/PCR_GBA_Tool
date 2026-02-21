@@ -113,7 +113,7 @@ class BattleMonitor:
             while True:
                 loop_start = time.time()
 
-                # 异步截图期间 device.screenshot() 不会被调用，需手动 reset stuck timer
+                # 异步截图期间 device.screenshot() 不会被调用
                 self.device.stuck_record_clear()
                 image, _ = async_screenshot.get_image()
                 if image is not None and image is not last_image:
