@@ -43,7 +43,10 @@ class ImageExtractor:
             file(str): 文件名（如 'LOGIN_CHECK.png' 或 'LOGIN_CHECK.gif'）
         """
         self.module = module
-        self.name, self.ext = os.path.splitext(file)
+        stem, self.ext = os.path.splitext(file)
+        # 将括号替换为下划线，使变量名合法（如 "七七香(万圣节)" → "七七香_万圣节"）
+        self.name = stem.replace("(", "_").replace(")", "").replace("&", "_")
+        self._stem = stem  # 保留原始文件名（含括号），用于拼路径
         self.area = None
         self.color = None
         self.button = None
@@ -61,12 +64,12 @@ class ImageExtractor:
             str: 文件路径
         """
         for ext in [".png", ".gif"]:
-            file = f"{self.name}.{genre}{ext}" if genre else f"{self.name}{ext}"
+            file = f"{self._stem}.{genre}{ext}" if genre else f"{self._stem}{ext}"
             file = os.path.join(ASSETS_FOLDER, self.module, file).replace("\\", "/")
             if os.path.exists(file):
                 return file
         ext = ".png"
-        file = f"{self.name}.{genre}{ext}" if genre else f"{self.name}{ext}"
+        file = f"{self._stem}.{genre}{ext}" if genre else f"{self._stem}{ext}"
         file = os.path.join(ASSETS_FOLDER, self.module, file).replace("\\", "/")
         return file
 
@@ -157,7 +160,7 @@ class ImageExtractor:
             self.file = file
         else:
             # 文件不存在时记录错误
-            logger.warning(f"{self.name} not found at {file}")
+            logger.warning(f"{self._stem} not found at {file}")
             self.area = None
             self.color = None
             self.button = None
@@ -275,7 +278,15 @@ class ModuleExtractor:
         """
         exp = []
 
-        for file in os.listdir(self.folder):
+        for file in sorted(os.listdir(self.folder)):
+            # 跳过目录
+            if os.path.isdir(os.path.join(self.folder, file)):
+                continue
+
+            # 跳过非图像文件
+            if not file.lower().endswith((".png", ".gif")):
+                continue
+
             # 跳过数字开头的文件
             if file[0].isdigit():
                 continue
