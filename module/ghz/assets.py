@@ -14,5 +14,8 @@ from module.base.template import Template
 公会战BOSS_4_选中 = Button(area=(755, 204, 765, 222), color=(68, 121, 217), button=(755, 204, 765, 222), file="./assets/ghz/公会战BOSS_4_选中.png")
 公会战BOSS_5 = Button(area=(867, 202, 934, 226), color=(204, 205, 209), button=(867, 202, 934, 226), file="./assets/ghz/公会战BOSS_5.png")
 公会战BOSS_5_选中 = Button(area=(859, 208, 865, 224), color=(65, 116, 216), button=(859, 208, 865, 224), file="./assets/ghz/公会战BOSS_5_选中.png")
+公会战滚动条轨道 = Button(area=(928, 261, 943, 552), color=(164, 188, 224), button=(928, 261, 943, 552), file="./assets/ghz/公会战滚动条轨道.png")
+挑战 = Button(area=(822, 477, 876, 510), color=(115, 153, 221), button=(822, 477, 876, 510), file="./assets/ghz/挑战.png")
+滑动条起始位置 = Button(area=(930, 261, 943, 433), color=(128, 172, 233), button=(930, 261, 943, 433), file="./assets/ghz/滑动条起始位置.png")
 第四阶段 = Button(area=(688, 513, 758, 533), color=(222, 128, 133), button=(688, 513, 758, 533), file="./assets/ghz/第四阶段.png")
 训练模式 = Button(area=(581, 42, 700, 72), color=(127, 149, 201), button=(581, 42, 700, 72), file="./assets/ghz/训练模式.png")

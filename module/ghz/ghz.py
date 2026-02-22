@@ -6,7 +6,14 @@ from module.logger import logger
 from module.ui.ui import UI
 from module.ui.page import page_team_battle
 from module.battle.monitor import BattleMonitor
+from module.ui.scroll import Scroll
 from module.ghz.assets import *
+
+GHZ_SCROLL = Scroll(
+    area=公会战滚动条轨道.area,
+    color=(128, 172, 233),
+    name="GHZ_SCROLL",
+)
 
 
 class GHZHandler(UI, BattleMonitor):
@@ -56,6 +63,44 @@ class GHZHandler(UI, BattleMonitor):
             self.click_at(91, 549)
             self.device.sleep(1.5)
 
+    def select_boss_1(self):
+        """
+        点击公会战BOSS_1，每隔1.5s点击一次，直到出现BOSS_1_选中
+        """
+        logger.hr("选择 BOSS_1", level=1)
+
+        while True:
+            self.device.screenshot()
+
+            if self.appear(公会战BOSS_1_选中, offset=(10, 10)):
+                logger.info(" BOSS_1 已选中")
+                break
+
+            self.device.click(公会战BOSS_1)
+            self.device.sleep(1.5)
+
+    def scroll_to_bottom(self):
+        """
+        将出战列表滚动条滑到底部
+        """
+        logger.hr("滚动到底部", level=1)
+        GHZ_SCROLL.set_bottom(self)
+
+    def click_challenge(self):
+        """
+        识别并点击挑战按钮
+        """
+        logger.hr("点击挑战", level=1)
+
+        while True:
+            self.device.screenshot()
+
+            if self.appear_then_click(挑战, offset=(10, 10)):
+                logger.info(" 已点击挑战")
+                break
+
+            self.device.sleep(0.5)
+
     def run_ghz_task(self, use_droidcast=False, timeline=None):
         logger.hr("开始公会战任务", level=0)
 
@@ -63,8 +108,17 @@ class GHZHandler(UI, BattleMonitor):
             # 导航
             self.navigate_to_ghz()
 
-            # 点击进入出战列表
+            # 点击进入训练模式
             self.enter_battle_list()
+
+            # 选择 BOSS_1
+            self.select_boss_1()
+
+            # 滚动到底部
+            self.scroll_to_bottom()
+
+            # 点击挑战
+            self.click_challenge()
 
             logger.hr("公会战任务完成", level=0)
             return True
