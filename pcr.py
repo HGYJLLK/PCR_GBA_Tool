@@ -124,6 +124,14 @@ class PCRGBATool:
 
         TrainHandler(self.config, device=self.device).run_train_task()
 
+    def ghz(self):
+        """
+        公会战任务
+        """
+        from module.ghz.ghz import GHZHandler
+
+        GHZHandler(self.config, device=self.device).run_ghz_task()
+
     def loop(self):
         """
         主循环入口
@@ -149,17 +157,27 @@ class PCRGBATool:
 
             logger.hr("PCR 启动完成", level=1)
 
-            # 训练场
-            logger.info("Scheduler: Start task `Train`")
-            logger.hr("Train", level=0)
-            success = self.run("train")
-            logger.info("Scheduler: End task `Train`")
+            # # 训练场
+            # logger.info("Scheduler: Start task `Train`")
+            # logger.hr("Train", level=0)
+            # success = self.run("train")
+            # logger.info("Scheduler: End task `Train`")
+
+            # if not success:
+            #     logger.error("训练场任务执行失败")
+            #     return 1
+
+            # 公会战
+            logger.info("Scheduler: Start task `Ghz`")
+            logger.hr("Ghz", level=0)
+            success = self.run("ghz")
+            logger.info("Scheduler: End task `Ghz`")
 
             if success:
                 logger.hr("所有任务完成", level=1)
                 return 0
             else:
-                logger.error("训练场任务执行失败")
+                logger.error("公会战任务执行失败")
                 return 1
 
         except RequestHumanTakeover as e:

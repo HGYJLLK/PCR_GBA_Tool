@@ -241,7 +241,6 @@ class ConfigGUI:
             self.update_config(path, val)
         except Exception as e:
             messagebox.showerror("类型错误", f"{path} 需要 {val_type.__name__} 类型的值!\n错误信息: {str(e)}")
-            self.refresh_config()
 
     def update_config(self, path, value):
         from module.config.deep import deep_set
