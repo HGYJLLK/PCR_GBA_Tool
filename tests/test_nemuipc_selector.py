@@ -18,10 +18,10 @@ from module.character.assets import *
 from module.ui.scroll import Scroll
 from module.base.mask import Mask
 from module.character.selector import Selector
-from module.train.combat import TrainCombat
+from module.battle.combat import Combat
 
 
-class NemuIpcSelectorTest(UI, TrainCombat):
+class NemuIpcSelectorTest(UI, Combat):
     """
     使用 NemuIpc 截图的角色选择测试类
     """
@@ -36,11 +36,11 @@ class NemuIpcSelectorTest(UI, TrainCombat):
 
         # 目标角色
         self.target_characters = {
-            "CHUNJIAN": TEMPLATE_CHUNJIAN,
-            "QINGBING": TEMPLATE_QINGBING,
-            "SHUIMA": TEMPLATE_SHUIMA,
-            "TIANJIE": TEMPLATE_TIANJIE,
-            "SHUISHENGMU": TEMPLATE_SHUISHENGMU,
+            "智_S6": TEMPLATE_智_S6,
+            "伊绪_S6": TEMPLATE_伊绪_S6,
+            "珠希_S6": TEMPLATE_珠希_S6,
+            "伊莉亚_S6": TEMPLATE_伊莉亚_S6,
+            "真阳_S6": TEMPLATE_真阳_S6,
         }
 
         # 创建角色选择器

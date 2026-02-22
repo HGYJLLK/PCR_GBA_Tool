@@ -6,14 +6,14 @@ from module.logger import logger
 from module.base.timer import Timer
 from module.ui.ui import UI
 from module.ui.page import page_train
-from module.train.combat import TrainCombat
+from module.battle.combat import Combat
 from module.battle.monitor import BattleMonitor
 from module.character.selector import Selector
 from module.train.assets import *
 from module.character.assets import *
 
 
-class TrainHandler(UI, TrainCombat, BattleMonitor):
+class TrainHandler(UI, Combat, BattleMonitor):
     """
     训练场任务处理类
     """

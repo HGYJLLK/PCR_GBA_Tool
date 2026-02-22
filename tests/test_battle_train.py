@@ -20,7 +20,7 @@ from module.device.device import Device
 from module.logger import logger
 from module.ui.ui import UI
 from module.ui.page import page_train
-from module.train.combat import TrainCombat
+from module.battle.combat import Combat
 from module.train.assets import *
 from module.character.assets import *
 from module.base.timer import Timer
