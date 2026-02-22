@@ -16,22 +16,10 @@ from pcr import PCRGBATool
 TRANSLATIONS = {
     # ---- Task / Tab 名 ----
     "Pcr": "公主连结",
-    "Daily": "日常任务",
 
     # ---- Group 名 ----
     "Scheduler": "调度器",
     "Emulator": "模拟器",
-    "EmulatorInfo": "模拟器信息",
-    "Error": "错误处理",
-    "Optimization": "性能优化",
-    "Startup": "启动设置",
-    "DropRecord": "掉落记录",
-    "GameSettings": "游戏设置",
-    "Mission": "任务",
-    "Gacha": "抽卡",
-    "Guild": "公会",
-    "Equipment": "装备",
-    "Character": "角色",
 
     # ---- 字段名 ----
     # Scheduler
@@ -42,63 +30,11 @@ TRANSLATIONS = {
     "FailureInterval": "失败间隔(s)",
     "ServerUpdate": "服务器更新时间",
     # Emulator
-    "Serial": "设备序列号",
-    "PackageName": "包名",
+    "Serial": "序列号",
+    "PackageName": "PackageName",
     "ScreenshotMethod": "截图方式",
     "ControlMethod": "控制方式",
-    "ScreenshotDedithering": "截图去抖动",
     "AdbRestart": "ADB重连",
-    # EmulatorInfo
-    "name": "模拟器名称",
-    "path": "模拟器路径",
-    # Error
-    "HandleError": "自动处理错误",
-    "SaveError": "保存错误截图",
-    "OnePushConfig": "OnePush配置",
-    "ScreenshotLength": "保留截图数量",
-    # Optimization
-    "ScreenshotInterval": "截图间隔(s)",
-    "ClickInterval": "点击间隔(s)",
-    "CombatScreenshotInterval": "战斗截图间隔(s)",
-    "TaskHoardingDuration": "任务囤积时长",
-    "WhenTaskQueueEmpty": "任务队列空时",
-    # Startup
-    "WaitTime": "等待时间(s)",
-    "LoginTimeout": "登录超时(s)",
-    # DropRecord
-    "SaveFolder": "保存目录",
-    "ResearchRecord": "研究记录",
-    "CombatRecord": "战斗记录",
-    # GameSettings
-    "Language": "语言",
-    "Server": "服务器",
-    "AutoBattle": "自动战斗",
-    "BattleSpeed": "战斗速度",
-    # Daily
-    "DungeonSweep": "地下城扫荡",
-    "ArenaChallenge": "竞技场挑战",
-    "ExploreQuest": "探索任务",
-    # Mission
-    "MainQuest": "主线任务",
-    "EventQuest": "活动任务",
-    "HardQuest": "困难任务",
-    "VeryHardQuest": "极难任务",
-    # Gacha
-    "AutoGacha": "自动抽卡",
-    "GachaType": "抽卡类型",
-    "MaxGachaCount": "最大抽卡次数",
-    # Guild
-    "AutoDonate": "自动捐赠",
-    "DonateEquipment": "捐赠装备",
-    "GuildBattleAttack": "公会战出击",
-    # Equipment
-    "AutoEnhance": "自动强化",
-    "AutoRank": "自动升Rank",
-    "EnhancePriority": "强化优先级",
-    # Character
-    "AutoLevelUp": "自动升级",
-    "AutoSkillLevelUp": "自动技能升级",
-    "MainTeam": "主力队伍ID列表",
 }
 
 def t(key: str) -> str:
@@ -168,9 +104,6 @@ class ConfigGUI:
         run_btn = ttk.Button(top_frame, text="▶ 运行主程序", command=self.run_main_program)
         run_btn.pack(side="right", padx=10)
 
-        refresh_btn = ttk.Button(top_frame, text="↻ 刷新配置", command=self.refresh_config)
-        refresh_btn.pack(side="right", padx=10)
-
         # 主内容区域：Notebook (选项卡)
         self.notebook = ttk.Notebook(self.root)
         self.notebook.pack(expand=True, fill="both", padx=15, pady=10)
@@ -216,6 +149,9 @@ class ConfigGUI:
             row = 0
             for group_name, group_data in task_data.items():
                 if not isinstance(group_data, dict):
+                    continue
+                # Storage 是框架内部持久化用的，不在 GUI 显示
+                if group_name == "Storage":
                     continue
                 
                 group_frame = ttk.LabelFrame(scrollable_frame, text=f" {t(group_name)} ", padding=15)
@@ -314,12 +250,6 @@ class ConfigGUI:
         saved = self.pcr_config.save()
         if saved:
             print(f"✅ 配置已实时保存: {path} = {value}")
-
-    def refresh_config(self):
-        self.pcr_config.load()
-        self.config_data = self.pcr_config.data
-        self.build_tabs()
-        print("🔄 配置已刷新")
 
     def run_main_program(self):
         def _run():

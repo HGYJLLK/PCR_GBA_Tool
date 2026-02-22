@@ -22,73 +22,7 @@ class GeneratedConfig:
     Emulator_PackageName = 'auto'  # auto
     Emulator_ScreenshotMethod = 'auto'  # auto, ADB, DroidCast_raw, NemuIpc
     Emulator_ControlMethod = 'auto'  # auto, ADB, MaaTouch
-    Emulator_ScreenshotDedithering = False
     Emulator_AdbRestart = True
-
-    # Group `EmulatorInfo`
-    EmulatorInfo_Emulator = 'auto'  # auto, MuMuPlayer12
-    EmulatorInfo_name = None
-    EmulatorInfo_path = None
-
-    # Group `Error`
-    Error_HandleError = True
-    Error_SaveError = True
-    Error_OnePushConfig = 'provider: null'
-    Error_ScreenshotLength = 1
-
-    # Group `Optimization`
-    Optimization_ScreenshotInterval = 0.3
-    Optimization_ClickInterval = 0.3
-    Optimization_CombatScreenshotInterval = 1.0
-    Optimization_TaskHoardingDuration = 0
-    Optimization_WhenTaskQueueEmpty = 'goto_main'  # stay_there, goto_main, close_game
-
-    # Group `Startup`
-    Startup_WaitTime = 30
-    Startup_LoginTimeout = 60
-
-    # Group `DropRecord`
-    DropRecord_SaveFolder = './screenshots'
-    DropRecord_ResearchRecord = 'do_not'  # do_not, save, upload, save_and_upload
-    DropRecord_CombatRecord = 'do_not'  # do_not, save, upload, save_and_upload
-
-    # Group `GameSettings`
-    GameSettings_Language = 'cn'  # cn
-    GameSettings_Server = 'cn'  # cn
-    GameSettings_AutoBattle = True  # True, False
-    GameSettings_BattleSpeed = 'x2'  # x1, x2, x4
-
-    # Group `Daily`
-    Daily_Enable = False  # True, False
-    Daily_DungeonSweep = False  # True, False
-    Daily_ArenaChallenge = False  # True, False
-    Daily_ExploreQuest = False  # True, False
-
-    # Group `Mission`
-    Mission_MainQuest = False  # True, False
-    Mission_EventQuest = False  # True, False
-    Mission_HardQuest = False  # True, False
-    Mission_VeryHardQuest = False  # True, False
-
-    # Group `Gacha`
-    Gacha_AutoGacha = False  # True, False
-    Gacha_GachaType = 'normal'  # normal, premium, limited
-    Gacha_MaxGachaCount = 10
-
-    # Group `Guild`
-    Guild_AutoDonate = False  # True, False
-    Guild_DonateEquipment = False  # True, False
-    Guild_GuildBattleAttack = False  # True, False
-
-    # Group `Equipment`
-    Equipment_AutoEnhance = False  # True, False
-    Equipment_AutoRank = False  # True, False
-    Equipment_EnhancePriority = 'main_team'  # main_team, all_characters
-
-    # Group `Character`
-    Character_AutoLevelUp = False  # True, False
-    Character_AutoSkillLevelUp = False  # True, False
-    Character_MainTeam = [101, 102, 103, 104, 105]
 
     # Group `Storage`
     Storage_Storage = {}
