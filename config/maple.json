@@ -32,7 +32,7 @@
       "ClickInterval": 0.3,
       "CombatScreenshotInterval": 1.0,
       "TaskHoardingDuration": 0,
-      "WhenTaskQueueEmpty": "goto_main"
+      "WhenTaskQueueEmpty": "stay_there"
     },
     "Startup": {
       "WaitTime": 30,
@@ -47,7 +47,7 @@
       "Language": "cn",
       "Server": "cn",
       "AutoBattle": true,
-      "BattleSpeed": "x2"
+      "BattleSpeed": "x1"
     },
     "Storage": {
       "Storage": {}

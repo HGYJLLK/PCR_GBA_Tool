@@ -29,9 +29,9 @@ class TrainHandler(UI, TrainCombat, BattleMonitor):
         # 目标角色配置
         self.target_characters = {
             "智_S6": TEMPLATE_智_S6,
-            "智(魔法少女)_S3": TEMPLATE_智_魔法少女_S3,
+            "伊绪_S6": TEMPLATE_伊绪_S6,
             "珠希_S6": TEMPLATE_珠希_S6,
-            "珠希(咖啡厅)_S3": TEMPLATE_珠希_咖啡厅_S3,
+            "伊莉亚_S6": TEMPLATE_伊莉亚_S6,
             "真阳_S6": TEMPLATE_真阳_S6,
         }
 
