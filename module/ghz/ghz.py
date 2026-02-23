@@ -10,6 +10,7 @@ from module.train.assets import CHANGE, CANCEL
 from module.character.selector import Selector
 from module.character.assets import *
 from module.ghz.assets import *
+from module.battle.timeline import Timeline
 
 GHZ_SCROLL = Scroll(
     area=公会战滚动条轨道.area,
@@ -33,11 +34,11 @@ class GHZHandler(TrainHandler):
 
         # 公会战角色配置
         self.target_characters = {
-            "涅妃·涅罗_S3": TEMPLATE_涅妃·涅罗_S3,
-            "碧_工作服_S3": TEMPLATE_碧_工作服_S3,
-            "吹雪_S3": TEMPLATE_吹雪_S3,
-            "美美_万圣节_S3": TEMPLATE_美美_万圣节_S3,
-            "涅娅_夏日_S3": TEMPLATE_涅娅_夏日_S3,
+            "初音_新年_S3": TEMPLATE_初音_新年_S3,
+            "真步_夏日_S3": TEMPLATE_真步_夏日_S3,
+            "爱梅斯_S3": TEMPLATE_爱梅斯_S3,
+            "爱梅斯_夏日_S3": TEMPLATE_爱梅斯_夏日_S3,
+            "似似花_新年_S3": TEMPLATE_似似花_新年_S3
         }
 
         self.character_selector = Selector(
@@ -80,20 +81,20 @@ class GHZHandler(TrainHandler):
             self.click_at(91, 549)
             self.device.sleep(1.5)
 
-    def select_boss_1(self):
+    def select_boss_3(self):
         """
         点击公会战BOSS_1，每隔1.5s点击一次，直到出现BOSS_1_选中
         """
-        logger.hr("选择 BOSS_1", level=1)
+        logger.hr("选择 BOSS_3", level=1)
 
         while True:
             self.device.screenshot()
 
-            if self.appear(公会战BOSS_1_选中, offset=(10, 10)):
-                logger.info(" BOSS_1 已选中")
+            if self.appear(公会战BOSS_3_选中, offset=(10, 10)):
+                logger.info(" BOSS_3 已选中")
                 break
 
-            self.device.click(公会战BOSS_1)
+            self.device.click(公会战BOSS_3)
             self.device.sleep(1.5)
 
     def scroll_to_bottom(self):
@@ -137,8 +138,37 @@ class GHZHandler(TrainHandler):
 
             self.device.sleep(0.5)
 
+    def create_boss_timeline(self):
+        """
+        公会战 UB 时间轴配置
+        """
+        t = Timeline("公会战Boss")
+
+        # 开局，oxoox，关auto
+        t.add_action("1:15", [1,3,4], "跳秒开auto")
+        t.add_action("1:15", [1,2,3,4], "水狐后，关auto")
+        t.add_action("1:08", [1, 2,3,4,5], "水狐后")
+        t.add_action("1:06", [2,3,5], "春星后")
+        t.add_action("0:56", [2,3,4], "春花后")
+        t.add_action("0:49", [2,3], "水狐后，开auto")
+        t.add_action("0:46", [5], "ams后，关auto")
+        t.add_action("0:41", [2,5], "BOSS后")
+        t.add_action("0:36", [1,2,5], "水狐后")
+        t.add_action("0:36", [1,2,3,5], "春花后，开auto")
+        t.add_action("0:19", [1,4,5], "水狐后，关auto")
+        t.add_action("0:12", [2,5], "春花后")
+        t.add_action("0:07", [5], "水狐后")
+        t.add_action("0:04", [3,4,5], "春花后，开auto")
+        t.add_action("0:03", [1,2,3,4,5], "水狐后,全set")
+
+        return t
+
     def run_ghz_task(self, use_droidcast=False, timeline=None):
         logger.hr("开始公会战任务", level=0)
+
+        # 未传入时间轴时使用默认配置
+        if timeline is None:
+            timeline = self.create_boss_timeline()
 
         try:
             # 导航
@@ -147,8 +177,8 @@ class GHZHandler(TrainHandler):
             # 点击进入训练模式
             self.enter_battle_list()
 
-            # 选择 BOSS_1
-            self.select_boss_1()
+            # 选择 BOSS_3
+            self.select_boss_3()
 
             # 滚动到底部
             self.scroll_to_bottom()
