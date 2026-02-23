@@ -78,13 +78,21 @@ def main():
     )
     print(f"有效 UID 数量（★1/★3/★6）: {len(valid_uids)}")
 
-    # ── 1. 删除旧 TEMPLATE_*.png ──────────────────────────────────────────────
+    # ── 1. 删除旧 TEMPLATE_*.png（仅删自动生成的，保留手动维护的）────────────
+    # 先计算本次会自动生成的文件名集合
+    auto_filenames = {
+        f"TEMPLATE_{name_to_filename(names[uid])}.png"
+        for uid in valid_uids
+    }
+
     deleted = 0
     for fn in os.listdir(CHAR_DIR):
         if fn.startswith("TEMPLATE_") and fn.endswith(".png"):
-            os.remove(os.path.join(CHAR_DIR, fn))
-            deleted += 1
-    print(f"已删除旧模板: {deleted} 个")
+            if fn in auto_filenames:
+                os.remove(os.path.join(CHAR_DIR, fn))
+                deleted += 1
+            # 不在自动生成集合中 → 手动维护，跳过
+    print(f"已删除旧模板: {deleted} 个（手动维护的文件已保留）")
 
     # ── 2. 复制新模板（按中文名命名）────────────────────────────────────────────
     copied = missing = 0
@@ -121,7 +129,8 @@ def main():
             lines.append(f'    "{uid}": "{escaped}",\n')
     lines.append("}\n\n")
 
-    # TEMPLATE_* 定义
+    # TEMPLATE_* 定义（uid 自动生成部分）
+    auto_fnames = {fname for fname, _ in uid_map.values()}
     for uid in valid_uids:
         if uid not in uid_map:
             continue
@@ -130,9 +139,28 @@ def main():
             f'{varname} = Template(file="./assets/character/{fname}")\n'
         )
 
+    # 手动维护的 TEMPLATE（不在 uid_map 中，但存在于目录里）
+    import re as _re
+    manual_entries = []
+    for fn in sorted(os.listdir(CHAR_DIR)):
+        if fn.startswith("TEMPLATE_") and fn.endswith(".png") and fn not in auto_fnames:
+            varname = fn[:-4]  # 去掉 .png
+            # 变量名中非法字符替换为 _
+            varname = _re.sub(r"[^\w\u4e00-\u9fff]", "_", varname)
+            varname = _re.sub(r"_+", "_", varname).strip("_")
+            manual_entries.append((varname, fn))
+
+    if manual_entries:
+        lines.append("\n# 手动维护的模板（不会被 build_character_assets.py 删除）\n")
+        for varname, fn in manual_entries:
+            lines.append(
+                f'{varname} = Template(file="./assets/character/{fn}")\n'
+            )
+        print(f"已追加手动模板: {len(manual_entries)} 个")
+
     with open(ASSETS_PY, "w", encoding="utf-8") as f:
         f.writelines(lines)
-    print(f"已重写 {ASSETS_PY}（{copied} 个 TEMPLATE + UNIT_NAMES）")
+    print(f"已重写 {ASSETS_PY}（{copied} 个自动 TEMPLATE + {len(manual_entries)} 个手动 TEMPLATE + UNIT_NAMES）")
 
 
 if __name__ == "__main__":
