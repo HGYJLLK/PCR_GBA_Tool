@@ -3,10 +3,12 @@
 """
 
 from module.logger import logger
-from module.ui.ui import UI
 from module.ui.page import page_team_battle
-from module.battle.monitor import BattleMonitor
 from module.ui.scroll import Scroll
+from module.train.train import TrainHandler
+from module.train.assets import CHANGE, CANCEL
+from module.character.selector import Selector
+from module.character.assets import *
 from module.ghz.assets import *
 
 GHZ_SCROLL = Scroll(
@@ -16,7 +18,7 @@ GHZ_SCROLL = Scroll(
 )
 
 
-class GHZHandler(UI, BattleMonitor):
+class GHZHandler(TrainHandler):
     """
     公会战任务处理类
     """
@@ -28,6 +30,21 @@ class GHZHandler(UI, BattleMonitor):
             device: 设备对象
         """
         super().__init__(config, device)
+
+        # 公会战角色配置
+        self.target_characters = {
+            "涅妃·涅罗_S3": TEMPLATE_涅妃·涅罗_S3,
+            "碧_工作服_S3": TEMPLATE_碧_工作服_S3,
+            "吹雪_S3": TEMPLATE_吹雪_S3,
+            "美美_万圣节_S3": TEMPLATE_美美_万圣节_S3,
+            "涅娅_夏日_S3": TEMPLATE_涅娅_夏日_S3,
+        }
+
+        self.character_selector = Selector(
+            main=self,
+            target_characters=self.target_characters,
+            clear_button_position=(706, 601),
+        )
 
     def navigate_to_ghz(self):
         """
@@ -101,6 +118,25 @@ class GHZHandler(UI, BattleMonitor):
 
             self.device.sleep(0.5)
 
+    def click_change(self):
+        """
+        点击 CHANGE 按钮，等待进入角色选择界面（CANCEL 出现）
+        """
+        logger.hr("点击 CHANGE", level=1)
+
+        while True:
+            self.device.screenshot()
+
+            if self.appear(CANCEL, offset=(30, 30)):
+                logger.info(" 已进入角色选择界面")
+                break
+
+            if self.appear_then_click(CHANGE, offset=(30, 30)):
+                self.device.sleep(1.0)
+                continue
+
+            self.device.sleep(0.5)
+
     def run_ghz_task(self, use_droidcast=False, timeline=None):
         logger.hr("开始公会战任务", level=0)
 
@@ -119,6 +155,18 @@ class GHZHandler(UI, BattleMonitor):
 
             # 点击挑战
             self.click_challenge()
+
+            # 点击 CHANGE 进入角色选择界面
+            self.click_change()
+
+            # 选择角色
+            self.select_characters()
+
+            # 开始战斗 + 监控
+            self.start_battle_and_monitor(
+                use_droidcast=use_droidcast,
+                timeline=timeline,
+            )
 
             logger.hr("公会战任务完成", level=0)
             return True
